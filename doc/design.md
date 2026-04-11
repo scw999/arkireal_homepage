@@ -1,422 +1,373 @@
-# Arkireal Website Design Guide (Korean Market Version)
+# Arkireal Website Design Guide v2
 
-## Project
-Arkireal Construction (아키리얼 종합건설)
+## Core direction
 
-This website is for a Korean general contractor / construction company with integrated design capability.
+This website must not feel like a document, proposal, or text-heavy consulting page.
 
-The first impression must be:
-- trustworthy
+It must feel like:
+- a trustworthy Korean general contractor
+- a premium project catalog
+- a real company with built work
+- a design-aware but execution-first construction company
+
+Primary emotional impression:
+- reliable
 - stable
-- established
-- responsible
 - professional
+- grounded
+- credible
 
-Only after that should it also feel:
-- design-aware
+Secondary impression:
 - refined
-- architecturally sensitive
-
-This is not a trendy studio portfolio.
-This is not a startup landing page.
-This is not an art-driven design microsite.
-
-This must feel like:
-a reliable Korean construction company that can actually execute well.
-
----
-
-## Core visual philosophy
-
-The website should communicate:
-
-"This is a company I can trust with a real building project."
-
-The visual tone should prioritize:
-- trust
-- clarity
-- responsibility
-- execution capability
-- structured professionalism
-
-Secondary layer:
-- design sensitivity
-- spatial quality
-- premium impression
+- prepared
+- visually confident
 
 Recommended balance:
 - 80% trustworthy construction company
 - 20% architectural/design sensitivity
 
-Trust comes first.
-Style supports trust.
+Trust first.
+Visual sophistication supports trust.
 
 ---
 
-## Korean market principle
+## Problem to avoid
 
-For Korean users, especially building owners, the site should not feel too artistic, too experimental, or too abstract.
+The previous direction was too text-heavy and too document-like.
 
-The user should feel:
-- this company is serious
-- this company understands real construction
-- this company communicates clearly
-- this company is organized
-- this company can manage a project responsibly
-- this company can build with quality and precision
+Avoid:
+- long paragraphs at the top of every section
+- English all-caps eyebrow labels like PAIN POINTS / PREPARATION / TRUST
+- proposal-style layouts
+- repetitive section rhythm where every section is just title + paragraph + cards
+- a homepage where projects appear too late
+- a design that feels weaker than the existing WordPress portfolio homepage
 
-The design should not feel:
-- too conceptual
-- too stylish for its own sake
-- too “agency-like”
-- too “architect-only”
-- too light or playful
+The new homepage must feel clearly more visual, more premium, and more usable than the current WordPress front.
 
 ---
 
-## Reference direction
+## Homepage visual strategy
 
-Do NOT copy any one website directly.
+Homepage order should support visual engagement:
 
-Instead, combine these qualities:
+1. Hero
+2. Featured Projects
+3. Positioning
+4. Pain Points
+5. Solutions
+6. Preparation / Capability
+7. Trust
+8. Contact CTA
 
-### 1. Structured project credibility
-Use architecture-firm style project structure:
-- organized project pages
-- clear metadata
-- information-rich detail pages
-- calm editorial tone
-
-### 2. Corporate trustworthiness
-Use a stable company-site feeling:
-- clear hierarchy
-- readable sections
-- visible trust signals
-- consistent layout
-- calm and dependable presentation
-
-### 3. Premium construction catalog usability
-Use practical construction/company UI:
-- easy navigation
-- clear project cards
-- visible inquiry buttons
-- simple content flow
-- mobile-friendly reading and browsing
+Key rule:
+Projects must appear early.
+Real work must be visible before the user feels buried in explanation.
 
 ---
 
-## Homepage principle
+## Visual rhythm rules
 
-The homepage must explain the company quickly and clearly.
+Each major section must include at least one visual anchor.
 
-Within 3 seconds, a visitor should understand:
-1. this is a reliable construction company
-2. the company handles design and construction together
-3. the company helps reduce uncertainty in building
-4. there are real projects to review
-5. inquiry is easy
+Visual anchors may include:
+- real built photos
+- project hero photos
+- 3D simulation stills
+- planning/rendering images
+- process visuals
+- detail shots
+- grouped project thumbnails
 
-The homepage must not feel like:
-- a post archive
-- a moodboard
-- an artistic studio homepage
-- a generic WordPress blog
+Do not create 3 or 4 text-only sections in a row.
 
-It should feel like:
-- a premium corporate catalog
-- a company introduction brochure
-- a project-centered construction company site
-
----
-
-## Brand impression
-
-The website should express:
-- dependable execution
-- serious project handling
-- design understanding
-- practical expertise
-- refined but grounded quality
-
-It should not express:
-- flashy creativity
-- experimental visuals
-- excessive minimalism that feels cold or empty
-- startup-like trendiness
-- luxury exaggeration
-- over-designed presentation
+The homepage should alternate between:
+- large visual area
+- short text block
+- image-led grid
+- structured trust/info block
 
 ---
 
-## Layout principles
+## Copy density rules
 
-### General layout
-- clear and stable section order
-- large image areas where needed
-- enough whitespace, but not overly sparse
-- strong readability
-- balanced density
-- structured content blocks
-- section titles should feel informative, not poetic
+This is critical.
 
-### Section rhythm
-The homepage should move in this order:
-1. clear company positioning
-2. client concerns
-3. how Arkireal solves them
-4. company strengths and capabilities
-5. projects
-6. trust reinforcement
-7. inquiry CTA
+Homepage copy must be compressed for UI.
 
-This should feel like a guided company introduction, not a creative showcase.
+Rules:
+- Hero headline: max 2 lines on desktop
+- Hero subcopy: max 2 lines on desktop
+- Section title: max 2 lines
+- Section intro: max 2 short sentences
+- Card body: max 2 lines when possible
+- No long explanatory essay blocks on the homepage
+
+Use content.md as the semantic source,
+but do NOT dump full paragraphs onto the homepage.
+
+Condense meaning.
+Keep the site readable and premium.
 
 ---
 
-## Typography principles
+## Language and label rules
+
+Use Korean first.
+
+Avoid English all-caps eyebrow labels such as:
+- POSITIONING
+- PAIN POINTS
+- HOW WE WORK
+- PREPARATION
+- TRUST
+
+If eyebrow labels are used, they should be short and Korean, such as:
+- 회사 소개
+- 대표 프로젝트
+- 건축주의 고민
+- 아키리얼의 방식
+- 시공 전 준비
+- 회사 정보
+- 상담 문의
+
+The site should feel like a Korean premium construction company website, not an international design template.
+
+---
+
+## Hero direction
+
+The hero must be image-first.
+
+Recommended structure:
+- one large lead image
+- 2 to 4 supporting images or thumbnails
+- strong headline
+- short subcopy
+- 2 CTAs
+- trust chips
+
+Hero trust chips should feel like:
+- 종합건설업 등록
+- 설계·시공 통합 진행
+- 부지 검토부터 감리까지
+- 실제 프로젝트 기반
+
+The hero should not look like a slideshow banner with generic stock visuals.
+Use real project images first whenever available.
+
+---
+
+## Project showcase rules
+
+Projects are the strongest visual proof.
+
+Featured project section should appear immediately after Hero.
+
+Project cards should feel like a premium catalog:
+- strong image first
+- short text second
+- title
+- region/type meta
+- concise one-line summary
+
+Project cards must not feel like blog posts.
+
+Recommended ratios:
+- card image area: 65% to 75%
+- card text area: 25% to 35%
+
+Use:
+- 4:3
+- 5:4
+- or carefully cropped landscape images
+
+Avoid:
+- tiny thumbnails
+- excessive text below each card
+- decorative overlays that reduce clarity
+
+---
+
+## Layout patterns
+
+Use a mix of layout types.
+
+Recommended section patterns:
+- Hero: image-first collage
+- Featured projects: image card grid
+- Positioning: 6/6 split text and image
+- Pain points: 2x2 card grid
+- Solutions: alternating steps or 2-column structure with one visual anchor
+- Preparation: media block + 2x2 features
+- Trust: left text + right structured info grid
+- CTA: dark band with short copy and two strong buttons
+
+Avoid making all sections look identical.
+
+---
+
+## Typography
 
 Typography should feel:
+- strong
+- readable
 - stable
-- professional
-- clear
-- serious
-- easy to trust
-
-Avoid typography that feels:
-- too thin
-- too experimental
-- too fashionable
-- decorative
-- playful
-
-### Typography hierarchy
-Clear distinction between:
-- main headline
-- company descriptor
-- section title
-- body text
-- metadata
-- labels
-- CTA text
-
-Section titles should feel informative and authoritative.
-
----
-
-## Color principles
-
-Use a restrained color palette.
-
-Recommended feeling:
-- corporate
-- architectural
-- trustworthy
 - calm
+- Korean-market appropriate
+
+Recommended:
+- one clean sans serif family only
+- strong hierarchy
+- bold display weight for main headings
+- normal weight for body
+- restrained letter spacing
+
+Avoid:
+- decorative fonts
+- overly thin text
+- too much letter spacing
+- agency-style typography tricks
+
+Do not rely on typography alone to create sophistication.
+Typography must work with imagery.
+
+---
+
+## Color and surface
+
+Use a restrained palette.
+
+Recommended base:
+- warm off-white / soft gray background
+- charcoal or near-black text
+- muted gray secondary text
+- one deep accent if needed
+
+The site should feel:
+- calm
+- trustworthy
 - premium
-
-Suggested palette approach:
-- white / warm white / very light gray background
-- charcoal / dark gray text
-- muted gray supporting text
-- optional subdued accent color only
+- not cold
+- not loud
 
 Avoid:
-- saturated colors
-- loud brand accents
-- trendy gradients
-- too much contrast for visual effect only
-- colors that reduce seriousness
+- startup gradients
+- bright accent colors
+- glossy tech UI
+- overly dark moodboard styling
 
-The site should look stable and expensive, not flashy.
+A dark CTA section is acceptable and recommended near the bottom.
 
 ---
 
-## Image direction
+## Buttons and header
 
-Images should reinforce trust and execution quality.
+Header should feel stable and corporate:
+- logo left
+- simple menu center/right
+- phone number visible
+- consultation CTA button visible
 
-Preferred image qualities:
-- real project images
-- clean framing
-- architectural quality
-- good lighting
-- construction/detail credibility
-- real built atmosphere
-- not over-filtered
+Buttons should feel:
+- rectangular or softly rounded
+- strong
+- simple
+- not playful
+- not startup-like
 
-Images should communicate:
-- actual project quality
-- professionalism
-- material quality
-- completion level
-- design intent realized in built form
+---
+
+## Image rules
+
+Use real images first.
+Renders may support certain sections but should not dominate the whole homepage.
+
+Priority:
+1. real built project photos
+2. real site/process/project imagery
+3. strong 3D visuals only where useful
+4. avoid generic placeholders whenever possible
+
+If renderings are used:
+- place them mostly in Hero support collage or Preparation section
+- do not make the entire site feel like a render portfolio
+
+---
+
+## Trust section rules
+
+This section is critical for Korean users.
+
+Trust section should feel like:
+- structured
+- factual
+- transparent
+- calm
+
+Use a clean info grid for:
+- company name
+- license
+- business registration
+- representative
+- address
+- phone
 
 Avoid:
-- generic construction stock photos
-- fake team photos
-- smiling office-lobby corporate clichés
-- low-quality renders
-- overly dramatic dark images
-- mood-first imagery without project credibility
+- overly decorative company-history storytelling
+- long founder letter
+- abstract “our philosophy” block
 
 ---
 
-## Component direction
+## Contact CTA rules
 
-### Header
-The header should feel corporate, clean, and stable.
-Not trendy.
-Not too thin or delicate.
-
-Recommended menu:
-- 홈
-- 프로젝트
-- 아키리얼의 방식
-- 회사소개
-- 상담문의
-
-### Buttons
-Buttons should feel solid, simple, and dependable.
-Avoid playful styles or startup-like pill buttons.
-
-### Project cards
-Project cards should feel like a professional company catalog.
-
-They should show:
-- image
-- project title
-- region
-- category/type
-- short structured summary
-
-Cards should not feel like blog posts.
-
-### Metadata blocks
-Metadata should be clearly structured and easy to scan.
-This is important because it reinforces seriousness and credibility.
-
-### Trust sections
-The site should include clearly visible trust/reliability sections.
-This is especially important for Korean users evaluating construction partners.
-
----
-
-## UX principles
-
-### Core UX
-The user should feel guided and reassured.
-
-The site should answer:
-- What company is this?
-- Can they really build well?
-- Why are they more reliable than a typical contractor?
-- Can I see actual cases?
-- How do I contact them?
-
-### Project browsing UX
-Users should easily browse by:
-- project type
-- region
-- category
-- relevance
-
-The browsing experience should feel practical and useful.
-
-### Inquiry UX
-Inquiry should feel:
-- easy
+The final CTA should feel:
+- reassuring
 - low-pressure
-- professional
-- safe
+- clear
+- easy to act on
 
-The user should not feel like they must already know everything before contacting.
+Use:
+- dark background band
+- short title
+- one sentence subtitle
+- 2 buttons max
+
+Do not use aggressive marketing language.
 
 ---
 
 ## Motion and interaction
 
-Use restrained interaction only.
+Motion should be minimal and supportive.
 
-Recommended:
-- subtle hover effects
-- clean transitions
-- minimal reveal motion
-- no distracting visual gimmicks
-
-Avoid:
-- strong parallax
-- flashy entrance animation
-- agency-style visual tricks
-- interaction that weakens seriousness
-
-Motion should support trust, not visual excitement.
-
----
-
-## Content presentation principle
-
-Do not visually lead with technology.
-
-Do not make the site feel like:
-- a BIM company
-- a VR company
-- a tech visualization company
-
-Those are supporting capabilities.
-
-The homepage should first communicate:
-- reliable construction company
-- integrated design-build approach
-- more predictable process
-- higher confidence for the client
-
-Technology should appear as proof of preparation and professionalism.
-
----
-
-## Trust-first principle
-
-This website must make Korean users think:
-
-- this company looks trustworthy
-- this company understands both design and actual construction
-- this company seems organized and responsible
-- this company can communicate well
-- this company seems more prepared than a typical contractor
-- I can probably consult them with confidence
-
-That is the main design goal.
-
----
-
-## Avoid completely
-
-Do not make the site look like:
-- a blog
-- a trend-driven agency
-- an art portfolio
-- a cold architecture research site
-- a generic WordPress theme demo
-- a cheap lead-generation construction template
-- a startup SaaS site
+Allowed:
+- subtle hover states
+- soft fade/slide reveals
+- image zoom on hover
+- smooth scroll feel
 
 Avoid:
-- too much empty space without structure
-- abstract or poetic section titles
-- visually loud UI
-- excessive icon usage
-- “creative studio” identity overpowering “construction company” identity
+- flashy transitions
+- oversized parallax
+- agency-style motion
+- animated text tricks
+
+The site should feel stable, not performative.
 
 ---
 
-## Final design target
+## Success criteria
 
-The final site should feel like:
+The homepage is successful if:
 
-a reliable Korean general contractor
-that also has strong design understanding,
-clear process thinking,
-and the ability to execute quality buildings with confidence.
+1. It feels more visual and premium than the current WordPress homepage
+2. It feels like a real, trustworthy Korean general contractor
+3. It shows actual project work early
+4. It is easy to scan
+5. It does not feel like a proposal deck or text-heavy document
+6. It keeps architectural sensitivity without losing construction credibility
 
-The first impression must be trust.
-The second impression can be refinement.
+Final rule:
+If a section feels like it belongs in a PDF proposal more than in a premium website, redesign it.
