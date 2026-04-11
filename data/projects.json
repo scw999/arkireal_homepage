@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "slug": "yeoju-second-house-housing-complex-design",
+    "title": "여주 세컨하우스 주택단지 설계",
+    "region": "경기도 여주",
+    "type": "전원 주택 단지",
+    "summary": "자연 환경과 조화를 이루도록 계획한 전원형 주택단지 설계 프로젝트",
+    "description": "여주의 자연 환경과 지형 조건을 고려해 계획한 세컨하우스형 주택단지 설계 프로젝트입니다. 단지 전체의 분위기와 각 세대의 프라이버시, 조망, 외부 공간 활용을 함께 고려해 계획의 완성도를 높였습니다.",
+    "featuredImage": "/images/projects/yeoju-second-house-complex/main.jpg",
+    "gallery": [
+      "/images/projects/yeoju-second-house-complex/01.jpg",
+      "/images/projects/yeoju-second-house-complex/02.jpg",
+      "/images/projects/yeoju-second-house-complex/03.jpg"
+    ],
+    "keyPoints": [
+      "자연과 조화를 이루는 단지 배치",
+      "세대별 프라이버시와 조망 고려",
+      "전원형 주거 경험 중심 설계"
+    ],
+    "year": "2025",
+    "scope": "기획, 설계",
+    "status": "설계"
+  },
+  {
+    "id": 2,
+    "slug": "seosan-bluewalk-country-housing-complex-design",
+    "title": "서산 파란산책 전원주택단지 설계",
+    "region": "충청남도 서산",
+    "type": "전원 주택 단지",
+    "summary": "전원 생활의 여유와 실용성을 함께 고려한 주택단지 설계 프로젝트",
+    "description": "전원 생활을 원하는 수요자를 위해 계획한 주택단지 프로젝트입니다. 단지 내 동선, 외부 공간 활용, 개별 주택의 독립성과 전체 단지 이미지의 균형을 함께 검토해 설계 방향을 정리했습니다.",
+    "featuredImage": "/images/projects/seosan-bluewalk-design/main.jpg",
+    "gallery": [
+      "/images/projects/seosan-bluewalk-design/01.jpg",
+      "/images/projects/seosan-bluewalk-design/02.jpg",
+      "/images/projects/seosan-bluewalk-design/03.jpg"
+    ],
+    "keyPoints": [
+      "전원형 생활을 고려한 단지 구성",
+      "단지 이미지와 개별 주택 조화",
+      "실용성과 분위기를 함께 보는 설계"
+    ],
+    "year": "2025",
+    "scope": "기획, 설계",
+    "status": "설계"
+  },
+  {
+    "id": 3,
+    "slug": "icheon-pomier-country-housing-complex-design",
+    "title": "이천 포미에르 전원주택단지 설계",
+    "region": "경기도 이천",
+    "type": "전원 주택 단지",
+    "summary": "주거 만족도와 자산 가치를 함께 고려한 전원주택단지 설계 프로젝트",
+    "description": "이천 지역의 입지 특성과 주거 수요를 바탕으로 계획한 전원주택단지 설계입니다. 각 세대의 공간 활용과 조경, 단지 전체의 이미지와 장기적인 자산 가치까지 함께 고려해 방향을 정리했습니다.",
+    "featuredImage": "/images/projects/icheon-pomier-design/main.jpg",
+    "gallery": [
+      "/images/projects/icheon-pomier-design/01.jpg",
+      "/images/projects/icheon-pomier-design/02.jpg",
+      "/images/projects/icheon-pomier-design/03.jpg"
+    ],
+    "keyPoints": [
+      "입지와 주거 수요를 반영한 계획",
+      "장기적 자산 가치 고려",
+      "단지 전체 이미지와 공간 활용의 균형"
+    ],
+    "year": "2025",
+    "scope": "기획, 설계",
+    "status": "설계"
+  },
+  {
+    "id": 4,
+    "slug": "yeoju-second-house",
+    "title": "여주 세컨하우스",
+    "region": "경기도 여주",
+    "type": "단독주택",
+    "summary": "세컨하우스의 여유와 실사용 편의를 함께 고려한 주택 프로젝트",
+    "description": "휴식과 일상의 전환을 위한 세컨하우스 프로젝트입니다. 자연과의 관계, 내부 공간의 개방감, 외부 테라스와 생활 동선을 함께 고려해 주거 만족도를 높이는 방향으로 계획했습니다.",
+    "featuredImage": "/images/projects/yeoju-second-house/main.jpg",
+    "gallery": [
+      "/images/projects/yeoju-second-house/01.jpg",
+      "/images/projects/yeoju-second-house/02.jpg",
+      "/images/projects/yeoju-second-house/03.jpg"
+    ],
+    "keyPoints": [
+      "휴식 중심의 공간 계획",
+      "자연과 연결되는 외부 공간",
+      "실사용 편의를 고려한 동선"
+    ],
+    "year": "2025",
+    "scope": "설계",
+    "status": "설계"
+  },
+  {
+    "id": 5,
+    "slug": "yeoju-pet-friendly-housing-complex",
+    "title": "여주 반려동물 주택단지",
+    "region": "경기도 여주",
+    "type": "전원 주택 단지",
+    "summary": "반려동물과 함께하는 생활을 고려한 주택단지 프로젝트",
+    "description": "반려동물과 함께 생활하는 사용자 경험을 반영한 주택단지 프로젝트입니다. 외부 활동 공간, 동선, 실내외 연결감, 생활 편의 요소를 함께 고려하여 보다 차별화된 주거 환경을 제안합니다.",
+    "featuredImage": "/images/projects/yeoju-pet-friendly/main.jpg",
+    "gallery": [
+      "/images/projects/yeoju-pet-friendly/01.jpg",
+      "/images/projects/yeoju-pet-friendly/02.jpg",
+      "/images/projects/yeoju-pet-friendly/03.jpg"
+    ],
+    "keyPoints": [
+      "반려동물 친화형 주거 계획",
+      "실내외 연결감을 고려한 구성",
+      "차별화된 생활 환경 제안"
+    ],
+    "year": "2025",
+    "scope": "기획, 설계",
+    "status": "설계"
+  },
+  {
+    "id": 6,
+    "slug": "icheon-pomier-office-type",
+    "title": "이천 포미에르 office type",
+    "region": "경기도 이천",
+    "type": "오피스형 주택",
+    "summary": "업무와 주거의 활용성을 함께 고려한 오피스형 공간 제안",
+    "description": "이천 포미에르 프로젝트 내 오피스형 타입 제안입니다. 업무와 거주, 혹은 다목적 활용 가능성을 고려해 내부 효율과 공간의 유연성을 함께 검토한 타입 설계입니다.",
+    "featuredImage": "/images/projects/icheon-pomier-office/main.jpg",
+    "gallery": [
+      "/images/projects/icheon-pomier-office/01.jpg",
+      "/images/projects/icheon-pomier-office/02.jpg",
+      "/images/projects/icheon-pomier-office/03.jpg"
+    ],
+    "keyPoints": [
+      "업무와 주거의 복합 활용",
+      "유연한 내부 구성",
+      "효율 중심 타입 제안"
+    ],
+    "year": "2025",
+    "scope": "설계",
+    "status": "설계"
+  },
+  {
+    "id": 7,
+    "slug": "seosan-bluewalk-medium-type",
+    "title": "서산 파란산책 중형타입",
+    "region": "충청남도 서산",
+    "type": "전원주택 타입",
+    "summary": "가족 단위 거주를 고려한 중형 전원주택 타입 설계",
+    "description": "서산 파란산책 프로젝트의 중형 타입 제안입니다. 가족 단위 거주를 고려해 생활 동선, 공용 공간 활용, 외부 공간과의 연결을 함께 검토한 전원주택 타입입니다.",
+    "featuredImage": "/images/projects/seosan-bluewalk-medium/main.jpg",
+    "gallery": [
+      "/images/projects/seosan-bluewalk-medium/01.jpg",
+      "/images/projects/seosan-bluewalk-medium/02.jpg",
+      "/images/projects/seosan-bluewalk-medium/03.jpg"
+    ],
+    "keyPoints": [
+      "가족 단위 거주에 적합한 구성",
+      "생활 동선과 공용 공간 균형",
+      "전원주택형 외부 공간 계획"
+    ],
+    "year": "2025",
+    "scope": "설계",
+    "status": "설계"
+  },
+  {
+    "id": 8,
+    "slug": "seosan-bluewalk-small-type",
+    "title": "서산 파란산책 경형타입",
+    "region": "충청남도 서산",
+    "type": "전원주택 타입",
+    "summary": "효율적인 공간 사용을 중심으로 계획한 경형 전원주택 타입",
+    "description": "서산 파란산책 프로젝트의 경형 타입 제안입니다. 상대적으로 컴팩트한 규모 안에서 채광, 동선, 수납, 외부 공간 활용까지 균형 있게 담아낸 전원주택 타입입니다.",
+    "featuredImage": "/images/projects/seosan-bluewalk-small/main.jpg",
+    "gallery": [
+      "/images/projects/seosan-bluewalk-small/01.jpg",
+      "/images/projects/seosan-bluewalk-small/02.jpg",
+      "/images/projects/seosan-bluewalk-small/03.jpg"
+    ],
+    "keyPoints": [
+      "컴팩트한 규모의 효율적 구성",
+      "채광과 수납을 고려한 계획",
+      "작지만 완성도 있는 주거 타입"
+    ],
+    "year": "2025",
+    "scope": "설계",
+    "status": "설계"
+  },
+  {
+    "id": 9,
+    "slug": "danyang-dreamsuite-pension",
+    "title": "단양 드림스위트 펜션",
+    "region": "충청북도 단양",
+    "type": "숙박시설",
+    "summary": "자연 경관과 숙박 경험을 함께 고려한 펜션 프로젝트",
+    "description": "자연 경관과 방문 경험을 중요하게 보는 숙박시설 프로젝트입니다. 외관 인상, 객실 구성, 공용 공간 활용과 운영 효율을 함께 고려해 펜션으로서의 경쟁력을 높이는 방향으로 계획했습니다.",
+    "featuredImage": "/images/projects/danyang-dreamsuite/main.jpg",
+    "gallery": [
+      "/images/projects/danyang-dreamsuite/01.jpg",
+      "/images/projects/danyang-dreamsuite/02.jpg",
+      "/images/projects/danyang-dreamsuite/03.jpg"
+    ],
+    "keyPoints": [
+      "조망과 숙박 경험 중심 계획",
+      "운영 효율을 고려한 구성",
+      "외관 인상과 공간 분위기 정리"
+    ],
+    "year": "2025",
+    "scope": "설계",
+    "status": "설계"
+  },
+  {
+    "id": 10,
+    "slug": "wonju-poolstay",
+    "title": "원주 풀스테이",
+    "region": "강원도 원주",
+    "type": "숙박시설",
+    "summary": "휴식과 프라이빗한 체류 경험을 중심으로 한 풀스테이 프로젝트",
+    "description": "원주 지역의 자연 환경과 숙박 수요를 반영한 풀스테이 프로젝트입니다. 프라이빗한 체류 경험, 물과 외부 공간의 활용, 객실 인상과 운영 효율을 함께 고려한 방향으로 계획했습니다.",
+    "featuredImage": "/images/projects/wonju-poolstay/main.jpg",
+    "gallery": [
+      "/images/projects/wonju-poolstay/01.jpg",
+      "/images/projects/wonju-poolstay/02.jpg",
+      "/images/projects/wonju-poolstay/03.jpg"
+    ],
+    "keyPoints": [
+      "프라이빗한 숙박 경험 중심",
+      "외부 공간과 수공간 활용",
+      "운영성과 공간 인상의 균형"
+    ],
+    "year": "2025",
+    "scope": "설계",
+    "status": "설계"
+  }
+]
