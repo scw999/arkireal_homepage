@@ -1,0 +1,5517 @@
+[
+  {
+    "id": 10988,
+    "title": "이천 포미에르 전원주택단지 설계",
+    "wp_total": 75,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 55,
+    "resolved": [
+      {
+        "id": 11155,
+        "file": "2025/08/11-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11251,
+        "file": "2025/08/1-3-2-e1756104757827.jpg",
+        "exists": true
+      },
+      {
+        "id": 11252,
+        "file": "2025/08/이천포미에르4-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 11253,
+        "file": "2025/08/10-Edit-2-1-e1756104895600.jpg",
+        "exists": true
+      },
+      {
+        "id": 11156,
+        "file": "2025/08/1-4-e1756101181844.jpg",
+        "exists": true
+      },
+      {
+        "id": 11157,
+        "file": "2025/08/2-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 11158,
+        "file": "2025/08/7-1-e1756101272555.jpg",
+        "exists": true
+      },
+      {
+        "id": 11159,
+        "file": "2025/08/8-1-e1756101398466.jpg",
+        "exists": true
+      },
+      {
+        "id": 11160,
+        "file": "2025/08/118-1-e1756101533193.jpg",
+        "exists": true
+      },
+      {
+        "id": 11185,
+        "file": "2025/08/14-2-e1756101702228.jpg",
+        "exists": true
+      },
+      {
+        "id": 11186,
+        "file": "2025/08/13-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11163,
+        "file": "2025/08/12-3-e1756101960828.jpg",
+        "exists": true
+      },
+      {
+        "id": 11180,
+        "file": "2025/08/37.jpg",
+        "exists": true
+      },
+      {
+        "id": 11166,
+        "file": "2025/08/17-1-e1756102015123.jpg",
+        "exists": true
+      },
+      {
+        "id": 11167,
+        "file": "2025/08/20.jpg",
+        "exists": true
+      },
+      {
+        "id": 11168,
+        "file": "2025/08/21-2-e1756102081581.jpg",
+        "exists": true
+      },
+      {
+        "id": 11169,
+        "file": "2025/08/22-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11170,
+        "file": "2025/08/23.jpg",
+        "exists": true
+      },
+      {
+        "id": 11171,
+        "file": "2025/08/25-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11172,
+        "file": "2025/08/26.jpg",
+        "exists": true
+      },
+      {
+        "id": 11173,
+        "file": "2025/08/27-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11174,
+        "file": "2025/08/28-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11175,
+        "file": "2025/08/32-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11176,
+        "file": "2025/08/33.jpg",
+        "exists": true
+      },
+      {
+        "id": 11177,
+        "file": "2025/08/36-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11178,
+        "file": "2025/08/38-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11179,
+        "file": "2025/08/30-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11188,
+        "file": "2025/08/43-2-e1756102160970.jpg",
+        "exists": true
+      },
+      {
+        "id": 11189,
+        "file": "2025/08/46.jpg",
+        "exists": true
+      },
+      {
+        "id": 11190,
+        "file": "2025/08/45-2-e1756102264276.jpg",
+        "exists": true
+      },
+      {
+        "id": 11191,
+        "file": "2025/08/48-2-e1756102333257.jpg",
+        "exists": true
+      },
+      {
+        "id": 11192,
+        "file": "2025/08/50-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11193,
+        "file": "2025/08/52-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11194,
+        "file": "2025/08/53-e1756102399662.jpg",
+        "exists": true
+      },
+      {
+        "id": 11196,
+        "file": "2025/08/56-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11197,
+        "file": "2025/08/58-1-e1756102462170.jpg",
+        "exists": true
+      },
+      {
+        "id": 11198,
+        "file": "2025/08/60-1-e1756102577533.jpg",
+        "exists": true
+      },
+      {
+        "id": 11199,
+        "file": "2025/08/61-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11202,
+        "file": "2025/08/54-e1756102518419.jpg",
+        "exists": true
+      },
+      {
+        "id": 11200,
+        "file": "2025/08/62-1-e1756102648497.jpg",
+        "exists": true
+      },
+      {
+        "id": 11201,
+        "file": "2025/08/63-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11195,
+        "file": "2025/08/55-2-e1756102714894.jpg",
+        "exists": true
+      },
+      {
+        "id": 11203,
+        "file": "2025/08/64-1-e1756103181607.jpg",
+        "exists": true
+      },
+      {
+        "id": 11204,
+        "file": "2025/08/65-1-e1756102935976.jpg",
+        "exists": true
+      },
+      {
+        "id": 11205,
+        "file": "2025/08/67-e1756103135889.jpg",
+        "exists": true
+      },
+      {
+        "id": 11206,
+        "file": "2025/08/69-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11207,
+        "file": "2025/08/72-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11208,
+        "file": "2025/08/73-1-e1756103236294.jpg",
+        "exists": true
+      },
+      {
+        "id": 11209,
+        "file": "2025/08/74-2-e1756103399127.jpg",
+        "exists": true
+      },
+      {
+        "id": 11210,
+        "file": "2025/08/76.jpg",
+        "exists": true
+      },
+      {
+        "id": 11211,
+        "file": "2025/08/77-1-e1756103445243.jpg",
+        "exists": true
+      },
+      {
+        "id": 11212,
+        "file": "2025/08/78-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11213,
+        "file": "2025/08/80-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11214,
+        "file": "2025/08/81-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11216,
+        "file": "2025/08/87.jpg",
+        "exists": true
+      },
+      {
+        "id": 11217,
+        "file": "2025/08/86.jpg",
+        "exists": true
+      },
+      {
+        "id": 11218,
+        "file": "2025/08/90.jpg",
+        "exists": true
+      },
+      {
+        "id": 11219,
+        "file": "2025/08/92-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11220,
+        "file": "2025/08/93.jpg",
+        "exists": true
+      },
+      {
+        "id": 11221,
+        "file": "2025/08/94-1-e1756103577824.jpg",
+        "exists": true
+      },
+      {
+        "id": 11222,
+        "file": "2025/08/95-1-e1756103636915.jpg",
+        "exists": true
+      },
+      {
+        "id": 11223,
+        "file": "2025/08/97-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11224,
+        "file": "2025/08/98.jpg",
+        "exists": true
+      },
+      {
+        "id": 11225,
+        "file": "2025/08/99.jpg",
+        "exists": true
+      },
+      {
+        "id": 11226,
+        "file": "2025/08/100-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11227,
+        "file": "2025/08/101-e1756103705621.jpg",
+        "exists": true
+      },
+      {
+        "id": 11228,
+        "file": "2025/08/103.jpg",
+        "exists": true
+      },
+      {
+        "id": 11229,
+        "file": "2025/08/104.jpg",
+        "exists": true
+      },
+      {
+        "id": 11230,
+        "file": "2025/08/106-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11232,
+        "file": "2025/08/108.jpg",
+        "exists": true
+      },
+      {
+        "id": 11235,
+        "file": "2025/08/111-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11236,
+        "file": "2025/08/112-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11237,
+        "file": "2025/08/114-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11234,
+        "file": "2025/08/110-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11233,
+        "file": "2025/08/109-e1756103837454.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10110,
+    "title": "원주 혁신도시 오로라하우스",
+    "wp_total": 48,
+    "wp_missing": 0,
+    "current_total": 7,
+    "diff": 41,
+    "resolved": [
+      {
+        "id": 10175,
+        "file": "2025/08/0P0A2885-e1754542050579.jpg",
+        "exists": true
+      },
+      {
+        "id": 10179,
+        "file": "2025/08/0P0A3410-e1754541933714.jpg",
+        "exists": true
+      },
+      {
+        "id": 10183,
+        "file": "2025/08/0P0A2870-e1754541564795.jpg",
+        "exists": true
+      },
+      {
+        "id": 10178,
+        "file": "2025/08/0P0A3405-e1754541754527.jpg",
+        "exists": true
+      },
+      {
+        "id": 10177,
+        "file": "2025/08/0P0A2902.jpg",
+        "exists": true
+      },
+      {
+        "id": 10180,
+        "file": "2025/08/0P0A3455.jpg",
+        "exists": true
+      },
+      {
+        "id": 10176,
+        "file": "2025/08/0P0A2900.jpg",
+        "exists": true
+      },
+      {
+        "id": 10181,
+        "file": "2025/08/2층-테라스_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10182,
+        "file": "2025/08/2층-테라스_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10164,
+        "file": "2025/08/1층-현관.jpg",
+        "exists": true
+      },
+      {
+        "id": 10156,
+        "file": "2025/08/1층-욕실_3-e1754538105759.jpg",
+        "exists": true
+      },
+      {
+        "id": 10138,
+        "file": "2025/08/1층-거실_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10137,
+        "file": "2025/08/1층-거실_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10140,
+        "file": "2025/08/1층-거실_5.jpg",
+        "exists": true
+      },
+      {
+        "id": 10141,
+        "file": "2025/08/1층-거실_6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10142,
+        "file": "2025/08/1층-거실_7.jpg",
+        "exists": true
+      },
+      {
+        "id": 10143,
+        "file": "2025/08/1층-거실_8.jpg",
+        "exists": true
+      },
+      {
+        "id": 10149,
+        "file": "2025/08/1층-마스터룸_6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10144,
+        "file": "2025/08/1층-마스터룸_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10148,
+        "file": "2025/08/1층-마스터룸_5.jpg",
+        "exists": true
+      },
+      {
+        "id": 10147,
+        "file": "2025/08/1층-마스터룸_4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10146,
+        "file": "2025/08/1층-마스터룸_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10150,
+        "file": "2025/08/1층-마스터룸_7.jpg",
+        "exists": true
+      },
+      {
+        "id": 10160,
+        "file": "2025/08/1층-주방_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10161,
+        "file": "2025/08/1층-주방_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10162,
+        "file": "2025/08/1층-주방_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10163,
+        "file": "2025/08/1층-주방_4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10165,
+        "file": "2025/08/1층-PC방_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10158,
+        "file": "2025/08/1층-운동실_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10159,
+        "file": "2025/08/1층-운동실_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10157,
+        "file": "2025/08/1층-욕실_4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10152,
+        "file": "2025/08/1층-마스터룸_9.jpg",
+        "exists": true
+      },
+      {
+        "id": 10151,
+        "file": "2025/08/1층-마스터룸_8.jpg",
+        "exists": true
+      },
+      {
+        "id": 10130,
+        "file": "2025/08/2층-복도2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10113,
+        "file": "2025/08/2층-복도5.jpg",
+        "exists": true
+      },
+      {
+        "id": 10129,
+        "file": "2025/08/2층-복도1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10112,
+        "file": "2025/08/2층-복도4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10121,
+        "file": "2025/08/2층-아이방2_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10114,
+        "file": "2025/08/2층-아이방1_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10125,
+        "file": "2025/08/2층-아이방2_6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10122,
+        "file": "2025/08/2층-아이방2_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10123,
+        "file": "2025/08/2층-아이방2_4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10117,
+        "file": "2025/08/2층-아이방1_4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10124,
+        "file": "2025/08/2층-아이방2_5-e1754536363818.jpg",
+        "exists": true
+      },
+      {
+        "id": 10118,
+        "file": "2025/08/2층-아이방1_5.jpg",
+        "exists": true
+      },
+      {
+        "id": 10127,
+        "file": "2025/08/2층-욕실_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10126,
+        "file": "2025/08/2층-욕실_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10128,
+        "file": "2025/08/2층-욕실_3.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9936,
+    "title": "울주 세레노 세컨하우스",
+    "wp_total": 60,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 40,
+    "resolved": [
+      {
+        "id": 9994,
+        "file": "2025/08/2-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9982,
+        "file": "2025/08/5-e1754450463474.jpg",
+        "exists": true
+      },
+      {
+        "id": 9983,
+        "file": "2025/08/6-1-e1754450409211.jpg",
+        "exists": true
+      },
+      {
+        "id": 9993,
+        "file": "2025/08/1-3-e1754450531974.jpg",
+        "exists": true
+      },
+      {
+        "id": 9996,
+        "file": "2025/08/4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9995,
+        "file": "2025/08/3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9984,
+        "file": "2025/08/62.jpg",
+        "exists": true
+      },
+      {
+        "id": 9985,
+        "file": "2025/08/64.jpg",
+        "exists": true
+      },
+      {
+        "id": 9986,
+        "file": "2025/08/100.jpg",
+        "exists": true
+      },
+      {
+        "id": 9987,
+        "file": "2025/08/106-e1754450116150.jpg",
+        "exists": true
+      },
+      {
+        "id": 9989,
+        "file": "2025/08/111.jpg",
+        "exists": true
+      },
+      {
+        "id": 9990,
+        "file": "2025/08/112-e1754450043309.jpg",
+        "exists": true
+      },
+      {
+        "id": 9992,
+        "file": "2025/08/127-e1754450297419.jpg",
+        "exists": true
+      },
+      {
+        "id": 9988,
+        "file": "2025/08/110.jpg",
+        "exists": true
+      },
+      {
+        "id": 9991,
+        "file": "2025/08/114-e1754450719442.jpg",
+        "exists": true
+      },
+      {
+        "id": 9981,
+        "file": "2025/08/9.jpg",
+        "exists": true
+      },
+      {
+        "id": 9937,
+        "file": "2025/08/10-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9938,
+        "file": "2025/08/12-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9939,
+        "file": "2025/08/13-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9940,
+        "file": "2025/08/15-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9941,
+        "file": "2025/08/17.jpg",
+        "exists": true
+      },
+      {
+        "id": 9942,
+        "file": "2025/08/19.jpg",
+        "exists": true
+      },
+      {
+        "id": 9943,
+        "file": "2025/08/21.jpg",
+        "exists": true
+      },
+      {
+        "id": 9944,
+        "file": "2025/08/27.jpg",
+        "exists": true
+      },
+      {
+        "id": 9945,
+        "file": "2025/08/28.jpg",
+        "exists": true
+      },
+      {
+        "id": 9946,
+        "file": "2025/08/29.jpg",
+        "exists": true
+      },
+      {
+        "id": 9947,
+        "file": "2025/08/30.jpg",
+        "exists": true
+      },
+      {
+        "id": 9948,
+        "file": "2025/08/31.jpg",
+        "exists": true
+      },
+      {
+        "id": 9949,
+        "file": "2025/08/32.jpg",
+        "exists": true
+      },
+      {
+        "id": 9950,
+        "file": "2025/08/34.jpg",
+        "exists": true
+      },
+      {
+        "id": 9951,
+        "file": "2025/08/36.jpg",
+        "exists": true
+      },
+      {
+        "id": 9952,
+        "file": "2025/08/38.jpg",
+        "exists": true
+      },
+      {
+        "id": 9953,
+        "file": "2025/08/39.jpg",
+        "exists": true
+      },
+      {
+        "id": 9954,
+        "file": "2025/08/42.jpg",
+        "exists": true
+      },
+      {
+        "id": 9955,
+        "file": "2025/08/45.jpg",
+        "exists": true
+      },
+      {
+        "id": 9956,
+        "file": "2025/08/47.jpg",
+        "exists": true
+      },
+      {
+        "id": 9957,
+        "file": "2025/08/48.jpg",
+        "exists": true
+      },
+      {
+        "id": 9958,
+        "file": "2025/08/49.jpg",
+        "exists": true
+      },
+      {
+        "id": 9959,
+        "file": "2025/08/50.jpg",
+        "exists": true
+      },
+      {
+        "id": 9960,
+        "file": "2025/08/51.jpg",
+        "exists": true
+      },
+      {
+        "id": 9961,
+        "file": "2025/08/52.jpg",
+        "exists": true
+      },
+      {
+        "id": 9964,
+        "file": "2025/08/58.jpg",
+        "exists": true
+      },
+      {
+        "id": 9965,
+        "file": "2025/08/59-e1754450842156.jpg",
+        "exists": true
+      },
+      {
+        "id": 9966,
+        "file": "2025/08/60-e1754450922206.jpg",
+        "exists": true
+      },
+      {
+        "id": 9962,
+        "file": "2025/08/55-e1754451017568.jpg",
+        "exists": true
+      },
+      {
+        "id": 9963,
+        "file": "2025/08/56.jpg",
+        "exists": true
+      },
+      {
+        "id": 9968,
+        "file": "2025/08/68.jpg",
+        "exists": true
+      },
+      {
+        "id": 9969,
+        "file": "2025/08/69.jpg",
+        "exists": true
+      },
+      {
+        "id": 9970,
+        "file": "2025/08/71.jpg",
+        "exists": true
+      },
+      {
+        "id": 9971,
+        "file": "2025/08/72.jpg",
+        "exists": true
+      },
+      {
+        "id": 9972,
+        "file": "2025/08/74.jpg",
+        "exists": true
+      },
+      {
+        "id": 9973,
+        "file": "2025/08/75.jpg",
+        "exists": true
+      },
+      {
+        "id": 9974,
+        "file": "2025/08/78.jpg",
+        "exists": true
+      },
+      {
+        "id": 9975,
+        "file": "2025/08/82.jpg",
+        "exists": true
+      },
+      {
+        "id": 9976,
+        "file": "2025/08/84.jpg",
+        "exists": true
+      },
+      {
+        "id": 9977,
+        "file": "2025/08/88.jpg",
+        "exists": true
+      },
+      {
+        "id": 9978,
+        "file": "2025/08/91.jpg",
+        "exists": true
+      },
+      {
+        "id": 9979,
+        "file": "2025/08/95.jpg",
+        "exists": true
+      },
+      {
+        "id": 9980,
+        "file": "2025/08/97.jpg",
+        "exists": true
+      },
+      {
+        "id": 9967,
+        "file": "2025/08/65-e1754451108319.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10706,
+    "title": "단양 드림스위트 펜션",
+    "wp_total": 60,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 40,
+    "resolved": [
+      {
+        "id": 10821,
+        "file": "2025/08/B18_7229-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10814,
+        "file": "2025/08/B18_7183-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10815,
+        "file": "2025/08/B18_7216-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10816,
+        "file": "2025/08/B18_7222-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10819,
+        "file": "2025/08/DJI_0734.jpg",
+        "exists": true
+      },
+      {
+        "id": 10820,
+        "file": "2025/08/DJI_0722-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10707,
+        "file": "2025/08/B18_7285.jpg",
+        "exists": true
+      },
+      {
+        "id": 10709,
+        "file": "2025/08/B18_7298.jpg",
+        "exists": true
+      },
+      {
+        "id": 10710,
+        "file": "2025/08/B18_7303.jpg",
+        "exists": true
+      },
+      {
+        "id": 10713,
+        "file": "2025/08/B18_7317.jpg",
+        "exists": true
+      },
+      {
+        "id": 10712,
+        "file": "2025/08/B18_7325-e1755489339542.jpg",
+        "exists": true
+      },
+      {
+        "id": 10711,
+        "file": "2025/08/B18_7307-e1755489470333.jpg",
+        "exists": true
+      },
+      {
+        "id": 10716,
+        "file": "2025/08/B18_7361.jpg",
+        "exists": true
+      },
+      {
+        "id": 10714,
+        "file": "2025/08/B18_7343.jpg",
+        "exists": true
+      },
+      {
+        "id": 10715,
+        "file": "2025/08/B18_7353.jpg",
+        "exists": true
+      },
+      {
+        "id": 10718,
+        "file": "2025/08/B18_7337-2-e1755489859509.jpg",
+        "exists": true
+      },
+      {
+        "id": 10717,
+        "file": "2025/08/B18_7358.jpg",
+        "exists": true
+      },
+      {
+        "id": 10719,
+        "file": "2025/08/B18_7345-e1755489997576.jpg",
+        "exists": true
+      },
+      {
+        "id": 10720,
+        "file": "2025/08/B18_7405.jpg",
+        "exists": true
+      },
+      {
+        "id": 10721,
+        "file": "2025/08/B18_7396.jpg",
+        "exists": true
+      },
+      {
+        "id": 10722,
+        "file": "2025/08/B18_7390-e1755490451195.jpg",
+        "exists": true
+      },
+      {
+        "id": 10724,
+        "file": "2025/08/B18_7422.jpg",
+        "exists": true
+      },
+      {
+        "id": 10723,
+        "file": "2025/08/DSC09767.jpg",
+        "exists": true
+      },
+      {
+        "id": 10727,
+        "file": "2025/08/DSC09769.jpg",
+        "exists": true
+      },
+      {
+        "id": 10726,
+        "file": "2025/08/B18_7430.jpg",
+        "exists": true
+      },
+      {
+        "id": 10728,
+        "file": "2025/08/B18_7428.jpg",
+        "exists": true
+      },
+      {
+        "id": 10725,
+        "file": "2025/08/B18_7424-e1755490634841.jpg",
+        "exists": true
+      },
+      {
+        "id": 10729,
+        "file": "2025/08/B18_7459.jpg",
+        "exists": true
+      },
+      {
+        "id": 10730,
+        "file": "2025/08/B18_7487-e1755490763923.jpg",
+        "exists": true
+      },
+      {
+        "id": 10731,
+        "file": "2025/08/B18_7471-e1755490964516.jpg",
+        "exists": true
+      },
+      {
+        "id": 10733,
+        "file": "2025/08/20200623_173514-e1755491024222.jpg",
+        "exists": true
+      },
+      {
+        "id": 10735,
+        "file": "2025/08/B18_7507-e1755491190867.jpg",
+        "exists": true
+      },
+      {
+        "id": 10734,
+        "file": "2025/08/B18_7462-e1755491427197.jpg",
+        "exists": true
+      },
+      {
+        "id": 10736,
+        "file": "2025/08/B18_7530-e1755491510193.jpg",
+        "exists": true
+      },
+      {
+        "id": 10737,
+        "file": "2025/08/B18_7541.jpg",
+        "exists": true
+      },
+      {
+        "id": 10738,
+        "file": "2025/08/B18_7532-e1755491690180.jpg",
+        "exists": true
+      },
+      {
+        "id": 10739,
+        "file": "2025/08/DSC09674.jpg",
+        "exists": true
+      },
+      {
+        "id": 10740,
+        "file": "2025/08/DSC09663-e1755491845141.jpg",
+        "exists": true
+      },
+      {
+        "id": 10741,
+        "file": "2025/08/DSC09658-e1755492025975.jpg",
+        "exists": true
+      },
+      {
+        "id": 10742,
+        "file": "2025/08/B18_7610.jpg",
+        "exists": true
+      },
+      {
+        "id": 10743,
+        "file": "2025/08/B18_7605-e1755492195925.jpg",
+        "exists": true
+      },
+      {
+        "id": 10744,
+        "file": "2025/08/B18_7603-e1755492141380.jpg",
+        "exists": true
+      },
+      {
+        "id": 10745,
+        "file": "2025/08/B18_7641-e1755492259955.jpg",
+        "exists": true
+      },
+      {
+        "id": 10746,
+        "file": "2025/08/B18_7643-2-e1755492578739.jpg",
+        "exists": true
+      },
+      {
+        "id": 10747,
+        "file": "2025/08/B18_7659-e1755492822582.jpg",
+        "exists": true
+      },
+      {
+        "id": 10748,
+        "file": "2025/08/B18_7704-e1755492908509.jpg",
+        "exists": true
+      },
+      {
+        "id": 10749,
+        "file": "2025/08/B18_7702.jpg",
+        "exists": true
+      },
+      {
+        "id": 10750,
+        "file": "2025/08/DSC09930-e1755493075679.jpg",
+        "exists": true
+      },
+      {
+        "id": 10751,
+        "file": "2025/08/B18_7755-e1755493146188.jpg",
+        "exists": true
+      },
+      {
+        "id": 10753,
+        "file": "2025/08/B18_7748-e1755493199824.jpg",
+        "exists": true
+      },
+      {
+        "id": 10754,
+        "file": "2025/08/B18_7788-e1755493289702.jpg",
+        "exists": true
+      },
+      {
+        "id": 10755,
+        "file": "2025/08/B18_7839.jpg",
+        "exists": true
+      },
+      {
+        "id": 10756,
+        "file": "2025/08/B18_7833-e1755493444594.jpg",
+        "exists": true
+      },
+      {
+        "id": 10757,
+        "file": "2025/08/B18_7841-e1755493607627.jpg",
+        "exists": true
+      },
+      {
+        "id": 10759,
+        "file": "2025/08/B18_7908.jpg",
+        "exists": true
+      },
+      {
+        "id": 10760,
+        "file": "2025/08/B18_7900.jpg",
+        "exists": true
+      },
+      {
+        "id": 10761,
+        "file": "2025/08/B18_7998.jpg",
+        "exists": true
+      },
+      {
+        "id": 10762,
+        "file": "2025/08/DSC09863-e1755493652961.jpg",
+        "exists": true
+      },
+      {
+        "id": 10763,
+        "file": "2025/08/DSC09839-e1755493796513.jpg",
+        "exists": true
+      },
+      {
+        "id": 10764,
+        "file": "2025/08/DSC09835-e1755494140564.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 11254,
+    "title": "서산 파란산책 전원주택단지 설계",
+    "wp_total": 51,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 31,
+    "resolved": [
+      {
+        "id": 11316,
+        "file": "2025/08/6-4-e1756182747258.jpg",
+        "exists": true
+      },
+      {
+        "id": 11312,
+        "file": "2025/08/107-e1756182558348.jpg",
+        "exists": true
+      },
+      {
+        "id": 11317,
+        "file": "2025/08/0P0A1922-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 11318,
+        "file": "2025/08/0P0A1918-Edit-e1756182914921.jpg",
+        "exists": true
+      },
+      {
+        "id": 11320,
+        "file": "2025/08/0P0A0314-2-1-e1756183074303.jpg",
+        "exists": true
+      },
+      {
+        "id": 11319,
+        "file": "2025/08/0P0A0325.jpg",
+        "exists": true
+      },
+      {
+        "id": 11263,
+        "file": "2025/08/30-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11264,
+        "file": "2025/08/33-1-e1756183211779.jpg",
+        "exists": true
+      },
+      {
+        "id": 11266,
+        "file": "2025/08/36-2-e1756184161688.jpg",
+        "exists": true
+      },
+      {
+        "id": 11265,
+        "file": "2025/08/35-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11267,
+        "file": "2025/08/42-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11269,
+        "file": "2025/08/39-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11270,
+        "file": "2025/08/38-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11275,
+        "file": "2025/08/45-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11273,
+        "file": "2025/08/49-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11272,
+        "file": "2025/08/52-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11271,
+        "file": "2025/08/47-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11274,
+        "file": "2025/08/44.jpg",
+        "exists": true
+      },
+      {
+        "id": 11277,
+        "file": "2025/08/54-1-e1756184377186.jpg",
+        "exists": true
+      },
+      {
+        "id": 11278,
+        "file": "2025/08/56-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11279,
+        "file": "2025/08/57-e1756184416130.jpg",
+        "exists": true
+      },
+      {
+        "id": 11280,
+        "file": "2025/08/58-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11281,
+        "file": "2025/08/59-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11283,
+        "file": "2025/08/63-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11284,
+        "file": "2025/08/64-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11286,
+        "file": "2025/08/66.jpg",
+        "exists": true
+      },
+      {
+        "id": 11287,
+        "file": "2025/08/67-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11288,
+        "file": "2025/08/68-2-e1756184804787.jpg",
+        "exists": true
+      },
+      {
+        "id": 11282,
+        "file": "2025/08/61-2-e1756184625431.jpg",
+        "exists": true
+      },
+      {
+        "id": 11285,
+        "file": "2025/08/65-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11290,
+        "file": "2025/08/71-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11291,
+        "file": "2025/08/73-2-e1756184976729.jpg",
+        "exists": true
+      },
+      {
+        "id": 11292,
+        "file": "2025/08/74-3-e1756185120870.jpg",
+        "exists": true
+      },
+      {
+        "id": 11293,
+        "file": "2025/08/75-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11294,
+        "file": "2025/08/76-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11295,
+        "file": "2025/08/78-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11296,
+        "file": "2025/08/79-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11297,
+        "file": "2025/08/82-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11300,
+        "file": "2025/08/87-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11299,
+        "file": "2025/08/85.jpg",
+        "exists": true
+      },
+      {
+        "id": 11298,
+        "file": "2025/08/83.jpg",
+        "exists": true
+      },
+      {
+        "id": 11301,
+        "file": "2025/08/88-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11302,
+        "file": "2025/08/91-2-e1756185168783.jpg",
+        "exists": true
+      },
+      {
+        "id": 11303,
+        "file": "2025/08/92-2-e1756185224694.jpg",
+        "exists": true
+      },
+      {
+        "id": 11309,
+        "file": "2025/08/96-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11310,
+        "file": "2025/08/100-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11304,
+        "file": "2025/08/95-2-e1756185268372.jpg",
+        "exists": true
+      },
+      {
+        "id": 11305,
+        "file": "2025/08/99-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11306,
+        "file": "2025/08/98-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11307,
+        "file": "2025/08/101-1-e1756185832396.jpg",
+        "exists": true
+      },
+      {
+        "id": 11308,
+        "file": "2025/08/97-2-e1756186014234.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 11449,
+    "title": "여주 세컨하우스 주택단지 설계",
+    "wp_total": 48,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 28,
+    "resolved": [
+      {
+        "id": 11462,
+        "file": "2025/08/_엘리멘텀4_리버듀_조감_5-이미지-e1756436281975.jpg",
+        "exists": true
+      },
+      {
+        "id": 11454,
+        "file": "2025/08/DSC08915-1-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 11455,
+        "file": "2025/08/1-7-e1756436476553.jpg",
+        "exists": true
+      },
+      {
+        "id": 11456,
+        "file": "2025/08/DJI_0790-1-scaled-e1756436631620.jpg",
+        "exists": true
+      },
+      {
+        "id": 11457,
+        "file": "2025/08/1-8.jpg",
+        "exists": true
+      },
+      {
+        "id": 11463,
+        "file": "2025/08/76-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11458,
+        "file": "2025/08/3-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11459,
+        "file": "2025/08/4-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11464,
+        "file": "2025/08/74-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11465,
+        "file": "2025/08/6-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11470,
+        "file": "2025/08/15-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11503,
+        "file": "2025/08/16-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11466,
+        "file": "2025/08/9-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11467,
+        "file": "2025/08/13-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11468,
+        "file": "2025/08/14-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11469,
+        "file": "2025/08/12-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11471,
+        "file": "2025/08/17-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11473,
+        "file": "2025/08/19-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11474,
+        "file": "2025/08/21-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11472,
+        "file": "2025/08/18-2-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11475,
+        "file": "2025/08/23-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11476,
+        "file": "2025/08/26-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11477,
+        "file": "2025/08/27-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11478,
+        "file": "2025/08/29-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11479,
+        "file": "2025/08/31-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11480,
+        "file": "2025/08/33-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11481,
+        "file": "2025/08/34-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11482,
+        "file": "2025/08/39-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11483,
+        "file": "2025/08/42-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11484,
+        "file": "2025/08/43-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11485,
+        "file": "2025/08/44-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11486,
+        "file": "2025/08/46-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11487,
+        "file": "2025/08/47-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11488,
+        "file": "2025/08/49-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11489,
+        "file": "2025/08/51-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11490,
+        "file": "2025/08/52-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11491,
+        "file": "2025/08/53-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11492,
+        "file": "2025/08/55-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11493,
+        "file": "2025/08/56-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11494,
+        "file": "2025/08/57-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11495,
+        "file": "2025/08/58-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11496,
+        "file": "2025/08/64-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11497,
+        "file": "2025/08/65-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11498,
+        "file": "2025/08/67-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11499,
+        "file": "2025/08/68-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11500,
+        "file": "2025/08/70-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11501,
+        "file": "2025/08/71-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11502,
+        "file": "2025/08/72-2.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10434,
+    "title": "오산 소이랜드 카페",
+    "wp_total": 45,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 25,
+    "resolved": [
+      {
+        "id": 10493,
+        "file": "2025/08/19-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10495,
+        "file": "2025/08/32-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10491,
+        "file": "2025/08/1-3-1-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10492,
+        "file": "2025/08/18-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10494,
+        "file": "2025/08/21-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10496,
+        "file": "2025/08/22-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10468,
+        "file": "2025/08/11-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10467,
+        "file": "2025/08/8-e1754887953268.jpg",
+        "exists": true
+      },
+      {
+        "id": 10442,
+        "file": "2025/08/48-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10466,
+        "file": "2025/08/6-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10440,
+        "file": "2025/08/43-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10469,
+        "file": "2025/08/12-2-e1754887887144.jpg",
+        "exists": true
+      },
+      {
+        "id": 10470,
+        "file": "2025/08/13-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10471,
+        "file": "2025/08/14-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10472,
+        "file": "2025/08/15-3-e1754889854458.jpg",
+        "exists": true
+      },
+      {
+        "id": 10455,
+        "file": "2025/08/74-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10454,
+        "file": "2025/08/73.jpg",
+        "exists": true
+      },
+      {
+        "id": 10453,
+        "file": "2025/08/71-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10452,
+        "file": "2025/08/70.jpg",
+        "exists": true
+      },
+      {
+        "id": 10451,
+        "file": "2025/08/69-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10450,
+        "file": "2025/08/68-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10449,
+        "file": "2025/08/63.jpg",
+        "exists": true
+      },
+      {
+        "id": 10448,
+        "file": "2025/08/61.jpg",
+        "exists": true
+      },
+      {
+        "id": 10447,
+        "file": "2025/08/59-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10446,
+        "file": "2025/08/56-1-e1754888489725.jpg",
+        "exists": true
+      },
+      {
+        "id": 10445,
+        "file": "2025/08/55-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10443,
+        "file": "2025/08/49-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10441,
+        "file": "2025/08/45-1-e1754889620434.jpg",
+        "exists": true
+      },
+      {
+        "id": 10444,
+        "file": "2025/08/52-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10435,
+        "file": "2025/08/16-e1754889685782.jpg",
+        "exists": true
+      },
+      {
+        "id": 10436,
+        "file": "2025/08/38-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10437,
+        "file": "2025/08/39-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10438,
+        "file": "2025/08/41.jpg",
+        "exists": true
+      },
+      {
+        "id": 10439,
+        "file": "2025/08/42-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10461,
+        "file": "2025/08/81.jpg",
+        "exists": true
+      },
+      {
+        "id": 10460,
+        "file": "2025/08/80.jpg",
+        "exists": true
+      },
+      {
+        "id": 10459,
+        "file": "2025/08/79.jpg",
+        "exists": true
+      },
+      {
+        "id": 10458,
+        "file": "2025/08/78-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10457,
+        "file": "2025/08/77.jpg",
+        "exists": true
+      },
+      {
+        "id": 10456,
+        "file": "2025/08/75-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10464,
+        "file": "2025/08/94.jpg",
+        "exists": true
+      },
+      {
+        "id": 10463,
+        "file": "2025/08/92-e1754888689462.jpg",
+        "exists": true
+      },
+      {
+        "id": 10462,
+        "file": "2025/08/91-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10483,
+        "file": "2025/08/98-scaled.png",
+        "exists": true
+      },
+      {
+        "id": 10465,
+        "file": "2025/08/96.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9879,
+    "title": "모전리 시옷하우스",
+    "wp_total": 43,
+    "wp_missing": 1,
+    "current_total": 20,
+    "diff": 23,
+    "resolved": [
+      {
+        "id": 9921,
+        "file": "2025/08/0P0A0010-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 9922,
+        "file": "2025/08/0P0A0016-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 9931,
+        "file": "2025/08/0P0A0030-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 9923,
+        "file": "2025/08/0P0A0043-e1754438920494.jpg",
+        "exists": true
+      },
+      {
+        "id": 9926,
+        "file": "2025/08/0P0A0026-6-e1754438670125.jpg",
+        "exists": true
+      },
+      {
+        "id": 9927,
+        "file": "2025/08/20240913_092313-8-e1754439112139.jpg",
+        "exists": true
+      },
+      {
+        "id": 9883,
+        "file": "2025/08/0P0A0057.jpg",
+        "exists": true
+      },
+      {
+        "id": 9882,
+        "file": "2025/08/0P0A0049.jpg",
+        "exists": true
+      },
+      {
+        "id": 9885,
+        "file": "2025/08/0P0A0061.jpg",
+        "exists": true
+      },
+      {
+        "id": 9884,
+        "file": "2025/08/0P0A0058.jpg",
+        "exists": true
+      },
+      {
+        "id": 9880,
+        "file": "2025/08/0P0A0068.jpg",
+        "exists": true
+      },
+      {
+        "id": 9886,
+        "file": "2025/08/0P0A0085.jpg",
+        "exists": true
+      },
+      {
+        "id": 9881,
+        "file": "2025/08/0P0A0072.jpg",
+        "exists": true
+      },
+      {
+        "id": 9888,
+        "file": "2025/08/0P0A0113.jpg",
+        "exists": true
+      },
+      {
+        "id": 9887,
+        "file": "2025/08/0P0A0077.jpg",
+        "exists": true
+      },
+      {
+        "id": 9898,
+        "file": "2025/08/0P0A0193.jpg",
+        "exists": true
+      },
+      {
+        "id": 9889,
+        "file": "2025/08/0P0A0121.jpg",
+        "exists": true
+      },
+      {
+        "id": 9913,
+        "file": "2025/08/0P0A0758.jpg",
+        "exists": true
+      },
+      {
+        "id": 9890,
+        "file": "2025/08/0P0A0115.jpg",
+        "exists": true
+      },
+      {
+        "id": 9891,
+        "file": "2025/08/0P0A0132.jpg",
+        "exists": true
+      },
+      {
+        "id": 9897,
+        "file": "2025/08/0P0A0192.jpg",
+        "exists": true
+      },
+      {
+        "id": 9892,
+        "file": "2025/08/0P0A0147.jpg",
+        "exists": true
+      },
+      {
+        "id": 9911,
+        "file": "2025/08/0P0A0778.jpg",
+        "exists": true
+      },
+      {
+        "id": 9901,
+        "file": "2025/08/0P0A0190.jpg",
+        "exists": true
+      },
+      {
+        "id": 9916,
+        "file": "2025/08/0P0A0779.jpg",
+        "exists": true
+      },
+      {
+        "id": 9899,
+        "file": "2025/08/0P0A0179.jpg",
+        "exists": true
+      },
+      {
+        "id": 9900,
+        "file": "2025/08/0P0A0182.jpg",
+        "exists": true
+      },
+      {
+        "id": 9905,
+        "file": "2025/08/0P0A0229.jpg",
+        "exists": true
+      },
+      {
+        "id": 9907,
+        "file": "2025/08/0P0A0248.jpg",
+        "exists": true
+      },
+      {
+        "id": 9908,
+        "file": "2025/08/0P0A0256.jpg",
+        "exists": true
+      },
+      {
+        "id": 9906,
+        "file": "2025/08/0P0A0231.jpg",
+        "exists": true
+      },
+      {
+        "id": 9904,
+        "file": "2025/08/0P0A0225.jpg",
+        "exists": true
+      },
+      {
+        "id": 9903,
+        "file": "2025/08/0P0A0207.jpg",
+        "exists": true
+      },
+      {
+        "id": 9902,
+        "file": "2025/08/0P0A0200.jpg",
+        "exists": true
+      },
+      {
+        "id": 9912,
+        "file": "2025/08/0P0A0751.jpg",
+        "exists": true
+      },
+      {
+        "id": 9894,
+        "file": "2025/08/0P0A0163.jpg",
+        "exists": true
+      },
+      {
+        "id": 9895,
+        "file": "2025/08/0P0A0167.jpg",
+        "exists": true
+      },
+      {
+        "id": 9914,
+        "file": "2025/08/0P0A0747.jpg",
+        "exists": true
+      },
+      {
+        "id": 9893,
+        "file": "2025/08/0P0A0157.jpg",
+        "exists": true
+      },
+      {
+        "id": 9915,
+        "file": "2025/08/0P0A0781.jpg",
+        "exists": true
+      },
+      {
+        "id": 9896,
+        "file": "2025/08/0P0A0170.jpg",
+        "exists": true
+      },
+      {
+        "id": 9910,
+        "file": "2025/08/0P0A0262.jpg",
+        "exists": true
+      },
+      {
+        "id": 9909,
+        "file": null,
+        "exists": false
+      }
+    ]
+  },
+  {
+    "id": 9585,
+    "title": "양평 아솔린채 럭셔리 모던하우스",
+    "wp_total": 24,
+    "wp_missing": 0,
+    "current_total": 4,
+    "diff": 20,
+    "resolved": [
+      {
+        "id": 9588,
+        "file": "2025/07/DJI_0717-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 9587,
+        "file": "2025/07/0P0A4108-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9586,
+        "file": "2025/07/0P0A4098-4-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 9617,
+        "file": "2025/07/0P0A4109-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 9511,
+        "file": "2025/07/1층-현관_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9512,
+        "file": "2025/07/1층-거실_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9513,
+        "file": "2025/07/1층-거실_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9514,
+        "file": "2025/07/1층-거실_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9508,
+        "file": "2025/07/1층-주방_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9510,
+        "file": "2025/07/1층-주방_5.jpg",
+        "exists": true
+      },
+      {
+        "id": 9521,
+        "file": "2025/07/1층-주방_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9599,
+        "file": "2025/07/2층-마스터룸_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9518,
+        "file": "2025/07/1층-복도_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9517,
+        "file": "2025/07/1층-게스트룸_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9516,
+        "file": "2025/07/1층-게스트룸_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9520,
+        "file": "2025/07/1층-욕실_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9600,
+        "file": "2025/07/2층-복도_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9604,
+        "file": "2025/07/2층-복도_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9603,
+        "file": "2025/07/2층-복도_4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9602,
+        "file": "2025/07/2층-복도_2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9601,
+        "file": "2025/07/2층-마스터룸_3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9616,
+        "file": "2025/07/2층-마스터룸_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9605,
+        "file": "2025/07/2층-욕실_1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9606,
+        "file": "2025/07/2층-욕실_2.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10043,
+    "title": "영종도 스카이시티 세컨하우스",
+    "wp_total": 39,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 19,
+    "resolved": [
+      {
+        "id": 10094,
+        "file": "2025/08/DJI_0532-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10095,
+        "file": "2025/08/DJI_0532-e1754530486442.jpg",
+        "exists": true
+      },
+      {
+        "id": 10099,
+        "file": "2025/08/DJI_0542-2-e1754530782145.jpg",
+        "exists": true
+      },
+      {
+        "id": 10097,
+        "file": "2025/08/0P0A3552-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10096,
+        "file": "2025/08/0P0A3564-4-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10098,
+        "file": "2025/08/0P0A3535-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10060,
+        "file": "2025/08/0P0A3570.jpg",
+        "exists": true
+      },
+      {
+        "id": 10061,
+        "file": "2025/08/0P0A3575-e1754528111342.jpg",
+        "exists": true
+      },
+      {
+        "id": 10062,
+        "file": "2025/08/0P0A3578.jpg",
+        "exists": true
+      },
+      {
+        "id": 10063,
+        "file": "2025/08/0P0A3583-e1754528562384.jpg",
+        "exists": true
+      },
+      {
+        "id": 10064,
+        "file": "2025/08/0P0A3591-e1754528333863.jpg",
+        "exists": true
+      },
+      {
+        "id": 10046,
+        "file": "2025/08/0P0A3627.jpg",
+        "exists": true
+      },
+      {
+        "id": 10048,
+        "file": "2025/08/0P0A3630-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10050,
+        "file": "2025/08/0P0A3635.jpg",
+        "exists": true
+      },
+      {
+        "id": 10059,
+        "file": "2025/08/0P0A3806.jpg",
+        "exists": true
+      },
+      {
+        "id": 10044,
+        "file": "2025/08/0P0A3602.jpg",
+        "exists": true
+      },
+      {
+        "id": 10045,
+        "file": "2025/08/0P0A3605.jpg",
+        "exists": true
+      },
+      {
+        "id": 10058,
+        "file": "2025/08/0P0A3805.jpg",
+        "exists": true
+      },
+      {
+        "id": 10049,
+        "file": "2025/08/0P0A3632.jpg",
+        "exists": true
+      },
+      {
+        "id": 10055,
+        "file": "2025/08/0P0A3676.jpg",
+        "exists": true
+      },
+      {
+        "id": 10056,
+        "file": "2025/08/0P0A3677.jpg",
+        "exists": true
+      },
+      {
+        "id": 10051,
+        "file": "2025/08/0P0A3654.jpg",
+        "exists": true
+      },
+      {
+        "id": 10052,
+        "file": "2025/08/0P0A3659-e1754528734793.jpg",
+        "exists": true
+      },
+      {
+        "id": 10053,
+        "file": "2025/08/0P0A3663.jpg",
+        "exists": true
+      },
+      {
+        "id": 10054,
+        "file": "2025/08/0P0A3667.jpg",
+        "exists": true
+      },
+      {
+        "id": 10057,
+        "file": "2025/08/0P0A3678-e1754529287722.jpg",
+        "exists": true
+      },
+      {
+        "id": 10067,
+        "file": "2025/08/0P0A3679.jpg",
+        "exists": true
+      },
+      {
+        "id": 10068,
+        "file": "2025/08/0P0A3687.jpg",
+        "exists": true
+      },
+      {
+        "id": 10066,
+        "file": "2025/08/0P0A3808.jpg",
+        "exists": true
+      },
+      {
+        "id": 10072,
+        "file": "2025/08/0P0A3708.jpg",
+        "exists": true
+      },
+      {
+        "id": 10069,
+        "file": "2025/08/0P0A3689.jpg",
+        "exists": true
+      },
+      {
+        "id": 10076,
+        "file": "2025/08/0P0A3728.jpg",
+        "exists": true
+      },
+      {
+        "id": 10074,
+        "file": "2025/08/0P0A3715.jpg",
+        "exists": true
+      },
+      {
+        "id": 10073,
+        "file": "2025/08/0P0A3713.jpg",
+        "exists": true
+      },
+      {
+        "id": 10075,
+        "file": "2025/08/0P0A3720.jpg",
+        "exists": true
+      },
+      {
+        "id": 10077,
+        "file": "2025/08/0P0A3733-e1754529723661.jpg",
+        "exists": true
+      },
+      {
+        "id": 10065,
+        "file": "2025/08/0P0A3739.jpg",
+        "exists": true
+      },
+      {
+        "id": 10071,
+        "file": "2025/08/0P0A3704.jpg",
+        "exists": true
+      },
+      {
+        "id": 10070,
+        "file": "2025/08/0P0A3700.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10230,
+    "title": "옥천 메이플 상가 주택",
+    "wp_total": 39,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 19,
+    "resolved": [
+      {
+        "id": 10235,
+        "file": "2025/08/_동물병원15-3-e1756439612320.jpg",
+        "exists": true
+      },
+      {
+        "id": 11509,
+        "file": "2025/08/1-9-e1756439553353.jpg",
+        "exists": true
+      },
+      {
+        "id": 11510,
+        "file": "2025/08/3-5-e1756439659270.jpg",
+        "exists": true
+      },
+      {
+        "id": 11543,
+        "file": "2025/08/77-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11542,
+        "file": "2025/08/72-3-e1756440062914.jpg",
+        "exists": true
+      },
+      {
+        "id": 11511,
+        "file": "2025/08/2-8-e1756440012130.jpg",
+        "exists": true
+      },
+      {
+        "id": 10234,
+        "file": "2025/08/메이플_동물병원06.jpg",
+        "exists": true
+      },
+      {
+        "id": 10233,
+        "file": "2025/08/메이플_동물병원07.jpg",
+        "exists": true
+      },
+      {
+        "id": 11512,
+        "file": "2025/08/6-6-e1756440222629.jpg",
+        "exists": true
+      },
+      {
+        "id": 11513,
+        "file": "2025/08/4-5-e1756440483161.jpg",
+        "exists": true
+      },
+      {
+        "id": 11514,
+        "file": "2025/08/14-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11515,
+        "file": "2025/08/15-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11516,
+        "file": "2025/08/16-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11517,
+        "file": "2025/08/19-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11518,
+        "file": "2025/08/20-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11519,
+        "file": "2025/08/21-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11520,
+        "file": "2025/08/24-e1756440371372.jpg",
+        "exists": true
+      },
+      {
+        "id": 11521,
+        "file": "2025/08/25-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11522,
+        "file": "2025/08/29-3-e1756440423219.jpg",
+        "exists": true
+      },
+      {
+        "id": 11523,
+        "file": "2025/08/30-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11524,
+        "file": "2025/08/32-3-e1756440556453.jpg",
+        "exists": true
+      },
+      {
+        "id": 11525,
+        "file": "2025/08/35-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11529,
+        "file": "2025/08/50-3-e1756440623284.jpg",
+        "exists": true
+      },
+      {
+        "id": 11526,
+        "file": "2025/08/37-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11527,
+        "file": "2025/08/39-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11532,
+        "file": "2025/08/52-5-e1756440675466.jpg",
+        "exists": true
+      },
+      {
+        "id": 11530,
+        "file": "2025/08/51-2-e1756440808634.jpg",
+        "exists": true
+      },
+      {
+        "id": 11528,
+        "file": "2025/08/46-2-e1756440999521.jpg",
+        "exists": true
+      },
+      {
+        "id": 11544,
+        "file": "2025/08/48-3-e1756441492336.jpg",
+        "exists": true
+      },
+      {
+        "id": 11531,
+        "file": "2025/08/49-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11533,
+        "file": "2025/08/54-2-e1756441721669.jpg",
+        "exists": true
+      },
+      {
+        "id": 11534,
+        "file": "2025/08/55-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11535,
+        "file": "2025/08/56-5-e1756441106861.jpg",
+        "exists": true
+      },
+      {
+        "id": 11537,
+        "file": "2025/08/61-3-e1756441769874.jpg",
+        "exists": true
+      },
+      {
+        "id": 11538,
+        "file": "2025/08/63-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 11539,
+        "file": "2025/08/65-4-e1756441161421.jpg",
+        "exists": true
+      },
+      {
+        "id": 11540,
+        "file": "2025/08/66-1-e1756441876212.jpg",
+        "exists": true
+      },
+      {
+        "id": 11536,
+        "file": "2025/08/60-2-e1756441357106.jpg",
+        "exists": true
+      },
+      {
+        "id": 11541,
+        "file": "2025/08/69-3-e1756441823427.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9547,
+    "title": "밀양 그린델발트 하우스",
+    "wp_total": 21,
+    "wp_missing": 0,
+    "current_total": 3,
+    "diff": 18,
+    "resolved": [
+      {
+        "id": 9542,
+        "file": "2025/07/DJI_0517-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9531,
+        "file": "2025/07/DJI_0515-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 9532,
+        "file": "2025/07/DSC08682-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9482,
+        "file": "2025/07/20200508_140736-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9502,
+        "file": "2025/07/20200508_140725-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9533,
+        "file": "2025/07/DSC08683-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9503,
+        "file": "2025/07/DSC08680-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9497,
+        "file": "2025/07/DSC08668.jpg",
+        "exists": true
+      },
+      {
+        "id": 9486,
+        "file": "2025/07/20200508_124713.jpg",
+        "exists": true
+      },
+      {
+        "id": 9495,
+        "file": "2025/07/DSC08660.jpg",
+        "exists": true
+      },
+      {
+        "id": 9487,
+        "file": "2025/07/20200508_124721.jpg",
+        "exists": true
+      },
+      {
+        "id": 9494,
+        "file": "2025/07/DSC08659.jpg",
+        "exists": true
+      },
+      {
+        "id": 9492,
+        "file": "2025/07/DSC08655.jpg",
+        "exists": true
+      },
+      {
+        "id": 9496,
+        "file": "2025/07/DSC08664.jpg",
+        "exists": true
+      },
+      {
+        "id": 9499,
+        "file": "2025/07/DSC08673.jpg",
+        "exists": true
+      },
+      {
+        "id": 9489,
+        "file": "2025/07/DSC08648.jpg",
+        "exists": true
+      },
+      {
+        "id": 9500,
+        "file": "2025/07/20200508_120730.jpg",
+        "exists": true
+      },
+      {
+        "id": 9491,
+        "file": "2025/07/DSC08654.jpg",
+        "exists": true
+      },
+      {
+        "id": 9485,
+        "file": "2025/07/20200508_120907-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9490,
+        "file": "2025/07/DSC08651.jpg",
+        "exists": true
+      },
+      {
+        "id": 9483,
+        "file": "2025/07/20200508_120848.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10657,
+    "title": "원주 풀스테이",
+    "wp_total": 36,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 16,
+    "resolved": [
+      {
+        "id": 10701,
+        "file": "2025/08/-캡처-2025-06-23-172645-2-e1755146569161.jpg",
+        "exists": true
+      },
+      {
+        "id": 10693,
+        "file": "2025/08/DJI_0752-2-e1755146514526.jpg",
+        "exists": true
+      },
+      {
+        "id": 10695,
+        "file": "2025/08/DJI_0749-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10696,
+        "file": "2025/08/0P0A2379-e1755146345166.jpg",
+        "exists": true
+      },
+      {
+        "id": 10694,
+        "file": "2025/08/DJI_0767-3-scaled-e1755146465576.jpg",
+        "exists": true
+      },
+      {
+        "id": 10697,
+        "file": "2025/08/0P0A2838-2-e1755146402148.jpg",
+        "exists": true
+      },
+      {
+        "id": 10698,
+        "file": "2025/08/0P0A2846.jpg",
+        "exists": true
+      },
+      {
+        "id": 10700,
+        "file": "2025/08/DJI_0772-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10699,
+        "file": "2025/08/DJI_0769-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10682,
+        "file": "2025/08/현관1-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10683,
+        "file": "2025/08/현관2-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10681,
+        "file": "2025/08/포켓볼2-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10680,
+        "file": "2025/08/포켓볼1-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10684,
+        "file": "2025/08/0P0A2336.jpg",
+        "exists": true
+      },
+      {
+        "id": 10685,
+        "file": "2025/08/0P0A2339.jpg",
+        "exists": true
+      },
+      {
+        "id": 10678,
+        "file": "2025/08/주방1-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10679,
+        "file": "2025/08/주방2-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10672,
+        "file": "2025/08/바베큐룸1-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10674,
+        "file": "2025/08/바베큐룸3-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10688,
+        "file": "2025/08/0P0A2736.jpg",
+        "exists": true
+      },
+      {
+        "id": 10687,
+        "file": "2025/08/0P0A2435.jpg",
+        "exists": true
+      },
+      {
+        "id": 10686,
+        "file": "2025/08/0P0A2431.jpg",
+        "exists": true
+      },
+      {
+        "id": 10676,
+        "file": "2025/08/스파사우나2-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10675,
+        "file": "2025/08/스파사우나1-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10677,
+        "file": "2025/08/스파사우나3-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10690,
+        "file": "2025/08/2층-가족실2-e1755145830896.jpg",
+        "exists": true
+      },
+      {
+        "id": 10691,
+        "file": "2025/08/2층라운지1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10663,
+        "file": "2025/08/2층라운지2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10664,
+        "file": "2025/08/1-1-1-e1755146035760.jpg",
+        "exists": true
+      },
+      {
+        "id": 10665,
+        "file": "2025/08/객실1-2-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10666,
+        "file": "2025/08/객실1-3-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10667,
+        "file": "2025/08/객실1-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10668,
+        "file": "2025/08/객실2-1-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10669,
+        "file": "2025/08/객실2-2-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10670,
+        "file": "2025/08/객실2-3-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10671,
+        "file": "2025/08/2-4-1-e1755146081493.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9733,
+    "title": "여주 점봉동 품하우스",
+    "wp_total": 33,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 13,
+    "resolved": [
+      {
+        "id": 9767,
+        "file": "2025/08/0P0A1140-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9764,
+        "file": "2025/08/0P0A1130-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9766,
+        "file": "2025/08/0P0A1137-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 9765,
+        "file": "2025/08/0P0A1133-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9763,
+        "file": "2025/08/0P0A1116.jpg",
+        "exists": true
+      },
+      {
+        "id": 9759,
+        "file": "2025/08/0P0A1075-2-e1754284396954.jpg",
+        "exists": true
+      },
+      {
+        "id": 9761,
+        "file": "2025/08/0P0A1078-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9758,
+        "file": "2025/08/0P0A0979-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9762,
+        "file": "2025/08/0P0A1100.jpg",
+        "exists": true
+      },
+      {
+        "id": 9747,
+        "file": "2025/08/0P0A0819.jpg",
+        "exists": true
+      },
+      {
+        "id": 9746,
+        "file": "2025/08/1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9748,
+        "file": "2025/08/0P0A0836-Enhanced-NR.jpg",
+        "exists": true
+      },
+      {
+        "id": 9749,
+        "file": "2025/08/0P0A0852.jpg",
+        "exists": true
+      },
+      {
+        "id": 9741,
+        "file": "2025/08/0P0A1164.jpg",
+        "exists": true
+      },
+      {
+        "id": 9742,
+        "file": "2025/08/0P0A1165.jpg",
+        "exists": true
+      },
+      {
+        "id": 9751,
+        "file": "2025/08/0P0A0858.jpg",
+        "exists": true
+      },
+      {
+        "id": 9750,
+        "file": "2025/08/0P0A0857.jpg",
+        "exists": true
+      },
+      {
+        "id": 9753,
+        "file": "2025/08/0P0A0874.jpg",
+        "exists": true
+      },
+      {
+        "id": 9752,
+        "file": "2025/08/0P0A0865.jpg",
+        "exists": true
+      },
+      {
+        "id": 9735,
+        "file": "2025/08/0P0A0975-Enhanced-NR.jpg",
+        "exists": true
+      },
+      {
+        "id": 9734,
+        "file": "2025/08/0P0A0973.jpg",
+        "exists": true
+      },
+      {
+        "id": 9743,
+        "file": "2025/08/0P0A1170.jpg",
+        "exists": true
+      },
+      {
+        "id": 9740,
+        "file": "2025/08/0P0A1144-Enhanced-NR.jpg",
+        "exists": true
+      },
+      {
+        "id": 9745,
+        "file": "2025/08/0P0A1187-Enhanced-NR.jpg",
+        "exists": true
+      },
+      {
+        "id": 9736,
+        "file": "2025/08/0P0A0999.jpg",
+        "exists": true
+      },
+      {
+        "id": 9755,
+        "file": "2025/08/0P0A0913.jpg",
+        "exists": true
+      },
+      {
+        "id": 9756,
+        "file": "2025/08/0P0A0917.jpg",
+        "exists": true
+      },
+      {
+        "id": 9757,
+        "file": "2025/08/0P0A0936.jpg",
+        "exists": true
+      },
+      {
+        "id": 9754,
+        "file": "2025/08/0P0A0892-Enhanced-NR.jpg",
+        "exists": true
+      },
+      {
+        "id": 9744,
+        "file": "2025/08/0P0A1171.jpg",
+        "exists": true
+      },
+      {
+        "id": 9739,
+        "file": "2025/08/0P0A1046.jpg",
+        "exists": true
+      },
+      {
+        "id": 9737,
+        "file": "2025/08/0P0A1026.jpg",
+        "exists": true
+      },
+      {
+        "id": 9738,
+        "file": "2025/08/0P0A1030.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9784,
+    "title": "여주 현암동 중정형주택",
+    "wp_total": 30,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 10,
+    "resolved": [
+      {
+        "id": 9788,
+        "file": "2025/08/DJI_0165-4-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 9787,
+        "file": "2025/08/DJI_0162-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 9786,
+        "file": "2025/08/3-3-scaled-e1754361556256.jpg",
+        "exists": true
+      },
+      {
+        "id": 9785,
+        "file": "2025/08/2-2-scaled-e1754361745223.jpg",
+        "exists": true
+      },
+      {
+        "id": 9821,
+        "file": "2025/08/DJI_0208-2-2-scaled-e1754361670213.jpg",
+        "exists": true
+      },
+      {
+        "id": 9791,
+        "file": "2025/08/-캡처-2025-07-23-142948-2-e1754361977850.jpg",
+        "exists": true
+      },
+      {
+        "id": 9793,
+        "file": "2025/08/1-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9877,
+        "file": "2025/08/unnamed-file.jpg",
+        "exists": true
+      },
+      {
+        "id": 9861,
+        "file": "2025/08/12.jpg",
+        "exists": true
+      },
+      {
+        "id": 9863,
+        "file": "2025/08/15.jpg",
+        "exists": true
+      },
+      {
+        "id": 9859,
+        "file": "2025/08/10.jpg",
+        "exists": true
+      },
+      {
+        "id": 9857,
+        "file": "2025/08/6.jpg",
+        "exists": true
+      },
+      {
+        "id": 9862,
+        "file": "2025/08/13-e1754381031199.jpg",
+        "exists": true
+      },
+      {
+        "id": 9876,
+        "file": "2025/08/DSC01736.jpg",
+        "exists": true
+      },
+      {
+        "id": 9875,
+        "file": "2025/08/DSC01712.jpg",
+        "exists": true
+      },
+      {
+        "id": 9871,
+        "file": "2025/08/2-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9870,
+        "file": "2025/08/2-2-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9858,
+        "file": "2025/08/7.jpg",
+        "exists": true
+      },
+      {
+        "id": 9864,
+        "file": "2025/08/0P0A7075-e1754381173269.jpg",
+        "exists": true
+      },
+      {
+        "id": 9855,
+        "file": "2025/08/DSC01756.jpg",
+        "exists": true
+      },
+      {
+        "id": 9856,
+        "file": "2025/08/DSC01764.jpg",
+        "exists": true
+      },
+      {
+        "id": 9860,
+        "file": "2025/08/11.jpg",
+        "exists": true
+      },
+      {
+        "id": 9865,
+        "file": "2025/08/1-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9878,
+        "file": "2025/08/2-1-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9866,
+        "file": "2025/08/22-e1754382370876.jpg",
+        "exists": true
+      },
+      {
+        "id": 9873,
+        "file": "2025/08/DSC01706.jpg",
+        "exists": true
+      },
+      {
+        "id": 9867,
+        "file": "2025/08/25-e1754381109529.jpg",
+        "exists": true
+      },
+      {
+        "id": 9872,
+        "file": "2025/08/DSC01701-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9874,
+        "file": "2025/08/DSC01709.jpg",
+        "exists": true
+      },
+      {
+        "id": 9868,
+        "file": "2025/08/2-e1754382304138.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10499,
+    "title": "용인 베이커리 카페",
+    "wp_total": 30,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 10,
+    "resolved": [
+      {
+        "id": 10521,
+        "file": "2025/08/카페설계5-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10518,
+        "file": "2025/08/카페설계1-2-1-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10519,
+        "file": "2025/08/카페설계2-2-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10520,
+        "file": "2025/08/카페설계4-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10522,
+        "file": "2025/08/카페설계6-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10523,
+        "file": "2025/08/카페설계9-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10525,
+        "file": "2025/08/카페설계52-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10526,
+        "file": "2025/08/카페설계53.jpg",
+        "exists": true
+      },
+      {
+        "id": 10527,
+        "file": "2025/08/카페설계54.jpg",
+        "exists": true
+      },
+      {
+        "id": 10524,
+        "file": "2025/08/카페설계50-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10529,
+        "file": "2025/08/카페설계8-1-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10530,
+        "file": "2025/08/카페설계7-1-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10504,
+        "file": "2025/08/카페설계34-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10511,
+        "file": "2025/08/카페설계10-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10516,
+        "file": "2025/08/카페설계12-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10508,
+        "file": "2025/08/카페설계45-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10509,
+        "file": "2025/08/카페설계46.jpg",
+        "exists": true
+      },
+      {
+        "id": 10510,
+        "file": "2025/08/카페설계49-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10500,
+        "file": "2025/08/카페설계22-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10501,
+        "file": "2025/08/카페설계24.jpg",
+        "exists": true
+      },
+      {
+        "id": 10502,
+        "file": "2025/08/카페설계27-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10506,
+        "file": "2025/08/카페설계42-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10507,
+        "file": "2025/08/카페설계43-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10517,
+        "file": "2025/08/카페설계23-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10512,
+        "file": "2025/08/카페설계11-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10515,
+        "file": "2025/08/카페설계19-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10505,
+        "file": "2025/08/카페설계35-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10503,
+        "file": "2025/08/카페설계33.jpg",
+        "exists": true
+      },
+      {
+        "id": 10513,
+        "file": "2025/08/카페설계17-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10514,
+        "file": "2025/08/카페설계18.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10002,
+    "title": "시흥 배곧 더한집",
+    "wp_total": 27,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 7,
+    "resolved": [
+      {
+        "id": 10033,
+        "file": "2025/08/0P0A0640-복사-e1754461399842.jpg",
+        "exists": true
+      },
+      {
+        "id": 10032,
+        "file": "2025/08/0P0A0614-4-e1754461218981.jpg",
+        "exists": true
+      },
+      {
+        "id": 10034,
+        "file": "2025/08/DJI_0765.jpg",
+        "exists": true
+      },
+      {
+        "id": 10035,
+        "file": "2025/08/DJI_0780-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10031,
+        "file": "2025/08/0P0A0604-Edit.jpg",
+        "exists": true
+      },
+      {
+        "id": 10036,
+        "file": "2025/08/0P0A1139-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10020,
+        "file": "2025/08/0P0A0669.jpg",
+        "exists": true
+      },
+      {
+        "id": 10021,
+        "file": "2025/08/0P0A0687.jpg",
+        "exists": true
+      },
+      {
+        "id": 10014,
+        "file": "2025/08/0P0A1039.jpg",
+        "exists": true
+      },
+      {
+        "id": 10022,
+        "file": "2025/08/0P0A0695.jpg",
+        "exists": true
+      },
+      {
+        "id": 10023,
+        "file": "2025/08/0P0A0703.jpg",
+        "exists": true
+      },
+      {
+        "id": 10019,
+        "file": "2025/08/0P0A0668.jpg",
+        "exists": true
+      },
+      {
+        "id": 10009,
+        "file": "2025/08/0P0A0751-1-e1754454550344.jpg",
+        "exists": true
+      },
+      {
+        "id": 10015,
+        "file": "2025/08/0P0A1040.jpg",
+        "exists": true
+      },
+      {
+        "id": 10017,
+        "file": "2025/08/0P0A1096.jpg",
+        "exists": true
+      },
+      {
+        "id": 10027,
+        "file": "2025/08/0P0A0737.jpg",
+        "exists": true
+      },
+      {
+        "id": 10028,
+        "file": "2025/08/0P0A0740.jpg",
+        "exists": true
+      },
+      {
+        "id": 10029,
+        "file": "2025/08/0P0A0743-e1754454714869.jpg",
+        "exists": true
+      },
+      {
+        "id": 10025,
+        "file": "2025/08/0P0A0727.jpg",
+        "exists": true
+      },
+      {
+        "id": 10016,
+        "file": "2025/08/0P0A1050.jpg",
+        "exists": true
+      },
+      {
+        "id": 10026,
+        "file": "2025/08/0P0A0733.jpg",
+        "exists": true
+      },
+      {
+        "id": 10010,
+        "file": "2025/08/0P0A0770.jpg",
+        "exists": true
+      },
+      {
+        "id": 10013,
+        "file": "2025/08/0P0A0791.jpg",
+        "exists": true
+      },
+      {
+        "id": 10012,
+        "file": "2025/08/0P0A0780.jpg",
+        "exists": true
+      },
+      {
+        "id": 10011,
+        "file": "2025/08/0P0A0777.jpg",
+        "exists": true
+      },
+      {
+        "id": 10018,
+        "file": "2025/08/0P0A1127.jpg",
+        "exists": true
+      },
+      {
+        "id": 10024,
+        "file": "2025/08/0P0A0714-e1754454957852.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10626,
+    "title": "포천 담화재 스테이",
+    "wp_total": 27,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 7,
+    "resolved": [
+      {
+        "id": 11400,
+        "file": "2025/08/0P0A8386.jpg",
+        "exists": true
+      },
+      {
+        "id": 11402,
+        "file": "2025/08/DJI_0699-4-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 11401,
+        "file": "2025/08/한옥스테이설계4-1-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11399,
+        "file": "2025/08/0P0A8387.jpg",
+        "exists": true
+      },
+      {
+        "id": 11397,
+        "file": "2025/08/한옥스테이설계1-7.jpg",
+        "exists": true
+      },
+      {
+        "id": 11398,
+        "file": "2025/08/0P0A8398.jpg",
+        "exists": true
+      },
+      {
+        "id": 11403,
+        "file": "2025/08/도담6-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11404,
+        "file": "2025/08/도담7-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11405,
+        "file": "2025/08/도담3-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11406,
+        "file": "2025/08/0P0A9293.jpg",
+        "exists": true
+      },
+      {
+        "id": 11407,
+        "file": "2025/08/도담4-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11408,
+        "file": "2025/08/도담8-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11409,
+        "file": "2025/08/소담5-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 11410,
+        "file": "2025/08/소담2-8.jpg",
+        "exists": true
+      },
+      {
+        "id": 11411,
+        "file": "2025/08/소담3-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11412,
+        "file": "2025/08/아담4-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11413,
+        "file": "2025/08/아담3-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11414,
+        "file": "2025/08/아담7-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11415,
+        "file": "2025/08/아담6-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11416,
+        "file": "2025/08/아담2-8.jpg",
+        "exists": true
+      },
+      {
+        "id": 11417,
+        "file": "2025/08/아담1-7.jpg",
+        "exists": true
+      },
+      {
+        "id": 11418,
+        "file": "2025/08/화담3-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11419,
+        "file": "2025/08/화담2-8.jpg",
+        "exists": true
+      },
+      {
+        "id": 11420,
+        "file": "2025/08/화담7-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 11421,
+        "file": "2025/08/화담6-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 11422,
+        "file": "2025/08/화담4-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 11423,
+        "file": "2025/08/화담1-7.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10184,
+    "title": "번동 상가 주택",
+    "wp_total": 18,
+    "wp_missing": 0,
+    "current_total": 12,
+    "diff": 6,
+    "resolved": [
+      {
+        "id": 10215,
+        "file": "2025/08/DJI_0297-e1754545082460.jpg",
+        "exists": true
+      },
+      {
+        "id": 10220,
+        "file": "2025/08/DJI_0320-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10219,
+        "file": "2025/08/DJI_0301-e1754545037637.jpg",
+        "exists": true
+      },
+      {
+        "id": 10218,
+        "file": "2025/08/DJI_0291-e1754545289195.jpg",
+        "exists": true
+      },
+      {
+        "id": 10216,
+        "file": "2025/08/0P0A7269.jpg",
+        "exists": true
+      },
+      {
+        "id": 10217,
+        "file": "2025/08/0P0A7274.jpg",
+        "exists": true
+      },
+      {
+        "id": 10197,
+        "file": "2025/08/2층1.5룸-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10198,
+        "file": "2025/08/2층1.5룸-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10185,
+        "file": "2025/08/2층2룸-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10186,
+        "file": "2025/08/2층2룸-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10193,
+        "file": "2025/08/4층1.5룸-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10194,
+        "file": "2025/08/4층1.5룸-4-e1754543443504.jpg",
+        "exists": true
+      },
+      {
+        "id": 10190,
+        "file": "2025/08/3층마스터룸4-e1754543215100.jpg",
+        "exists": true
+      },
+      {
+        "id": 10188,
+        "file": "2025/08/3층마스터룸2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10189,
+        "file": "2025/08/3층마스터룸3-e1754543265568.jpg",
+        "exists": true
+      },
+      {
+        "id": 10187,
+        "file": "2025/08/3층마스터룸1-e1754544114441.jpg",
+        "exists": true
+      },
+      {
+        "id": 10191,
+        "file": "2025/08/4층1.5룸-1-e1754543975653.jpg",
+        "exists": true
+      },
+      {
+        "id": 10196,
+        "file": "2025/08/복도2-5.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9670,
+    "title": "여주 강천 나래재 하우스",
+    "wp_total": 25,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 5,
+    "resolved": [
+      {
+        "id": 9681,
+        "file": "2025/08/4-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9723,
+        "file": "2025/08/4-2-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9722,
+        "file": "2025/08/DJI_0607.jpg",
+        "exists": true
+      },
+      {
+        "id": 9725,
+        "file": "2025/08/DJI_0606.jpg",
+        "exists": true
+      },
+      {
+        "id": 9715,
+        "file": "2025/08/07062022_130401-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9713,
+        "file": "2025/08/07062022_130858-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9727,
+        "file": "2025/08/07062022_130817.jpg",
+        "exists": true
+      },
+      {
+        "id": 9708,
+        "file": "2025/08/07062022_130824-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 9702,
+        "file": "2025/08/07062022_130439-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9686,
+        "file": "2025/08/07062022_130521.jpg",
+        "exists": true
+      },
+      {
+        "id": 9685,
+        "file": "2025/08/07062022_130510.jpg",
+        "exists": true
+      },
+      {
+        "id": 9683,
+        "file": "2025/08/Kitchen.jpg",
+        "exists": true
+      },
+      {
+        "id": 9688,
+        "file": "2025/08/07062022_130551.jpg",
+        "exists": true
+      },
+      {
+        "id": 9721,
+        "file": "2025/08/07062022_130532.jpg",
+        "exists": true
+      },
+      {
+        "id": 9718,
+        "file": "2025/08/07062022_130652-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9682,
+        "file": "2025/08/Bedroom1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9689,
+        "file": "2025/08/07062022_130602.jpg",
+        "exists": true
+      },
+      {
+        "id": 9693,
+        "file": "2025/08/07062022_130715.jpg",
+        "exists": true
+      },
+      {
+        "id": 9695,
+        "file": "2025/08/07062022_130812.jpg",
+        "exists": true
+      },
+      {
+        "id": 9694,
+        "file": "2025/08/07062022_130737.jpg",
+        "exists": true
+      },
+      {
+        "id": 9696,
+        "file": "2025/08/07062022_130832.jpg",
+        "exists": true
+      },
+      {
+        "id": 9697,
+        "file": "2025/08/07062022_130843.jpg",
+        "exists": true
+      },
+      {
+        "id": 9692,
+        "file": "2025/08/07062022_130702.jpg",
+        "exists": true
+      },
+      {
+        "id": 9684,
+        "file": "2025/08/07062022_130414.jpg",
+        "exists": true
+      },
+      {
+        "id": 9690,
+        "file": "2025/08/07062022_130613.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10271,
+    "title": "향동 아치리얼 상가주택",
+    "wp_total": 24,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 4,
+    "resolved": [
+      {
+        "id": 10330,
+        "file": "2025/08/20221110_165949-2-e1754624104149.jpg",
+        "exists": true
+      },
+      {
+        "id": 10328,
+        "file": "2025/08/0P0A9553-3-e1754623925986.jpg",
+        "exists": true
+      },
+      {
+        "id": 10339,
+        "file": "2025/08/0P0A9553-3-1-e1754623823487.jpg",
+        "exists": true
+      },
+      {
+        "id": 10284,
+        "file": "2025/08/2층1.5룸-1-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10285,
+        "file": "2025/08/2층1.5룸-2-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10279,
+        "file": "2025/08/2층1.5룸-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 10280,
+        "file": "2025/08/2층1.5룸-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10281,
+        "file": "2025/08/2층1.5룸-7.jpg",
+        "exists": true
+      },
+      {
+        "id": 10282,
+        "file": "2025/08/2층1.5룸-8-e1754624307111.jpg",
+        "exists": true
+      },
+      {
+        "id": 10292,
+        "file": "2025/08/2층2룸-1-1-e1754624512745.jpg",
+        "exists": true
+      },
+      {
+        "id": 10293,
+        "file": "2025/08/2층2룸-2-1-e1754624854778.jpg",
+        "exists": true
+      },
+      {
+        "id": 10295,
+        "file": "2025/08/0P0A9776-scaled-e1754625069591.jpg",
+        "exists": true
+      },
+      {
+        "id": 10290,
+        "file": "2025/08/2층2룸-7.jpg",
+        "exists": true
+      },
+      {
+        "id": 10289,
+        "file": "2025/08/2층2룸-6.jpg",
+        "exists": true
+      },
+      {
+        "id": 10288,
+        "file": "2025/08/2층2룸-5.jpg",
+        "exists": true
+      },
+      {
+        "id": 10303,
+        "file": "2025/08/3층2룸-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10304,
+        "file": "2025/08/3층2룸-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10297,
+        "file": "2025/08/3층2룸-5-e1754625805128.jpg",
+        "exists": true
+      },
+      {
+        "id": 10298,
+        "file": "2025/08/3층2룸-6-e1754625909140.jpg",
+        "exists": true
+      },
+      {
+        "id": 10299,
+        "file": "2025/08/3층2룸-7-e1754626020112.jpg",
+        "exists": true
+      },
+      {
+        "id": 10300,
+        "file": "2025/08/3층2룸-8.jpg",
+        "exists": true
+      },
+      {
+        "id": 10325,
+        "file": "2025/08/0P0A9633.jpg",
+        "exists": true
+      },
+      {
+        "id": 10326,
+        "file": "2025/08/0P0A9634.jpg",
+        "exists": true
+      },
+      {
+        "id": 10327,
+        "file": "2025/08/0P0A9788-e1754627214843.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10388,
+    "title": "아산 아우름 근린생활시설(상가)",
+    "wp_total": 24,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 4,
+    "resolved": [
+      {
+        "id": 10412,
+        "file": "2025/08/아산상가설계51-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10408,
+        "file": "2025/08/2-3-1-scaled-e1754875682205.jpg",
+        "exists": true
+      },
+      {
+        "id": 10407,
+        "file": "2025/08/아산상가설계1-3-1-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10410,
+        "file": "2025/08/15-3-scaled-e1754875614659.jpg",
+        "exists": true
+      },
+      {
+        "id": 10409,
+        "file": "2025/08/9-3-scaled-e1754875305824.jpg",
+        "exists": true
+      },
+      {
+        "id": 10411,
+        "file": "2025/08/50-4-scaled-e1754874530465.jpg",
+        "exists": true
+      },
+      {
+        "id": 10414,
+        "file": "2025/08/아산상가설계27-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10415,
+        "file": "2025/08/아산상가설계7-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10416,
+        "file": "2025/08/아산상가설계6-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10417,
+        "file": "2025/08/아산상가설계10-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10418,
+        "file": "2025/08/아산상가설계44.jpg",
+        "exists": true
+      },
+      {
+        "id": 10420,
+        "file": "2025/08/아산상가설계42-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10400,
+        "file": "2025/08/아산상가설계17-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10394,
+        "file": "2025/08/아산상가설계30-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10393,
+        "file": "2025/08/아산상가설계29-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10395,
+        "file": "2025/08/아산상가설계31-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10396,
+        "file": "2025/08/아산상가설계33.jpg",
+        "exists": true
+      },
+      {
+        "id": 10389,
+        "file": "2025/08/아산상가설계19-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10390,
+        "file": "2025/08/아산상가설계22-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10397,
+        "file": "2025/08/37-e1754871154706.jpg",
+        "exists": true
+      },
+      {
+        "id": 10399,
+        "file": "2025/08/아산상가설계41.jpg",
+        "exists": true
+      },
+      {
+        "id": 10404,
+        "file": "2025/08/39-2-e1754871506157.jpg",
+        "exists": true
+      },
+      {
+        "id": 10392,
+        "file": "2025/08/아산상가설계26.jpg",
+        "exists": true
+      },
+      {
+        "id": 10391,
+        "file": "2025/08/아산상가설계25-1.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10531,
+    "title": "이천 버블리 카페",
+    "wp_total": 24,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 4,
+    "resolved": [
+      {
+        "id": 10553,
+        "file": "2025/08/46-3-e1754893639294.jpg",
+        "exists": true
+      },
+      {
+        "id": 10556,
+        "file": "2025/08/상가주택설계1.png",
+        "exists": true
+      },
+      {
+        "id": 10555,
+        "file": "2025/08/상가주택설계2.png",
+        "exists": true
+      },
+      {
+        "id": 10549,
+        "file": "2025/08/14-2-e1754893541881.jpg",
+        "exists": true
+      },
+      {
+        "id": 10557,
+        "file": "2025/08/상가주택설계4.png",
+        "exists": true
+      },
+      {
+        "id": 10554,
+        "file": "2025/08/상가주택설계6.png",
+        "exists": true
+      },
+      {
+        "id": 10559,
+        "file": "2025/08/5-e1754894459938.png",
+        "exists": true
+      },
+      {
+        "id": 10560,
+        "file": "2025/08/상가주택설계9.png",
+        "exists": true
+      },
+      {
+        "id": 10548,
+        "file": "2025/08/상가주택설계8-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10550,
+        "file": "2025/08/상가주택설계15-4.jpg",
+        "exists": true
+      },
+      {
+        "id": 10551,
+        "file": "2025/08/상가주택설계16-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10552,
+        "file": "2025/08/상가주택설계29-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10532,
+        "file": "2025/08/상가주택설계18.jpg",
+        "exists": true
+      },
+      {
+        "id": 10533,
+        "file": "2025/08/상가주택설계19-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10534,
+        "file": "2025/08/상가주택설계22-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10535,
+        "file": "2025/08/상가주택설계23.jpg",
+        "exists": true
+      },
+      {
+        "id": 10536,
+        "file": "2025/08/상가주택설계27-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10537,
+        "file": "2025/08/상가주택설계28-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10538,
+        "file": "2025/08/상가주택설계34-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10540,
+        "file": "2025/08/상가주택설계36-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10541,
+        "file": "2025/08/상가주택설계38-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10542,
+        "file": "2025/08/상가주택설계43-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10543,
+        "file": "2025/08/상가주택설계44.jpg",
+        "exists": true
+      },
+      {
+        "id": 10544,
+        "file": "2025/08/상가주택설계45-2.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10849,
+    "title": "서산 파란산책  중형타입",
+    "wp_total": 24,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 4,
+    "resolved": [
+      {
+        "id": 10883,
+        "file": "2025/08/0P0A0325-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10882,
+        "file": "2025/08/0P0A0324-2-e1755575612842.jpg",
+        "exists": true
+      },
+      {
+        "id": 10884,
+        "file": "2025/08/0P0A0334-2-e1755575783212.jpg",
+        "exists": true
+      },
+      {
+        "id": 10885,
+        "file": "2025/08/0P0A0314-2-e1755575869455.jpg",
+        "exists": true
+      },
+      {
+        "id": 10887,
+        "file": "2025/08/0P0A0321-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10889,
+        "file": "2025/08/0P0A0717.jpg",
+        "exists": true
+      },
+      {
+        "id": 10855,
+        "file": "2025/08/0P0A0606.jpg",
+        "exists": true
+      },
+      {
+        "id": 10850,
+        "file": "2025/08/0P0A0344.jpg",
+        "exists": true
+      },
+      {
+        "id": 10851,
+        "file": "2025/08/0P0A0348.jpg",
+        "exists": true
+      },
+      {
+        "id": 10856,
+        "file": "2025/08/0P0A0613.jpg",
+        "exists": true
+      },
+      {
+        "id": 10862,
+        "file": "2025/08/0P0A0382.jpg",
+        "exists": true
+      },
+      {
+        "id": 10860,
+        "file": "2025/08/0P0A0370-e1755576806527.jpg",
+        "exists": true
+      },
+      {
+        "id": 10867,
+        "file": "2025/08/0P0A0429.jpg",
+        "exists": true
+      },
+      {
+        "id": 10863,
+        "file": "2025/08/0P0A0392.jpg",
+        "exists": true
+      },
+      {
+        "id": 10864,
+        "file": "2025/08/0P0A0399-e1755577030246.jpg",
+        "exists": true
+      },
+      {
+        "id": 10852,
+        "file": "2025/08/0P0A0358.jpg",
+        "exists": true
+      },
+      {
+        "id": 10871,
+        "file": "2025/08/0P0A0531.jpg",
+        "exists": true
+      },
+      {
+        "id": 10859,
+        "file": "2025/08/0P0A0677-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10869,
+        "file": "2025/08/0P0A0481.jpg",
+        "exists": true
+      },
+      {
+        "id": 10868,
+        "file": "2025/08/0P0A0460.jpg",
+        "exists": true
+      },
+      {
+        "id": 10854,
+        "file": "2025/08/0P0A0588.jpg",
+        "exists": true
+      },
+      {
+        "id": 10870,
+        "file": "2025/08/0P0A0498-e1755576364377.jpg",
+        "exists": true
+      },
+      {
+        "id": 10866,
+        "file": "2025/08/0P0A0419.jpg",
+        "exists": true
+      },
+      {
+        "id": 10873,
+        "file": "2025/08/0P0A0552.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 9618,
+    "title": "여주 강천 강산재 세컨하우스",
+    "wp_total": 21,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 1,
+    "resolved": [
+      {
+        "id": 9663,
+        "file": "2025/07/1-3-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9665,
+        "file": "2025/07/0P0A1489-1-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9662,
+        "file": "2025/07/0P0A1486-4-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 9639,
+        "file": "2025/07/0P0A1393.jpg",
+        "exists": true
+      },
+      {
+        "id": 9638,
+        "file": "2025/07/0P0A1384.jpg",
+        "exists": true
+      },
+      {
+        "id": 9654,
+        "file": "2025/07/0P0A1456.jpg",
+        "exists": true
+      },
+      {
+        "id": 9660,
+        "file": "2025/07/0P0A1452-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 9641,
+        "file": "2025/07/0P0A1400.jpg",
+        "exists": true
+      },
+      {
+        "id": 9645,
+        "file": "2025/07/0P0A1428.jpg",
+        "exists": true
+      },
+      {
+        "id": 9643,
+        "file": "2025/07/0P0A1409.jpg",
+        "exists": true
+      },
+      {
+        "id": 9642,
+        "file": "2025/07/0P0A1405.jpg",
+        "exists": true
+      },
+      {
+        "id": 9644,
+        "file": "2025/07/0P0A1412.jpg",
+        "exists": true
+      },
+      {
+        "id": 9648,
+        "file": "2025/07/0P0A1438.jpg",
+        "exists": true
+      },
+      {
+        "id": 9647,
+        "file": "2025/07/0P0A1436.jpg",
+        "exists": true
+      },
+      {
+        "id": 9637,
+        "file": "2025/07/0P0A1469.jpg",
+        "exists": true
+      },
+      {
+        "id": 9636,
+        "file": "2025/07/0P0A1463.jpg",
+        "exists": true
+      },
+      {
+        "id": 9635,
+        "file": "2025/07/0P0A1459.jpg",
+        "exists": true
+      },
+      {
+        "id": 9651,
+        "file": "2025/07/0P0A1447.jpg",
+        "exists": true
+      },
+      {
+        "id": 9669,
+        "file": "2025/07/0P0A1440-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 9652,
+        "file": "2025/07/0P0A1449.jpg",
+        "exists": true
+      },
+      {
+        "id": 9640,
+        "file": "2025/07/0P0A1395.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10629,
+    "title": "남양주 마음농장 펜션",
+    "wp_total": 21,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 1,
+    "resolved": [
+      {
+        "id": 10648,
+        "file": "2025/08/0P0A0688-e1755143836952.jpg",
+        "exists": true
+      },
+      {
+        "id": 10650,
+        "file": "2025/08/DJI_0144.jpg",
+        "exists": true
+      },
+      {
+        "id": 10653,
+        "file": "2025/08/DSC01134-e1755143658804.jpg",
+        "exists": true
+      },
+      {
+        "id": 10647,
+        "file": "2025/08/0P0A0682-e1755143744150.jpg",
+        "exists": true
+      },
+      {
+        "id": 10655,
+        "file": "2025/08/DJI_0151-e1755143884738.jpg",
+        "exists": true
+      },
+      {
+        "id": 10649,
+        "file": "2025/08/0P0A0723-e1755144002798.jpg",
+        "exists": true
+      },
+      {
+        "id": 10642,
+        "file": "2025/08/0P0A0513-e1755142695948.jpg",
+        "exists": true
+      },
+      {
+        "id": 10635,
+        "file": "2025/08/0P0A0573.jpg",
+        "exists": true
+      },
+      {
+        "id": 10633,
+        "file": "2025/08/0P0A0569.jpg",
+        "exists": true
+      },
+      {
+        "id": 10636,
+        "file": "2025/08/0P0A0583-e1755142895602.jpg",
+        "exists": true
+      },
+      {
+        "id": 10638,
+        "file": "2025/08/0P0A0593-e1755142935617.jpg",
+        "exists": true
+      },
+      {
+        "id": 10639,
+        "file": "2025/08/0P0A0595.jpg",
+        "exists": true
+      },
+      {
+        "id": 10640,
+        "file": "2025/08/0P0A0609.jpg",
+        "exists": true
+      },
+      {
+        "id": 10634,
+        "file": "2025/08/0P0A0572-e1755143272569.jpg",
+        "exists": true
+      },
+      {
+        "id": 10637,
+        "file": "2025/08/0P0A0584.jpg",
+        "exists": true
+      },
+      {
+        "id": 10645,
+        "file": "2025/08/0P0A0534.jpg",
+        "exists": true
+      },
+      {
+        "id": 10646,
+        "file": "2025/08/0P0A0550.jpg",
+        "exists": true
+      },
+      {
+        "id": 10644,
+        "file": "2025/08/0P0A0529.jpg",
+        "exists": true
+      },
+      {
+        "id": 10643,
+        "file": "2025/08/0P0A0527.jpg",
+        "exists": true
+      },
+      {
+        "id": 10641,
+        "file": "2025/08/0P0A0642-e1755143335946.jpg",
+        "exists": true
+      },
+      {
+        "id": 10632,
+        "file": "2025/08/0P0A0561.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10954,
+    "title": "여주 세컨하우스",
+    "wp_total": 21,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": 1,
+    "resolved": [
+      {
+        "id": 10979,
+        "file": "2025/08/DJI_0790-scaled-e1755662599629.jpg",
+        "exists": true
+      },
+      {
+        "id": 10980,
+        "file": "2025/08/DJI_0795.jpg",
+        "exists": true
+      },
+      {
+        "id": 10977,
+        "file": "2025/08/1-5-e1755662096915.jpg",
+        "exists": true
+      },
+      {
+        "id": 10983,
+        "file": "2025/08/0P0A9466-e1755662043219.jpg",
+        "exists": true
+      },
+      {
+        "id": 10975,
+        "file": "2025/08/DJI_0812-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10976,
+        "file": "2025/08/DSC08915-scaled-e1755662810170.jpg",
+        "exists": true
+      },
+      {
+        "id": 10955,
+        "file": "2025/08/0P0A9451.jpg",
+        "exists": true
+      },
+      {
+        "id": 10956,
+        "file": "2025/08/0P0A9452.jpg",
+        "exists": true
+      },
+      {
+        "id": 10957,
+        "file": "2025/08/0P0A9453.jpg",
+        "exists": true
+      },
+      {
+        "id": 10958,
+        "file": "2025/08/0P0A9457.jpg",
+        "exists": true
+      },
+      {
+        "id": 10959,
+        "file": "2025/08/0P0A9484.jpg",
+        "exists": true
+      },
+      {
+        "id": 10963,
+        "file": "2025/08/0P0A9509.jpg",
+        "exists": true
+      },
+      {
+        "id": 10962,
+        "file": "2025/08/0P0A9502.jpg",
+        "exists": true
+      },
+      {
+        "id": 10960,
+        "file": "2025/08/0P0A9489.jpg",
+        "exists": true
+      },
+      {
+        "id": 10961,
+        "file": "2025/08/0P0A9494.jpg",
+        "exists": true
+      },
+      {
+        "id": 10964,
+        "file": "2025/08/0P0A9515.jpg",
+        "exists": true
+      },
+      {
+        "id": 10965,
+        "file": "2025/08/0P0A9527.jpg",
+        "exists": true
+      },
+      {
+        "id": 10966,
+        "file": "2025/08/0P0A9528.jpg",
+        "exists": true
+      },
+      {
+        "id": 10967,
+        "file": "2025/08/0P0A9497-e1755663132479.jpg",
+        "exists": true
+      },
+      {
+        "id": 10968,
+        "file": "2025/08/0P0A9474.jpg",
+        "exists": true
+      },
+      {
+        "id": 10969,
+        "file": "2025/08/0P0A9501.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10822,
+    "title": "서산 파란산책  경형타입",
+    "wp_total": 12,
+    "wp_missing": 0,
+    "current_total": 12,
+    "diff": 0,
+    "resolved": [
+      {
+        "id": 10836,
+        "file": "2025/08/0P0A1918-Edit-2-e1755503114486.jpg",
+        "exists": true
+      },
+      {
+        "id": 10843,
+        "file": "2025/08/KakaoTalk_20230927_090348022_01-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10837,
+        "file": "2025/08/0P0A1922-Edit-2-e1755502871915.jpg",
+        "exists": true
+      },
+      {
+        "id": 10823,
+        "file": "2025/08/0P0A1945-2-e1755502563460.jpg",
+        "exists": true
+      },
+      {
+        "id": 10824,
+        "file": "2025/08/0P0A1937.jpg",
+        "exists": true
+      },
+      {
+        "id": 10825,
+        "file": "2025/08/0P0A1972.jpg",
+        "exists": true
+      },
+      {
+        "id": 10826,
+        "file": "2025/08/0P0A2003.jpg",
+        "exists": true
+      },
+      {
+        "id": 10827,
+        "file": "2025/08/0P0A0677.jpg",
+        "exists": true
+      },
+      {
+        "id": 10828,
+        "file": "2025/08/0P0A2044.jpg",
+        "exists": true
+      },
+      {
+        "id": 10829,
+        "file": "2025/08/0P0A2014-e1755502709731.jpg",
+        "exists": true
+      },
+      {
+        "id": 10830,
+        "file": "2025/08/0P0A1983.jpg",
+        "exists": true
+      },
+      {
+        "id": 10831,
+        "file": "2025/08/0P0A2071.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10909,
+    "title": "이천 포미에르 office type",
+    "wp_total": 15,
+    "wp_missing": 0,
+    "current_total": 15,
+    "diff": 0,
+    "resolved": [
+      {
+        "id": 10919,
+        "file": "2025/08/1-2-1-e1755582577880.jpg",
+        "exists": true
+      },
+      {
+        "id": 10920,
+        "file": "2025/08/이천포미에르2-2-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10921,
+        "file": "2025/08/4-Edit-2-e1755582654358.jpg",
+        "exists": true
+      },
+      {
+        "id": 10922,
+        "file": "2025/08/10-Edit-2-e1755582741650.jpg",
+        "exists": true
+      },
+      {
+        "id": 10924,
+        "file": "2025/08/이천포미에르12-2-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10923,
+        "file": "2025/08/38-3-e1755582219395.jpg",
+        "exists": true
+      },
+      {
+        "id": 10910,
+        "file": "2025/08/20250424_093927.jpg",
+        "exists": true
+      },
+      {
+        "id": 10911,
+        "file": "2025/08/20250424_094155.jpg",
+        "exists": true
+      },
+      {
+        "id": 10913,
+        "file": "2025/08/20250405_145004.jpg",
+        "exists": true
+      },
+      {
+        "id": 10914,
+        "file": "2025/08/20250405_145236.jpg",
+        "exists": true
+      },
+      {
+        "id": 10917,
+        "file": "2025/08/20250405_145203.jpg",
+        "exists": true
+      },
+      {
+        "id": 10918,
+        "file": "2025/08/20250424_093632-e1755582919623.jpg",
+        "exists": true
+      },
+      {
+        "id": 10912,
+        "file": "2025/08/20250424_093627.jpg",
+        "exists": true
+      },
+      {
+        "id": 10915,
+        "file": "2025/08/20250405_145347-e1755582988112.jpg",
+        "exists": true
+      },
+      {
+        "id": 10916,
+        "file": "2025/08/20250424_093826-e1755583227350.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10929,
+    "title": "여주 반려동물 주택단지",
+    "wp_total": 18,
+    "wp_missing": 0,
+    "current_total": 18,
+    "diff": 0,
+    "resolved": [
+      {
+        "id": 10946,
+        "file": "2025/08/0P0A7663-3-scaled-e1755588618452.jpg",
+        "exists": true
+      },
+      {
+        "id": 10947,
+        "file": "2025/08/0P0A7666-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10948,
+        "file": "2025/08/0P0A7662-e1755588811204.jpg",
+        "exists": true
+      },
+      {
+        "id": 10933,
+        "file": "2025/08/0P0A7591-e1755589377193.jpg",
+        "exists": true
+      },
+      {
+        "id": 10931,
+        "file": "2025/08/0P0A7587-e1755589194849.jpg",
+        "exists": true
+      },
+      {
+        "id": 10932,
+        "file": "2025/08/0P0A7588-e1755589506168.jpg",
+        "exists": true
+      },
+      {
+        "id": 10935,
+        "file": "2025/08/0P0A7585.jpg",
+        "exists": true
+      },
+      {
+        "id": 10934,
+        "file": "2025/08/0P0A7596.jpg",
+        "exists": true
+      },
+      {
+        "id": 10939,
+        "file": "2025/08/0P0A7633.jpg",
+        "exists": true
+      },
+      {
+        "id": 10937,
+        "file": "2025/08/0P0A7624-e1755590073992.jpg",
+        "exists": true
+      },
+      {
+        "id": 10938,
+        "file": "2025/08/0P0A7614-e1755590166274.jpg",
+        "exists": true
+      },
+      {
+        "id": 10942,
+        "file": "2025/08/0P0A7630-2-e1755590262893.jpg",
+        "exists": true
+      },
+      {
+        "id": 10944,
+        "file": "2025/08/0P0A7643-2-e1755590607736.jpg",
+        "exists": true
+      },
+      {
+        "id": 10943,
+        "file": "2025/08/0P0A7642-2-e1755590394306.jpg",
+        "exists": true
+      },
+      {
+        "id": 10940,
+        "file": "2025/08/0P0A7651.jpg",
+        "exists": true
+      },
+      {
+        "id": 10936,
+        "file": "2025/08/0P0A7610-e1755589662417.jpg",
+        "exists": true
+      },
+      {
+        "id": 10941,
+        "file": "2025/08/0P0A7635.jpg",
+        "exists": true
+      },
+      {
+        "id": 10945,
+        "file": "2025/08/0P0A7612-2.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10231,
+    "title": "포천 품잇 상가 주택",
+    "wp_total": 18,
+    "wp_missing": 0,
+    "current_total": 19,
+    "diff": -1,
+    "resolved": [
+      {
+        "id": 10261,
+        "file": "2025/08/2-2-2-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10256,
+        "file": "2025/08/외관-3-scaled.jpg",
+        "exists": true
+      },
+      {
+        "id": 10260,
+        "file": "2025/08/KakaoTalk_20230923_194119562_06-3-e1754612050621.jpg",
+        "exists": true
+      },
+      {
+        "id": 10259,
+        "file": "2025/08/KakaoTalk_20230923_194119562_13-2-e1754612254592.jpg",
+        "exists": true
+      },
+      {
+        "id": 10257,
+        "file": "2025/08/KakaoTalk_20230923_194119562_19.jpg",
+        "exists": true
+      },
+      {
+        "id": 10258,
+        "file": "2025/08/KakaoTalk_20230923_194119562_17.jpg",
+        "exists": true
+      },
+      {
+        "id": 10244,
+        "file": "2025/08/KakaoTalk_20230923_194119562_04-e1754612644606.jpg",
+        "exists": true
+      },
+      {
+        "id": 10252,
+        "file": "2025/08/KakaoTalk_20230923_194119562_14-e1754612788313.jpg",
+        "exists": true
+      },
+      {
+        "id": 10247,
+        "file": "2025/08/KakaoTalk_20230923_194119562_08-e1754612853838.jpg",
+        "exists": true
+      },
+      {
+        "id": 10246,
+        "file": "2025/08/KakaoTalk_20230923_194119562_07.jpg",
+        "exists": true
+      },
+      {
+        "id": 10248,
+        "file": "2025/08/KakaoTalk_20230923_194119562_09-e1754612964954.jpg",
+        "exists": true
+      },
+      {
+        "id": 10249,
+        "file": "2025/08/KakaoTalk_20230923_194119562_10-e1754613122113.jpg",
+        "exists": true
+      },
+      {
+        "id": 10245,
+        "file": "2025/08/KakaoTalk_20230923_194119562_05-e1754613230463.jpg",
+        "exists": true
+      },
+      {
+        "id": 10250,
+        "file": "2025/08/KakaoTalk_20230923_194119562_11.jpg",
+        "exists": true
+      },
+      {
+        "id": 10251,
+        "file": "2025/08/KakaoTalk_20230923_194119562_12-e1754613175765.jpg",
+        "exists": true
+      },
+      {
+        "id": 10254,
+        "file": "2025/08/KakaoTalk_20230923_194119562_18.jpg",
+        "exists": true
+      },
+      {
+        "id": 10255,
+        "file": "2025/08/KakaoTalk_20230923_194119562_21-e1754613352985.jpg",
+        "exists": true
+      },
+      {
+        "id": 10253,
+        "file": "2025/08/KakaoTalk_20230923_194119562_15-e1754613473314.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10346,
+    "title": "아산 티아라 카페",
+    "wp_total": 18,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": -2,
+    "resolved": [
+      {
+        "id": 10364,
+        "file": "2025/08/2-5-e1754628955473.jpg",
+        "exists": true
+      },
+      {
+        "id": 10365,
+        "file": "2025/08/6-2-e1754629056577.jpg",
+        "exists": true
+      },
+      {
+        "id": 10367,
+        "file": "2025/08/50-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10362,
+        "file": "2025/08/3-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10366,
+        "file": "2025/08/49-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10368,
+        "file": "2025/08/11-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10347,
+        "file": "2025/08/13-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10348,
+        "file": "2025/08/14.jpg",
+        "exists": true
+      },
+      {
+        "id": 10351,
+        "file": "2025/08/27-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10352,
+        "file": "2025/08/28-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10353,
+        "file": "2025/08/29-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10354,
+        "file": "2025/08/30-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10355,
+        "file": "2025/08/34-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10356,
+        "file": "2025/08/35.jpg",
+        "exists": true
+      },
+      {
+        "id": 10357,
+        "file": "2025/08/38-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10359,
+        "file": "2025/08/43.jpg",
+        "exists": true
+      },
+      {
+        "id": 10350,
+        "file": "2025/08/21-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10358,
+        "file": "2025/08/42-1.jpg",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": 10594,
+    "title": "포천 담화재 카페",
+    "wp_total": 18,
+    "wp_missing": 0,
+    "current_total": 20,
+    "diff": -2,
+    "resolved": [
+      {
+        "id": 10619,
+        "file": "2025/08/0P0A8334.jpg",
+        "exists": true
+      },
+      {
+        "id": 10613,
+        "file": "2025/08/한옥카페5-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10612,
+        "file": "2025/08/0P0A8599.jpg",
+        "exists": true
+      },
+      {
+        "id": 10617,
+        "file": "2025/08/0P0A8326-1.jpg",
+        "exists": true
+      },
+      {
+        "id": 10610,
+        "file": "2025/08/0P0A8321-3.jpg",
+        "exists": true
+      },
+      {
+        "id": 10611,
+        "file": "2025/08/0P0A8322-2.jpg",
+        "exists": true
+      },
+      {
+        "id": 10618,
+        "file": "2025/08/0P0A8366.jpg",
+        "exists": true
+      },
+      {
+        "id": 10614,
+        "file": "2025/08/0P0A8466.jpg",
+        "exists": true
+      },
+      {
+        "id": 10615,
+        "file": "2025/08/0P0A8500.jpg",
+        "exists": true
+      },
+      {
+        "id": 10601,
+        "file": "2025/08/0P0A8474.jpg",
+        "exists": true
+      },
+      {
+        "id": 10603,
+        "file": "2025/08/0P0A9154.jpg",
+        "exists": true
+      },
+      {
+        "id": 10595,
+        "file": "2025/08/0P0A9169.jpg",
+        "exists": true
+      },
+      {
+        "id": 10598,
+        "file": "2025/08/0P0A8362.jpg",
+        "exists": true
+      },
+      {
+        "id": 10599,
+        "file": "2025/08/0P0A8372.jpg",
+        "exists": true
+      },
+      {
+        "id": 10600,
+        "file": "2025/08/0P0A8376.jpg",
+        "exists": true
+      },
+      {
+        "id": 10605,
+        "file": "2025/08/0P0A9165.jpg",
+        "exists": true
+      },
+      {
+        "id": 10606,
+        "file": "2025/08/0P0A9168.jpg",
+        "exists": true
+      },
+      {
+        "id": 10597,
+        "file": "2025/08/0P0A9422.jpg",
+        "exists": true
+      }
+    ]
+  }
+]

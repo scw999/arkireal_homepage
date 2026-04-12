@@ -74,12 +74,64 @@
 
 ---
 
+## 로컬 실행
+
+```
+npm install
+npm run dev
+```
+
+개발 서버는 http://localhost:3000 에서 실행됩니다.
+
+---
+
+## 프로젝트 구조
+
+```
+app/
+  layout.tsx              글로벌 레이아웃 (Header/Footer)
+  page.tsx                홈 (Hero → 포지셔닝 → 불안 → 해결 → 준비 → 프로젝트 → 신뢰 → CTA)
+  projects/
+    page.tsx              프로젝트 목록 (카테고리 필터)
+    [slug]/page.tsx       프로젝트 상세 (v1 간소화 버전)
+  about/page.tsx          회사소개 + 4가지 원칙 + 회사 정보
+  contact/page.tsx        상담문의 폼 + 직통 연락
+components/
+  SiteHeader.tsx
+  SiteFooter.tsx
+  SectionHeader.tsx
+  ProjectCard.tsx
+lib/
+  company.ts              회사 정보 (면허/주소/연락처)
+  projects.ts             프로젝트 로더 (소스 무관 API)
+  projectMapper.ts        raw → Project 매퍼
+  wordpress.ts            v2용 REST API 로더 (스텁)
+  types.ts                Project / Hero 타입 정의
+data/
+  projects.json           프로젝트 데이터 (WordPress에서 추출 + 큐레이션)
+  sections.json           홈 섹션 데이터 (레거시)
+public/images/projects/   실제 WordPress 업로드에서 복사한 프로젝트 이미지
+```
+
+---
+
 ## 프로젝트 데이터
 
-초기에는 mock 데이터 기반으로 구현합니다.
+1차 구축에서는 로컬 JSON (`data/projects.json`)을 소스로 사용합니다.
+UI는 `lib/projects.ts`를 통해 접근하므로 데이터 소스가 바뀌어도 UI는 동일합니다.
 
-예시 파일:
-- `data/projects.json`
+### 실제 데이터 추출 결과
+
+`C:\Users\scw99\work\arkireal_homepage\wordpress_content\buildtree.sql`의
+WordPress SQL 덤프를 파싱해 다음을 확인했습니다.
+
+- post_type: `portfolio-item` (hiroshi-core 플러그인)
+- publish 상태 포트폴리오: 134개 (데모 포함)
+- 한국어 제목 실제 프로젝트: 33개
+- 큐레이션 대상 10개 프로젝트의 실제 대표 이미지 + 갤러리 이미지를 `public/images/projects/{slug}/` 경로로 복사 완료
+
+본문 텍스트는 `content.md`의 금지 표현과 톤 규칙에 맞춰 이미 큐레이션된 `data/projects.json`을 유지했습니다.
+(WordPress 본문에는 "럭셔리", "꿈의", "모던" 등 금지 표현이 포함되어 있어 그대로 쓰지 않았습니다.)
 
 프로젝트 데이터 구조 예시:
 
