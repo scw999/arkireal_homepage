@@ -21,11 +21,14 @@ export type Project = {
   summary: string;
   description: string;
   featuredImage: string;
+  featuredImageOrientation: 'landscape' | 'portrait';
   gallery: string[];
   photos: Photo[];
   plans: Plan[];
   matterportIds: string[];
   videoIds: string[];
+  designVideoIds: string[];
+  completionVideoIds: string[];
   keyPoints: string[];
   year: string;
   scope: string;

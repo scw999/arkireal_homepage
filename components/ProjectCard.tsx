@@ -7,7 +7,9 @@ export function ProjectCard({ project }: { project: Project }) {
       href={`/projects/${project.slug}`}
       className="group flex flex-col overflow-hidden bg-white transition"
     >
-      <div className="relative aspect-[3/2] w-full overflow-hidden bg-paper-card">
+      <div className={`relative w-full overflow-hidden bg-paper-card ${
+        project.featuredImageOrientation === 'portrait' ? 'aspect-[3/4]' : 'aspect-[3/2]'
+      }`}>
         <div
           className="absolute inset-0 bg-cover bg-center transition duration-[600ms] group-hover:scale-[1.03]"
           style={{ backgroundImage: `url(${project.featuredImage})` }}

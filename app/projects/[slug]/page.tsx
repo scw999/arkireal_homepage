@@ -44,7 +44,8 @@ export default async function ProjectDetailPage({
   ];
 
   const hasMatterport = project.matterportIds.length > 0;
-  const hasVideo = project.videoIds.length > 0;
+  const hasDesignVideo = project.designVideoIds.length > 0;
+  const hasCompletionVideo = project.completionVideoIds.length > 0;
   const hasPlans = project.plans.length > 0;
   const hasPhotos = project.photos.length > 0;
 
@@ -218,32 +219,59 @@ export default async function ProjectDetailPage({
         </section>
       ) : null}
 
-      {/* Video */}
-      {hasVideo ? (
+      {/* 3D 설계 영상 */}
+      {hasDesignVideo ? (
         <section className="border-b border-paper-line">
           <div className="container-page py-16 md:py-24">
             <div className="mb-10">
               <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                드론 · 현장 영상
+                3D 설계 영상
               </h2>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2">
-              {project.videoIds.map((id, i) => (
+            <div className="space-y-6">
+              {project.designVideoIds.map((id, i) => (
                 <figure key={id} className="space-y-2">
-                  <div className="relative aspect-video w-full overflow-hidden border border-paper-line bg-paper-card">
+                  <div className="relative aspect-video w-full overflow-hidden bg-black">
                     <iframe
-                      title={`${project.title} 영상 ${i + 1}`}
-                      src={`https://www.youtube.com/embed/${id}?rel=0`}
-                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      title={`${project.title} 설계 영상 ${i + 1}`}
+                      src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                       loading="lazy"
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <figcaption className="text-[11px] font-medium tracking-[0.04em] text-ink-subtle">
-                    영상 {i + 1}
-                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {/* 완공 영상 */}
+      {hasCompletionVideo ? (
+        <section className="border-b border-paper-line">
+          <div className="container-page py-16 md:py-24">
+            <div className="mb-10">
+              <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
+                완공 영상
+              </h2>
+            </div>
+
+            <div className="space-y-6">
+              {project.completionVideoIds.map((id, i) => (
+                <figure key={id} className="space-y-2">
+                  <div className="relative aspect-video w-full overflow-hidden bg-black">
+                    <iframe
+                      title={`${project.title} 완공 영상 ${i + 1}`}
+                      src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      loading="lazy"
+                      className="absolute inset-0 h-full w-full"
+                    />
+                  </div>
                 </figure>
               ))}
             </div>
