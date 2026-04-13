@@ -52,7 +52,7 @@ export function DesignToReality() {
         {/* 3D design vs actual build comparison — full width */}
         <div className="mt-12 aspect-video w-full overflow-hidden bg-black">
           <iframe
-            src="https://www.youtube-nocookie.com/embed/pZ-Q6uQaud4?rel=0&modestbranding=1"
+            src="https://www.youtube.com/embed/pZ-Q6uQaud4?rel=0&modestbranding=1"
             title="3D 디자인 vs 실제 시공 비교"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

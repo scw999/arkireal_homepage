@@ -29,12 +29,12 @@ export async function YouTubeShowcase() {
           </a>
         </div>
 
-        <div className="mt-14 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-x-6 gap-y-10 sm:grid-cols-2">
           {videos.map((video) => (
             <div key={video.id}>
               <div className="aspect-video w-full overflow-hidden bg-paper-card">
                 <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${video.id}?rel=0&modestbranding=1`}
+                  src={`https://www.youtube.com/embed/${video.id}?rel=0&modestbranding=1`}
                   title={video.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

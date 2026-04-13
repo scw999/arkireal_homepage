@@ -52,7 +52,8 @@ export function Lightbox({ items, index, onClose, onChange }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/92 p-4 md:p-10"
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10"
+      style={{ backgroundColor: 'rgba(0,0,0,0.92)' }}
       onClick={onClose}
       role="dialog"
       aria-modal="true"
