@@ -2,53 +2,55 @@ import Link from 'next/link';
 import { ProjectCard } from '@/components/ProjectCard';
 import { HeroShowcase } from '@/components/HeroShowcase';
 import { ImageBand } from '@/components/ImageBand';
+import { DesignToReality } from '@/components/DesignToReality';
+import { YouTubeShowcase } from '@/components/YouTubeShowcase';
 import { getAllProjects } from '@/lib/projects';
 import { company } from '@/lib/company';
 
 const painPoints = [
   {
-    title: '이 땅에 정말 지을 수 있을까',
-    body: '법규, 인허가, 지반, 진입로 — 시작 전에 확인할 게 생각보다 많습니다.',
+    title: '건축 자금이 부족합니다',
+    body: '땅을 사고 건물까지 올리려면 현금이 많이 필요합니다. 토지 담보 대출과 건축자금 대출(기성고 대출)로 해결할 수 있도록 안내해 드립니다.',
+  },
+  {
+    title: '좋은 땅을 찾기 어렵습니다',
+    body: '짓고 싶은 건물에 맞는 땅인지, 건축법·용적률·건폐율은 괜찮은지 — 입지와 가격 조건에 맞는 토지를 함께 찾아드립니다.',
   },
   {
     title: '도면만 봐서는 결과가 잘 안 그려집니다',
-    body: '평면도와 입면도만으로 공간감이나 분위기를 상상하기는 쉽지 않습니다.',
+    body: '평면도와 입면도만으로 공간감을 상상하기 어렵습니다. 3D 모델링, VR 투어, 드론 합성으로 미리 지어진 건물을 체험할 수 있습니다.',
   },
   {
-    title: '공사 중에 금액이 바뀔까 불안합니다',
-    body: '자재가 달라지거나 추가금이 생기는 건 건축주 입장에서 제일 속상한 부분입니다.',
-  },
-  {
-    title: '설계한 대로 진짜 지어질까요',
-    body: '도면과 현장 사이의 작은 차이가 결과를 크게 바꾸기도 합니다.',
+    title: '큰돈 들여 시공 맡기기 불안합니다',
+    body: '이행보증서 발행, 설계 단계의 상세 견적으로 추가금 방지, 하자이행보증서까지 — 면허 업체로서 끝까지 책임집니다.',
   },
 ];
 
 const solutions = [
   {
     step: '01',
-    title: '부지부터 먼저 봅니다',
-    body: '설계에 들어가기 전에 법적 조건, 인허가, 지반, 진입로까지 함께 살핍니다.',
+    title: '자금 계획부터 함께 잡습니다',
+    body: '토지 담보 대출, 건축자금 대출(기성고 대출)까지 자금 흐름을 미리 설계하여 무리 없이 진행할 수 있도록 도와드립니다.',
   },
   {
     step: '02',
-    title: '완성된 모습을 먼저 보여드립니다',
-    body: '3D 모델과 Matterport 가상 투어로, 완성 후의 공간을 미리 걸어볼 수 있습니다.',
+    title: '조건에 맞는 부지를 함께 찾습니다',
+    body: '건축법, 용적률, 건폐율, 입지, 가격 — 짓고 싶은 건물에 맞는 땅을 함께 검토하고 소개해 드립니다.',
   },
   {
     step: '03',
-    title: '자재와 마감은 견적 단계에서 정합니다',
-    body: '나중에 바뀔 수 있는 부분을 처음부터 같이 정해두면, 추가금이 생길 일이 줄어듭니다.',
+    title: '완성된 모습을 먼저 보여드립니다',
+    body: 'BIM 설계와 3D 모델링, VR 시뮬레이션 투어, 드론 합성으로 완성 후의 건물을 미리 걸어보실 수 있습니다.',
   },
   {
     step: '04',
-    title: '설계자가 시공 현장까지 함께합니다',
-    body: '도면을 그린 사람이 현장에 계속 있으니, 처음 설계한 의도가 끝까지 흐트러지지 않습니다.',
+    title: '자재와 마감은 견적 단계에서 정합니다',
+    body: '인테리어 시트와 자재배치도를 만들고, 이를 기반으로 상세 견적을 내기 때문에 추가금이 발생할 수 없습니다.',
   },
   {
     step: '05',
-    title: '회사 정보와 진행 과정을 숨기지 않습니다',
-    body: '면허, 사업자 정보, 실제 사례까지 모두 열어둡니다. 말보다는 보여드리는 게 맞다고 생각합니다.',
+    title: '설계자가 시공 현장까지 함께합니다',
+    body: '법적 감리 외에 설계자가 직접 현장에서 디자인 감리를 하며, 시공 과정을 공개하여 투명하게 진행합니다.',
   },
 ];
 
@@ -58,16 +60,24 @@ const capabilities = [
     body: '2D 도면으로는 잘 보이지 않는 간섭과 오류를 시공 전에 미리 잡습니다.',
   },
   {
-    title: '3D · VR · Matterport',
-    body: '마감재, 채광, 동선을 시공 전에 눈으로 직접 확인할 수 있습니다.',
+    title: '3D 모델링 · VR 투어',
+    body: '스케치업으로 공간을 만들고, VR 시뮬레이션으로 미리 지어질 건물에서 살아볼 수 있습니다.',
   },
   {
-    title: '자재와 마감 사전 확정',
-    body: '견적을 낼 때 자재와 마감까지 함께 정합니다. 덕분에 현장에서 바뀔 일이 줄어듭니다.',
+    title: '드론 합성 · 3D 프린터',
+    body: '토지를 드론으로 촬영해 건물을 합성하고, 필요시 3D 프린터로 건물 모형을 제작합니다.',
   },
   {
-    title: '설계 감리 동행',
-    body: '설계자가 시공 현장까지 함께합니다. 처음 설계한 의도가 결과까지 그대로 전달됩니다.',
+    title: '자재 시뮬레이션 · 상세 견적',
+    body: '인테리어 자재를 실제로 배치한 3D 영상을 만들고, 이를 기반으로 정확한 견적을 냅니다.',
+  },
+  {
+    title: '디자인 감리 · 과정 공개',
+    body: '설계자가 현장에서 직접 감리하고, 시공 과정을 남기고 공개하여 투명하게 진행합니다.',
+  },
+  {
+    title: '브랜딩 · 로고 디자인',
+    body: '건물에 맞는 이름, 로고, 캐릭터 디자인을 통해 건물의 브랜드 가치를 높여드립니다.',
   },
 ];
 
@@ -113,9 +123,6 @@ export default function HomePage() {
   const solutionsPhoto =
     bySlug('okcheon-maple-mixed-use')?.gallery[0] || '';
   const band2 = bySlug('asan-aureum-complex')?.gallery[0] || '';
-  const capabilitiesPhoto =
-    bySlug('pocheon-damhwajae-cafe')?.gallery[0] || '';
-
   return (
     <>
       <HeroShowcase videoId="6VyuYGZ7h7w" posterImage={heroPoster} />
@@ -157,18 +164,19 @@ export default function HomePage() {
           <div className="grid gap-14 md:grid-cols-[0.95fr_1.05fr] md:items-center">
             <div>
               <h2 className="text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
-                설계대로 지어지도록,
+                자금·토지·설계·시공까지,
                 <br />
                 한 팀이 끝까지 맡습니다.
               </h2>
               <div className="mt-8 space-y-5 text-[15px] leading-[1.95] text-ink-soft md:text-[1.0625rem]">
                 <p>
-                  설계팀과 시공팀이 같은 팀입니다. 단계마다 회사가 바뀌지 않으니, 처음 잡은
-                  설계 의도가 시공 현장까지 그대로 이어집니다.
+                  상가, 주택, 펜션 등 목적에 정확히 부합하는 건물을 짓기 위해 입지 분석부터
+                  자금 계획, BIM 설계, 3D·VR 시뮬레이션, 시공, 디자인 감리, 브랜딩까지
+                  한 흐름으로 진행합니다.
                 </p>
                 <p>
-                  짓기 전에 한 번 더 꼼꼼히 확인하고, 짓는 동안 한 번 더 들여다봅니다.
-                  아키리얼이 가장 힘을 쏟는 부분입니다.
+                  단계마다 회사가 바뀌지 않으니, 처음 잡은 설계 의도가 시공 현장까지
+                  그대로 이어집니다. 아키리얼이 가장 힘을 쏟는 부분입니다.
                 </p>
               </div>
 
@@ -212,11 +220,11 @@ export default function HomePage() {
         <div className="container-page py-20 md:py-28">
           <div className="max-w-3xl">
             <h2 className="text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
-              건축주가 가장 먼저 꺼내는 걱정
+              건물주가 되고 싶은데, 이런 걱정이 있습니다
             </h2>
             <p className="mt-5 text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
-              큰 결정을 앞두면 누구나 같은 걱정을 하십니다. 아키리얼은 그 걱정부터 같이
-              풀어가려 합니다.
+              자금부터 토지, 설계, 시공까지 — 큰 결정을 앞두면 누구나 같은 걱정을 합니다.
+              아키리얼은 그 걱정을 하나씩 풀어드립니다.
             </p>
           </div>
 
@@ -245,11 +253,11 @@ export default function HomePage() {
           <div className="grid gap-12 md:grid-cols-[1.15fr_0.85fr] md:gap-16">
             <div>
               <h2 className="text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
-                아키리얼은 이렇게 풀어갑니다
+                우리는 이렇게 건축의 문제를 해결합니다
               </h2>
               <p className="mt-5 max-w-xl text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
-                앞에서 이야기한 걱정에 대한 다섯 가지 답입니다. 말뿐인 약속이 아니라,
-                모든 프로젝트에서 실제로 진행하는 순서입니다.
+                자금 계획부터 토지 소개, 3D 설계, 상세 견적, 디자인 감리까지 — 말뿐인
+                약속이 아니라 모든 프로젝트에서 실제로 진행하는 순서입니다.
               </p>
 
               <ol className="mt-12 space-y-8">
@@ -286,43 +294,41 @@ export default function HomePage() {
       {/* Palette-cleanser band 2 */}
       {band2 ? <ImageBand image={band2} heightClass="h-64 md:h-[30rem]" /> : null}
 
-      {/* 5. 시공 전 준비 — split layout, photo on the left */}
+      {/* 5. 시공 전 준비 — full-width grid for 6 capabilities */}
       <section className="border-b border-paper-line">
         <div className="container-page py-20 md:py-28">
-          <div className="grid gap-12 md:grid-cols-[0.85fr_1.15fr] md:gap-16">
-            <div
-              className="aspect-[4/5] w-full bg-paper-card bg-cover bg-center md:sticky md:top-24 md:self-start"
-              style={{ backgroundImage: `url(${capabilitiesPhoto})` }}
-              aria-hidden
-            />
+          <div className="max-w-3xl">
+            <h2 className="text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
+              시공 전에 여기까지 확인합니다
+            </h2>
+            <p className="mt-5 text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
+              좋은 건축은 감각만으로 되지 않습니다. BIM, 3D, VR, 드론, 3D 프린터까지 —
+              건축주께서 안심하실 수 있도록 결과를 미리 보여드리는 근거입니다.
+            </p>
+          </div>
 
-            <div>
-              <h2 className="text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
-                시공 전에 여기까지 확인합니다
-              </h2>
-              <p className="mt-5 max-w-xl text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
-                좋은 건축은 감각만으로 되지 않습니다. 여기에 쓰는 도구들은 자랑하려는 게
-                아니라, 건축주께서 안심하실 수 있도록 남기는 근거입니다.
-              </p>
-
-              <div className="mt-12 grid gap-x-10 gap-y-8 sm:grid-cols-2">
-                {capabilities.map((c) => (
-                  <div key={c.title} className="border-t border-paper-line pt-5">
-                    <h3 className="text-[1rem] font-semibold leading-snug text-ink">
-                      {c.title}
-                    </h3>
-                    <p className="mt-3 text-[13.5px] leading-[1.85] text-ink-muted">
-                      {c.body}
-                    </p>
-                  </div>
-                ))}
+          <div className="mt-14 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+            {capabilities.map((c) => (
+              <div key={c.title} className="border-t border-paper-line pt-5">
+                <h3 className="text-[1rem] font-semibold leading-snug text-ink">
+                  {c.title}
+                </h3>
+                <p className="mt-3 text-[13.5px] leading-[1.85] text-ink-muted">
+                  {c.body}
+                </p>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 6. 회사 정보 */}
+      {/* 6. 3D → 실제 시공 쇼케이스 */}
+      <DesignToReality />
+
+      {/* 7. 밈건축가 유튜브 */}
+      <YouTubeShowcase />
+
+      {/* 8. 회사 정보 */}
       <section className="border-b border-paper-line">
         <div className="container-page grid gap-10 py-20 md:grid-cols-[0.9fr_1.1fr] md:py-24">
           <div>
@@ -355,7 +361,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. CTA */}
+      {/* 9. CTA */}
       <section className="bg-ink text-white">
         <div className="container-page flex flex-col gap-8 py-24 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">

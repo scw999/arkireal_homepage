@@ -2889,30 +2889,6 @@
     ],
     "plans": [
       {
-        "src": "/images/projects/wonju-poolstay/plan-01.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-poolstay/plan-02.jpg",
-        "w": 1334,
-        "h": 2000,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-poolstay/plan-03.jpg",
-        "w": 1334,
-        "h": 2000,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-poolstay/plan-04.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
         "src": "/images/projects/wonju-poolstay/plan-05.jpg",
         "w": 600,
         "h": 110,
@@ -3414,6 +3390,24 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/pocheon-damhwajae-stay/plan-02.jpg",
+        "w": 1683,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/pocheon-damhwajae-stay/plan-03.jpg",
+        "w": 1703,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/pocheon-damhwajae-stay/plan-04.jpg",
+        "w": 1908,
+        "h": 2000,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -3635,6 +3629,24 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/pocheon-damhwajae-cafe/plan-02.jpg",
+        "w": 1683,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/pocheon-damhwajae-cafe/plan-03.jpg",
+        "w": 1703,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/pocheon-damhwajae-cafe/plan-04.jpg",
+        "w": 1908,
+        "h": 2000,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -5049,62 +5061,38 @@
     "plans": [
       {
         "src": "/images/projects/hyangdong-archireal-mixed-use/plan-01.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
+        "w": 600,
+        "h": 110,
+        "kind": "table"
       },
       {
         "src": "/images/projects/hyangdong-archireal-mixed-use/plan-02.jpg",
-        "w": 2000,
-        "h": 1334,
+        "w": 1643,
+        "h": 2000,
         "kind": "floor"
       },
       {
         "src": "/images/projects/hyangdong-archireal-mixed-use/plan-03.jpg",
-        "w": 2000,
-        "h": 1334,
+        "w": 1597,
+        "h": 2000,
         "kind": "floor"
       },
       {
         "src": "/images/projects/hyangdong-archireal-mixed-use/plan-04.jpg",
-        "w": 2000,
-        "h": 1334,
+        "w": 1652,
+        "h": 2000,
         "kind": "floor"
       },
       {
         "src": "/images/projects/hyangdong-archireal-mixed-use/plan-05.jpg",
-        "w": 2000,
-        "h": 1125,
+        "w": 1522,
+        "h": 2000,
         "kind": "floor"
       },
       {
         "src": "/images/projects/hyangdong-archireal-mixed-use/plan-06.jpg",
-        "w": 2000,
-        "h": 1125,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/hyangdong-archireal-mixed-use/plan-07.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/hyangdong-archireal-mixed-use/plan-08.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/hyangdong-archireal-mixed-use/plan-09.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/hyangdong-archireal-mixed-use/plan-10.jpg",
-        "w": 2000,
-        "h": 1334,
+        "w": 1435,
+        "h": 2000,
         "kind": "floor"
       }
     ],
@@ -5817,60 +5805,6 @@
     "plans": [
       {
         "src": "/images/projects/beondong-mixed-use/plan-01.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-02.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-03.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-04.jpg",
-        "w": 2000,
-        "h": 1481,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-05.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-06.jpg",
-        "w": 1309,
-        "h": 2000,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-07.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-08.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-09.jpg",
-        "w": 1334,
-        "h": 2000,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/beondong-mixed-use/plan-10.jpg",
         "w": 600,
         "h": 110,
         "kind": "table"
@@ -6063,62 +5997,20 @@
     "plans": [
       {
         "src": "/images/projects/wonju-banggok-aurora-house/plan-01.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
+        "w": 600,
+        "h": 110,
+        "kind": "table"
       },
       {
         "src": "/images/projects/wonju-banggok-aurora-house/plan-02.jpg",
         "w": 2000,
-        "h": 1334,
+        "h": 1735,
         "kind": "floor"
       },
       {
         "src": "/images/projects/wonju-banggok-aurora-house/plan-03.jpg",
         "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-04.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-05.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-06.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-07.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-08.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-09.jpg",
-        "w": 2000,
-        "h": 1606,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/wonju-banggok-aurora-house/plan-10.jpg",
-        "w": 2000,
-        "h": 1334,
+        "h": 1681,
         "kind": "floor"
       }
     ],
@@ -7553,6 +7445,24 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/mojeonri-siot-house/plan-02.jpg",
+        "w": 1863,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/mojeonri-siot-house/plan-03.jpg",
+        "w": 1868,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/mojeonri-siot-house/plan-04.jpg",
+        "w": 1875,
+        "h": 2000,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -7872,6 +7782,18 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/yeoju-hyeonamdong-courtyard-house/plan-02.jpg",
+        "w": 2000,
+        "h": 1973,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-hyeonamdong-courtyard-house/plan-03.jpg",
+        "w": 1850,
+        "h": 2000,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -8119,6 +8041,24 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/yeoju-jeombongdong-pum-house/plan-02.jpg",
+        "w": 1639,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-jeombongdong-pum-house/plan-03.jpg",
+        "w": 1554,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-jeombongdong-pum-house/plan-04.jpg",
+        "w": 931,
+        "h": 2000,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -8379,6 +8319,30 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-naraejae-house/plan-02.jpg",
+        "w": 1832,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-naraejae-house/plan-03.jpg",
+        "w": 2000,
+        "h": 1865,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-naraejae-house/plan-04.jpg",
+        "w": 1581,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-naraejae-house/plan-05.jpg",
+        "w": 2000,
+        "h": 1809,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -8588,6 +8552,24 @@
         "w": 600,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-gangsanjae-second-house/plan-02.jpg",
+        "w": 2000,
+        "h": 1927,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-gangsanjae-second-house/plan-03.jpg",
+        "w": 1337,
+        "h": 2000,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yeoju-gangcheon-gangsanjae-second-house/plan-04.jpg",
+        "w": 1612,
+        "h": 2000,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -8772,62 +8754,20 @@
     "plans": [
       {
         "src": "/images/projects/yangpyeong-asolrinchae-house/plan-01.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-02.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-03.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-04.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-05.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-06.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-07.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-08.jpg",
-        "w": 2000,
-        "h": 1334,
-        "kind": "floor"
-      },
-      {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-09.jpg",
         "w": 600,
         "h": 110,
         "kind": "table"
       },
       {
-        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-10.jpg",
+        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-02.jpg",
         "w": 2000,
         "h": 1532,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/yangpyeong-asolrinchae-house/plan-03.jpg",
+        "w": 2000,
+        "h": 1631,
         "kind": "floor"
       }
     ],
@@ -9005,6 +8945,9 @@
     "description": "밀양 산내면에 위치한 이 모던한 전원주택은 도시의 소음과 분주함에서 벗어나 은퇴 후 진정한 ‘쉼’의 가치를 실현해 주는 공간으로 감각적인 외관은 고급스럽고 모노톤 벽돌과 모던한 디자인 설계를 했다.",
     "featuredImage": "/images/projects/milyang-grindelwald-house/main.jpg",
     "gallery": [
+      "/images/projects/milyang-grindelwald-house/photo-01.jpg",
+      "/images/projects/milyang-grindelwald-house/photo-02.jpg",
+      "/images/projects/milyang-grindelwald-house/photo-03.jpg",
       "/images/projects/milyang-grindelwald-house/photo-04.jpg",
       "/images/projects/milyang-grindelwald-house/photo-05.jpg",
       "/images/projects/milyang-grindelwald-house/photo-06.jpg",
@@ -9022,10 +8965,7 @@
       "/images/projects/milyang-grindelwald-house/photo-18.jpg",
       "/images/projects/milyang-grindelwald-house/photo-19.jpg",
       "/images/projects/milyang-grindelwald-house/photo-20.jpg",
-      "/images/projects/milyang-grindelwald-house/photo-21.jpg",
-      "/images/projects/milyang-grindelwald-house/photo-01.jpg",
-      "/images/projects/milyang-grindelwald-house/photo-02.jpg",
-      "/images/projects/milyang-grindelwald-house/photo-03.jpg"
+      "/images/projects/milyang-grindelwald-house/photo-21.jpg"
     ],
     "plans": [
       {
@@ -9033,6 +8973,18 @@
         "w": 500,
         "h": 110,
         "kind": "table"
+      },
+      {
+        "src": "/images/projects/milyang-grindelwald-house/plan-02.jpg",
+        "w": 2000,
+        "h": 1470,
+        "kind": "floor"
+      },
+      {
+        "src": "/images/projects/milyang-grindelwald-house/plan-03.jpg",
+        "w": 2000,
+        "h": 1473,
+        "kind": "floor"
       }
     ],
     "matterportIds": [
@@ -9052,6 +9004,24 @@
     ],
     "displayOrder": 33,
     "photos": [
+      {
+        "src": "/images/projects/milyang-grindelwald-house/photo-01.jpg",
+        "w": 2000,
+        "h": 1543,
+        "orientation": "landscape"
+      },
+      {
+        "src": "/images/projects/milyang-grindelwald-house/photo-02.jpg",
+        "w": 2560,
+        "h": 1746,
+        "orientation": "landscape"
+      },
+      {
+        "src": "/images/projects/milyang-grindelwald-house/photo-03.jpg",
+        "w": 2048,
+        "h": 1365,
+        "orientation": "landscape"
+      },
       {
         "src": "/images/projects/milyang-grindelwald-house/photo-04.jpg",
         "w": 2048,
@@ -9159,24 +9129,6 @@
         "w": 1500,
         "h": 2000,
         "orientation": "portrait"
-      },
-      {
-        "src": "/images/projects/milyang-grindelwald-house/photo-01.jpg",
-        "w": 2000,
-        "h": 1543,
-        "orientation": "landscape"
-      },
-      {
-        "src": "/images/projects/milyang-grindelwald-house/photo-02.jpg",
-        "w": 2560,
-        "h": 1746,
-        "orientation": "landscape"
-      },
-      {
-        "src": "/images/projects/milyang-grindelwald-house/photo-03.jpg",
-        "w": 2048,
-        "h": 1365,
-        "orientation": "landscape"
       }
     ]
   }
