@@ -49,10 +49,11 @@ export default async function ProjectDetailPage({
   const hasPlans = project.plans.length > 0;
   const hasPhotos = project.photos.length > 0;
 
-  // Find other projects for "related"
-  const others = getAllProjects()
-    .filter((p) => p.slug !== project.slug)
-    .slice(0, 3);
+  // Find other projects for "related" — prefer same type
+  const allOthers = getAllProjects().filter((p) => p.slug !== project.slug);
+  const sameType = allOthers.filter((p) => p.type === project.type);
+  const diffType = allOthers.filter((p) => p.type !== project.type);
+  const others = [...sameType, ...diffType].slice(0, 3);
 
   return (
     <>
@@ -227,6 +228,9 @@ export default async function ProjectDetailPage({
               <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
                 3D 설계 영상
               </h2>
+              <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
+                시공 전 3D 모델링으로 완성될 건물의 모습을 미리 확인한 영상입니다.
+              </p>
             </div>
 
             <div className="space-y-6">
@@ -257,6 +261,9 @@ export default async function ProjectDetailPage({
               <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
                 완공 영상
               </h2>
+              <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
+                완공 후 실제 건물의 외관과 내부를 촬영한 영상입니다.
+              </p>
             </div>
 
             <div className="space-y-6">
@@ -307,7 +314,7 @@ export default async function ProjectDetailPage({
                       alt={p.title}
                       fill
                       sizes="(min-width: 768px) 33vw, 100vw"
-                      className="object-cover transition duration-[500ms] group-hover:scale-[1.03]"
+                      className="object-cover transition duration-[500ms] motion-safe:group-hover:scale-[1.03]"
                     />
                   </div>
                   <div>

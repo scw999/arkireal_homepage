@@ -38,7 +38,7 @@ export default async function ProjectsPage({ searchParams }: Props) {
 
       <section>
         <div className="container-page py-14 md:py-20">
-          <nav className="flex flex-wrap items-center gap-2 border-b border-paper-line pb-6">
+          <nav className="flex items-center gap-2 overflow-x-auto border-b border-paper-line pb-6 scrollbar-none">
             {['전체', ...types].map((t) => {
               const active = t === selected;
               const href = t === '전체' ? '/projects' : `/projects?type=${encodeURIComponent(t)}`;
@@ -46,7 +46,7 @@ export default async function ProjectsPage({ searchParams }: Props) {
                 <Link
                   key={t}
                   href={href}
-                  className={`inline-flex h-9 items-center rounded-full border px-4 text-[12.5px] transition ${
+                  className={`inline-flex h-9 shrink-0 items-center rounded-full border px-4 text-[12.5px] transition ${
                     active
                       ? 'border-ink bg-ink text-white'
                       : 'border-paper-line text-ink-muted hover:border-ink hover:text-ink'

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Project } from '@/lib/types';
 
 export function ProjectCard({ project }: { project: Project }) {
@@ -10,11 +11,12 @@ export function ProjectCard({ project }: { project: Project }) {
       <div className={`relative w-full overflow-hidden bg-paper-card ${
         project.featuredImageOrientation === 'portrait' ? 'aspect-[3/4]' : 'aspect-[3/2]'
       }`}>
-        <div
-          className="absolute inset-0 bg-cover bg-center transition duration-[600ms] group-hover:scale-[1.03]"
-          style={{ backgroundImage: `url(${project.featuredImage})` }}
-          role="img"
-          aria-label={project.title}
+        <Image
+          src={project.featuredImage}
+          alt={project.title}
+          fill
+          sizes="(min-width: 768px) 50vw, 100vw"
+          className="object-cover transition duration-[600ms] motion-safe:group-hover:scale-[1.03]"
         />
       </div>
       <div className="flex flex-1 flex-col gap-3 pt-6">
