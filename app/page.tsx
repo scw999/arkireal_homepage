@@ -534,32 +534,51 @@ export default function HomePage() {
 
       {/* 8. CTA — 회사 정보 섹션은 푸터와 중복이라 제거. */}
       <section className="bg-ink text-white">
-        <div className="container-page flex flex-col gap-8 py-24 md:flex-row md:items-end md:justify-between">
-          <div className="max-w-2xl">
-            <h2 className="text-[1.95rem] font-semibold leading-[1.25] tracking-tightish md:text-[2.7rem]">
+        <div className="container-page grid gap-14 py-24 md:grid-cols-[1fr_1fr] md:items-end md:gap-20 md:py-28">
+          <div className="max-w-xl">
+            <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-white/55">
+              Contact
+            </span>
+            <h2 className="mt-5 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish md:text-[2.7rem]">
               어디부터 시작해야 할지
               <br />
               몰라도 괜찮습니다.
             </h2>
-            <p className="mt-5 text-[15px] leading-[1.9] text-white/75 md:text-[1.0625rem]">
+            <p className="mt-6 text-[15px] leading-[1.9] text-white/75 md:text-[1.0625rem]">
               부지가 있으신 분도, 설계를 받으신 분도, 아직 아무것도 정하지 못하신
               분도 — 어느 단계든 편하게 연락 주세요.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div>
             <Link
               href="/contact"
-              className="inline-flex h-14 items-center justify-center rounded-sm bg-white px-9 text-[14px] font-semibold text-ink transition hover:bg-paper-warm"
+              className="group flex h-16 w-full items-center justify-between rounded-sm bg-white px-7 text-ink transition hover:bg-paper-warm"
             >
-              상담 문의하기
+              <span className="text-[15px] font-semibold">상담 문의하기</span>
+              <span
+                aria-hidden="true"
+                className="text-[18px] transition-transform group-hover:translate-x-1"
+              >
+                →
+              </span>
             </Link>
+
             <a
               href={`tel:${company.phone.replace(/[^0-9]/g, '')}`}
-              className="inline-flex h-14 items-center justify-center rounded-sm border border-white/70 px-9 text-[14px] font-semibold text-white transition hover:bg-white hover:text-ink"
+              className="mt-3 flex h-16 w-full items-center justify-between rounded-sm border border-white/30 px-7 text-white transition hover:border-white hover:bg-white/5"
             >
-              전화로 문의하기
+              <span className="text-[12px] font-medium uppercase tracking-[0.18em] text-white/60">
+                Call
+              </span>
+              <span className="text-[15px] font-semibold tracking-tight">
+                {company.phone}
+              </span>
             </a>
+
+            <p className="mt-6 text-[12.5px] leading-[1.8] text-white/55">
+              평일 09:00 – 18:00 상담 · 폼 문의는 1~2영업일 내 답신 드립니다
+            </p>
           </div>
         </div>
       </section>
