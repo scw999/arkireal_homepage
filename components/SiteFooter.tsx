@@ -19,19 +19,15 @@ export function SiteFooter() {
 
           <dl className="mt-6 space-y-1.5 text-[13px] text-ink-muted">
             <div className="flex gap-2">
-              <dt className="w-24 shrink-0 text-ink-subtle">{company.licenseLabel}</dt>
+              <dt className="w-28 shrink-0 text-ink-subtle">{company.licenseLabel}</dt>
               <dd>{company.licenseNumber}</dd>
             </div>
             <div className="flex gap-2">
-              <dt className="w-24 shrink-0 text-ink-subtle">{company.businessRegLabel}</dt>
-              <dd>{company.businessRegNumber}</dd>
-            </div>
-            <div className="flex gap-2">
-              <dt className="w-24 shrink-0 text-ink-subtle">대표자</dt>
+              <dt className="w-28 shrink-0 text-ink-subtle">대표자</dt>
               <dd>{company.representative}</dd>
             </div>
             <div className="flex gap-2">
-              <dt className="w-24 shrink-0 text-ink-subtle">본사 주소</dt>
+              <dt className="w-28 shrink-0 text-ink-subtle">본사 주소</dt>
               <dd>{company.address}</dd>
             </div>
           </dl>
