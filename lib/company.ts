@@ -2,7 +2,7 @@ export const company = {
   name: '아키리얼 종합건설',
   legalName: '아키리얼 종합건설(주)',
   descriptor: '설계와 시공을 함께 책임지는 종합건설사',
-  licenseLabel: '종합건설업 등록',
+  licenseLabel: '종합건설업 면허 번호',
   licenseNumber: '제 XXXX호',
   businessRegLabel: '사업자등록번호',
   businessRegNumber: 'XXX-XX-XXXXX',
