@@ -532,19 +532,21 @@ export default function HomePage() {
       {/* 7. 밈건축가 유튜브 */}
       <YouTubeShowcase />
 
-      {/* 8. CTA — 회사 정보 섹션은 푸터와 중복이라 제거. */}
-      <section className="bg-ink text-white">
+      {/* 8. CTA — Design to Reality(다크) 다음에 다크가 한 번 더 오지 않도록
+          화이트 카드로 마무리. 포커스는 섹션 전체가 아니라 다크 버튼이 담당.
+          YouTubeShowcase가 null일 때도 다크→화이트 전환이 자연스럽게 살아남음. */}
+      <section className="border-t border-paper-line bg-white">
         <div className="container-page grid gap-14 py-24 md:grid-cols-[1fr_1fr] md:items-end md:gap-20 md:py-28">
           <div className="max-w-xl">
-            <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-white/55">
+            <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-ink-subtle">
               Contact
             </span>
-            <h2 className="mt-5 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish md:text-[2.7rem]">
+            <h2 className="mt-5 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
               어디부터 시작해야 할지
               <br />
               몰라도 괜찮습니다.
             </h2>
-            <p className="mt-6 text-[15px] leading-[1.9] text-white/75 md:text-[1.0625rem]">
+            <p className="mt-6 text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
               부지가 있으신 분도, 설계를 받으신 분도, 아직 아무것도 정하지 못하신
               분도 — 어느 단계든 편하게 연락 주세요.
             </p>
@@ -553,7 +555,7 @@ export default function HomePage() {
           <div>
             <Link
               href="/contact"
-              className="group flex h-16 w-full items-center justify-between rounded-sm bg-white px-7 text-ink transition hover:bg-paper-warm"
+              className="group flex h-16 w-full items-center justify-between rounded-sm bg-ink px-7 text-white transition hover:bg-ink-soft"
             >
               <span className="text-[15px] font-semibold">상담 문의하기</span>
               <span
@@ -566,9 +568,9 @@ export default function HomePage() {
 
             <a
               href={`tel:${company.phone.replace(/[^0-9]/g, '')}`}
-              className="mt-3 flex h-16 w-full items-center justify-between rounded-sm border border-white/30 px-7 text-white transition hover:border-white hover:bg-white/5"
+              className="mt-3 flex h-16 w-full items-center justify-between rounded-sm border border-paper-line px-7 text-ink transition hover:border-ink"
             >
-              <span className="text-[12px] font-medium uppercase tracking-[0.18em] text-white/60">
+              <span className="text-[12px] font-medium uppercase tracking-[0.18em] text-ink-subtle">
                 Call
               </span>
               <span className="text-[15px] font-semibold tracking-tight">
@@ -576,7 +578,7 @@ export default function HomePage() {
               </span>
             </a>
 
-            <p className="mt-6 text-[12.5px] leading-[1.8] text-white/55">
+            <p className="mt-6 text-[12.5px] leading-[1.8] text-ink-subtle">
               평일 09:00 – 18:00 상담 · 폼 문의는 1~2영업일 내 답신 드립니다
             </p>
           </div>
