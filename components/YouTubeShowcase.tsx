@@ -42,9 +42,6 @@ export async function YouTubeShowcase() {
                   loading="lazy"
                 />
               </div>
-              <h3 className="mt-3 text-[14px] font-semibold leading-snug text-ink line-clamp-2">
-                {video.title}
-              </h3>
             </div>
           ))}
         </div>

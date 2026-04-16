@@ -2,14 +2,22 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Project } from '@/lib/types';
 
-export function ProjectCard({ project }: { project: Project }) {
+type Props = {
+  project: Project;
+  /** When true, always use landscape aspect ratio — useful for grids where
+   * uniform card height matters more than preserving portrait crops. */
+  forceLandscape?: boolean;
+};
+
+export function ProjectCard({ project, forceLandscape = false }: Props) {
+  const isPortrait = !forceLandscape && project.featuredImageOrientation === 'portrait';
   return (
     <Link
       href={`/projects/${project.slug}`}
       className="group flex flex-col overflow-hidden bg-white transition"
     >
       <div className={`relative w-full overflow-hidden bg-paper-card ${
-        project.featuredImageOrientation === 'portrait' ? 'aspect-[3/4]' : 'aspect-[3/2]'
+        isPortrait ? 'aspect-[3/4]' : 'aspect-[3/2]'
       }`}>
         <Image
           src={project.featuredImage}

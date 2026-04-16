@@ -152,7 +152,7 @@ export default function HomePage() {
 
           <div className="mt-14 grid gap-10 md:grid-cols-2 md:gap-x-8 md:gap-y-14">
             {featured.map((p) => (
-              <ProjectCard key={p.id} project={p} />
+              <ProjectCard key={p.id} project={p} forceLandscape />
             ))}
           </div>
         </div>
