@@ -383,7 +383,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-14 grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 grid gap-0 sm:grid-cols-2 lg:grid-cols-3">
             {showcase.map((p) => (
               <Link
                 key={p.id}
@@ -434,7 +434,7 @@ export default function HomePage() {
                 설계부터 인테리어 마감까지 한 팀이 책임지기에, 외관의 설계 의도가 실내 공간까지 이어집니다.
               </p>
             </div>
-            <div className="mt-14 grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-14 grid gap-0 sm:grid-cols-2 lg:grid-cols-3">
               {interiorExterior.map((item) => (
                 <div
                   key={item.label}
