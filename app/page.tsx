@@ -331,18 +331,29 @@ export default function HomePage() {
     showcase[0]?.featuredImage ||
     '';
 
-  // Positioning collage — 그리드에 없는 프로젝트 사진으로 중복 방지.
+  // Positioning collage — 그리드에 없는 프로젝트의 멋진 외관/인테리어.
   const collage = [
-    bySlug('okcheon-maple-mixed-use')?.gallery[0],
-    bySlug('mojeonri-siot-house')?.gallery[0],
-    bySlug('ulju-sereno-second-house')?.gallery[0],
-    bySlug('danyang-dreamsuite-pension')?.gallery[0],
+    bySlug('asan-tiara-cafe')?.featuredImage,
+    bySlug('yeoju-gangcheon-gangsanjae-second-house')?.photos[9]?.src,
+    bySlug('milyang-grindelwald-house')?.featuredImage,
+    bySlug('siheung-baegot-deohanjib')?.featuredImage,
   ].filter(Boolean) as string[];
 
   // Full-bleed band images — 그리드와 겹치지 않는 프로젝트 사용.
-  const band1 = bySlug('mojeonri-siot-house')?.gallery[2] || '';
-  const solutionsPhoto = bySlug('okcheon-maple-mixed-use')?.gallery[2] || '';
-  const band2 = bySlug('ulju-sereno-second-house')?.gallery[2] || '';
+  const band1 = bySlug('mojeonri-siot-house')?.featuredImage || '';
+  const solutionsPhoto =
+    bySlug('yeoju-gangcheon-gangsanjae-second-house')?.featuredImage || '';
+  const band2 = bySlug('pocheon-damhwajae-stay')?.photos[4]?.src || '';
+
+  // Interior/exterior showcase — 그리드 프로젝트의 다른 갤러리 사진 사용.
+  const interiorExterior = [
+    { src: bySlug('yangpyeong-asolrinchae-house')?.photos[7]?.src, label: '양평 아솔린채 · 거실' },
+    { src: bySlug('pocheon-damhwajae-stay')?.photos[7]?.src, label: '포천 담화재 · 한옥 침실' },
+    { src: bySlug('wonju-banggok-aurora-house')?.photos[14]?.src, label: '오로라 하우스 · 계단실' },
+    { src: bySlug('yeoju-jeombongdong-pum-house')?.photos[4]?.src, label: '점봉동 하우스 · 테라스' },
+    { src: bySlug('asan-tiara-cafe')?.photos[9]?.src, label: '아산 티아라 카페 · 내부' },
+    { src: bySlug('yangpyeong-asolrinchae-house')?.photos[9]?.src, label: '양평 아솔린채 · 주방' },
+  ].filter((item): item is { src: string; label: string } => Boolean(item.src));
 
   return (
     <>
@@ -368,7 +379,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-14 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
             {showcase.map((p) => (
               <Link
                 key={p.id}
@@ -401,6 +412,50 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Interior / Exterior showcase */}
+      {interiorExterior.length > 0 && (
+        <section className="border-b border-paper-line bg-ink">
+          <div className="container-page py-20 md:py-28">
+            <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+              <div>
+                <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-white/50">
+                  Interior & Exterior
+                </span>
+                <h2 className="mt-4 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-white md:text-[2.7rem]">
+                  외관만큼 아름다운 내부
+                </h2>
+              </div>
+              <p className="max-w-md text-[14px] leading-[1.9] text-white/60 md:text-right">
+                설계부터 인테리어 마감까지 한 팀이 책임지기에, 외관의 설계 의도가 실내 공간까지 이어집니다.
+              </p>
+            </div>
+            <div className="mt-14 grid gap-1 sm:grid-cols-2 lg:grid-cols-3">
+              {interiorExterior.map((item) => (
+                <div
+                  key={item.label}
+                  className="group relative aspect-[4/3] overflow-hidden bg-paper-card"
+                >
+                  <Image
+                    src={item.src}
+                    alt={item.label}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover transition duration-500 motion-safe:group-hover:scale-[1.04]"
+                  />
+                  <div
+                    className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"
+                    aria-hidden
+                  />
+                  <p className="absolute inset-x-0 bottom-0 p-5 text-[12px] font-medium text-white/80">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 2. 회사 포지셔닝 — persuasive narrative after the work. */}
       <section className="border-b border-paper-line">
@@ -440,7 +495,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 gap-1">
               {collage.slice(0, 4).map((src, i) => (
                 <div
                   key={src + i}
