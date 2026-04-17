@@ -286,29 +286,30 @@ export default function HomePage() {
       .map(bySlug)
       .filter((p): p is NonNullable<ReturnType<typeof bySlug>> => Boolean(p));
 
-  // Featured 6 — drawn from the director-curated pool of 8 (mojeonri, yeongjongdo,
-  // hyangdong, pocheon-pumit, yeoju-jeombongdong, beondong, wonju-banggok, yangpyeong).
+  // Featured 6 — 종합건설업 다양성을 보여주는 배치.
+  // 1번: 향동 아키리얼 상가주택(사옥) → featured full-width
+  // 이후: 상업공간, 주택단지, 상가주택, 단독주택, 세컨하우스 순으로 건축 유형 다양성 확보.
   const featured = pick([
+    'hyangdong-archireal-mixed-use',
+    'asan-aureum-complex',
+    'yeoju-second-house-housing-complex-design',
+    'pocheon-pumit-mixed-use',
     'mojeonri-siot-house',
     'yeongjongdo-skycity-second-house',
-    'hyangdong-archireal-mixed-use',
-    'pocheon-pumit-mixed-use',
-    'yeoju-jeombongdong-pum-house',
-    'beondong-mixed-use',
   ]);
 
   // Video poster — shown before the YouTube iframe is ready.
   const heroPoster =
-    bySlug('mojeonri-siot-house')?.gallery[0] ||
+    bySlug('hyangdong-archireal-mixed-use')?.gallery[0] ||
     featured[0]?.featuredImage ||
     '';
 
-  // Positioning collage — 4 photos across 4 projects in the curated pool.
+  // Positioning collage — 4 photos across diverse project types.
   const collage = [
-    bySlug('yeongjongdo-skycity-second-house')?.gallery[2],
     bySlug('hyangdong-archireal-mixed-use')?.gallery[1],
-    bySlug('yeoju-jeombongdong-pum-house')?.gallery[0],
-    bySlug('pocheon-pumit-mixed-use')?.gallery[3],
+    bySlug('asan-aureum-complex')?.gallery[0],
+    bySlug('mojeonri-siot-house')?.gallery[0],
+    bySlug('yeoju-second-house-housing-complex-design')?.gallery[0],
   ].filter(Boolean) as string[];
 
   // Full-bleed band — keeps the narrative breathing between pain points and solutions.
