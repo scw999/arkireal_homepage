@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { company } from '@/lib/company';
 
 const navItems: { label: string; href: string }[] = [
@@ -10,6 +13,11 @@ const navItems: { label: string; href: string }[] = [
 ];
 
 export function SiteHeader() {
+  const pathname = usePathname();
+
+  const isActive = (href: string) =>
+    href === '/' ? pathname === '/' : pathname.startsWith(href);
+
   return (
     <header className="sticky top-0 z-40 border-b border-paper-line bg-white/95 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between md:h-20">
@@ -29,7 +37,9 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-ink-muted transition hover:text-ink"
+              className={`text-sm font-medium transition hover:text-ink ${
+                isActive(item.href) ? 'text-ink' : 'text-ink-muted'
+              }`}
             >
               {item.label}
             </Link>
@@ -59,7 +69,9 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-[13px] font-medium text-ink-muted"
+              className={`text-[13px] font-medium ${
+                isActive(item.href) ? 'text-ink' : 'text-ink-muted'
+              }`}
             >
               {item.label}
             </Link>

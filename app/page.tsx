@@ -532,7 +532,61 @@ export default function HomePage() {
       {/* 7. 밈건축가 유튜브 */}
       <YouTubeShowcase />
 
-      {/* 8. CTA — Design to Reality(다크) 다음에 다크가 한 번 더 오지 않도록
+      {/* 8. 건축주 후기 */}
+      <section className="border-b border-paper-line bg-paper-warm">
+        <div className="container-page py-20 md:py-28">
+          <div className="max-w-3xl">
+            <span className="eyebrow">TESTIMONIALS</span>
+            <h2 className="mt-4 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
+              건축주가 직접 전한 이야기
+            </h2>
+          </div>
+
+          <div className="mt-14 grid gap-6 sm:grid-cols-2">
+            {[
+              {
+                quote:
+                  'VR을 보니 실제로 건물을 미리 본 것 같아서, 빨리 들어가서 살고 싶었어요.',
+                name: '김 O O 님',
+                project: '전원주택 건축주',
+              },
+              {
+                quote:
+                  '3D 영상을 보고 실제 지어진 집을 보니 똑같은데, 오히려 실제가 더 예뻐요.',
+                name: '이 O O 님',
+                project: '단독주택 건축주',
+              },
+              {
+                quote:
+                  '매주 현장에서 미팅을 해주시니 진행 과정도 투명하고, 중간에 필요한 부분도 현장에서 조율할 수 있어서 좋았습니다.',
+                name: '박 O O 님',
+                project: '상가주택 건축주',
+              },
+              {
+                quote:
+                  '외관도 마음에 드는데 내부 마감이나 디자인, 가구들까지 신경써주셔서 저한테 맞는 완벽한 집이 나온 것 같아요.',
+                name: '정 O O 님',
+                project: '전원주택 건축주',
+              },
+            ].map((t) => (
+              <blockquote
+                key={t.name}
+                className="flex flex-col justify-between border-t-2 border-ink bg-white p-7"
+              >
+                <p className="text-[15px] leading-[1.9] text-ink-soft md:text-[1.0625rem]">
+                  &ldquo;{t.quote}&rdquo;
+                </p>
+                <footer className="mt-6 text-[13px] text-ink-muted">
+                  <span className="font-semibold text-ink">{t.name}</span>
+                  <span className="ml-2">{t.project}</span>
+                </footer>
+              </blockquote>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 9. CTA — Design to Reality(다크) 다음에 다크가 한 번 더 오지 않도록
           화이트 카드로 마무리. 포커스는 섹션 전체가 아니라 다크 버튼이 담당.
           YouTubeShowcase가 null일 때도 다크→화이트 전환이 자연스럽게 살아남음. */}
       <section className="border-t border-paper-line bg-white">
