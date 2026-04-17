@@ -1,6 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { ReactNode } from 'react';
-import { ProjectCard } from '@/components/ProjectCard';
 import { HeroShowcase } from '@/components/HeroShowcase';
 import { ImageBand } from '@/components/ImageBand';
 import { DesignToReality } from '@/components/DesignToReality';
@@ -286,56 +286,57 @@ export default function HomePage() {
       .map(bySlug)
       .filter((p): p is NonNullable<ReturnType<typeof bySlug>> => Boolean(p));
 
-  // Featured 6 — 상가주택·단독주택 중심, 예쁜 사례 위주.
-  // 1번: 향동 아키리얼 상가주택(사옥) → featured, portrait 비율 유지
-  const featured = pick([
+  // Showcase grid — 13개 프로젝트. 상가주택·단독주택·상업공간·숙박시설 다양성.
+  // 향동(사옥, portrait)을 첫 번째로, 이후 유형별로 배치.
+  const showcase = pick([
     'hyangdong-archireal-mixed-use',
-    'okcheon-maple-mixed-use',
+    'pocheon-pumit-mixed-use',
+    'beondong-mixed-use',
     'wonju-banggok-aurora-house',
-    'mojeonri-siot-house',
     'yeongjongdo-skycity-second-house',
+    'icheon-bubbly-cafe',
     'yeoju-jeombongdong-pum-house',
+    'yangpyeong-asolrinchae-house',
+    'yongin-bakery-cafe',
+    'osan-soyland-cafe',
+    'asan-aureum-complex',
+    'pocheon-damhwajae-stay',
+    'wonju-poolstay',
   ]);
+
+  // Grid span config — 향동(portrait row-span-2), 이천 버블리(col-span-2)
+  const gridSpan: Record<string, string> = {
+    'hyangdong-archireal-mixed-use': 'lg:row-span-2',
+    'icheon-bubbly-cafe': 'sm:col-span-2 lg:col-span-2',
+  };
+  const gridAspect: Record<string, string> = {
+    'hyangdong-archireal-mixed-use': 'aspect-[3/4]',
+  };
 
   // Video poster — shown before the YouTube iframe is ready.
   const heroPoster =
     bySlug('hyangdong-archireal-mixed-use')?.gallery[0] ||
-    featured[0]?.featuredImage ||
+    showcase[0]?.featuredImage ||
     '';
 
   // Positioning collage — 상가주택·단독주택 외관 중심.
   const collage = [
     bySlug('hyangdong-archireal-mixed-use')?.gallery[1],
-    bySlug('okcheon-maple-mixed-use')?.gallery[0],
-    bySlug('mojeonri-siot-house')?.gallery[0],
+    bySlug('pocheon-pumit-mixed-use')?.gallery[0],
     bySlug('wonju-banggok-aurora-house')?.gallery[0],
+    bySlug('osan-soyland-cafe')?.gallery[0],
   ].filter(Boolean) as string[];
 
-  // Full-bleed band — 단독주택 외관.
+  // Full-bleed band images.
   const band1 = bySlug('yeongjongdo-skycity-second-house')?.gallery[0] || '';
-
-  // Side photo + second band.
-  const solutionsPhoto = bySlug('okcheon-maple-mixed-use')?.gallery[0] || '';
-  const band2 = bySlug('yeoju-jeombongdong-pum-house')?.gallery[0] || '';
-
-  // Interior / exterior collage — 내외부를 교차 배치.
-  // gallery 앞쪽은 외관, 중후반은 인테리어 사진인 경우가 대부분.
-  const interiorExterior = [
-    bySlug('mojeonri-siot-house')?.gallery[0],
-    bySlug('mojeonri-siot-house')?.gallery[20],
-    bySlug('okcheon-maple-mixed-use')?.gallery[2],
-    bySlug('okcheon-maple-mixed-use')?.gallery[20],
-    bySlug('wonju-banggok-aurora-house')?.gallery[1],
-    bySlug('wonju-banggok-aurora-house')?.gallery[24],
-    bySlug('yeongjongdo-skycity-second-house')?.gallery[2],
-    bySlug('yeongjongdo-skycity-second-house')?.gallery[18],
-  ].filter(Boolean) as string[];
+  const solutionsPhoto = bySlug('pocheon-damhwajae-stay')?.gallery[0] || '';
+  const band2 = bySlug('yangpyeong-asolrinchae-house')?.gallery[0] || '';
 
   return (
     <>
       <HeroShowcase videoId="6VyuYGZ7h7w" posterImage={heroPoster} />
 
-      {/* 1. 대표 프로젝트 — prove it with work before any narrative. */}
+      {/* 1. 대표 프로젝트 — image-overlay grid, 13개 */}
       <section className="border-b border-paper-line">
         <div className="container-page py-20 md:py-28">
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
@@ -344,7 +345,7 @@ export default function HomePage() {
                 대표 프로젝트
               </h2>
               <p className="mt-5 max-w-xl text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
-                아키리얼이 설계와 시공을 함께 맡은 대표 작업들입니다. 단독주택·상가주택·세컨하우스까지.
+                상가주택·단독주택·카페·숙박시설까지, 아키리얼이 설계와 시공을 함께 맡은 작업들입니다.
               </p>
             </div>
             <Link
@@ -355,15 +356,36 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-14 space-y-14">
-            {featured[0] ? (
-              <ProjectCard key={featured[0].id} project={featured[0]} featured />
-            ) : null}
-            <div className="grid gap-10 md:grid-cols-2 md:gap-x-8 md:gap-y-14">
-              {featured.slice(1).map((p) => (
-                <ProjectCard key={p.id} project={p} forceLandscape />
-              ))}
-            </div>
+          <div className="mt-14 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {showcase.map((p) => (
+              <Link
+                key={p.id}
+                href={`/projects/${p.slug}`}
+                className={`group relative overflow-hidden bg-paper-card ${
+                  gridSpan[p.slug] ?? ''
+                } ${gridAspect[p.slug] ?? 'aspect-[4/3]'}`}
+              >
+                <Image
+                  src={p.featuredImage}
+                  alt={p.title}
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover transition duration-500 motion-safe:group-hover:scale-[1.04]"
+                />
+                <div
+                  className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent"
+                  aria-hidden
+                />
+                <div className="absolute inset-x-0 bottom-0 p-5 md:p-6">
+                  <span className="text-[11px] font-medium tracking-[0.06em] text-white/70">
+                    {p.type}
+                  </span>
+                  <h3 className="mt-1 text-[1rem] font-semibold leading-snug text-white md:text-[1.1rem]">
+                    {p.title}
+                  </h3>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -548,40 +570,7 @@ export default function HomePage() {
       {/* 7. 밈건축가 유튜브 */}
       <YouTubeShowcase />
 
-      {/* 8. 내외부 콜라주 — 외관과 인테리어를 교차 배치 */}
-      {interiorExterior.length >= 4 ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-20 md:py-28">
-            <div className="max-w-3xl">
-              <span className="eyebrow">EXTERIOR · INTERIOR</span>
-              <h2 className="mt-4 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
-                외관부터 내부 공간까지,
-                <br />
-                직접 디자인합니다.
-              </h2>
-              <p className="mt-5 text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
-                건물의 외관뿐 아니라 내부 마감, 가구 배치, 조명까지 한 팀이 설계하기에
-                안과 밖의 톤이 자연스럽게 이어집니다.
-              </p>
-            </div>
-
-            <div className="mt-14 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {interiorExterior.slice(0, 8).map((src, i) => (
-                <div
-                  key={src + i}
-                  className={`bg-paper-card bg-cover bg-center ${
-                    i % 2 === 0 ? 'aspect-[4/3]' : 'aspect-[3/4]'
-                  }`}
-                  style={{ backgroundImage: `url(${src})` }}
-                  aria-hidden
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
-
-      {/* 9. 건축주 후기 */}
+      {/* 8. 건축주 후기 */}
       <section className="border-b border-paper-line bg-paper-warm">
         <div className="container-page py-20 md:py-28">
           <div className="max-w-3xl">
