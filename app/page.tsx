@@ -286,16 +286,15 @@ export default function HomePage() {
       .map(bySlug)
       .filter((p): p is NonNullable<ReturnType<typeof bySlug>> => Boolean(p));
 
-  // Featured 6 — 종합건설업 다양성을 보여주는 배치.
-  // 1번: 향동 아키리얼 상가주택(사옥) → featured full-width
-  // 이후: 상업공간, 주택단지, 상가주택, 단독주택, 세컨하우스 순으로 건축 유형 다양성 확보.
+  // Featured 6 — 상가주택·단독주택 중심, 예쁜 사례 위주.
+  // 1번: 향동 아키리얼 상가주택(사옥) → featured, portrait 비율 유지
   const featured = pick([
     'hyangdong-archireal-mixed-use',
-    'asan-aureum-complex',
-    'yeoju-second-house-housing-complex-design',
-    'pocheon-pumit-mixed-use',
+    'okcheon-maple-mixed-use',
+    'wonju-banggok-aurora-house',
     'mojeonri-siot-house',
     'yeongjongdo-skycity-second-house',
+    'yeoju-jeombongdong-pum-house',
   ]);
 
   // Video poster — shown before the YouTube iframe is ready.
@@ -304,22 +303,33 @@ export default function HomePage() {
     featured[0]?.featuredImage ||
     '';
 
-  // Positioning collage — 4 photos across diverse project types.
+  // Positioning collage — 상가주택·단독주택 외관 중심.
   const collage = [
     bySlug('hyangdong-archireal-mixed-use')?.gallery[1],
-    bySlug('asan-aureum-complex')?.gallery[0],
+    bySlug('okcheon-maple-mixed-use')?.gallery[0],
     bySlug('mojeonri-siot-house')?.gallery[0],
-    bySlug('yeoju-second-house-housing-complex-design')?.gallery[0],
+    bySlug('wonju-banggok-aurora-house')?.gallery[0],
   ].filter(Boolean) as string[];
 
-  // Full-bleed band — keeps the narrative breathing between pain points and solutions.
-  const band1 = bySlug('wonju-banggok-aurora-house')?.gallery[0] || '';
+  // Full-bleed band — 단독주택 외관.
+  const band1 = bySlug('yeongjongdo-skycity-second-house')?.gallery[0] || '';
 
-  // Side photo + second band for the solutions / capabilities stretch — all
-  // 상가주택 or 상가(상업공간) exteriors, per the director's direction that the
-  // mid-page imagery should read as commercial exteriors rather than interiors.
+  // Side photo + second band.
   const solutionsPhoto = bySlug('okcheon-maple-mixed-use')?.gallery[0] || '';
-  const band2 = bySlug('asan-aureum-complex')?.gallery[0] || '';
+  const band2 = bySlug('yeoju-jeombongdong-pum-house')?.gallery[0] || '';
+
+  // Interior / exterior collage — 내외부를 교차 배치.
+  // gallery 앞쪽은 외관, 중후반은 인테리어 사진인 경우가 대부분.
+  const interiorExterior = [
+    bySlug('mojeonri-siot-house')?.gallery[0],
+    bySlug('mojeonri-siot-house')?.gallery[20],
+    bySlug('okcheon-maple-mixed-use')?.gallery[2],
+    bySlug('okcheon-maple-mixed-use')?.gallery[20],
+    bySlug('wonju-banggok-aurora-house')?.gallery[1],
+    bySlug('wonju-banggok-aurora-house')?.gallery[24],
+    bySlug('yeongjongdo-skycity-second-house')?.gallery[2],
+    bySlug('yeongjongdo-skycity-second-house')?.gallery[18],
+  ].filter(Boolean) as string[];
 
   return (
     <>
@@ -347,7 +357,7 @@ export default function HomePage() {
 
           <div className="mt-14 space-y-14">
             {featured[0] ? (
-              <ProjectCard key={featured[0].id} project={featured[0]} forceLandscape featured />
+              <ProjectCard key={featured[0].id} project={featured[0]} featured />
             ) : null}
             <div className="grid gap-10 md:grid-cols-2 md:gap-x-8 md:gap-y-14">
               {featured.slice(1).map((p) => (
@@ -538,7 +548,40 @@ export default function HomePage() {
       {/* 7. 밈건축가 유튜브 */}
       <YouTubeShowcase />
 
-      {/* 8. 건축주 후기 */}
+      {/* 8. 내외부 콜라주 — 외관과 인테리어를 교차 배치 */}
+      {interiorExterior.length >= 4 ? (
+        <section className="border-b border-paper-line">
+          <div className="container-page py-20 md:py-28">
+            <div className="max-w-3xl">
+              <span className="eyebrow">EXTERIOR · INTERIOR</span>
+              <h2 className="mt-4 text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
+                외관부터 내부 공간까지,
+                <br />
+                직접 디자인합니다.
+              </h2>
+              <p className="mt-5 text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
+                건물의 외관뿐 아니라 내부 마감, 가구 배치, 조명까지 한 팀이 설계하기에
+                안과 밖의 톤이 자연스럽게 이어집니다.
+              </p>
+            </div>
+
+            <div className="mt-14 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {interiorExterior.slice(0, 8).map((src, i) => (
+                <div
+                  key={src + i}
+                  className={`bg-paper-card bg-cover bg-center ${
+                    i % 2 === 0 ? 'aspect-[4/3]' : 'aspect-[3/4]'
+                  }`}
+                  style={{ backgroundImage: `url(${src})` }}
+                  aria-hidden
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {/* 9. 건축주 후기 */}
       <section className="border-b border-paper-line bg-paper-warm">
         <div className="container-page py-20 md:py-28">
           <div className="max-w-3xl">

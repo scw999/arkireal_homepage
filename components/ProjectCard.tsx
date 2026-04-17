@@ -18,12 +18,20 @@ export function ProjectCard({ project, forceLandscape = false, featured = false 
   const isPortrait = !forceLandscape && project.featuredImageOrientation === 'portrait';
 
   if (featured) {
+    const isFeaturedPortrait = project.featuredImageOrientation === 'portrait';
+
     return (
       <Link
         href={`/projects/${project.slug}`}
-        className="group grid overflow-hidden bg-white transition md:grid-cols-[1.2fr_0.8fr] md:gap-8"
+        className={`group grid overflow-hidden bg-white transition ${
+          isFeaturedPortrait
+            ? 'md:grid-cols-[0.7fr_1.3fr] md:gap-10'
+            : 'md:grid-cols-[1.2fr_0.8fr] md:gap-8'
+        }`}
       >
-        <div className="relative aspect-[16/9] w-full overflow-hidden bg-paper-card md:aspect-[3/2]">
+        <div className={`relative w-full overflow-hidden bg-paper-card ${
+          isFeaturedPortrait ? 'aspect-[3/4]' : 'aspect-[16/9] md:aspect-[3/2]'
+        }`}>
           <Image
             src={project.featuredImage}
             alt={project.title}
