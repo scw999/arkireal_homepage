@@ -323,6 +323,10 @@ export default function HomePage() {
     'yongin-bakery-cafe': 'aspect-[16/9]',
     'yangpyeong-asolrinchae-house': 'aspect-[16/9]',
     'osan-soyland-cafe': 'aspect-[16/9]',
+    'icheon-bubbly-cafe': 'aspect-[8/9]',
+    'asan-aureum-complex': 'aspect-[8/9]',
+    'pocheon-damhwajae-stay': 'aspect-[8/9]',
+    'wonju-poolstay': 'aspect-[8/9]',
   };
 
   // Video poster — shown before the YouTube iframe is ready.
