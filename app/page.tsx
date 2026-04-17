@@ -286,31 +286,43 @@ export default function HomePage() {
       .map(bySlug)
       .filter((p): p is NonNullable<ReturnType<typeof bySlug>> => Boolean(p));
 
-  // Showcase grid — 13개 프로젝트. 상가주택·단독주택·상업공간·숙박시설 다양성.
-  // 향동(사옥, portrait)을 첫 번째로, 이후 유형별로 배치.
+  // Showcase grid — 13개 프로젝트.
+  // 배치 순서가 CSS grid auto-placement와 맞아야 빈칸 없이 채워짐.
+  // Row 1: [향동 ↕2] [포천 품잇]  [번동]
+  // Row 2: [향동...]  [영종도]     [점봉동]
+  // Row 3: [오로라 하우스 ←2열→]   [버블리 빌딩]
+  // Row 4: [용인 베이커리 ←2열→]   [아산 아우름]
+  // Row 5: [아솔린채 ←2열→]       [포천 담화재]
+  // Row 6: [소이랜드 ←2열→]       [원주 풀스테이]
   const showcase = pick([
     'hyangdong-archireal-mixed-use',
     'pocheon-pumit-mixed-use',
     'beondong-mixed-use',
-    'wonju-banggok-aurora-house',
     'yeongjongdo-skycity-second-house',
-    'icheon-bubbly-cafe',
     'yeoju-jeombongdong-pum-house',
-    'yangpyeong-asolrinchae-house',
+    'wonju-banggok-aurora-house',
+    'icheon-bubbly-cafe',
     'yongin-bakery-cafe',
-    'osan-soyland-cafe',
     'asan-aureum-complex',
+    'yangpyeong-asolrinchae-house',
     'pocheon-damhwajae-stay',
+    'osan-soyland-cafe',
     'wonju-poolstay',
   ]);
 
-  // Grid span config — 향동(portrait row-span-2), 이천 버블리(col-span-2)
   const gridSpan: Record<string, string> = {
     'hyangdong-archireal-mixed-use': 'lg:row-span-2',
-    'icheon-bubbly-cafe': 'sm:col-span-2 lg:col-span-2',
+    'wonju-banggok-aurora-house': 'sm:col-span-2 lg:col-span-2',
+    'yongin-bakery-cafe': 'sm:col-span-2 lg:col-span-2',
+    'yangpyeong-asolrinchae-house': 'sm:col-span-2 lg:col-span-2',
+    'osan-soyland-cafe': 'sm:col-span-2 lg:col-span-2',
   };
   const gridAspect: Record<string, string> = {
     'hyangdong-archireal-mixed-use': 'aspect-[3/4]',
+    'wonju-banggok-aurora-house': 'aspect-[16/9]',
+    'yongin-bakery-cafe': 'aspect-[16/9]',
+    'yangpyeong-asolrinchae-house': 'aspect-[16/9]',
+    'osan-soyland-cafe': 'aspect-[16/9]',
   };
 
   // Video poster — shown before the YouTube iframe is ready.
@@ -319,18 +331,18 @@ export default function HomePage() {
     showcase[0]?.featuredImage ||
     '';
 
-  // Positioning collage — 상가주택·단독주택 외관 중심.
+  // Positioning collage — 그리드에 없는 프로젝트 사진으로 중복 방지.
   const collage = [
-    bySlug('hyangdong-archireal-mixed-use')?.gallery[1],
-    bySlug('pocheon-pumit-mixed-use')?.gallery[0],
-    bySlug('wonju-banggok-aurora-house')?.gallery[0],
-    bySlug('osan-soyland-cafe')?.gallery[0],
+    bySlug('okcheon-maple-mixed-use')?.gallery[0],
+    bySlug('mojeonri-siot-house')?.gallery[0],
+    bySlug('ulju-sereno-second-house')?.gallery[0],
+    bySlug('danyang-dreamsuite-pension')?.gallery[0],
   ].filter(Boolean) as string[];
 
-  // Full-bleed band images.
-  const band1 = bySlug('yeongjongdo-skycity-second-house')?.gallery[0] || '';
-  const solutionsPhoto = bySlug('pocheon-damhwajae-stay')?.gallery[0] || '';
-  const band2 = bySlug('yangpyeong-asolrinchae-house')?.gallery[0] || '';
+  // Full-bleed band images — 그리드와 겹치지 않는 프로젝트 사용.
+  const band1 = bySlug('mojeonri-siot-house')?.gallery[2] || '';
+  const solutionsPhoto = bySlug('okcheon-maple-mixed-use')?.gallery[2] || '';
+  const band2 = bySlug('ulju-sereno-second-house')?.gallery[2] || '';
 
   return (
     <>
