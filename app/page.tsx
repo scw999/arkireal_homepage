@@ -344,10 +344,15 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-14 grid gap-10 md:grid-cols-2 md:gap-x-8 md:gap-y-14">
-            {featured.map((p) => (
-              <ProjectCard key={p.id} project={p} forceLandscape />
-            ))}
+          <div className="mt-14 space-y-14">
+            {featured[0] ? (
+              <ProjectCard key={featured[0].id} project={featured[0]} forceLandscape featured />
+            ) : null}
+            <div className="grid gap-10 md:grid-cols-2 md:gap-x-8 md:gap-y-14">
+              {featured.slice(1).map((p) => (
+                <ProjectCard key={p.id} project={p} forceLandscape />
+              ))}
+            </div>
           </div>
         </div>
       </section>

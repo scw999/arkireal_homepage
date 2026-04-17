@@ -7,9 +7,9 @@ type Props = {
 };
 
 const trustChips = [
-  '종합건설업 등록',
-  '설계와 시공 모두 직접',
-  '부지 검토부터 감리까지',
+  'MBC·JTBC·KBS 방송 출연',
+  '「집짓기 진실」 저자',
+  '건축공사업 등록 면허',
 ];
 
 export function HeroShowcase({ videoId, posterImage }: Props) {

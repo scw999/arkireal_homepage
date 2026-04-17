@@ -135,9 +135,27 @@ export default async function ProjectDetailPage({
         </div>
       </section>
 
-      {/* Floor plans — moved up so drawings read as part of the project body,
-          not a footnote. Especially important for drawing-heavy projects like
-          양평 아솔린채 (4 photos, 10 plans) and 밀양 그린델발트 (3 photos). */}
+      {/* Photo gallery — show the finished result first for visual impact */}
+      {hasPhotos ? (
+        <section className="border-b border-paper-line">
+          <div className="container-page py-16 md:py-24">
+            <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
+                  프로젝트 사진
+                </h2>
+                <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
+                  사진을 누르면 크게 볼 수 있습니다.
+                </p>
+              </div>
+              <p className="text-[13px] text-ink-subtle">총 {project.photos.length}장</p>
+            </div>
+            <ProjectGallery photos={project.photos} title={project.title} />
+          </div>
+        </section>
+      ) : null}
+
+      {/* Floor plans — after photos so the visual result comes first */}
       {hasPlans ? (
         <section className="border-b border-paper-line">
           <div className="container-page py-16 md:py-24">
@@ -154,26 +172,6 @@ export default async function ProjectDetailPage({
               <p className="text-[13px] text-ink-subtle">총 {project.plans.length}장</p>
             </div>
             <ProjectPlans plans={project.plans} title={project.title} />
-          </div>
-        </section>
-      ) : null}
-
-      {/* Photo gallery — masonry columns, natural aspect ratios */}
-      {hasPhotos ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-24">
-            <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
-              <div>
-                <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                  프로젝트 사진
-                </h2>
-                <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
-                  사진을 누르면 크게 볼 수 있습니다.
-                </p>
-              </div>
-              <p className="text-[13px] text-ink-subtle">총 {project.photos.length}장</p>
-            </div>
-            <ProjectGallery photos={project.photos} title={project.title} />
           </div>
         </section>
       ) : null}
