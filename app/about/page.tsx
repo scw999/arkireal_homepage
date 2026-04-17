@@ -84,6 +84,75 @@ export default function AboutPage() {
 
       <section className="border-b border-paper-line bg-paper-warm">
         <div className="container-page py-20 md:py-24">
+          <div className="grid gap-12 md:grid-cols-[1fr_1.2fr] md:gap-16">
+            <div>
+              <span className="eyebrow">REPRESENTATIVE</span>
+              <h2 className="mt-4 text-[1.6rem] font-semibold leading-snug text-ink md:text-[1.9rem]">
+                대표 건축가 손창완
+              </h2>
+              <p className="mt-5 text-[14.5px] leading-[1.9] text-ink-muted">
+                디자인과 설계 분야의 전문성에 IT·시공 기술을 결합하여, 주택 단지·병원·풀빌라·고급
+                주택 분야에서 다수의 매체와 건축주로부터 인정받아 왔습니다.
+              </p>
+              <p className="mt-4 text-[14.5px] leading-[1.9] text-ink-muted">
+                프롭테크, VR, 3D 스캔, BIM 등 첨단 기술을 건축 현장에 직접 적용하고 있으며,
+                설계 회사 밈스페이스와 함께 아키리얼 종합건설의 모든 프로젝트를 이끌고 있습니다.
+              </p>
+
+              <div className="mt-8 space-y-3 border-t border-paper-line pt-6">
+                <p className="text-[13px] text-ink-muted">
+                  <span className="font-semibold text-ink">저서</span>
+                  <span className="ml-3">「건축주만이 알려줄 수 없는 집짓기 진실」</span>
+                </p>
+                <p className="text-[13px] text-ink-muted">
+                  <span className="font-semibold text-ink">잡지</span>
+                  <span className="ml-3">「전원속의 내 집」 커버스토리 (2023)</span>
+                </p>
+                <p className="text-[13px] text-ink-muted">
+                  <span className="font-semibold text-ink">유튜브</span>
+                  <span className="ml-3">밈건축가 채널 운영</span>
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-[13px] font-semibold uppercase tracking-[0.12em] text-ink-subtle">
+                방송 출연
+              </h3>
+              <ul className="mt-5 space-y-3 text-[14px] leading-[1.8] text-ink-muted">
+                {[
+                  ['MBC', '「구해줘 홈즈」 출연 및 자문 건축가', '2020–2023'],
+                  ['JTBC', '「하우스」 건축 전문가 고정 출연', '2020'],
+                  ['KBS2', '「그녀들의 여유만만」 건축 전문가 고정 출연', '2019'],
+                  ['SBS', '「홈데렐라」 자문 건축가', '2020'],
+                  ['SBS', '「하우스 대역전」 건축가 출연', '2022'],
+                  ['tvN', '「이집사람들」 출연', '2017'],
+                  ['MBC', '「기분좋은날」 전문가 출연', '2019'],
+                  ['EBS', '「건축 탐구 집」 출연', '2023'],
+                ].map(([ch, title, year]) => (
+                  <li key={title} className="flex items-baseline gap-3">
+                    <span className="w-12 shrink-0 text-[12px] font-semibold text-ink">{ch}</span>
+                    <span className="flex-1">{title}</span>
+                    <span className="shrink-0 text-[12px] text-ink-subtle">{year}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <h3 className="mt-10 text-[13px] font-semibold uppercase tracking-[0.12em] text-ink-subtle">
+                인증 및 등록
+              </h3>
+              <ul className="mt-5 space-y-2 text-[13.5px] leading-[1.8] text-ink-muted">
+                <li>건축공사업 등록 (등록번호 제 01-4813호)</li>
+                <li>건설공제조합 출자 · 대한건설협회 회원</li>
+                <li>공인중개업 등록 (서초구청)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-b border-paper-line">
+        <div className="container-page py-20 md:py-24">
           <span className="eyebrow">COMPANY INFO</span>
           <h2 className="mt-4 text-[1.6rem] font-semibold leading-snug text-ink md:text-[1.9rem]">
             회사 정보

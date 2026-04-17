@@ -92,10 +92,6 @@ export default function ContactPage() {
                   <p className="mt-1 text-ink">{company.email}</p>
                 </li>
                 <li>
-                  <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">카카오톡</p>
-                  <p className="mt-1 text-ink">상담 채널 준비 중</p>
-                </li>
-                <li>
                   <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">
                     상담 시간
                   </p>
