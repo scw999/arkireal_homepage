@@ -360,7 +360,7 @@ export default function HomePage() {
               <h2 className="text-[1.95rem] font-semibold leading-[1.22] tracking-tightish text-ink md:text-[2.7rem]">
                 자금·토지·설계·시공까지,
                 <br />
-                한 팀이 끝까지 맡습니다.
+                단절 없이 이어갑니다.
               </h2>
               <div className="mt-8 space-y-5 text-[15px] leading-[1.95] text-ink-soft md:text-[1.0625rem]">
                 <p>
@@ -374,7 +374,7 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className="mt-10 grid grid-cols-3 gap-6 border-t border-paper-line pt-8 text-[13px] text-ink-muted">
+              <div className="mt-10 grid grid-cols-3 gap-4 border-t border-paper-line pt-8 text-[13px] text-ink-muted sm:gap-6">
                 <div>
                   <p className="text-[2rem] font-semibold text-ink">{all.length}</p>
                   <p className="mt-1">진행·설계 프로젝트</p>
@@ -552,13 +552,13 @@ export default function HomePage() {
               },
               {
                 quote:
-                  '3D 영상을 보고 실제 지어진 집을 보니 똑같은데, 오히려 실제가 더 예뻐요.',
-                name: '이 O O 님',
+                  '건축 디자인할 때도 너무 예뻐서 놀랐는데, 다 지어지고 건물도 똑같이 예쁘게 나와서 너무 만족합니다.',
+                name: '최 O O 님',
                 project: '단독주택 건축주',
               },
               {
                 quote:
-                  '매주 현장에서 미팅을 해주시니 진행 과정도 투명하고, 중간에 필요한 부분도 현장에서 조율할 수 있어서 좋았습니다.',
+                  '시공할 때 현황 사진도 보고 매주 현장에서 미팅을 해주시니 진행 과정도 투명하고, 중간에 필요한 부분이나 막상 생각지 못했던 것도 현장에서 얘기하고 조율할 수 있어서 좋았습니다.',
                 name: '박 O O 님',
                 project: '상가주택 건축주',
               },
@@ -567,6 +567,18 @@ export default function HomePage() {
                   '외관도 마음에 드는데 내부 마감이나 디자인, 가구들까지 신경써주셔서 저한테 맞는 완벽한 집이 나온 것 같아요.',
                 name: '정 O O 님',
                 project: '전원주택 건축주',
+              },
+              {
+                quote:
+                  '3D 영상을 보고 실제 지어진 집을 보니 똑같은데, 오히려 실제가 더 예뻐요.',
+                name: '이 O O 님',
+                project: '단독주택 건축주',
+              },
+              {
+                quote:
+                  '주말에 지인들을 불러서 파티를 하는데 집이 너무 예쁘다고 부러워하고, 저도 쉬고 즐길 수 있는 공간이 생겨서 너무 좋아요.',
+                name: '한 O O 님',
+                project: '세컨하우스 건축주',
               },
             ].map((t) => (
               <blockquote

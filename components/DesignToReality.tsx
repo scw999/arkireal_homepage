@@ -63,7 +63,7 @@ export function DesignToReality() {
         {/* Tech pipeline grid */}
         <div className="mt-16 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
           {techStack.map((item) => (
-            <div key={item.label} className="border-t border-white/15 pt-5">
+            <div key={item.label} className="border-t border-white/25 pt-5">
               <h3 className="text-[1rem] font-semibold leading-snug">{item.label}</h3>
               <p className="mt-3 text-[13.5px] leading-[1.85] text-white/65">
                 {item.body}
