@@ -6,6 +6,12 @@ import { CompareSlider } from '@/components/CompareSlider';
 import { YouTubeShowcase } from '@/components/YouTubeShowcase';
 import { getAllProjects, getProjectBySlug } from '@/lib/projects';
 import { company } from '@/lib/company';
+import {
+  projectSketches,
+  processSketches,
+  bandSketches,
+  heroSketches,
+} from '@/lib/sketches';
 
 // Wide / landscape-first project titles (카페, 근린생활 등 가로 사진).
 // Matches design_handoff direction-c — 세 개의 특정 카페/근린 프로젝트만 가로.
@@ -219,14 +225,16 @@ function Icon({ name }: { name: 'fund' | 'land' | 'sim' | 'lic' }) {
 export default function HomePage() {
   const all = getAllProjects();
 
-  // Hero slides — curated from the existing CMS data.
-  const heroSlugs = [
+  // Hero slides — alternate photo / sketch across different projects so a
+  // sketch never sits next to the photo it was generated from.
+  // Order: photo A → sketch B → photo C → sketch D → photo E → sketch F → ...
+  const heroPhotoSlugs = [
     'wonju-banggok-aurora-house',
     'yangpyeong-asolrinchae-house',
     'pocheon-damhwajae-stay',
     'yeongjongdo-skycity-second-house',
   ];
-  const heroSlides: HeroSlide[] = heroSlugs
+  const heroPhotoSlides: HeroSlide[] = heroPhotoSlugs
     .map((slug) => getProjectBySlug(slug))
     .filter((p): p is NonNullable<ReturnType<typeof getProjectBySlug>> => Boolean(p))
     .map((p) => ({
@@ -234,6 +242,18 @@ export default function HomePage() {
       label: p.title,
       type: p.type,
     }));
+  const heroSketchSlides: HeroSlide[] = heroSketches.map((src) => ({
+    img: src,
+    label: '설계 스케치',
+    type: 'Sketch',
+  }));
+  // Interleave: photo[0], sketch[0], photo[1], sketch[1], ...
+  const heroSlides: HeroSlide[] = [];
+  const maxLen = Math.max(heroPhotoSlides.length, heroSketchSlides.length);
+  for (let i = 0; i < maxLen; i++) {
+    if (heroPhotoSlides[i]) heroSlides.push(heroPhotoSlides[i]);
+    if (heroSketchSlides[i]) heroSlides.push(heroSketchSlides[i]);
+  }
 
   // Featured 10 projects for home grid — handoff-matched order.
   const featured = FEATURED_SLUGS.map((slug) => getProjectBySlug(slug)).filter(
@@ -300,7 +320,12 @@ export default function HomePage() {
                       : 'col-span-6 sm:col-span-3 md:col-span-2'
                   }
                 >
-                  <ProjectCard project={p} wide={isWide} index={i + 1} />
+                  <ProjectCard
+                    project={p}
+                    wide={isWide}
+                    index={i + 1}
+                    sketchSrc={projectSketches[p.slug]}
+                  />
                 </div>
               );
             })}
@@ -377,6 +402,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* PALETTE CLEANSER BAND 1 — between interior mosaic and PROCESS */}
+      <div
+        className="relative w-full overflow-hidden bg-bg-alt"
+        style={{ aspectRatio: '21 / 9' }}
+        aria-hidden
+      >
+        <Image
+          src={bandSketches.afterInterior}
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
+
       {/* PROCESS */}
       <section id="process" className="pad-section">
         <div className="mx-auto max-w-page">
@@ -395,28 +435,46 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
-            {PROCESS.map((p) => (
-              <div
-                key={p.n}
-                className="border-t-2 border-fg pt-[18px]"
-              >
+            {PROCESS.map((p, i) => {
+              const sketch = processSketches[i];
+              return (
                 <div
-                  className="text-accent"
-                  style={{
-                    fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
-                    fontStyle: 'italic',
-                    fontWeight: 500,
-                    fontSize: 'clamp(44px, 5vw, 64px)',
-                    letterSpacing: '-0.02em',
-                    lineHeight: 1,
-                  }}
+                  key={p.n}
+                  className="border-t-2 border-fg pt-[18px]"
                 >
-                  {p.n}
+                  {sketch ? (
+                    <div
+                      className="relative mb-5 w-full overflow-hidden rounded-[4px] bg-bg-alt"
+                      style={{ aspectRatio: '3 / 2' }}
+                    >
+                      <Image
+                        src={sketch}
+                        alt=""
+                        fill
+                        sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw"
+                        aria-hidden
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : null}
+                  <div
+                    className="text-accent"
+                    style={{
+                      fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
+                      fontStyle: 'italic',
+                      fontWeight: 500,
+                      fontSize: 'clamp(44px, 5vw, 64px)',
+                      letterSpacing: '-0.02em',
+                      lineHeight: 1,
+                    }}
+                  >
+                    {p.n}
+                  </div>
+                  <h3 className="h3-serif mb-2.5 mt-5">{p.title}</h3>
+                  <p className="text-[13.5px] leading-[1.7] text-fg-mute">{p.body}</p>
                 </div>
-                <h3 className="h3-serif mb-2.5 mt-5">{p.title}</h3>
-                <p className="text-[13.5px] leading-[1.7] text-fg-mute">{p.body}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -525,6 +583,21 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* PALETTE CLEANSER BAND 2 — between concerns and testimonials */}
+      <div
+        className="relative w-full overflow-hidden bg-bg-alt"
+        style={{ aspectRatio: '21 / 9' }}
+        aria-hidden
+      >
+        <Image
+          src={bandSketches.afterConcerns}
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
 
       {/* TESTIMONIALS */}
       <section className="pad-section bg-bg-alt">

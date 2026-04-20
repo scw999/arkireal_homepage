@@ -8,9 +8,11 @@ type Props = {
   wide?: boolean;
   /** Optional overriding index shown in the mono bottom-right. */
   index?: number;
+  /** Optional sketch image shown on hover — photo fades out, sketch fades in. */
+  sketchSrc?: string;
 };
 
-export function ProjectCard({ project, wide = false, index }: Props) {
+export function ProjectCard({ project, wide = false, index, sketchSrc }: Props) {
   const aspectClass = wide ? 'aspect-[5/3]' : 'aspect-[4/5]';
 
   return (
@@ -26,9 +28,21 @@ export function ProjectCard({ project, wide = false, index }: Props) {
           alt={project.title}
           fill
           sizes={wide ? '(min-width: 900px) 66vw, 100vw' : '(min-width: 900px) 33vw, 100vw'}
-          className="object-cover transition duration-[1300ms] group-hover:scale-[1.05]"
+          className={`object-cover transition duration-[1300ms] group-hover:scale-[1.05] ${
+            sketchSrc ? 'group-hover:opacity-0' : ''
+          }`}
           style={{ transitionTimingFunction: 'cubic-bezier(0.2,0.7,0.2,1)' }}
         />
+        {sketchSrc ? (
+          <Image
+            src={sketchSrc}
+            alt=""
+            fill
+            sizes={wide ? '(min-width: 900px) 66vw, 100vw' : '(min-width: 900px) 33vw, 100vw'}
+            aria-hidden
+            className="pointer-events-none absolute inset-0 object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          />
+        ) : null}
         <div
           className="absolute left-3.5 top-3.5 whitespace-nowrap rounded-full px-3 py-1.5 text-[11px] font-semibold tracking-[0.1em]"
           style={{ background: 'rgba(255,255,255,0.94)', color: '#14130e' }}
