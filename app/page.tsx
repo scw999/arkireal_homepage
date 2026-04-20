@@ -4,6 +4,7 @@ import { ProjectCard } from '@/components/ProjectCard';
 import { HeroRotator, type HeroSlide } from '@/components/HeroRotator';
 import { CompareSlider } from '@/components/CompareSlider';
 import { YouTubeShowcase } from '@/components/YouTubeShowcase';
+import { CinematicFilms } from '@/components/CinematicFilms';
 import { getAllProjects, getProjectBySlug } from '@/lib/projects';
 import { company } from '@/lib/company';
 import {
@@ -648,6 +649,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* CINEMATIC FILMS — curated drone / cinematic completion films */}
+      <CinematicFilms />
 
       {/* YOUTUBE — reuse existing component fetching from YT Data API */}
       <YouTubeShowcase />
