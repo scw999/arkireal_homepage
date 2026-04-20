@@ -33,8 +33,8 @@ export const processSketches: string[] = [
 ];
 
 export const bandSketches = {
-  afterInterior: '/images/sketch/장호원_합쳐진나무_스케치1.png',
-  afterConcerns: '/images/sketch/파주_스케치2.png',
+  afterInterior: '/images/sketch/양평_스케치5.png',
+  afterConcerns: '/images/sketch/원주_풀스테이_스케치3.png',
 };
 
 export const heroSketches = [
