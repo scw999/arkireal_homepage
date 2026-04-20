@@ -86,6 +86,11 @@ const PROCESS = [
     title: '설계자가 시공 현장까지 함께합니다',
     body: '법적 감리 외에 설계자가 직접 현장에서 디자인 감리를 하며, 시공 과정을 투명하게 공개합니다.',
   },
+  {
+    n: '06',
+    title: '완공 후에도 곁에서 관리합니다',
+    body: '완공된 공간을 일상의 쉼터나 수익 공간으로 누리시는 동안, 건축공사업 면허 업체의 하자이행보증과 정기 점검으로 곁에서 관리합니다.',
+  },
 ];
 
 const TECH = [
@@ -424,9 +429,9 @@ export default function HomePage() {
       <section id="process" className="pad-section">
         <div className="mx-auto max-w-page">
           <div className="mb-16 max-w-[820px]">
-            <div className="eyebrow mb-4">— Process · 01 → 05</div>
+            <div className="eyebrow mb-4">— Process · 01 → 06</div>
             <h2 className="h2-serif">
-              자금·토지·설계·시공까지,
+              자금·토지·설계·시공·완공까지,
               <br />
               <span className="em-serif">단절 없이</span> 이어갑니다.
             </h2>
@@ -521,7 +526,13 @@ export default function HomePage() {
                           ? [media.main, ...(media.gallery ?? [])]
                           : media.gallery ?? [];
                         return (
-                          <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                          <div
+                            className={
+                              media.uniformCols === 3
+                                ? 'grid grid-cols-2 gap-2 sm:grid-cols-3'
+                                : 'grid grid-cols-2 gap-2 sm:grid-cols-4'
+                            }
+                          >
                             {all.map((src, gIdx) => (
                               <div
                                 key={src}
@@ -532,16 +543,18 @@ export default function HomePage() {
                                   src={src}
                                   alt=""
                                   fill
-                                  sizes="(min-width: 640px) 24vw, 50vw"
+                                  sizes={media.uniformCols === 3 ? '(min-width: 640px) 32vw, 50vw' : '(min-width: 640px) 24vw, 50vw'}
                                   aria-hidden
                                   className="object-cover"
                                 />
-                                <span
-                                  className="pointer-events-none absolute left-2 top-2 rounded-sm px-1.5 py-0.5 font-mono text-[11px] tracking-mono"
-                                  style={{ background: 'rgba(20,18,14,.78)', color: '#F5F2EC' }}
-                                >
-                                  {String(gIdx + 1).padStart(2, '0')}
-                                </span>
+                                {media.numbered ? (
+                                  <span
+                                    className="pointer-events-none absolute left-2 top-2 rounded-sm px-1.5 py-0.5 font-mono text-[11px] tracking-mono"
+                                    style={{ background: 'rgba(20,18,14,.78)', color: '#F5F2EC' }}
+                                  >
+                                    {String(gIdx + 1).padStart(2, '0')}
+                                  </span>
+                                ) : null}
                               </div>
                             ))}
                           </div>

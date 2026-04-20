@@ -49,6 +49,10 @@ export const processMedia: {
   main: string;
   gallery?: string[];
   uniform?: boolean;
+  /** Show 01-NN index chips in uniform mode (used for 시공 순서). */
+  numbered?: boolean;
+  /** Desktop column count for uniform mode. Defaults to 4. */
+  uniformCols?: 3 | 4;
   /** Masonry mode — each image keeps its native aspect via `aspects`. */
   masonry?: boolean;
   /** Per-image aspect ratio (e.g. "16/9"). Used only in masonry mode. */
@@ -86,7 +90,7 @@ export const processMedia: {
     ],
     layout: 'step4',
   },
-  // 05 시공·감리 — 현장 전 과정. uniform 그리드로 모두 동등한 위계
+  // 05 시공·감리 — 현장 전 과정. uniform 그리드로 모두 동등한 위계 + 순번 칩
   {
     main: '/images/process/11.construction.png',
     gallery: [
@@ -104,9 +108,23 @@ export const processMedia: {
       '/images/process/11.construction13.png',
       '/images/process/11.construction14.png',
       '/images/process/11.construction15.png',
-      '/images/process/12.complete.png',
     ],
     uniform: true,
+    numbered: true,
+  },
+  // 06 완공·관리 — 완공 사진 갤러리 (번호 없이, 완공된 공간을 즐기는 톤)
+  // 6장을 3-col 그리드로 2×3 배치
+  {
+    main: '/images/process/12.complete.png',
+    gallery: [
+      '/images/process/12.complete1.png',
+      '/images/process/12.complete2.png',
+      '/images/process/12.complete3.png',
+      '/images/process/12.complete4.png',
+      '/images/process/12.complete5.png',
+    ],
+    uniform: true,
+    uniformCols: 3,
   },
 ];
 
