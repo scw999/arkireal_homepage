@@ -9,7 +9,8 @@ import { getAllProjects, getProjectBySlug } from '@/lib/projects';
 import { company } from '@/lib/company';
 import {
   projectSketches,
-  processSketches,
+  processMedia,
+  techImages,
   bandSketches,
   heroSketches,
 } from '@/lib/sketches';
@@ -436,45 +437,120 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
-            {PROCESS.map((p, i) => {
-              const sketch = processSketches[i];
+          {/* Steps 01-02 — 자금·부지 (compact: text-led, single small thumb) */}
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
+            {PROCESS.slice(0, 2).map((p, i) => {
+              const media = processMedia[i];
               return (
-                <div
-                  key={p.n}
-                  className="border-t-2 border-fg pt-[18px]"
-                >
-                  {sketch ? (
+                <div key={p.n} className="flex gap-5 border-t-2 border-fg pt-[18px]">
+                  {media?.main ? (
                     <div
-                      className="relative mb-5 w-full overflow-hidden rounded-[4px] bg-bg-alt"
-                      style={{ aspectRatio: '3 / 2' }}
+                      className="relative shrink-0 overflow-hidden rounded-[4px] bg-bg-alt"
+                      style={{ width: 148, aspectRatio: '4 / 3' }}
                     >
                       <Image
-                        src={sketch}
+                        src={media.main}
                         alt=""
                         fill
-                        sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw"
+                        sizes="180px"
                         aria-hidden
                         className="object-cover"
                       />
                     </div>
                   ) : null}
-                  <div
-                    className="text-accent"
-                    style={{
-                      fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
-                      fontStyle: 'italic',
-                      fontWeight: 500,
-                      fontSize: 'clamp(44px, 5vw, 64px)',
-                      letterSpacing: '-0.02em',
-                      lineHeight: 1,
-                    }}
-                  >
-                    {p.n}
+                  <div>
+                    <div
+                      className="text-accent"
+                      style={{
+                        fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
+                        fontStyle: 'italic',
+                        fontWeight: 500,
+                        fontSize: 'clamp(34px, 3.5vw, 46px)',
+                        letterSpacing: '-0.02em',
+                        lineHeight: 1,
+                      }}
+                    >
+                      {p.n}
+                    </div>
+                    <h3 className="h3-serif mb-2 mt-3">{p.title}</h3>
+                    <p className="text-[13.5px] leading-[1.7] text-fg-mute">{p.body}</p>
                   </div>
-                  <h3 className="h3-serif mb-2.5 mt-5">{p.title}</h3>
-                  <p className="text-[13.5px] leading-[1.7] text-fg-mute">{p.body}</p>
                 </div>
+              );
+            })}
+          </div>
+
+          {/* Steps 03-05 — 설계 · 자재 · 감리 (expanded: large main + thumbnail strip) */}
+          <div className="mt-12 space-y-10 md:mt-16 md:space-y-14">
+            {PROCESS.slice(2).map((p, idx) => {
+              const i = idx + 2;
+              const media = processMedia[i];
+              const flip = idx % 2 === 1;
+              return (
+                <article
+                  key={p.n}
+                  className={`grid gap-8 border-t-2 border-fg pt-[24px] md:grid-cols-[1.35fr_1fr] md:gap-12 ${
+                    flip ? 'md:[&>*:first-child]:order-last' : ''
+                  }`}
+                >
+                  {/* Media column: main image + thumbnail strip */}
+                  <div>
+                    {media?.main ? (
+                      <div
+                        className="relative w-full overflow-hidden rounded-[6px] bg-bg-alt"
+                        style={{ aspectRatio: '16 / 10' }}
+                      >
+                        <Image
+                          src={media.main}
+                          alt={p.title}
+                          fill
+                          sizes="(min-width: 768px) 58vw, 100vw"
+                          className="object-cover"
+                        />
+                      </div>
+                    ) : null}
+                    {media?.gallery && media.gallery.length > 0 ? (
+                      <div className="mt-3 grid gap-2" style={{ gridTemplateColumns: `repeat(${Math.min(media.gallery.length, 4)}, minmax(0, 1fr))` }}>
+                        {media.gallery.map((src) => (
+                          <div
+                            key={src}
+                            className="relative overflow-hidden rounded-[3px] bg-bg-alt"
+                            style={{ aspectRatio: '4 / 3' }}
+                          >
+                            <Image
+                              src={src}
+                              alt=""
+                              fill
+                              sizes="20vw"
+                              aria-hidden
+                              className="object-cover"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    ) : null}
+                  </div>
+                  {/* Text column */}
+                  <div className="md:pt-2">
+                    <div
+                      className="text-accent"
+                      style={{
+                        fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
+                        fontStyle: 'italic',
+                        fontWeight: 500,
+                        fontSize: 'clamp(48px, 5.5vw, 72px)',
+                        letterSpacing: '-0.02em',
+                        lineHeight: 1,
+                      }}
+                    >
+                      {p.n}
+                    </div>
+                    <h3 className="h2-serif mt-4" style={{ fontSize: 'clamp(22px, 2.3vw, 30px)' }}>
+                      {p.title}
+                    </h3>
+                    <p className="body-copy mt-4 text-fg-mute">{p.body}</p>
+                  </div>
+                </article>
               );
             })}
           </div>
@@ -483,6 +559,34 @@ export default function HomePage() {
 
       {/* DESIGN TO REALITY — dark */}
       <section id="tech" className="dark-surface pad-section bg-bg-deep text-bg">
+        <div className="mx-auto mb-12 max-w-page">
+          <div className="grid gap-8 md:grid-cols-[1.15fr_1fr] md:items-end md:gap-12">
+            <div>
+              <div
+                className="eyebrow mb-4"
+                style={{ color: '#5A7A63' }}
+              >
+                — Design to Reality · 3D → Built
+              </div>
+              <h2
+                className="h2-serif"
+                style={{ color: '#F5F2EC' }}
+              >
+                설계한 <span className="em-serif">그대로</span>,<br />
+                현장에서 구현합니다
+              </h2>
+            </div>
+            <p
+              className="body-copy md:justify-self-end md:max-w-[520px]"
+              style={{ color: 'rgba(238,234,226,0.78)' }}
+            >
+              <strong className="font-semibold" style={{ color: '#F5F2EC' }}>BIM·3D·VR 시뮬레이션</strong>으로
+              완성 모습을 먼저 검증한 뒤, 현장에서 그대로 짓습니다. 아래 슬라이더를
+              드래그해서 <span className="em-hl" style={{ color: '#F5F2EC' }}>3D 렌더링과 실제 완공</span>을 비교해 보세요.
+            </p>
+          </div>
+        </div>
+
         <div className="mb-6">
           <CompareSlider bim={compareLeft} photo={compareRight} labelA="3D 시뮬레이션" labelB="실제 완성" />
           <div
@@ -499,15 +603,38 @@ export default function HomePage() {
             className="mt-12 grid grid-cols-1 md:grid-cols-3"
             style={{ gap: 1, background: 'rgba(238,234,226,0.12)' }}
           >
-            {TECH.map((t, i) => (
+            {TECH.map((t, i) => {
+              const img = techImages[t.tag];
+              return (
               <div
                 key={t.tag}
-                className="relative bg-bg-deep"
+                className="relative overflow-hidden bg-bg-deep"
                 style={{
                   padding: 'clamp(28px, 4vw, 40px) clamp(24px, 3vw, 32px)',
-                  minHeight: 260,
+                  minHeight: 340,
                 }}
               >
+                {img ? (
+                  <>
+                    <Image
+                      src={img}
+                      alt=""
+                      fill
+                      sizes="(min-width: 768px) 33vw, 100vw"
+                      aria-hidden
+                      className="object-cover"
+                      style={{ opacity: 0.38 }}
+                    />
+                    <div
+                      className="absolute inset-0"
+                      style={{
+                        background:
+                          'linear-gradient(180deg, rgba(20,18,14,.55) 0%, rgba(20,18,14,.75) 55%, rgba(20,18,14,.92) 100%)',
+                      }}
+                    />
+                  </>
+                ) : null}
+                <div className="relative">
                 <div
                   className="mb-11 flex items-center justify-between font-mono text-[11px]"
                   style={{ letterSpacing: '0.2em', color: '#5A7A63' }}
@@ -530,12 +657,14 @@ export default function HomePage() {
                 </h3>
                 <p
                   className="text-[14px] leading-[1.75]"
-                  style={{ color: 'rgba(238,234,226,0.68)' }}
+                  style={{ color: 'rgba(238,234,226,0.78)' }}
                 >
                   {t.body}
                 </p>
+                </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

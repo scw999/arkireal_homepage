@@ -32,7 +32,7 @@ export function CinematicFilms() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:gap-10 md:grid-cols-2">
           {cinematicFilms.map((film) => (
             <FilmCard key={film.id} film={film} />
           ))}
@@ -105,7 +105,7 @@ function FilmCard({ film }: { film: CinematicFilm }) {
             style={{
               fontFamily: "'Noto Serif KR', serif",
               fontWeight: 500,
-              fontSize: 17,
+              fontSize: 'clamp(19px, 1.6vw, 23px)',
               letterSpacing: '-0.01em',
               color: '#F5F2EC',
             }}

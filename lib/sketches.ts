@@ -36,6 +36,59 @@ export const processSketches: string[] = [
   '/images/process/11.construction.png',
 ];
 
+/**
+ * Multi-image variant of processSketches. Steps 01-02 stay light (1 photo
+ * each) because 자금 / 부지 don't need visual proof; 03-05 go heavy so
+ * 설계 · 시공 · 감리 get the real weight the user asked for.
+ * `main` drives the hero frame; `gallery` becomes a thumbnail strip.
+ */
+export const processMedia: { main: string; gallery?: string[] }[] = [
+  // 01 자금 — plan/blueprint alone keeps the step text-led
+  { main: '/images/process/7.plan.png' },
+  // 02 부지 — drone + 조망 체크
+  {
+    main: '/images/process/1.drone.png',
+    gallery: ['/images/process/2.view_check.png'],
+  },
+  // 03 완성 모습 — 렌더링 2장 + VR 1장
+  {
+    main: '/images/process/8.3d_rendering.png',
+    gallery: [
+      '/images/process/9.3d_rendering.png',
+      '/images/process/10.VR.png',
+    ],
+  },
+  // 04 자재 시뮬 — 3D 디자인 4장(자재 배치별)
+  {
+    main: '/images/process/4.3d_designm.png',
+    gallery: [
+      '/images/process/3.3d_designm.png',
+      '/images/process/5.3d_designm.png',
+      '/images/process/6.3d_designm.png',
+    ],
+  },
+  // 05 시공·감리 — 현장 사진 4장 + 완공
+  {
+    main: '/images/process/11.construction.png',
+    gallery: [
+      '/images/process/11.construction5.png',
+      '/images/process/11.construction10.png',
+      '/images/process/11.construction15.png',
+      '/images/process/12.complete.png',
+    ],
+  },
+];
+
+/** Process photo bound to each TECH card in the Design-to-Reality section. */
+export const techImages: Record<string, string> = {
+  BIM: '/images/process/3.3d_designm.png',
+  '3D/VR': '/images/process/10.VR.png',
+  DRONE: '/images/process/1.drone.png',
+  MATERIAL: '/images/process/6.3d_designm.png',
+  SUPERVISION: '/images/process/11.construction8.png',
+  BRAND: '/images/process/12.complete.png',
+};
+
 export const bandSketches = {
   afterInterior: '/images/sketch/양평_스케치5.png',
   afterConcerns: '/images/sketch/원주_풀스테이_스케치3.png',
