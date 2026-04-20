@@ -1,0 +1,300 @@
+PLAN IMAGE VISUAL AUDIT - All 33 Projects, 176 Plan Files
+=========================================================
+Date: 2026-04-13
+
+CLASSIFICATION KEY:
+  drawing = architectural floor plan drawing (OK)
+  table   = area/specification table (OK)
+  photo   = interior/exterior photograph (WRONG - must remove)
+  render  = 3D isometric floor plan render (OK - shows room layout from above)
+
+=== PROJECTS WITH NO ISSUES (all plans are valid drawings/tables/renders) ===
+
+1. yeoju-second-house-housing-complex-design (4 plans)
+   plan-01: render (3D isometric 1F camping-spa type)
+   plan-02: render (3D isometric 2F camping-spa type)
+   plan-03: render (3D isometric attic camping-spa type)
+   plan-04: table (area table)
+
+2. seosan-bluewalk-country-housing-complex-design (10 plans)
+   plan-01: table (area table - large type)
+   plan-02: table (area table - medium type)
+   plan-03: drawing (1F floor plan - large type)
+   plan-04: drawing (2F floor plan - large type)
+   plan-05: drawing (1F floor plan - medium type)
+   plan-06: drawing (2F floor plan - medium type)
+   plan-07: drawing (attic floor plan - medium type)
+   plan-08: render (3D isometric 1F - large type)
+   plan-09: render (3D isometric 1F - large type, duplicate?)
+   plan-10: render (3D isometric 1F - medium type)
+
+3. icheon-pomier-country-housing-complex-design (10 plans)
+   plan-01: table (area table)
+   plan-02: drawing (office 1F)
+   plan-03: drawing (office attic)
+   plan-04: drawing (office A type 1F)
+   plan-05: drawing (office A type attic)
+   plan-06: drawing (office B type 1F)
+   plan-07: drawing (office B type attic)
+   plan-08: drawing (residence 1F)
+   plan-09: drawing (residence 2F)
+   plan-10: drawing (residence attic)
+
+4. yeoju-second-house (4 plans)
+   plan-01: table (area table)
+   plan-02: drawing (1F floor plan)
+   plan-03: drawing (2F floor plan)
+   plan-04: drawing (attic floor plan)
+
+5. yeoju-pet-friendly-housing-complex (4 plans)
+   plan-01: table (area table)
+   plan-02: drawing (1F floor plan)
+   plan-03: drawing (2F floor plan)
+   plan-04: drawing (attic floor plan)
+
+6. icheon-pomier-office-type (3 plans)
+   plan-01: table (area table)
+   plan-02: drawing (1F floor plan)
+   plan-03: drawing (attic floor plan)
+
+7. seosan-bluewalk-medium-type (4 plans)
+   plan-01: table (area table)
+   plan-02: drawing (1F floor plan)
+   plan-03: drawing (2F floor plan)
+   plan-04: drawing (attic floor plan)
+
+8. seosan-bluewalk-small-type (3 plans)
+   plan-01: table (area table)
+   plan-02: drawing (1F floor plan)
+   plan-03: drawing (2F floor plan)
+
+9. danyang-dreamsuite-pension (6 plans)
+   plan-01: table (area table - dream building)
+   plan-02: table (area table - suite building)
+   plan-03: drawing (1F dream building)
+   plan-04: drawing (2F dream building)
+   plan-05: drawing (1F suite building)
+   plan-06: drawing (2F suite building)
+
+10. namyangju-maeumnongjang-pension (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (1F alternate/detailed)
+
+11. pocheon-damhwajae-stay (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (ga-dong floor plan)
+    plan-03: drawing (da-dong floor plan)
+    plan-04: drawing (na-dong floor plan)
+
+12. pocheon-damhwajae-cafe (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (ga-dong floor plan)
+    plan-03: drawing (da-dong floor plan)
+    plan-04: drawing (na-dong floor plan)
+
+13. icheon-bubbly-cafe (5 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (3F floor plan)
+    plan-05: drawing (basement floor plan)
+
+14. yongin-bakery-cafe (5 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (3F floor plan)
+    plan-05: drawing (basement floor plan)
+
+15. osan-soyland-cafe (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (3F floor plan)
+
+16. asan-aureum-complex (3 plans)
+    plan-01: table (area table)
+    plan-02: drawing (2F floor plan)
+    plan-03: drawing (1F floor plan)
+
+17. asan-tiara-cafe (3 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+
+18. pocheon-pumit-mixed-use (5 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (3F floor plan)
+    plan-05: drawing (attic floor plan)
+
+19. okcheon-maple-mixed-use (5 plans)
+    plan-01: table (area table)
+    plan-02: drawing (2F floor plan)
+    plan-03: drawing (attic floor plan)
+    plan-04: drawing (1F floor plan)
+    plan-05: drawing (1F floor plan smaller)
+
+20. yeongjongdo-skycity-second-house (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (attic floor plan)
+
+21. siheung-baegot-deohanjib (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (attic floor plan)
+    plan-03: drawing (1F floor plan)
+    plan-04: drawing (2F floor plan)
+
+22. ulju-sereno-second-house (7 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (basement floor plan)
+    plan-04: drawing (attic floor plan)
+    plan-05: drawing (basement - smaller)
+    plan-06: drawing (1F - smaller)
+    plan-07: drawing (attic - smaller)
+
+23. mojeonri-siot-house (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (attic floor plan)
+
+24. yeoju-hyeonamdong-courtyard-house (3 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+
+25. yeoju-jeombongdong-pum-house (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (attic floor plan)
+
+26. yeoju-gangcheon-naraejae-house (5 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (attic floor plan)
+    plan-05: drawing (basement floor plan)
+
+27. yeoju-gangcheon-gangsanjae-second-house (4 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (2F floor plan)
+    plan-04: drawing (attic floor plan)
+
+28. milyang-grindelwald-house (3 plans)
+    plan-01: table (area table)
+    plan-02: drawing (1F floor plan)
+    plan-03: drawing (attic floor plan)
+
+
+=== PROJECTS WITH ISSUES (photos incorrectly in plans) ===
+
+29. wonju-poolstay (8 plans) -- 4 PHOTOS FOUND
+    plan-01: PHOTO (interior - lobby/lounge with skylight) *** REMOVE ***
+    plan-02: PHOTO (interior - room with ceiling fan and skylight) *** REMOVE ***
+    plan-03: PHOTO (interior - room looking through glass door) *** REMOVE ***
+    plan-04: PHOTO (interior - lounge area with skylight, wider shot) *** REMOVE ***
+    plan-05: table (area table) -- KEEP
+    plan-06: drawing (attic floor plan) -- KEEP
+    plan-07: drawing (1F floor plan) -- KEEP
+    plan-08: drawing (2F floor plan) -- KEEP
+
+30. wonju-banggok-aurora-house (10 plans) -- ALL 10 ARE PHOTOS
+    plan-01: PHOTO (interior - hallway with round windows) *** REMOVE ***
+    plan-02: PHOTO (interior - hallway with curved wall) *** REMOVE ***
+    plan-03: PHOTO (interior - bedroom with chandelier) *** REMOVE ***
+    plan-04: PHOTO (interior - room with stairs and arch door) *** REMOVE ***
+    plan-05: PHOTO (interior - attic with skylight and glass railing) *** REMOVE ***
+    plan-06: PHOTO (interior - bedroom with large window) *** REMOVE ***
+    plan-07: PHOTO (interior - room with loft and chandelier) *** REMOVE ***
+    plan-08: PHOTO (interior - attic room with skylight) *** REMOVE ***
+    plan-09: PHOTO (interior - staircase with loft) *** REMOVE ***
+    plan-10: PHOTO (interior - room with staircase and chandelier) *** REMOVE ***
+
+    WP FLOOR PLANS FOUND:
+    - 원주-1층1.jpg (1F floor plan drawing) -> wp-content/uploads/2025/08/
+    - 원주-2층2.jpg (2F floor plan drawing) -> wp-content/uploads/2025/08/
+    - 원주-다락3.jpg (attic floor plan drawing) -> wp-content/uploads/2025/08/
+    - 원주-배곧-면적내용.jpg (area table) -> wp-content/uploads/2025/08/
+
+31. hyangdong-archireal-mixed-use (10 plans) -- ALL 10 ARE PHOTOS
+    plan-01: PHOTO (interior - kitchen with tall windows) *** REMOVE ***
+    plan-02: PHOTO (interior - kitchen, different angle) *** REMOVE ***
+    plan-03: PHOTO (interior - arched window stairwell) *** REMOVE ***
+    plan-04: PHOTO (interior - entryway with staircase) *** REMOVE ***
+    plan-05: PHOTO (interior - bathroom with blue dots) *** REMOVE ***
+    plan-06: PHOTO (interior - living area with stairs) *** REMOVE ***
+    plan-07: PHOTO (interior - entrance door) *** REMOVE ***
+    plan-08: PHOTO (interior - entryway with washer) *** REMOVE ***
+    plan-09: PHOTO (interior - bathroom blue tiles) *** REMOVE ***
+    plan-10: PHOTO (interior - bathroom green tiles) *** REMOVE ***
+
+    WP FLOOR PLANS FOUND:
+    - 고양-1층.jpg (1F floor plan) -> wp-content/uploads/2025/08/
+    - 고양-2층.jpg (2F floor plan) -> wp-content/uploads/2025/08/
+    - 고양-3층.jpg (3F floor plan) -> wp-content/uploads/2025/08/
+    - 고양-4층.jpg (4F floor plan) -> wp-content/uploads/2025/08/
+    - 고양-다락층.jpg (attic floor plan) -> wp-content/uploads/2025/08/
+    - 고양-면적내용.jpg (area table) -> wp-content/uploads/2025/08/
+
+32. beondong-mixed-use (10 plans) -- 9 PHOTOS FOUND
+    plan-01: PHOTO (interior - kitchen under stairs) *** REMOVE ***
+    plan-02: PHOTO (interior - bathroom with wood trim) *** REMOVE ***
+    plan-03: PHOTO (interior - bedroom with blue accent wall) *** REMOVE ***
+    plan-04: PHOTO (interior - blue kitchen) *** REMOVE ***
+    plan-05: PHOTO (interior - kitchen/living area) *** REMOVE ***
+    plan-06: PHOTO (interior - bathroom with tub) *** REMOVE ***
+    plan-07: PHOTO (interior - green kitchen) *** REMOVE ***
+    plan-08: PHOTO (interior - bathroom black/white) *** REMOVE ***
+    plan-09: PHOTO (interior - entrance door) *** REMOVE ***
+    plan-10: table (area table) -- KEEP
+
+    WP FLOOR PLANS: No FLOOR PLAN section found in WP post content.
+    Area table exists: 번동-면적내용.jpg in wp-content/uploads/2025/08/
+
+33. yangpyeong-asolrinchae-house (10 plans) -- 8 PHOTOS FOUND
+    plan-01: PHOTO (interior - living room from above) *** REMOVE ***
+    plan-02: PHOTO (interior - study room with piano) *** REMOVE ***
+    plan-03: PHOTO (interior - bedroom with mountain view) *** REMOVE ***
+    plan-04: PHOTO (interior - dressing room with curved wall) *** REMOVE ***
+    plan-05: PHOTO (interior - laundry/closet area) *** REMOVE ***
+    plan-06: PHOTO (interior - hallway) *** REMOVE ***
+    plan-07: PHOTO (interior - bathroom) *** REMOVE ***
+    plan-08: PHOTO (interior - shower) *** REMOVE ***
+    plan-09: table (area table) -- KEEP
+    plan-10: drawing (1F floor plan drawing) -- KEEP
+
+    WP FLOOR PLANS FOUND:
+    - 양평-도면_1층-3.jpg (1F floor plan) -> wp-content/uploads/2025/07/
+    - 양평-도면_2층-3-1.jpg (2F floor plan) -> wp-content/uploads/2025/07/
+    - 양평-면적내용-1.jpg (area table) -> wp-content/uploads/2025/07/
+
+
+=== SUMMARY ===
+
+Total projects audited: 33
+Total plan files audited: 176
+Projects with issues: 5 (wonju-poolstay, wonju-banggok-aurora-house, hyangdong-archireal-mixed-use, beondong-mixed-use, yangpyeong-asolrinchae-house)
+Total photo files to remove from plans: 31
+
+ACTIONS NEEDED:
+1. wonju-poolstay: Remove plan-01 through plan-04 (photos), keep plan-05 through plan-08
+2. wonju-banggok-aurora-house: Remove ALL 10 photos, copy WP floor plans (3 drawings + 1 table)
+3. hyangdong-archireal-mixed-use: Remove ALL 10 photos, copy WP floor plans (5 drawings + 1 table)
+4. beondong-mixed-use: Remove plan-01 through plan-09 (photos), keep plan-10 (table). No WP floor plans available.
+5. yangpyeong-asolrinchae-house: Remove plan-01 through plan-08 (photos), keep plan-09 (table) and plan-10 (drawing). Copy WP 2F floor plan.
+
+NOTE on STEP 5 (photo plan files not in gallery):
+- wonju-poolstay plan-01 to 04: Should check if these interior photos are in the gallery/photos arrays
+- wonju-banggok-aurora-house plan-01 to 10: Should check if already in gallery
+- hyangdong-archireal-mixed-use plan-01 to 10: Should check if already in gallery
+- beondong-mixed-use plan-01 to 09: Should check if already in gallery
+- yangpyeong-asolrinchae-house plan-01 to 08: Should check if already in gallery

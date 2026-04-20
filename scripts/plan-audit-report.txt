@@ -1,0 +1,135 @@
+================================================================================
+FLOOR PLAN (도면) AUDIT REPORT - ALL 33 PROJECTS
+Generated: 2026-04-13
+================================================================================
+
+METHODOLOGY:
+- Extracted post_content from WordPress SQL dump (buildtree.sql) for each project
+- Identified FLOOR PLAN sections by looking for "FLOOR PLAN" or "도면" headers
+- Extracted wp-image-XXXX references within those sections
+- Cross-referenced with wp_posts attachment records (post_parent = project ID)
+- Compared with current projects.json plans array and on-disk plan files
+
+================================================================================
+FIXES APPLIED
+================================================================================
+
+7 projects were missing floor plan images that existed in WordPress.
+All floor plans have been copied from WP uploads and added to projects.json.
+
+1. 밀양 그린델발트 하우스 (ID: 9547, milyang-grindelwald-house)
+   - Was: 1 table only (plan-01.jpg, 500x110, 면적 table)
+   - Added: plan-02.jpg (2000x1470, floor) from WP attachment 9572 (uploads/2025/07/1.jpg)
+   - Added: plan-03.jpg (2000x1473, floor) from WP attachment 9571 (uploads/2025/07/2.jpg)
+   - Now: 1 table + 2 floor plans
+
+2. 포천 담화재 카페 (ID: 10594, pocheon-damhwajae-cafe)
+   - Was: 1 table only
+   - Added: plan-02.jpg (1683x2000, floor) from WP attachment 10621 (포천-담화재-가동)
+   - Added: plan-03.jpg (1703x2000, floor) from WP attachment 10623 (포천-담화재-다동)
+   - Added: plan-04.jpg (1908x2000, floor) from WP attachment 10625 (포천-담화재-나동)
+   - Now: 1 table + 3 floor plans
+
+3. 포천 담화재 스테이 (ID: 10626, pocheon-damhwajae-stay)
+   - Was: 1 table only
+   - Added: plan-02.jpg (1683x2000, floor) - same building plans shared with cafe
+   - Added: plan-03.jpg (1703x2000, floor)
+   - Added: plan-04.jpg (1908x2000, floor)
+   - Now: 1 table + 3 floor plans
+   - NOTE: Stay and Cafe share the same building, so same floor plans
+
+4. 모전리 시옷하우스 (ID: 9879, mojeonri-siot-house)
+   - Was: 1 table only
+   - Added: plan-02.jpg (1863x2000, floor) from WP attachment 9934 (모전리-시옷하우스1)
+   - Added: plan-03.jpg (1868x2000, floor) from WP attachment 9935 (모전리-시옷하우스2)
+   - Added: plan-04.jpg (1875x2000, floor) from WP attachment 9933 (모전리-시옷하우스3)
+   - Now: 1 table + 3 floor plans
+
+5. 여주 현암동 중정형주택 (ID: 9784, yeoju-hyeonamdong-courtyard-house)
+   - Was: 1 table only
+   - Added: plan-02.jpg (2000x1973, floor) from WP attachment 9831 (여주-현암동1)
+   - Added: plan-03.jpg (1850x2000, floor) from WP attachment 9830 (여주-현암동2)
+   - Now: 1 table + 2 floor plans
+
+6. 여주 점봉동 품하우스 (ID: 9733, yeoju-jeombongdong-pum-house)
+   - Was: 1 table only
+   - Added: plan-02.jpg (1639x2000, floor) from WP attachment 9783 (여주-점봉동1)
+   - Added: plan-03.jpg (1554x2000, floor) from WP attachment 9779 (여주-점봉동2)
+   - Added: plan-04.jpg (931x2000, floor) from WP attachment 9781 (여주-점봉동3)
+   - Now: 1 table + 3 floor plans
+
+7. 여주 강천 나래재 하우스 (ID: 9670, yeoju-gangcheon-naraejae-house)
+   - Was: 1 table only
+   - Added: plan-02.jpg (1832x2000, floor) from WP attachment 9730 (여주-나래재1)
+   - Added: plan-03.jpg (2000x1865, floor) from WP attachment 9731 (여주-나래재2)
+   - Added: plan-04.jpg (1581x2000, floor) from WP attachment 9728 (여주-나래재3)
+   - Added: plan-05.jpg (2000x1809, floor) from WP attachment 9729 (여주-나래재4)
+   - Now: 1 table + 4 floor plans
+
+8. 여주 강천 강산재 세컨하우스 (ID: 9618, yeoju-gangcheon-gangsanjae-second-house)
+   - Was: 1 table only
+   - Added: plan-02.jpg (2000x1927, floor) from WP attachment 9630 (여주-강산재1)
+   - Added: plan-03.jpg (1337x2000, floor) from WP attachment 9631 (여주-강산재2)
+   - Added: plan-04.jpg (1612x2000, floor) from WP attachment 9627 (여주-강산재3)
+   - Now: 1 table + 3 floor plans
+
+================================================================================
+FINAL STATE - ALL 33 PROJECTS
+================================================================================
+
+ID    | Slug                                          | Floor | Table | Total
+------|-----------------------------------------------|-------|-------|------
+11449 | yeoju-second-house-housing-complex-design      |   3   |   1   |   4
+11254 | seosan-bluewalk-country-housing-complex-design  |   8   |   2   |  10
+10988 | icheon-pomier-country-housing-complex-design    |   9   |   1   |  10
+10954 | yeoju-second-house                             |   3   |   1   |   4
+10929 | yeoju-pet-friendly-housing-complex              |   3   |   1   |   4
+10909 | icheon-pomier-office-type                       |   2   |   1   |   3
+10849 | seosan-bluewalk-medium-type                     |   3   |   1   |   4
+10822 | seosan-bluewalk-small-type                      |   2   |   1   |   3
+10706 | danyang-dreamsuite-pension                      |   4   |   2   |   6
+10657 | wonju-poolstay                                 |   7   |   1   |   8
+10629 | namyangju-maeumnongjang-pension                 |   3   |   1   |   4
+10626 | pocheon-damhwajae-stay                          |   3   |   1   |   4  *FIXED
+10594 | pocheon-damhwajae-cafe                          |   3   |   1   |   4  *FIXED
+10531 | icheon-bubbly-cafe                              |   4   |   1   |   5
+10499 | yongin-bakery-cafe                              |   4   |   1   |   5
+10434 | osan-soyland-cafe                               |   3   |   1   |   4
+10388 | asan-aureum-complex                             |   2   |   1   |   3
+10346 | asan-tiara-cafe                                 |   2   |   1   |   3
+10271 | hyangdong-archireal-mixed-use                   |  10   |   0   |  10
+10231 | pocheon-pumit-mixed-use                         |   4   |   1   |   5
+10230 | okcheon-maple-mixed-use                         |   4   |   1   |   5
+10184 | beondong-mixed-use                              |   9   |   1   |  10
+10110 | wonju-banggok-aurora-house                      |  10   |   0   |  10
+10043 | yeongjongdo-skycity-second-house                |   3   |   1   |   4
+10002 | siheung-baegot-deohanjib                        |   3   |   1   |   4
+ 9936 | ulju-sereno-second-house                        |   6   |   1   |   7
+ 9879 | mojeonri-siot-house                             |   3   |   1   |   4  *FIXED
+ 9784 | yeoju-hyeonamdong-courtyard-house               |   2   |   1   |   3  *FIXED
+ 9733 | yeoju-jeombongdong-pum-house                    |   3   |   1   |   4  *FIXED
+ 9670 | yeoju-gangcheon-naraejae-house                  |   4   |   1   |   5  *FIXED
+ 9618 | yeoju-gangcheon-gangsanjae-second-house          |   3   |   1   |   4  *FIXED
+ 9585 | yangpyeong-asolrinchae-house                    |   9   |   1   |  10
+ 9547 | milyang-grindelwald-house                       |   2   |   1   |   3  *FIXED
+
+================================================================================
+NOTES ON WP vs JSON COUNT DIFFERENCES (NOT discrepancies)
+================================================================================
+
+Several projects show different floor plan counts between WP post_content and
+projects.json. This is EXPECTED for projects that were already migrated with
+additional floor plan images from Elementor postmeta data or other sources:
+
+- Projects with more plans in JSON than in WP post_content (e.g., seosan-bluewalk
+  with 8 in JSON vs 2 in post_content) had their additional floor plans sourced
+  from Elementor widget data in wp_postmeta, which embeds images differently than
+  the classic editor post_content. These are NOT missing from the website.
+
+- The 8 projects marked *FIXED above were the only ones where WP had floor plan
+  images in the FLOOR PLAN section that were completely absent from projects.json
+  (0 floor plans in JSON despite WP having them).
+
+================================================================================
+END OF REPORT
+================================================================================

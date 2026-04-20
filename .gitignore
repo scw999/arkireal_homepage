@@ -7,3 +7,11 @@ out
 tmp_extract
 naksha-studio
 .vercel
+
+# Local dev tool artifacts
+.claude/
+.codex/
+.playwright-cli/
+
+# Large design handoff assets (kept locally only)
+design_handoff_arkireal_homepage/

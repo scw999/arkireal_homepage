@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 const stages = ['부지만 있는 단계', '도면을 받은 단계', '시공사를 찾는 단계', '아직 결정 전'];
 const useTypes = ['단독주택', '전원주택', '주택단지', '상가주택', '숙박시설', '상업공간', '기타'];
 
-export default function ContactPage() {
+type Props = {
+  searchParams?: Promise<{ sent?: string; error?: string }>;
+};
+
+export default async function ContactPage({ searchParams }: Props) {
+  const sp = (await searchParams) ?? {};
+  const sent = sp.sent === '1';
+  const error = sp.error;
+
   return (
     <>
       <section className="border-b border-paper-line bg-paper-warm">
@@ -30,6 +38,30 @@ export default function ContactPage() {
       <section className="border-b border-paper-line">
         <div className="container-page grid gap-12 py-20 md:grid-cols-[1.3fr_1fr] md:py-24">
           <form className="grid gap-6" action="/api/contact" method="post">
+            {sent ? (
+              <div
+                className="border-l-[3px] border-ink bg-paper-warm px-5 py-4 text-[14px] text-ink"
+                role="status"
+              >
+                <strong className="font-semibold">문의가 접수되었습니다.</strong>
+                <span className="ml-1 text-ink-muted">
+                  담당자가 검토 후 1~2영업일 안에 회신드리겠습니다.
+                </span>
+              </div>
+            ) : null}
+            {error ? (
+              <div
+                className="border-l-[3px] border-[#b94a3c] bg-paper-warm px-5 py-4 text-[14px] text-ink"
+                role="alert"
+              >
+                <strong className="font-semibold">전송에 실패했습니다.</strong>
+                <span className="ml-1 text-ink-muted">
+                  {error === 'invalid'
+                    ? '성함과 연락처를 입력해주세요.'
+                    : `잠시 후 다시 시도하시거나 ${company.phone}으로 전화 주세요.`}
+                </span>
+              </div>
+            ) : null}
             <div className="grid gap-6 md:grid-cols-2">
               <Field label="성함" required name="name" />
               <Field label="연락처" required name="phone" type="tel" />
@@ -86,10 +118,6 @@ export default function ContactPage() {
                 <li>
                   <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">전화</p>
                   <p className="mt-1 text-ink">{company.phone}</p>
-                </li>
-                <li>
-                  <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">이메일</p>
-                  <p className="mt-1 text-ink">{company.email}</p>
                 </li>
                 <li>
                   <p className="text-[11px] uppercase tracking-[0.14em] text-ink-subtle">

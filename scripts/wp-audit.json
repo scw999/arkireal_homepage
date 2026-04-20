@@ -1,0 +1,6916 @@
+{
+  "9547": {
+    "title": "밀양 그린델발트 하우스",
+    "slug": "milyang-grindelwald-house",
+    "wp_post_found": true,
+    "wp_title": "밀양 그린델발트 하우스",
+    "wp_thumbnail_id": 9542,
+    "wp_thumbnail_file": "2025/07/DJI_0517-1.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9542,
+    "wp_list_image_file": "2025/07/DJI_0517-1.jpg",
+    "current_featuredImage": "/images/projects/milyang-grindelwald-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9579,
+        "title": "밀양 면적",
+        "file": "2025/07/밀양-면적.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 4,
+    "wp_attachments": [
+      {
+        "id": 9571,
+        "title": "2",
+        "file": "2025/07/2.jpg"
+      },
+      {
+        "id": 9572,
+        "title": "1",
+        "file": "2025/07/1.jpg"
+      },
+      {
+        "id": 9579,
+        "title": "밀양 면적",
+        "file": "2025/07/밀양-면적.jpg"
+      },
+      {
+        "id": 9584,
+        "title": "밀양-소제목",
+        "file": "2025/07/밀양-소제목.jpg"
+      }
+    ]
+  },
+  "9585": {
+    "title": "양평 아솔린채 하우스",
+    "slug": "yangpyeong-asolrinchae-house",
+    "wp_post_found": true,
+    "wp_title": "양평 아솔린채 럭셔리 모던하우스",
+    "wp_thumbnail_id": 9588,
+    "wp_thumbnail_file": "2025/07/DJI_0717-2-scaled.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9588,
+    "wp_list_image_file": "2025/07/DJI_0717-2-scaled.jpg",
+    "current_featuredImage": "/images/projects/yangpyeong-asolrinchae-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9609,
+        "title": "양평-면적내용",
+        "file": "2025/07/양평-면적내용-1.jpg",
+        "exists_in_uploads": true
+      },
+      {
+        "attachment_id": 9611,
+        "title": "양평-도면_1층-3",
+        "file": "2025/07/양평-도면_1층-3.jpg",
+        "exists_in_uploads": true
+      },
+      {
+        "attachment_id": 9615,
+        "title": "양평-도면_2층-3",
+        "file": "2025/07/양평-도면_2층-3-1.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 16,
+    "wp_attachments": [
+      {
+        "id": 9586,
+        "title": "0P0A4098-4",
+        "file": "2025/07/0P0A4098-4-scaled.jpg"
+      },
+      {
+        "id": 9587,
+        "title": "0P0A4108-4",
+        "file": "2025/07/0P0A4108-4.jpg"
+      },
+      {
+        "id": 9588,
+        "title": "DJI_0717-2",
+        "file": "2025/07/DJI_0717-2-scaled.jpg"
+      },
+      {
+        "id": 9599,
+        "title": "2층 마스터룸_2",
+        "file": "2025/07/2층-마스터룸_2.jpg"
+      },
+      {
+        "id": 9600,
+        "title": "2층 복도_1",
+        "file": "2025/07/2층-복도_1.jpg"
+      },
+      {
+        "id": 9601,
+        "title": "2층 마스터룸_3",
+        "file": "2025/07/2층-마스터룸_3.jpg"
+      },
+      {
+        "id": 9602,
+        "title": "2층 복도_2",
+        "file": "2025/07/2층-복도_2.jpg"
+      },
+      {
+        "id": 9603,
+        "title": "2층 복도_4",
+        "file": "2025/07/2층-복도_4.jpg"
+      },
+      {
+        "id": 9604,
+        "title": "2층 복도_3",
+        "file": "2025/07/2층-복도_3.jpg"
+      },
+      {
+        "id": 9605,
+        "title": "2층 욕실_1",
+        "file": "2025/07/2층-욕실_1.jpg"
+      },
+      {
+        "id": 9606,
+        "title": "2층 욕실_2",
+        "file": "2025/07/2층-욕실_2.jpg"
+      },
+      {
+        "id": 9609,
+        "title": "양평-면적내용",
+        "file": "2025/07/양평-면적내용-1.jpg"
+      },
+      {
+        "id": 9611,
+        "title": "양평-도면_1층-3",
+        "file": "2025/07/양평-도면_1층-3.jpg"
+      },
+      {
+        "id": 9615,
+        "title": "양평-도면_2층-3",
+        "file": "2025/07/양평-도면_2층-3-1.jpg"
+      },
+      {
+        "id": 9616,
+        "title": "2층 마스터룸_1",
+        "file": "2025/07/2층-마스터룸_1.jpg"
+      },
+      {
+        "id": 9617,
+        "title": "0P0A4109-Edit",
+        "file": "2025/07/0P0A4109-Edit.jpg"
+      }
+    ]
+  },
+  "9618": {
+    "title": "여주 강천 강산재 세컨하우스",
+    "slug": "yeoju-gangcheon-gangsanjae-second-house",
+    "wp_post_found": true,
+    "wp_title": "여주 강천 강산재 세컨하우스",
+    "wp_thumbnail_id": 9663,
+    "wp_thumbnail_file": "2025/07/1-3-2.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9663,
+    "wp_list_image_file": "2025/07/1-3-2.jpg",
+    "current_featuredImage": "/images/projects/yeoju-gangcheon-gangsanjae-second-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9619,
+        "title": "여주-강산재-면적내용",
+        "file": "2025/07/여주-강산재-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 28,
+    "wp_attachments": [
+      {
+        "id": 9619,
+        "title": "여주-강산재-면적내용",
+        "file": "2025/07/여주-강산재-면적내용.jpg"
+      },
+      {
+        "id": 9627,
+        "title": "여주-강산재3",
+        "file": "2025/07/여주-강산재3.jpg"
+      },
+      {
+        "id": 9630,
+        "title": "여주-강산재1",
+        "file": "2025/07/여주-강산재1-1.jpg"
+      },
+      {
+        "id": 9631,
+        "title": "여주-강산재2",
+        "file": "2025/07/여주-강산재2-1.jpg"
+      },
+      {
+        "id": 9635,
+        "title": "0P0A1459",
+        "file": "2025/07/0P0A1459.jpg"
+      },
+      {
+        "id": 9636,
+        "title": "0P0A1463",
+        "file": "2025/07/0P0A1463.jpg"
+      },
+      {
+        "id": 9637,
+        "title": "0P0A1469",
+        "file": "2025/07/0P0A1469.jpg"
+      },
+      {
+        "id": 9638,
+        "title": "0P0A1384",
+        "file": "2025/07/0P0A1384.jpg"
+      },
+      {
+        "id": 9639,
+        "title": "0P0A1393",
+        "file": "2025/07/0P0A1393.jpg"
+      },
+      {
+        "id": 9640,
+        "title": "0P0A1395",
+        "file": "2025/07/0P0A1395.jpg"
+      },
+      {
+        "id": 9641,
+        "title": "0P0A1400",
+        "file": "2025/07/0P0A1400.jpg"
+      },
+      {
+        "id": 9642,
+        "title": "0P0A1405",
+        "file": "2025/07/0P0A1405.jpg"
+      },
+      {
+        "id": 9643,
+        "title": "0P0A1409",
+        "file": "2025/07/0P0A1409.jpg"
+      },
+      {
+        "id": 9644,
+        "title": "0P0A1412",
+        "file": "2025/07/0P0A1412.jpg"
+      },
+      {
+        "id": 9645,
+        "title": "0P0A1428",
+        "file": "2025/07/0P0A1428.jpg"
+      },
+      {
+        "id": 9646,
+        "title": "0P0A1433",
+        "file": "2025/07/0P0A1433.jpg"
+      },
+      {
+        "id": 9647,
+        "title": "0P0A1436",
+        "file": "2025/07/0P0A1436.jpg"
+      },
+      {
+        "id": 9648,
+        "title": "0P0A1438",
+        "file": "2025/07/0P0A1438.jpg"
+      },
+      {
+        "id": 9650,
+        "title": "0P0A1444",
+        "file": "2025/07/0P0A1444.jpg"
+      },
+      {
+        "id": 9651,
+        "title": "0P0A1447",
+        "file": "2025/07/0P0A1447.jpg"
+      },
+      {
+        "id": 9652,
+        "title": "0P0A1449",
+        "file": "2025/07/0P0A1449.jpg"
+      },
+      {
+        "id": 9653,
+        "title": "0P0A1451",
+        "file": "2025/07/0P0A1451.jpg"
+      },
+      {
+        "id": 9654,
+        "title": "0P0A1456",
+        "file": "2025/07/0P0A1456.jpg"
+      },
+      {
+        "id": 9660,
+        "title": "0P0A1452",
+        "file": "2025/07/0P0A1452-scaled.jpg"
+      },
+      {
+        "id": 9662,
+        "title": "0P0A1486-4",
+        "file": "2025/07/0P0A1486-4-1.jpg"
+      },
+      {
+        "id": 9663,
+        "title": "1-3-2",
+        "file": "2025/07/1-3-2.jpg"
+      },
+      {
+        "id": 9665,
+        "title": "0P0A1489-1-2",
+        "file": "2025/07/0P0A1489-1-2.jpg"
+      },
+      {
+        "id": 9669,
+        "title": "0P0A1440-2",
+        "file": "2025/07/0P0A1440-2.jpg"
+      }
+    ]
+  },
+  "9670": {
+    "title": "여주 강천 나래재 하우스",
+    "slug": "yeoju-gangcheon-naraejae-house",
+    "wp_post_found": true,
+    "wp_title": "여주 강천 나래재 하우스",
+    "wp_thumbnail_id": 9681,
+    "wp_thumbnail_file": "2025/08/4-2.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9681,
+    "wp_list_image_file": "2025/08/4-2.jpg",
+    "current_featuredImage": "/images/projects/yeoju-gangcheon-naraejae-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9671,
+        "title": "나래재-면적내용",
+        "file": "2025/08/나래재-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 35,
+    "wp_attachments": [
+      {
+        "id": 9671,
+        "title": "나래재-면적내용",
+        "file": "2025/08/나래재-면적내용.jpg"
+      },
+      {
+        "id": 9673,
+        "title": "여주-나래재1",
+        "file": "2025/08/여주-나래재1.jpg"
+      },
+      {
+        "id": 9674,
+        "title": "여주-나래재2",
+        "file": "2025/08/여주-나래재2.jpg"
+      },
+      {
+        "id": 9677,
+        "title": "여주-나래재3",
+        "file": "2025/08/여주-나래재3-1.jpg"
+      },
+      {
+        "id": 9681,
+        "title": "default",
+        "file": "2025/08/4-2.jpg"
+      },
+      {
+        "id": 9682,
+        "title": "-Bedroom(1)",
+        "file": "2025/08/Bedroom1.jpg"
+      },
+      {
+        "id": 9683,
+        "title": "-Kitchen",
+        "file": "2025/08/Kitchen.jpg"
+      },
+      {
+        "id": 9684,
+        "title": "-07062022_130414",
+        "file": "2025/08/07062022_130414.jpg"
+      },
+      {
+        "id": 9685,
+        "title": "-07062022_130510",
+        "file": "2025/08/07062022_130510.jpg"
+      },
+      {
+        "id": 9686,
+        "title": "-07062022_130521",
+        "file": "2025/08/07062022_130521.jpg"
+      },
+      {
+        "id": 9688,
+        "title": "-07062022_130551",
+        "file": "2025/08/07062022_130551.jpg"
+      },
+      {
+        "id": 9689,
+        "title": "-07062022_130602",
+        "file": "2025/08/07062022_130602.jpg"
+      },
+      {
+        "id": 9690,
+        "title": "-07062022_130613",
+        "file": "2025/08/07062022_130613.jpg"
+      },
+      {
+        "id": 9691,
+        "title": "-07062022_130652",
+        "file": "2025/08/07062022_130652.jpg"
+      },
+      {
+        "id": 9692,
+        "title": "-07062022_130702",
+        "file": "2025/08/07062022_130702.jpg"
+      },
+      {
+        "id": 9693,
+        "title": "-07062022_130715",
+        "file": "2025/08/07062022_130715.jpg"
+      },
+      {
+        "id": 9694,
+        "title": "-07062022_130737",
+        "file": "2025/08/07062022_130737.jpg"
+      },
+      {
+        "id": 9695,
+        "title": "-07062022_130812",
+        "file": "2025/08/07062022_130812.jpg"
+      },
+      {
+        "id": 9696,
+        "title": "-07062022_130832",
+        "file": "2025/08/07062022_130832.jpg"
+      },
+      {
+        "id": 9697,
+        "title": "-07062022_130843",
+        "file": "2025/08/07062022_130843.jpg"
+      },
+      {
+        "id": 9698,
+        "title": "-Bathroom(2)",
+        "file": "2025/08/Bathroom2.jpg"
+      },
+      {
+        "id": 9702,
+        "title": "-07062022_130439",
+        "file": "2025/08/07062022_130439-1.jpg"
+      },
+      {
+        "id": 9708,
+        "title": "-07062022_130824",
+        "file": "2025/08/07062022_130824-3.jpg"
+      },
+      {
+        "id": 9713,
+        "title": "-07062022_130858",
+        "file": "2025/08/07062022_130858-1.jpg"
+      },
+      {
+        "id": 9715,
+        "title": "-07062022_130401",
+        "file": "2025/08/07062022_130401-2.jpg"
+      },
+      {
+        "id": 9718,
+        "title": "-07062022_130652",
+        "file": "2025/08/07062022_130652-2.jpg"
+      },
+      {
+        "id": 9721,
+        "title": "-07062022_130532",
+        "file": "2025/08/07062022_130532.jpg"
+      },
+      {
+        "id": 9722,
+        "title": "default",
+        "file": "2025/08/DJI_0607.jpg"
+      },
+      {
+        "id": 9723,
+        "title": "default",
+        "file": "2025/08/4-2-1.jpg"
+      },
+      {
+        "id": 9725,
+        "title": "DJI_0606",
+        "file": "2025/08/DJI_0606.jpg"
+      },
+      {
+        "id": 9727,
+        "title": "-07062022_130817",
+        "file": "2025/08/07062022_130817.jpg"
+      },
+      {
+        "id": 9728,
+        "title": "여주-나래재3",
+        "file": "2025/08/여주-나래재3.jpg"
+      },
+      {
+        "id": 9729,
+        "title": "여주-나래재4",
+        "file": "2025/08/여주-나래재4-1.jpg"
+      },
+      {
+        "id": 9730,
+        "title": "여주-나래재1",
+        "file": "2025/08/여주-나래재1-1.jpg"
+      },
+      {
+        "id": 9731,
+        "title": "여주-나래재2",
+        "file": "2025/08/여주-나래재2-1.jpg"
+      }
+    ]
+  },
+  "9733": {
+    "title": "여주 점봉동 품하우스",
+    "slug": "yeoju-jeombongdong-pum-house",
+    "wp_post_found": true,
+    "wp_title": "여주 점봉동 품하우스",
+    "wp_thumbnail_id": 9767,
+    "wp_thumbnail_file": "2025/08/0P0A1140-2.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9767,
+    "wp_list_image_file": "2025/08/0P0A1140-2.jpg",
+    "current_featuredImage": "/images/projects/yeoju-jeombongdong-pum-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9782,
+        "title": "점봉동-면적내용",
+        "file": "2025/08/점봉동-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 37,
+    "wp_attachments": [
+      {
+        "id": 9734,
+        "title": "0P0A0973",
+        "file": "2025/08/0P0A0973.jpg"
+      },
+      {
+        "id": 9735,
+        "title": "0P0A0975-Enhanced-NR",
+        "file": "2025/08/0P0A0975-Enhanced-NR.jpg"
+      },
+      {
+        "id": 9736,
+        "title": "0P0A0999",
+        "file": "2025/08/0P0A0999.jpg"
+      },
+      {
+        "id": 9737,
+        "title": "0P0A1026",
+        "file": "2025/08/0P0A1026.jpg"
+      },
+      {
+        "id": 9738,
+        "title": "0P0A1030",
+        "file": "2025/08/0P0A1030.jpg"
+      },
+      {
+        "id": 9739,
+        "title": "0P0A1046",
+        "file": "2025/08/0P0A1046.jpg"
+      },
+      {
+        "id": 9740,
+        "title": "0P0A1144-Enhanced-NR",
+        "file": "2025/08/0P0A1144-Enhanced-NR.jpg"
+      },
+      {
+        "id": 9741,
+        "title": "0P0A1164",
+        "file": "2025/08/0P0A1164.jpg"
+      },
+      {
+        "id": 9742,
+        "title": "0P0A1165",
+        "file": "2025/08/0P0A1165.jpg"
+      },
+      {
+        "id": 9743,
+        "title": "0P0A1170",
+        "file": "2025/08/0P0A1170.jpg"
+      },
+      {
+        "id": 9744,
+        "title": "0P0A1171",
+        "file": "2025/08/0P0A1171.jpg"
+      },
+      {
+        "id": 9745,
+        "title": "0P0A1187-Enhanced-NR",
+        "file": "2025/08/0P0A1187-Enhanced-NR.jpg"
+      },
+      {
+        "id": 9746,
+        "title": "1",
+        "file": "2025/08/1.jpg"
+      },
+      {
+        "id": 9747,
+        "title": "0P0A0819",
+        "file": "2025/08/0P0A0819.jpg"
+      },
+      {
+        "id": 9748,
+        "title": "0P0A0836-Enhanced-NR",
+        "file": "2025/08/0P0A0836-Enhanced-NR.jpg"
+      },
+      {
+        "id": 9749,
+        "title": "0P0A0852",
+        "file": "2025/08/0P0A0852.jpg"
+      },
+      {
+        "id": 9750,
+        "title": "0P0A0857",
+        "file": "2025/08/0P0A0857.jpg"
+      },
+      {
+        "id": 9751,
+        "title": "0P0A0858",
+        "file": "2025/08/0P0A0858.jpg"
+      },
+      {
+        "id": 9752,
+        "title": "0P0A0865",
+        "file": "2025/08/0P0A0865.jpg"
+      },
+      {
+        "id": 9753,
+        "title": "0P0A0874",
+        "file": "2025/08/0P0A0874.jpg"
+      },
+      {
+        "id": 9754,
+        "title": "0P0A0892-Enhanced-NR",
+        "file": "2025/08/0P0A0892-Enhanced-NR.jpg"
+      },
+      {
+        "id": 9755,
+        "title": "0P0A0913",
+        "file": "2025/08/0P0A0913.jpg"
+      },
+      {
+        "id": 9756,
+        "title": "0P0A0917",
+        "file": "2025/08/0P0A0917.jpg"
+      },
+      {
+        "id": 9757,
+        "title": "0P0A0936",
+        "file": "2025/08/0P0A0936.jpg"
+      },
+      {
+        "id": 9758,
+        "title": "0P0A0979-3",
+        "file": "2025/08/0P0A0979-3.jpg"
+      },
+      {
+        "id": 9759,
+        "title": "0P0A1075-2",
+        "file": "2025/08/0P0A1075-2-e1754284396954.jpg"
+      },
+      {
+        "id": 9761,
+        "title": "0P0A1078-3",
+        "file": "2025/08/0P0A1078-3.jpg"
+      },
+      {
+        "id": 9762,
+        "title": "0P0A1100",
+        "file": "2025/08/0P0A1100.jpg"
+      },
+      {
+        "id": 9763,
+        "title": "0P0A1116",
+        "file": "2025/08/0P0A1116.jpg"
+      },
+      {
+        "id": 9764,
+        "title": "0P0A1130-3",
+        "file": "2025/08/0P0A1130-3.jpg"
+      },
+      {
+        "id": 9765,
+        "title": "0P0A1133-3",
+        "file": "2025/08/0P0A1133-3.jpg"
+      },
+      {
+        "id": 9766,
+        "title": "0P0A1137-4",
+        "file": "2025/08/0P0A1137-4.jpg"
+      },
+      {
+        "id": 9767,
+        "title": "0P0A1140-2",
+        "file": "2025/08/0P0A1140-2.jpg"
+      },
+      {
+        "id": 9779,
+        "title": "여주-점봉동2",
+        "file": "2025/08/-점봉동2-e1754293588455.jpg"
+      },
+      {
+        "id": 9781,
+        "title": "여주-점봉동3",
+        "file": "2025/08/-점봉동3-1-e1754293683354.jpg"
+      },
+      {
+        "id": 9782,
+        "title": "점봉동-면적내용",
+        "file": "2025/08/점봉동-면적내용.jpg"
+      },
+      {
+        "id": 9783,
+        "title": "여주-점봉동1",
+        "file": "2025/08/여주-점봉동1-1.jpg"
+      }
+    ]
+  },
+  "9784": {
+    "title": "여주 현암동 중정형주택",
+    "slug": "yeoju-hyeonamdong-courtyard-house",
+    "wp_post_found": true,
+    "wp_title": "여주 현암동 중정형주택",
+    "wp_thumbnail_id": 9788,
+    "wp_thumbnail_file": "2025/08/DJI_0165-4-scaled.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9788,
+    "wp_list_image_file": "2025/08/DJI_0165-4-scaled.jpg",
+    "current_featuredImage": "/images/projects/yeoju-hyeonamdong-courtyard-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9829,
+        "title": "현암동-면적내용",
+        "file": "2025/08/현암동-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 34,
+    "wp_attachments": [
+      {
+        "id": 9785,
+        "title": "-(2)-2",
+        "file": "2025/08/2-2-scaled-e1754361745223.jpg"
+      },
+      {
+        "id": 9786,
+        "title": "-(3)-3",
+        "file": "2025/08/3-3-scaled-e1754361556256.jpg"
+      },
+      {
+        "id": 9787,
+        "title": "DJI_0162-2",
+        "file": "2025/08/DJI_0162-2-scaled.jpg"
+      },
+      {
+        "id": 9788,
+        "title": "DJI_0165-4",
+        "file": "2025/08/DJI_0165-4-scaled.jpg"
+      },
+      {
+        "id": 9791,
+        "title": "화면-캡처-2025-07-23-142948-2",
+        "file": "2025/08/-캡처-2025-07-23-142948-2-e1754361977850.jpg"
+      },
+      {
+        "id": 9793,
+        "title": "-(1)",
+        "file": "2025/08/1-1.jpg"
+      },
+      {
+        "id": 9821,
+        "title": "DJI_0208-2",
+        "file": "2025/08/DJI_0208-2-2-scaled-e1754361670213.jpg"
+      },
+      {
+        "id": 9829,
+        "title": "현암동-면적내용",
+        "file": "2025/08/현암동-면적내용.jpg"
+      },
+      {
+        "id": 9830,
+        "title": "여주-현암동2",
+        "file": "2025/08/여주-현암동2.jpg"
+      },
+      {
+        "id": 9831,
+        "title": "여주-현암동1",
+        "file": "2025/08/여주-현암동1.jpg"
+      },
+      {
+        "id": 9855,
+        "title": "DSC01756",
+        "file": "2025/08/DSC01756.jpg"
+      },
+      {
+        "id": 9856,
+        "title": "DSC01764",
+        "file": "2025/08/DSC01764.jpg"
+      },
+      {
+        "id": 9857,
+        "title": "-(6)",
+        "file": "2025/08/6.jpg"
+      },
+      {
+        "id": 9858,
+        "title": "-(7)",
+        "file": "2025/08/7.jpg"
+      },
+      {
+        "id": 9859,
+        "title": "-(10)",
+        "file": "2025/08/10.jpg"
+      },
+      {
+        "id": 9860,
+        "title": "-(11)",
+        "file": "2025/08/11.jpg"
+      },
+      {
+        "id": 9861,
+        "title": "-(12)",
+        "file": "2025/08/12.jpg"
+      },
+      {
+        "id": 9862,
+        "title": "-(13)",
+        "file": "2025/08/13-e1754381031199.jpg"
+      },
+      {
+        "id": 9863,
+        "title": "-(15)",
+        "file": "2025/08/15.jpg"
+      },
+      {
+        "id": 9864,
+        "title": "0P0A7075",
+        "file": "2025/08/0P0A7075-e1754381173269.jpg"
+      },
+      {
+        "id": 9865,
+        "title": "-1",
+        "file": "2025/08/1-2.jpg"
+      },
+      {
+        "id": 9866,
+        "title": "-2(2)",
+        "file": "2025/08/22-e1754382370876.jpg"
+      },
+      {
+        "id": 9867,
+        "title": "-2(5)",
+        "file": "2025/08/25-e1754381109529.jpg"
+      },
+      {
+        "id": 9868,
+        "title": "-2",
+        "file": "2025/08/2-e1754382304138.jpg"
+      },
+      {
+        "id": 9869,
+        "title": "-2-1",
+        "file": "2025/08/2-1-e1754381836520.jpg"
+      },
+      {
+        "id": 9870,
+        "title": "-2-2",
+        "file": "2025/08/2-2-1.jpg"
+      },
+      {
+        "id": 9871,
+        "title": "-2-3",
+        "file": "2025/08/2-3.jpg"
+      },
+      {
+        "id": 9872,
+        "title": "DSC01701-2",
+        "file": "2025/08/DSC01701-2.jpg"
+      },
+      {
+        "id": 9873,
+        "title": "DSC01706",
+        "file": "2025/08/DSC01706.jpg"
+      },
+      {
+        "id": 9874,
+        "title": "DSC01709",
+        "file": "2025/08/DSC01709.jpg"
+      },
+      {
+        "id": 9875,
+        "title": "DSC01712",
+        "file": "2025/08/DSC01712.jpg"
+      },
+      {
+        "id": 9876,
+        "title": "DSC01736",
+        "file": "2025/08/DSC01736.jpg"
+      },
+      {
+        "id": 9877,
+        "title": "-",
+        "file": "2025/08/unnamed-file.jpg"
+      },
+      {
+        "id": 9878,
+        "title": "-2-1-2",
+        "file": "2025/08/2-1-2.jpg"
+      }
+    ]
+  },
+  "9879": {
+    "title": "모전리 시옷하우스",
+    "slug": "mojeonri-siot-house",
+    "wp_post_found": true,
+    "wp_title": "모전리 시옷하우스",
+    "wp_thumbnail_id": 9921,
+    "wp_thumbnail_file": "2025/08/0P0A0010-Edit.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9921,
+    "wp_list_image_file": "2025/08/0P0A0010-Edit.jpg",
+    "current_featuredImage": "/images/projects/mojeonri-siot-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9932,
+        "title": "시옷하우스-면적내용",
+        "file": "2025/08/시옷하우스-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 47,
+    "wp_attachments": [
+      {
+        "id": 9880,
+        "title": "0P0A0068",
+        "file": "2025/08/0P0A0068.jpg"
+      },
+      {
+        "id": 9881,
+        "title": "0P0A0072",
+        "file": "2025/08/0P0A0072.jpg"
+      },
+      {
+        "id": 9882,
+        "title": "0P0A0049",
+        "file": "2025/08/0P0A0049.jpg"
+      },
+      {
+        "id": 9883,
+        "title": "0P0A0057",
+        "file": "2025/08/0P0A0057.jpg"
+      },
+      {
+        "id": 9884,
+        "title": "0P0A0058",
+        "file": "2025/08/0P0A0058.jpg"
+      },
+      {
+        "id": 9885,
+        "title": "0P0A0061",
+        "file": "2025/08/0P0A0061.jpg"
+      },
+      {
+        "id": 9886,
+        "title": "0P0A0085",
+        "file": "2025/08/0P0A0085.jpg"
+      },
+      {
+        "id": 9887,
+        "title": "0P0A0077",
+        "file": "2025/08/0P0A0077.jpg"
+      },
+      {
+        "id": 9888,
+        "title": "0P0A0113",
+        "file": "2025/08/0P0A0113.jpg"
+      },
+      {
+        "id": 9889,
+        "title": "0P0A0121",
+        "file": "2025/08/0P0A0121.jpg"
+      },
+      {
+        "id": 9890,
+        "title": "0P0A0115",
+        "file": "2025/08/0P0A0115.jpg"
+      },
+      {
+        "id": 9891,
+        "title": "0P0A0132",
+        "file": "2025/08/0P0A0132.jpg"
+      },
+      {
+        "id": 9892,
+        "title": "0P0A0147",
+        "file": "2025/08/0P0A0147.jpg"
+      },
+      {
+        "id": 9893,
+        "title": "0P0A0157",
+        "file": "2025/08/0P0A0157.jpg"
+      },
+      {
+        "id": 9894,
+        "title": "0P0A0163",
+        "file": "2025/08/0P0A0163.jpg"
+      },
+      {
+        "id": 9895,
+        "title": "0P0A0167",
+        "file": "2025/08/0P0A0167.jpg"
+      },
+      {
+        "id": 9896,
+        "title": "0P0A0170",
+        "file": "2025/08/0P0A0170.jpg"
+      },
+      {
+        "id": 9897,
+        "title": "0P0A0192",
+        "file": "2025/08/0P0A0192.jpg"
+      },
+      {
+        "id": 9898,
+        "title": "0P0A0193",
+        "file": "2025/08/0P0A0193.jpg"
+      },
+      {
+        "id": 9899,
+        "title": "0P0A0179",
+        "file": "2025/08/0P0A0179.jpg"
+      },
+      {
+        "id": 9900,
+        "title": "0P0A0182",
+        "file": "2025/08/0P0A0182.jpg"
+      },
+      {
+        "id": 9901,
+        "title": "0P0A0190",
+        "file": "2025/08/0P0A0190.jpg"
+      },
+      {
+        "id": 9902,
+        "title": "0P0A0200",
+        "file": "2025/08/0P0A0200.jpg"
+      },
+      {
+        "id": 9903,
+        "title": "0P0A0207",
+        "file": "2025/08/0P0A0207.jpg"
+      },
+      {
+        "id": 9904,
+        "title": "0P0A0225",
+        "file": "2025/08/0P0A0225.jpg"
+      },
+      {
+        "id": 9905,
+        "title": "0P0A0229",
+        "file": "2025/08/0P0A0229.jpg"
+      },
+      {
+        "id": 9906,
+        "title": "0P0A0231",
+        "file": "2025/08/0P0A0231.jpg"
+      },
+      {
+        "id": 9907,
+        "title": "0P0A0248",
+        "file": "2025/08/0P0A0248.jpg"
+      },
+      {
+        "id": 9908,
+        "title": "0P0A0256",
+        "file": "2025/08/0P0A0256.jpg"
+      },
+      {
+        "id": 9910,
+        "title": "0P0A0262",
+        "file": "2025/08/0P0A0262.jpg"
+      },
+      {
+        "id": 9911,
+        "title": "0P0A0778",
+        "file": "2025/08/0P0A0778.jpg"
+      },
+      {
+        "id": 9912,
+        "title": "0P0A0751",
+        "file": "2025/08/0P0A0751.jpg"
+      },
+      {
+        "id": 9913,
+        "title": "0P0A0758",
+        "file": "2025/08/0P0A0758.jpg"
+      },
+      {
+        "id": 9914,
+        "title": "0P0A0747",
+        "file": "2025/08/0P0A0747.jpg"
+      },
+      {
+        "id": 9915,
+        "title": "0P0A0781",
+        "file": "2025/08/0P0A0781.jpg"
+      },
+      {
+        "id": 9916,
+        "title": "0P0A0779",
+        "file": "2025/08/0P0A0779.jpg"
+      },
+      {
+        "id": 9921,
+        "title": "0P0A0010-Edit",
+        "file": "2025/08/0P0A0010-Edit.jpg"
+      },
+      {
+        "id": 9922,
+        "title": "0P0A0016-Edit",
+        "file": "2025/08/0P0A0016-Edit.jpg"
+      },
+      {
+        "id": 9923,
+        "title": "0P0A0043",
+        "file": "2025/08/0P0A0043-e1754438920494.jpg"
+      },
+      {
+        "id": 9926,
+        "title": "0P0A0026-6",
+        "file": "2025/08/0P0A0026-6-e1754438670125.jpg"
+      },
+      {
+        "id": 9927,
+        "title": "20240913_092313-8",
+        "file": "2025/08/20240913_092313-8-e1754439112139.jpg"
+      },
+      {
+        "id": 9928,
+        "title": "20240913_092313-Edit-1",
+        "file": "2025/08/20240913_092313-Edit-1.jpg"
+      },
+      {
+        "id": 9931,
+        "title": "0P0A0030-Edit",
+        "file": "2025/08/0P0A0030-Edit.jpg"
+      },
+      {
+        "id": 9932,
+        "title": "시옷하우스-면적내용",
+        "file": "2025/08/시옷하우스-면적내용.jpg"
+      },
+      {
+        "id": 9933,
+        "title": "모전리-시옷하우스3",
+        "file": "2025/08/-시옷하우스3.jpg"
+      },
+      {
+        "id": 9934,
+        "title": "모전리-시옷하우스1",
+        "file": "2025/08/-시옷하우스1-e1754440876433.jpg"
+      },
+      {
+        "id": 9935,
+        "title": "모전리-시옷하우스2",
+        "file": "2025/08/-시옷하우스2-e1754440999985.jpg"
+      }
+    ]
+  },
+  "9936": {
+    "title": "울주 세레노 세컨하우스",
+    "slug": "ulju-sereno-second-house",
+    "wp_post_found": true,
+    "wp_title": "울주 세레노 세컨하우스",
+    "wp_thumbnail_id": 9994,
+    "wp_thumbnail_file": "2025/08/2-4.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 9994,
+    "wp_list_image_file": "2025/08/2-4.jpg",
+    "current_featuredImage": "/images/projects/ulju-sereno-second-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 9997,
+        "title": "울주 세레노 면적내용",
+        "file": "2025/08/울주-세레노-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 64,
+    "wp_attachments": [
+      {
+        "id": 9937,
+        "title": "10",
+        "file": "2025/08/10-1.jpg"
+      },
+      {
+        "id": 9938,
+        "title": "12",
+        "file": "2025/08/12-1.jpg"
+      },
+      {
+        "id": 9939,
+        "title": "13",
+        "file": "2025/08/13-1.jpg"
+      },
+      {
+        "id": 9940,
+        "title": "15",
+        "file": "2025/08/15-1.jpg"
+      },
+      {
+        "id": 9941,
+        "title": "17",
+        "file": "2025/08/17.jpg"
+      },
+      {
+        "id": 9942,
+        "title": "19",
+        "file": "2025/08/19.jpg"
+      },
+      {
+        "id": 9943,
+        "title": "21",
+        "file": "2025/08/21.jpg"
+      },
+      {
+        "id": 9944,
+        "title": "27",
+        "file": "2025/08/27.jpg"
+      },
+      {
+        "id": 9945,
+        "title": "28",
+        "file": "2025/08/28.jpg"
+      },
+      {
+        "id": 9946,
+        "title": "29",
+        "file": "2025/08/29.jpg"
+      },
+      {
+        "id": 9947,
+        "title": "30",
+        "file": "2025/08/30.jpg"
+      },
+      {
+        "id": 9948,
+        "title": "31",
+        "file": "2025/08/31.jpg"
+      },
+      {
+        "id": 9949,
+        "title": "32",
+        "file": "2025/08/32.jpg"
+      },
+      {
+        "id": 9950,
+        "title": "34",
+        "file": "2025/08/34.jpg"
+      },
+      {
+        "id": 9951,
+        "title": "36",
+        "file": "2025/08/36.jpg"
+      },
+      {
+        "id": 9952,
+        "title": "38",
+        "file": "2025/08/38.jpg"
+      },
+      {
+        "id": 9953,
+        "title": "39",
+        "file": "2025/08/39.jpg"
+      },
+      {
+        "id": 9954,
+        "title": "42",
+        "file": "2025/08/42.jpg"
+      },
+      {
+        "id": 9955,
+        "title": "45",
+        "file": "2025/08/45.jpg"
+      },
+      {
+        "id": 9956,
+        "title": "47",
+        "file": "2025/08/47.jpg"
+      },
+      {
+        "id": 9957,
+        "title": "48",
+        "file": "2025/08/48.jpg"
+      },
+      {
+        "id": 9958,
+        "title": "49",
+        "file": "2025/08/49.jpg"
+      },
+      {
+        "id": 9959,
+        "title": "50",
+        "file": "2025/08/50.jpg"
+      },
+      {
+        "id": 9960,
+        "title": "51",
+        "file": "2025/08/51.jpg"
+      },
+      {
+        "id": 9961,
+        "title": "52",
+        "file": "2025/08/52.jpg"
+      },
+      {
+        "id": 9962,
+        "title": "55",
+        "file": "2025/08/55-e1754451017568.jpg"
+      },
+      {
+        "id": 9963,
+        "title": "56",
+        "file": "2025/08/56.jpg"
+      },
+      {
+        "id": 9964,
+        "title": "58",
+        "file": "2025/08/58.jpg"
+      },
+      {
+        "id": 9965,
+        "title": "59",
+        "file": "2025/08/59-e1754450842156.jpg"
+      },
+      {
+        "id": 9966,
+        "title": "60",
+        "file": "2025/08/60-e1754450922206.jpg"
+      },
+      {
+        "id": 9967,
+        "title": "65",
+        "file": "2025/08/65-e1754451108319.jpg"
+      },
+      {
+        "id": 9968,
+        "title": "68",
+        "file": "2025/08/68.jpg"
+      },
+      {
+        "id": 9969,
+        "title": "69",
+        "file": "2025/08/69.jpg"
+      },
+      {
+        "id": 9970,
+        "title": "71",
+        "file": "2025/08/71.jpg"
+      },
+      {
+        "id": 9971,
+        "title": "72",
+        "file": "2025/08/72.jpg"
+      },
+      {
+        "id": 9972,
+        "title": "74",
+        "file": "2025/08/74.jpg"
+      },
+      {
+        "id": 9973,
+        "title": "75",
+        "file": "2025/08/75.jpg"
+      },
+      {
+        "id": 9974,
+        "title": "78",
+        "file": "2025/08/78.jpg"
+      },
+      {
+        "id": 9975,
+        "title": "82",
+        "file": "2025/08/82.jpg"
+      },
+      {
+        "id": 9976,
+        "title": "84",
+        "file": "2025/08/84.jpg"
+      },
+      {
+        "id": 9977,
+        "title": "88",
+        "file": "2025/08/88.jpg"
+      },
+      {
+        "id": 9978,
+        "title": "91",
+        "file": "2025/08/91.jpg"
+      },
+      {
+        "id": 9979,
+        "title": "95",
+        "file": "2025/08/95.jpg"
+      },
+      {
+        "id": 9980,
+        "title": "97",
+        "file": "2025/08/97.jpg"
+      },
+      {
+        "id": 9981,
+        "title": "9",
+        "file": "2025/08/9.jpg"
+      },
+      {
+        "id": 9982,
+        "title": "5",
+        "file": "2025/08/5-e1754450463474.jpg"
+      },
+      {
+        "id": 9983,
+        "title": "6",
+        "file": "2025/08/6-1-e1754450409211.jpg"
+      },
+      {
+        "id": 9984,
+        "title": "62",
+        "file": "2025/08/62.jpg"
+      },
+      {
+        "id": 9985,
+        "title": "64",
+        "file": "2025/08/64.jpg"
+      },
+      {
+        "id": 9986,
+        "title": "100",
+        "file": "2025/08/100.jpg"
+      },
+      {
+        "id": 9987,
+        "title": "106",
+        "file": "2025/08/106-e1754450116150.jpg"
+      },
+      {
+        "id": 9988,
+        "title": "110",
+        "file": "2025/08/110.jpg"
+      },
+      {
+        "id": 9989,
+        "title": "111",
+        "file": "2025/08/111.jpg"
+      },
+      {
+        "id": 9990,
+        "title": "112",
+        "file": "2025/08/112-e1754450043309.jpg"
+      },
+      {
+        "id": 9991,
+        "title": "114",
+        "file": "2025/08/114-e1754450719442.jpg"
+      },
+      {
+        "id": 9992,
+        "title": "127",
+        "file": "2025/08/127-e1754450297419.jpg"
+      },
+      {
+        "id": 9993,
+        "title": "1",
+        "file": "2025/08/1-3-e1754450531974.jpg"
+      },
+      {
+        "id": 9994,
+        "title": "2",
+        "file": "2025/08/2-4.jpg"
+      },
+      {
+        "id": 9995,
+        "title": "3",
+        "file": "2025/08/3.jpg"
+      },
+      {
+        "id": 9996,
+        "title": "4",
+        "file": "2025/08/4.jpg"
+      },
+      {
+        "id": 9997,
+        "title": "울주 세레노 면적내용",
+        "file": "2025/08/울주-세레노-면적내용.jpg"
+      },
+      {
+        "id": 9999,
+        "title": "울주-세레노1층",
+        "file": "2025/08/-세레노1층-e1754449702411.jpg"
+      },
+      {
+        "id": 10000,
+        "title": "울주-세레노지하층",
+        "file": "2025/08/-세레노지하층-e1754449643723.jpg"
+      },
+      {
+        "id": 10001,
+        "title": "울주-세레노다락층",
+        "file": "2025/08/-세레노다락층-e1754449759585.jpg"
+      }
+    ]
+  },
+  "10002": {
+    "title": "시흥 배곧 더한집",
+    "slug": "siheung-baegot-deohanjib",
+    "wp_post_found": true,
+    "wp_title": "시흥 배곧 더한집",
+    "wp_thumbnail_id": 10033,
+    "wp_thumbnail_file": "2025/08/0P0A0640-복사-e1754461399842.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10033,
+    "wp_list_image_file": "2025/08/0P0A0640-복사-e1754461399842.jpg",
+    "current_featuredImage": "/images/projects/siheung-baegot-deohanjib/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10038,
+        "title": "시흥-배곧-면적내용",
+        "file": "2025/08/시흥-배곧-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 31,
+    "wp_attachments": [
+      {
+        "id": 10009,
+        "title": "0P0A0751",
+        "file": "2025/08/0P0A0751-1-e1754454550344.jpg"
+      },
+      {
+        "id": 10010,
+        "title": "0P0A0770",
+        "file": "2025/08/0P0A0770.jpg"
+      },
+      {
+        "id": 10011,
+        "title": "0P0A0777",
+        "file": "2025/08/0P0A0777.jpg"
+      },
+      {
+        "id": 10012,
+        "title": "0P0A0780",
+        "file": "2025/08/0P0A0780.jpg"
+      },
+      {
+        "id": 10013,
+        "title": "0P0A0791",
+        "file": "2025/08/0P0A0791.jpg"
+      },
+      {
+        "id": 10014,
+        "title": "0P0A1039",
+        "file": "2025/08/0P0A1039.jpg"
+      },
+      {
+        "id": 10015,
+        "title": "0P0A1040",
+        "file": "2025/08/0P0A1040.jpg"
+      },
+      {
+        "id": 10016,
+        "title": "0P0A1050",
+        "file": "2025/08/0P0A1050.jpg"
+      },
+      {
+        "id": 10017,
+        "title": "0P0A1096",
+        "file": "2025/08/0P0A1096.jpg"
+      },
+      {
+        "id": 10018,
+        "title": "0P0A1127",
+        "file": "2025/08/0P0A1127.jpg"
+      },
+      {
+        "id": 10019,
+        "title": "0P0A0668",
+        "file": "2025/08/0P0A0668.jpg"
+      },
+      {
+        "id": 10020,
+        "title": "0P0A0669",
+        "file": "2025/08/0P0A0669.jpg"
+      },
+      {
+        "id": 10021,
+        "title": "0P0A0687",
+        "file": "2025/08/0P0A0687.jpg"
+      },
+      {
+        "id": 10022,
+        "title": "0P0A0695",
+        "file": "2025/08/0P0A0695.jpg"
+      },
+      {
+        "id": 10023,
+        "title": "0P0A0703",
+        "file": "2025/08/0P0A0703.jpg"
+      },
+      {
+        "id": 10024,
+        "title": "0P0A0714",
+        "file": "2025/08/0P0A0714-e1754454957852.jpg"
+      },
+      {
+        "id": 10025,
+        "title": "0P0A0727",
+        "file": "2025/08/0P0A0727.jpg"
+      },
+      {
+        "id": 10026,
+        "title": "0P0A0733",
+        "file": "2025/08/0P0A0733.jpg"
+      },
+      {
+        "id": 10027,
+        "title": "0P0A0737",
+        "file": "2025/08/0P0A0737.jpg"
+      },
+      {
+        "id": 10028,
+        "title": "0P0A0740",
+        "file": "2025/08/0P0A0740.jpg"
+      },
+      {
+        "id": 10029,
+        "title": "0P0A0743",
+        "file": "2025/08/0P0A0743-e1754454714869.jpg"
+      },
+      {
+        "id": 10031,
+        "title": "0P0A0604-Edit",
+        "file": "2025/08/0P0A0604-Edit.jpg"
+      },
+      {
+        "id": 10032,
+        "title": "0P0A0614-4",
+        "file": "2025/08/0P0A0614-4-e1754461218981.jpg"
+      },
+      {
+        "id": 10033,
+        "title": "0P0A0640 복사",
+        "file": "2025/08/0P0A0640-복사-e1754461399842.jpg"
+      },
+      {
+        "id": 10034,
+        "title": "default",
+        "file": "2025/08/DJI_0765.jpg"
+      },
+      {
+        "id": 10035,
+        "title": "DJI_0780-2",
+        "file": "2025/08/DJI_0780-2-scaled.jpg"
+      },
+      {
+        "id": 10036,
+        "title": "0P0A1139-2",
+        "file": "2025/08/0P0A1139-2-scaled.jpg"
+      },
+      {
+        "id": 10038,
+        "title": "시흥-배곧-면적내용",
+        "file": "2025/08/시흥-배곧-면적내용.jpg"
+      },
+      {
+        "id": 10039,
+        "title": "시흥-배곧다락층3",
+        "file": "2025/08/시흥-배곧다락층3.jpg"
+      },
+      {
+        "id": 10040,
+        "title": "시흥-배곧1층1",
+        "file": "2025/08/시흥-배곧1층1.jpg"
+      },
+      {
+        "id": 10041,
+        "title": "시흥-배곧2층2",
+        "file": "2025/08/시흥-배곧2층2.jpg"
+      }
+    ]
+  },
+  "10043": {
+    "title": "영종도 스카이시티 세컨하우스",
+    "slug": "yeongjongdo-skycity-second-house",
+    "wp_post_found": true,
+    "wp_title": "영종도 스카이시티 세컨하우스",
+    "wp_thumbnail_id": 10094,
+    "wp_thumbnail_file": "2025/08/DJI_0532-2.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10094,
+    "wp_list_image_file": "2025/08/DJI_0532-2.jpg",
+    "current_featuredImage": "/images/projects/yeongjongdo-skycity-second-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10105,
+        "title": "시흥-배곧-면적내용",
+        "file": "2025/08/시흥-배곧-면적내용-1.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 43,
+    "wp_attachments": [
+      {
+        "id": 10044,
+        "title": "0P0A3602",
+        "file": "2025/08/0P0A3602.jpg"
+      },
+      {
+        "id": 10045,
+        "title": "0P0A3605",
+        "file": "2025/08/0P0A3605.jpg"
+      },
+      {
+        "id": 10046,
+        "title": "0P0A3627",
+        "file": "2025/08/0P0A3627.jpg"
+      },
+      {
+        "id": 10048,
+        "title": "0P0A3630-2",
+        "file": "2025/08/0P0A3630-2.jpg"
+      },
+      {
+        "id": 10049,
+        "title": "0P0A3632",
+        "file": "2025/08/0P0A3632.jpg"
+      },
+      {
+        "id": 10050,
+        "title": "0P0A3635",
+        "file": "2025/08/0P0A3635.jpg"
+      },
+      {
+        "id": 10051,
+        "title": "0P0A3654",
+        "file": "2025/08/0P0A3654.jpg"
+      },
+      {
+        "id": 10052,
+        "title": "0P0A3659",
+        "file": "2025/08/0P0A3659-e1754528734793.jpg"
+      },
+      {
+        "id": 10053,
+        "title": "0P0A3663",
+        "file": "2025/08/0P0A3663.jpg"
+      },
+      {
+        "id": 10054,
+        "title": "0P0A3667",
+        "file": "2025/08/0P0A3667.jpg"
+      },
+      {
+        "id": 10055,
+        "title": "0P0A3676",
+        "file": "2025/08/0P0A3676.jpg"
+      },
+      {
+        "id": 10056,
+        "title": "0P0A3677",
+        "file": "2025/08/0P0A3677.jpg"
+      },
+      {
+        "id": 10057,
+        "title": "0P0A3678",
+        "file": "2025/08/0P0A3678-e1754529287722.jpg"
+      },
+      {
+        "id": 10058,
+        "title": "0P0A3805",
+        "file": "2025/08/0P0A3805.jpg"
+      },
+      {
+        "id": 10059,
+        "title": "0P0A3806",
+        "file": "2025/08/0P0A3806.jpg"
+      },
+      {
+        "id": 10060,
+        "title": "0P0A3570",
+        "file": "2025/08/0P0A3570.jpg"
+      },
+      {
+        "id": 10061,
+        "title": "0P0A3575",
+        "file": "2025/08/0P0A3575-e1754528111342.jpg"
+      },
+      {
+        "id": 10062,
+        "title": "0P0A3578",
+        "file": "2025/08/0P0A3578.jpg"
+      },
+      {
+        "id": 10063,
+        "title": "0P0A3583",
+        "file": "2025/08/0P0A3583-e1754528562384.jpg"
+      },
+      {
+        "id": 10064,
+        "title": "0P0A3591",
+        "file": "2025/08/0P0A3591-e1754528333863.jpg"
+      },
+      {
+        "id": 10065,
+        "title": "0P0A3739",
+        "file": "2025/08/0P0A3739.jpg"
+      },
+      {
+        "id": 10066,
+        "title": "0P0A3808",
+        "file": "2025/08/0P0A3808.jpg"
+      },
+      {
+        "id": 10067,
+        "title": "0P0A3679",
+        "file": "2025/08/0P0A3679.jpg"
+      },
+      {
+        "id": 10068,
+        "title": "0P0A3687",
+        "file": "2025/08/0P0A3687.jpg"
+      },
+      {
+        "id": 10069,
+        "title": "0P0A3689",
+        "file": "2025/08/0P0A3689.jpg"
+      },
+      {
+        "id": 10070,
+        "title": "0P0A3700",
+        "file": "2025/08/0P0A3700.jpg"
+      },
+      {
+        "id": 10071,
+        "title": "0P0A3704",
+        "file": "2025/08/0P0A3704.jpg"
+      },
+      {
+        "id": 10072,
+        "title": "0P0A3708",
+        "file": "2025/08/0P0A3708.jpg"
+      },
+      {
+        "id": 10073,
+        "title": "0P0A3713",
+        "file": "2025/08/0P0A3713.jpg"
+      },
+      {
+        "id": 10074,
+        "title": "0P0A3715",
+        "file": "2025/08/0P0A3715.jpg"
+      },
+      {
+        "id": 10075,
+        "title": "0P0A3720",
+        "file": "2025/08/0P0A3720.jpg"
+      },
+      {
+        "id": 10076,
+        "title": "0P0A3728",
+        "file": "2025/08/0P0A3728.jpg"
+      },
+      {
+        "id": 10077,
+        "title": "0P0A3733",
+        "file": "2025/08/0P0A3733-e1754529723661.jpg"
+      },
+      {
+        "id": 10094,
+        "title": "default",
+        "file": "2025/08/DJI_0532-2.jpg"
+      },
+      {
+        "id": 10095,
+        "title": "default",
+        "file": "2025/08/DJI_0532-e1754530486442.jpg"
+      },
+      {
+        "id": 10096,
+        "title": "0P0A3564-4",
+        "file": "2025/08/0P0A3564-4-scaled.jpg"
+      },
+      {
+        "id": 10097,
+        "title": "0P0A3552-3",
+        "file": "2025/08/0P0A3552-3-scaled.jpg"
+      },
+      {
+        "id": 10098,
+        "title": "0P0A3535-2",
+        "file": "2025/08/0P0A3535-2-scaled.jpg"
+      },
+      {
+        "id": 10099,
+        "title": "default",
+        "file": "2025/08/DJI_0542-2-e1754530782145.jpg"
+      },
+      {
+        "id": 10105,
+        "title": "시흥-배곧-면적내용",
+        "file": "2025/08/시흥-배곧-면적내용-1.jpg"
+      },
+      {
+        "id": 10107,
+        "title": "시흥-배곧1층1",
+        "file": "2025/08/-배곧1층1-1-e1754534641711.jpg"
+      },
+      {
+        "id": 10108,
+        "title": "시흥-배곧2층2",
+        "file": "2025/08/시흥-배곧2층2-1.jpg"
+      },
+      {
+        "id": 10109,
+        "title": "시흥-배곧다락층3",
+        "file": "2025/08/시흥-배곧다락층3-1.jpg"
+      }
+    ]
+  },
+  "10110": {
+    "title": "원주 도시 오로라하우스",
+    "slug": "wonju-banggok-aurora-house",
+    "wp_post_found": true,
+    "wp_title": "원주 혁신도시 오로라하우스",
+    "wp_thumbnail_id": 10175,
+    "wp_thumbnail_file": "2025/08/0P0A2885-e1754542050579.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10175,
+    "wp_list_image_file": "2025/08/0P0A2885-e1754542050579.jpg",
+    "current_featuredImage": "/images/projects/wonju-banggok-aurora-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10171,
+        "title": "원주-배곧-면적내용",
+        "file": "2025/08/원주-배곧-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 52,
+    "wp_attachments": [
+      {
+        "id": 10112,
+        "title": "2층 복도4",
+        "file": "2025/08/2층-복도4.jpg"
+      },
+      {
+        "id": 10113,
+        "title": "2층 복도5",
+        "file": "2025/08/2층-복도5.jpg"
+      },
+      {
+        "id": 10114,
+        "title": "2층 아이방1_1",
+        "file": "2025/08/2층-아이방1_1.jpg"
+      },
+      {
+        "id": 10117,
+        "title": "2층 아이방1_4",
+        "file": "2025/08/2층-아이방1_4.jpg"
+      },
+      {
+        "id": 10118,
+        "title": "2층 아이방1_5",
+        "file": "2025/08/2층-아이방1_5.jpg"
+      },
+      {
+        "id": 10121,
+        "title": "2층 아이방2_2",
+        "file": "2025/08/2층-아이방2_2.jpg"
+      },
+      {
+        "id": 10122,
+        "title": "2층 아이방2_3",
+        "file": "2025/08/2층-아이방2_3.jpg"
+      },
+      {
+        "id": 10123,
+        "title": "2층 아이방2_4",
+        "file": "2025/08/2층-아이방2_4.jpg"
+      },
+      {
+        "id": 10124,
+        "title": "2층 아이방2_5",
+        "file": "2025/08/2층-아이방2_5-e1754536363818.jpg"
+      },
+      {
+        "id": 10125,
+        "title": "2층 아이방2_6",
+        "file": "2025/08/2층-아이방2_6.jpg"
+      },
+      {
+        "id": 10126,
+        "title": "2층 욕실_1",
+        "file": "2025/08/2층-욕실_1.jpg"
+      },
+      {
+        "id": 10127,
+        "title": "2층 욕실_2",
+        "file": "2025/08/2층-욕실_2.jpg"
+      },
+      {
+        "id": 10128,
+        "title": "2층 욕실_3",
+        "file": "2025/08/2층-욕실_3.jpg"
+      },
+      {
+        "id": 10129,
+        "title": "2층 복도1",
+        "file": "2025/08/2층-복도1.jpg"
+      },
+      {
+        "id": 10130,
+        "title": "2층 복도2",
+        "file": "2025/08/2층-복도2.jpg"
+      },
+      {
+        "id": 10137,
+        "title": "1층 거실_2",
+        "file": "2025/08/1층-거실_2.jpg"
+      },
+      {
+        "id": 10138,
+        "title": "1층 거실_3",
+        "file": "2025/08/1층-거실_3.jpg"
+      },
+      {
+        "id": 10140,
+        "title": "1층 거실_5",
+        "file": "2025/08/1층-거실_5.jpg"
+      },
+      {
+        "id": 10141,
+        "title": "1층 거실_6",
+        "file": "2025/08/1층-거실_6.jpg"
+      },
+      {
+        "id": 10142,
+        "title": "1층 거실_7",
+        "file": "2025/08/1층-거실_7.jpg"
+      },
+      {
+        "id": 10143,
+        "title": "1층 거실_8",
+        "file": "2025/08/1층-거실_8.jpg"
+      },
+      {
+        "id": 10144,
+        "title": "1층 마스터룸_1",
+        "file": "2025/08/1층-마스터룸_1.jpg"
+      },
+      {
+        "id": 10146,
+        "title": "1층 마스터룸_3",
+        "file": "2025/08/1층-마스터룸_3.jpg"
+      },
+      {
+        "id": 10147,
+        "title": "1층 마스터룸_4",
+        "file": "2025/08/1층-마스터룸_4.jpg"
+      },
+      {
+        "id": 10148,
+        "title": "1층 마스터룸_5",
+        "file": "2025/08/1층-마스터룸_5.jpg"
+      },
+      {
+        "id": 10149,
+        "title": "1층 마스터룸_6",
+        "file": "2025/08/1층-마스터룸_6.jpg"
+      },
+      {
+        "id": 10150,
+        "title": "1층 마스터룸_7",
+        "file": "2025/08/1층-마스터룸_7.jpg"
+      },
+      {
+        "id": 10151,
+        "title": "1층 마스터룸_8",
+        "file": "2025/08/1층-마스터룸_8.jpg"
+      },
+      {
+        "id": 10152,
+        "title": "1층 마스터룸_9",
+        "file": "2025/08/1층-마스터룸_9.jpg"
+      },
+      {
+        "id": 10156,
+        "title": "1층 욕실_3",
+        "file": "2025/08/1층-욕실_3-e1754538105759.jpg"
+      },
+      {
+        "id": 10157,
+        "title": "1층 욕실_4",
+        "file": "2025/08/1층-욕실_4.jpg"
+      },
+      {
+        "id": 10158,
+        "title": "1층 운동실_1",
+        "file": "2025/08/1층-운동실_1.jpg"
+      },
+      {
+        "id": 10159,
+        "title": "1층 운동실_2",
+        "file": "2025/08/1층-운동실_2.jpg"
+      },
+      {
+        "id": 10160,
+        "title": "1층 주방_1",
+        "file": "2025/08/1층-주방_1.jpg"
+      },
+      {
+        "id": 10161,
+        "title": "1층 주방_2",
+        "file": "2025/08/1층-주방_2.jpg"
+      },
+      {
+        "id": 10162,
+        "title": "1층 주방_3",
+        "file": "2025/08/1층-주방_3.jpg"
+      },
+      {
+        "id": 10163,
+        "title": "1층 주방_4",
+        "file": "2025/08/1층-주방_4.jpg"
+      },
+      {
+        "id": 10164,
+        "title": "1층 현관",
+        "file": "2025/08/1층-현관.jpg"
+      },
+      {
+        "id": 10165,
+        "title": "1층 PC방_1",
+        "file": "2025/08/1층-PC방_1.jpg"
+      },
+      {
+        "id": 10171,
+        "title": "원주-배곧-면적내용",
+        "file": "2025/08/원주-배곧-면적내용.jpg"
+      },
+      {
+        "id": 10172,
+        "title": "원주-다락3",
+        "file": "2025/08/원주-다락3.jpg"
+      },
+      {
+        "id": 10173,
+        "title": "원주-1층1",
+        "file": "2025/08/원주-1층1.jpg"
+      },
+      {
+        "id": 10174,
+        "title": "원주-2층2",
+        "file": "2025/08/원주-2층2.jpg"
+      },
+      {
+        "id": 10175,
+        "title": "0P0A2885",
+        "file": "2025/08/0P0A2885-e1754542050579.jpg"
+      },
+      {
+        "id": 10176,
+        "title": "0P0A2900",
+        "file": "2025/08/0P0A2900.jpg"
+      },
+      {
+        "id": 10177,
+        "title": "0P0A2902",
+        "file": "2025/08/0P0A2902.jpg"
+      },
+      {
+        "id": 10178,
+        "title": "0P0A3405",
+        "file": "2025/08/0P0A3405-e1754541754527.jpg"
+      },
+      {
+        "id": 10179,
+        "title": "0P0A3410",
+        "file": "2025/08/0P0A3410-e1754541933714.jpg"
+      },
+      {
+        "id": 10180,
+        "title": "0P0A3455",
+        "file": "2025/08/0P0A3455.jpg"
+      },
+      {
+        "id": 10181,
+        "title": "2층 테라스_1",
+        "file": "2025/08/2층-테라스_1.jpg"
+      },
+      {
+        "id": 10182,
+        "title": "2층 테라스_2",
+        "file": "2025/08/2층-테라스_2.jpg"
+      },
+      {
+        "id": 10183,
+        "title": "0P0A2870",
+        "file": "2025/08/0P0A2870-e1754541564795.jpg"
+      }
+    ]
+  },
+  "10184": {
+    "title": "번동 상가 주택",
+    "slug": "beondong-mixed-use",
+    "wp_post_found": true,
+    "wp_title": "번동 상가 주택",
+    "wp_thumbnail_id": 10215,
+    "wp_thumbnail_file": "2025/08/DJI_0297-e1754545082460.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10215,
+    "wp_list_image_file": "2025/08/DJI_0297-e1754545082460.jpg",
+    "current_featuredImage": "/images/projects/beondong-mixed-use/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10229,
+        "title": "번동-면적내용",
+        "file": "2025/08/번동-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 22,
+    "wp_attachments": [
+      {
+        "id": 10185,
+        "title": "2층2룸-2",
+        "file": "2025/08/2층2룸-2.jpg"
+      },
+      {
+        "id": 10186,
+        "title": "2층2룸-3",
+        "file": "2025/08/2층2룸-3.jpg"
+      },
+      {
+        "id": 10187,
+        "title": "3층마스터룸1",
+        "file": "2025/08/3층마스터룸1-e1754544114441.jpg"
+      },
+      {
+        "id": 10188,
+        "title": "3층마스터룸2",
+        "file": "2025/08/3층마스터룸2.jpg"
+      },
+      {
+        "id": 10189,
+        "title": "3층마스터룸3",
+        "file": "2025/08/3층마스터룸3-e1754543265568.jpg"
+      },
+      {
+        "id": 10190,
+        "title": "3층마스터룸4",
+        "file": "2025/08/3층마스터룸4-e1754543215100.jpg"
+      },
+      {
+        "id": 10191,
+        "title": "4층1.5룸-1",
+        "file": "2025/08/4층1.5룸-1-e1754543975653.jpg"
+      },
+      {
+        "id": 10192,
+        "title": "4층1.5룸-2",
+        "file": "2025/08/4층1.5룸-2.jpg"
+      },
+      {
+        "id": 10193,
+        "title": "4층1.5룸-3",
+        "file": "2025/08/4층1.5룸-3.jpg"
+      },
+      {
+        "id": 10194,
+        "title": "4층1.5룸-4",
+        "file": "2025/08/4층1.5룸-4-e1754543443504.jpg"
+      },
+      {
+        "id": 10195,
+        "title": "복도1",
+        "file": "2025/08/복도1-4.jpg"
+      },
+      {
+        "id": 10196,
+        "title": "복도2",
+        "file": "2025/08/복도2-5.jpg"
+      },
+      {
+        "id": 10197,
+        "title": "2층1.5룸-1",
+        "file": "2025/08/2층1.5룸-1.jpg"
+      },
+      {
+        "id": 10198,
+        "title": "2층1.5룸-2",
+        "file": "2025/08/2층1.5룸-2.jpg"
+      },
+      {
+        "id": 10199,
+        "title": "2층2룸-1",
+        "file": "2025/08/2층2룸-1-e1754542741146.jpg"
+      },
+      {
+        "id": 10215,
+        "title": "DJI_0297",
+        "file": "2025/08/DJI_0297-e1754545082460.jpg"
+      },
+      {
+        "id": 10216,
+        "title": "0P0A7269",
+        "file": "2025/08/0P0A7269.jpg"
+      },
+      {
+        "id": 10217,
+        "title": "0P0A7274",
+        "file": "2025/08/0P0A7274.jpg"
+      },
+      {
+        "id": 10218,
+        "title": "DJI_0291",
+        "file": "2025/08/DJI_0291-e1754545289195.jpg"
+      },
+      {
+        "id": 10219,
+        "title": "DJI_0301",
+        "file": "2025/08/DJI_0301-e1754545037637.jpg"
+      },
+      {
+        "id": 10220,
+        "title": "DJI_0320-2",
+        "file": "2025/08/DJI_0320-2.jpg"
+      },
+      {
+        "id": 10229,
+        "title": "번동-면적내용",
+        "file": "2025/08/번동-면적내용.jpg"
+      }
+    ]
+  },
+  "10230": {
+    "title": "옥천 메이플 상가 주택",
+    "slug": "okcheon-maple-mixed-use",
+    "wp_post_found": true,
+    "wp_title": "옥천 메이플 상가 주택",
+    "wp_thumbnail_id": 10235,
+    "wp_thumbnail_file": "2025/08/_동물병원15-3-e1756439612320.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10235,
+    "wp_list_image_file": "2025/08/_동물병원15-3-e1756439612320.jpg",
+    "current_featuredImage": "/images/projects/okcheon-maple-mixed-use/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10237,
+        "title": "옥천-메이플-면적내용",
+        "file": "2025/08/옥천-메이플-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 43,
+    "wp_attachments": [
+      {
+        "id": 10233,
+        "title": "메이플_동물병원07",
+        "file": "2025/08/메이플_동물병원07.jpg"
+      },
+      {
+        "id": 10234,
+        "title": "메이플_동물병원06",
+        "file": "2025/08/메이플_동물병원06.jpg"
+      },
+      {
+        "id": 10235,
+        "title": "메이플_동물병원15-3",
+        "file": "2025/08/_동물병원15-3-e1756439612320.jpg"
+      },
+      {
+        "id": 10237,
+        "title": "옥천-메이플-면적내용",
+        "file": "2025/08/옥천-메이플-면적내용.jpg"
+      },
+      {
+        "id": 10239,
+        "title": "옥천-메이플2층-2",
+        "file": "2025/08/옥천-메이플2층-2.jpg"
+      },
+      {
+        "id": 10241,
+        "title": "옥천-메이플1층-2",
+        "file": "2025/08/-메이플1층-2-1-e1754611561410.jpg"
+      },
+      {
+        "id": 10242,
+        "title": "옥천-메이플다락-2",
+        "file": "2025/08/옥천-메이플다락-2-1.jpg"
+      },
+      {
+        "id": 11509,
+        "title": "1",
+        "file": "2025/08/1-9-e1756439553353.jpg"
+      },
+      {
+        "id": 11510,
+        "title": "3",
+        "file": "2025/08/3-5-e1756439659270.jpg"
+      },
+      {
+        "id": 11511,
+        "title": "2",
+        "file": "2025/08/2-8-e1756440012130.jpg"
+      },
+      {
+        "id": 11512,
+        "title": "6",
+        "file": "2025/08/6-6-e1756440222629.jpg"
+      },
+      {
+        "id": 11513,
+        "title": "4",
+        "file": "2025/08/4-5-e1756440483161.jpg"
+      },
+      {
+        "id": 11514,
+        "title": "14",
+        "file": "2025/08/14-4.jpg"
+      },
+      {
+        "id": 11515,
+        "title": "15",
+        "file": "2025/08/15-5.jpg"
+      },
+      {
+        "id": 11516,
+        "title": "16",
+        "file": "2025/08/16-2.jpg"
+      },
+      {
+        "id": 11517,
+        "title": "19",
+        "file": "2025/08/19-2.jpg"
+      },
+      {
+        "id": 11518,
+        "title": "20",
+        "file": "2025/08/20-1.jpg"
+      },
+      {
+        "id": 11519,
+        "title": "21",
+        "file": "2025/08/21-5.jpg"
+      },
+      {
+        "id": 11520,
+        "title": "24",
+        "file": "2025/08/24-e1756440371372.jpg"
+      },
+      {
+        "id": 11521,
+        "title": "25",
+        "file": "2025/08/25-2.jpg"
+      },
+      {
+        "id": 11522,
+        "title": "29",
+        "file": "2025/08/29-3-e1756440423219.jpg"
+      },
+      {
+        "id": 11523,
+        "title": "30",
+        "file": "2025/08/30-4.jpg"
+      },
+      {
+        "id": 11524,
+        "title": "32",
+        "file": "2025/08/32-3-e1756440556453.jpg"
+      },
+      {
+        "id": 11525,
+        "title": "35",
+        "file": "2025/08/35-2.jpg"
+      },
+      {
+        "id": 11526,
+        "title": "37",
+        "file": "2025/08/37-1.jpg"
+      },
+      {
+        "id": 11527,
+        "title": "39",
+        "file": "2025/08/39-4.jpg"
+      },
+      {
+        "id": 11528,
+        "title": "46",
+        "file": "2025/08/46-2-e1756440999521.jpg"
+      },
+      {
+        "id": 11529,
+        "title": "50",
+        "file": "2025/08/50-3-e1756440623284.jpg"
+      },
+      {
+        "id": 11530,
+        "title": "51",
+        "file": "2025/08/51-2-e1756440808634.jpg"
+      },
+      {
+        "id": 11531,
+        "title": "49",
+        "file": "2025/08/49-5.jpg"
+      },
+      {
+        "id": 11532,
+        "title": "52",
+        "file": "2025/08/52-5-e1756440675466.jpg"
+      },
+      {
+        "id": 11533,
+        "title": "54",
+        "file": "2025/08/54-2-e1756441721669.jpg"
+      },
+      {
+        "id": 11534,
+        "title": "55",
+        "file": "2025/08/55-4.jpg"
+      },
+      {
+        "id": 11535,
+        "title": "56",
+        "file": "2025/08/56-5-e1756441106861.jpg"
+      },
+      {
+        "id": 11536,
+        "title": "60",
+        "file": "2025/08/60-2-e1756441357106.jpg"
+      },
+      {
+        "id": 11537,
+        "title": "61",
+        "file": "2025/08/61-3-e1756441769874.jpg"
+      },
+      {
+        "id": 11538,
+        "title": "63",
+        "file": "2025/08/63-3.jpg"
+      },
+      {
+        "id": 11539,
+        "title": "65",
+        "file": "2025/08/65-4-e1756441161421.jpg"
+      },
+      {
+        "id": 11540,
+        "title": "66",
+        "file": "2025/08/66-1-e1756441876212.jpg"
+      },
+      {
+        "id": 11541,
+        "title": "69",
+        "file": "2025/08/69-3-e1756441823427.jpg"
+      },
+      {
+        "id": 11542,
+        "title": "72",
+        "file": "2025/08/72-3-e1756440062914.jpg"
+      },
+      {
+        "id": 11543,
+        "title": "77",
+        "file": "2025/08/77-2.jpg"
+      },
+      {
+        "id": 11544,
+        "title": "48",
+        "file": "2025/08/48-3-e1756441492336.jpg"
+      }
+    ]
+  },
+  "10231": {
+    "title": "포천 품잇 상가 주택",
+    "slug": "pocheon-pumit-mixed-use",
+    "wp_post_found": true,
+    "wp_title": "포천 품잇 상가 주택",
+    "wp_thumbnail_id": 10261,
+    "wp_thumbnail_file": "2025/08/2-2-2-scaled.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10261,
+    "wp_list_image_file": "2025/08/2-2-2-scaled.jpg",
+    "current_featuredImage": "/images/projects/pocheon-pumit-mixed-use/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10262,
+        "title": "포천-면적내용",
+        "file": "2025/08/포천-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 24,
+    "wp_attachments": [
+      {
+        "id": 10244,
+        "title": "KakaoTalk_20230923_194119562_04",
+        "file": "2025/08/KakaoTalk_20230923_194119562_04-e1754612644606.jpg"
+      },
+      {
+        "id": 10245,
+        "title": "KakaoTalk_20230923_194119562_05",
+        "file": "2025/08/KakaoTalk_20230923_194119562_05-e1754613230463.jpg"
+      },
+      {
+        "id": 10246,
+        "title": "KakaoTalk_20230923_194119562_07",
+        "file": "2025/08/KakaoTalk_20230923_194119562_07.jpg"
+      },
+      {
+        "id": 10247,
+        "title": "KakaoTalk_20230923_194119562_08",
+        "file": "2025/08/KakaoTalk_20230923_194119562_08-e1754612853838.jpg"
+      },
+      {
+        "id": 10248,
+        "title": "KakaoTalk_20230923_194119562_09",
+        "file": "2025/08/KakaoTalk_20230923_194119562_09-e1754612964954.jpg"
+      },
+      {
+        "id": 10249,
+        "title": "KakaoTalk_20230923_194119562_10",
+        "file": "2025/08/KakaoTalk_20230923_194119562_10-e1754613122113.jpg"
+      },
+      {
+        "id": 10250,
+        "title": "KakaoTalk_20230923_194119562_11",
+        "file": "2025/08/KakaoTalk_20230923_194119562_11.jpg"
+      },
+      {
+        "id": 10251,
+        "title": "KakaoTalk_20230923_194119562_12",
+        "file": "2025/08/KakaoTalk_20230923_194119562_12-e1754613175765.jpg"
+      },
+      {
+        "id": 10252,
+        "title": "KakaoTalk_20230923_194119562_14",
+        "file": "2025/08/KakaoTalk_20230923_194119562_14-e1754612788313.jpg"
+      },
+      {
+        "id": 10253,
+        "title": "KakaoTalk_20230923_194119562_15",
+        "file": "2025/08/KakaoTalk_20230923_194119562_15-e1754613473314.jpg"
+      },
+      {
+        "id": 10254,
+        "title": "KakaoTalk_20230923_194119562_18",
+        "file": "2025/08/KakaoTalk_20230923_194119562_18.jpg"
+      },
+      {
+        "id": 10255,
+        "title": "KakaoTalk_20230923_194119562_21",
+        "file": "2025/08/KakaoTalk_20230923_194119562_21-e1754613352985.jpg"
+      },
+      {
+        "id": 10256,
+        "title": "외관-3",
+        "file": "2025/08/외관-3-scaled.jpg"
+      },
+      {
+        "id": 10257,
+        "title": "KakaoTalk_20230923_194119562_19",
+        "file": "2025/08/KakaoTalk_20230923_194119562_19.jpg"
+      },
+      {
+        "id": 10258,
+        "title": "KakaoTalk_20230923_194119562_17",
+        "file": "2025/08/KakaoTalk_20230923_194119562_17.jpg"
+      },
+      {
+        "id": 10259,
+        "title": "KakaoTalk_20230923_194119562_13-2",
+        "file": "2025/08/KakaoTalk_20230923_194119562_13-2-e1754612254592.jpg"
+      },
+      {
+        "id": 10260,
+        "title": "KakaoTalk_20230923_194119562_06-3",
+        "file": "2025/08/KakaoTalk_20230923_194119562_06-3-e1754612050621.jpg"
+      },
+      {
+        "id": 10261,
+        "title": "2-2",
+        "file": "2025/08/2-2-2-scaled.jpg"
+      },
+      {
+        "id": 10262,
+        "title": "포천-면적내용",
+        "file": "2025/08/포천-면적내용.jpg"
+      },
+      {
+        "id": 10266,
+        "title": "포천-1층",
+        "file": "2025/08/포천-1층.jpg"
+      },
+      {
+        "id": 10267,
+        "title": "포천-2층",
+        "file": "2025/08/포천-2층.jpg"
+      },
+      {
+        "id": 10268,
+        "title": "포천-3층",
+        "file": "2025/08/포천-3층.jpg"
+      },
+      {
+        "id": 10269,
+        "title": "포천-4층",
+        "file": "2025/08/포천-4층.jpg"
+      },
+      {
+        "id": 10270,
+        "title": "포천-다락층",
+        "file": "2025/08/포천-다락층.jpg"
+      }
+    ]
+  },
+  "10271": {
+    "title": "향동 아치리얼 상가주택",
+    "slug": "hyangdong-archireal-mixed-use",
+    "wp_post_found": true,
+    "wp_title": "향동 아치리얼 상가주택",
+    "wp_thumbnail_id": 10330,
+    "wp_thumbnail_file": "2025/08/20221110_165949-2-e1754624104149.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10330,
+    "wp_list_image_file": "2025/08/20221110_165949-2-e1754624104149.jpg",
+    "current_featuredImage": "/images/projects/hyangdong-archireal-mixed-use/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10340,
+        "title": "고양-면적내용",
+        "file": "2025/08/고양-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 59,
+    "wp_attachments": [
+      {
+        "id": 10278,
+        "title": "2층1.5룸-4",
+        "file": "2025/08/2층1.5룸-4.jpg"
+      },
+      {
+        "id": 10279,
+        "title": "2층1.5룸-5",
+        "file": "2025/08/2층1.5룸-5.jpg"
+      },
+      {
+        "id": 10280,
+        "title": "2층1.5룸-6",
+        "file": "2025/08/2층1.5룸-6.jpg"
+      },
+      {
+        "id": 10281,
+        "title": "2층1.5룸-7",
+        "file": "2025/08/2층1.5룸-7.jpg"
+      },
+      {
+        "id": 10282,
+        "title": "2층1.5룸-8",
+        "file": "2025/08/2층1.5룸-8-e1754624307111.jpg"
+      },
+      {
+        "id": 10283,
+        "title": "2층1.5룸-9",
+        "file": "2025/08/2층1.5룸-9.jpg"
+      },
+      {
+        "id": 10284,
+        "title": "2층1.5룸-1",
+        "file": "2025/08/2층1.5룸-1-1.jpg"
+      },
+      {
+        "id": 10285,
+        "title": "2층1.5룸-2",
+        "file": "2025/08/2층1.5룸-2-1.jpg"
+      },
+      {
+        "id": 10286,
+        "title": "2층1.5룸-3",
+        "file": "2025/08/2층1.5룸-3.jpg"
+      },
+      {
+        "id": 10287,
+        "title": "2층2룸-4",
+        "file": "2025/08/2층2룸-4.jpg"
+      },
+      {
+        "id": 10288,
+        "title": "2층2룸-5",
+        "file": "2025/08/2층2룸-5.jpg"
+      },
+      {
+        "id": 10289,
+        "title": "2층2룸-6",
+        "file": "2025/08/2층2룸-6.jpg"
+      },
+      {
+        "id": 10290,
+        "title": "2층2룸-7",
+        "file": "2025/08/2층2룸-7.jpg"
+      },
+      {
+        "id": 10291,
+        "title": "2층2룸-8",
+        "file": "2025/08/2층2룸-8.jpg"
+      },
+      {
+        "id": 10292,
+        "title": "2층2룸-1",
+        "file": "2025/08/2층2룸-1-1-e1754624512745.jpg"
+      },
+      {
+        "id": 10293,
+        "title": "2층2룸-2",
+        "file": "2025/08/2층2룸-2-1-e1754624854778.jpg"
+      },
+      {
+        "id": 10294,
+        "title": "2층2룸-3",
+        "file": "2025/08/2층2룸-3-1.jpg"
+      },
+      {
+        "id": 10295,
+        "title": "0P0A9776",
+        "file": "2025/08/0P0A9776-scaled-e1754625069591.jpg"
+      },
+      {
+        "id": 10296,
+        "title": "3층2룸-4",
+        "file": "2025/08/3층2룸-4.jpg"
+      },
+      {
+        "id": 10297,
+        "title": "3층2룸-5",
+        "file": "2025/08/3층2룸-5-e1754625805128.jpg"
+      },
+      {
+        "id": 10298,
+        "title": "3층2룸-6",
+        "file": "2025/08/3층2룸-6-e1754625909140.jpg"
+      },
+      {
+        "id": 10299,
+        "title": "3층2룸-7",
+        "file": "2025/08/3층2룸-7-e1754626020112.jpg"
+      },
+      {
+        "id": 10300,
+        "title": "3층2룸-8",
+        "file": "2025/08/3층2룸-8.jpg"
+      },
+      {
+        "id": 10301,
+        "title": "3층2룸-9",
+        "file": "2025/08/3층2룸-9.jpg"
+      },
+      {
+        "id": 10302,
+        "title": "3층2룸-1",
+        "file": "2025/08/3층2룸-1.jpg"
+      },
+      {
+        "id": 10303,
+        "title": "3층2룸-2",
+        "file": "2025/08/3층2룸-2.jpg"
+      },
+      {
+        "id": 10304,
+        "title": "3층2룸-3",
+        "file": "2025/08/3층2룸-3.jpg"
+      },
+      {
+        "id": 10305,
+        "title": "4층-2",
+        "file": "2025/08/4층-2.jpg"
+      },
+      {
+        "id": 10306,
+        "title": "4층-3",
+        "file": "2025/08/4층-3-e1754626821439.jpg"
+      },
+      {
+        "id": 10307,
+        "title": "4층-4",
+        "file": "2025/08/4층-4.jpg"
+      },
+      {
+        "id": 10308,
+        "title": "4층-5",
+        "file": "2025/08/4층-5.jpg"
+      },
+      {
+        "id": 10309,
+        "title": "4층-6",
+        "file": "2025/08/4층-6.jpg"
+      },
+      {
+        "id": 10310,
+        "title": "4층-7",
+        "file": "2025/08/4층-7-e1754626876112.jpg"
+      },
+      {
+        "id": 10311,
+        "title": "4층-9",
+        "file": "2025/08/4층-9.jpg"
+      },
+      {
+        "id": 10312,
+        "title": "4층-10",
+        "file": "2025/08/4층-10.jpg"
+      },
+      {
+        "id": 10313,
+        "title": "4층-11",
+        "file": "2025/08/4층-11.jpg"
+      },
+      {
+        "id": 10314,
+        "title": "4층-12",
+        "file": "2025/08/4층-12.jpg"
+      },
+      {
+        "id": 10315,
+        "title": "4층-13-2",
+        "file": "2025/08/4층-13-2-scaled.jpg"
+      },
+      {
+        "id": 10316,
+        "title": "4층-14",
+        "file": "2025/08/4층-14.jpg"
+      },
+      {
+        "id": 10317,
+        "title": "4층-15",
+        "file": "2025/08/4층-15.jpg"
+      },
+      {
+        "id": 10318,
+        "title": "4층-16",
+        "file": "2025/08/4층-16.jpg"
+      },
+      {
+        "id": 10319,
+        "title": "4층-16-2",
+        "file": "2025/08/4층-16-2-scaled-e1754627066135.jpg"
+      },
+      {
+        "id": 10320,
+        "title": "4층-17",
+        "file": "2025/08/4층-17-e1754626591460.jpg"
+      },
+      {
+        "id": 10321,
+        "title": "4층-18",
+        "file": "2025/08/4층-18.jpg"
+      },
+      {
+        "id": 10322,
+        "title": "4층-19",
+        "file": "2025/08/4층-19.jpg"
+      },
+      {
+        "id": 10323,
+        "title": "4층-20",
+        "file": "2025/08/4층-20-e1754626764401.jpg"
+      },
+      {
+        "id": 10324,
+        "title": "4층-1",
+        "file": "2025/08/4층-1.jpg"
+      },
+      {
+        "id": 10325,
+        "title": "0P0A9633",
+        "file": "2025/08/0P0A9633.jpg"
+      },
+      {
+        "id": 10326,
+        "title": "0P0A9634",
+        "file": "2025/08/0P0A9634.jpg"
+      },
+      {
+        "id": 10327,
+        "title": "0P0A9788",
+        "file": "2025/08/0P0A9788-e1754627214843.jpg"
+      },
+      {
+        "id": 10328,
+        "title": "0P0A9553-3",
+        "file": "2025/08/0P0A9553-3-e1754623925986.jpg"
+      },
+      {
+        "id": 10330,
+        "title": "20221110_165949-2",
+        "file": "2025/08/20221110_165949-2-e1754624104149.jpg"
+      },
+      {
+        "id": 10339,
+        "title": "0P0A9553-3",
+        "file": "2025/08/0P0A9553-3-1-e1754623823487.jpg"
+      },
+      {
+        "id": 10340,
+        "title": "고양-면적내용",
+        "file": "2025/08/고양-면적내용.jpg"
+      },
+      {
+        "id": 10341,
+        "title": "고양-1층",
+        "file": "2025/08/고양-1층.jpg"
+      },
+      {
+        "id": 10342,
+        "title": "고양-2층",
+        "file": "2025/08/고양-2층.jpg"
+      },
+      {
+        "id": 10343,
+        "title": "고양-3층",
+        "file": "2025/08/고양-3층.jpg"
+      },
+      {
+        "id": 10344,
+        "title": "고양-4층",
+        "file": "2025/08/고양-4층.jpg"
+      },
+      {
+        "id": 10345,
+        "title": "고양-다락층",
+        "file": "2025/08/고양-다락층.jpg"
+      }
+    ]
+  },
+  "10346": {
+    "title": "아산 티아라 카페",
+    "slug": "asan-tiara-cafe",
+    "wp_post_found": true,
+    "wp_title": "아산 티아라 카페",
+    "wp_thumbnail_id": 10364,
+    "wp_thumbnail_file": "2025/08/2-5-e1754628955473.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10364,
+    "wp_list_image_file": "2025/08/2-5-e1754628955473.jpg",
+    "current_featuredImage": "/images/projects/asan-tiara-cafe/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10373,
+        "title": "아산-티아라-면적내용",
+        "file": "2025/08/아산-티아라-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 23,
+    "wp_attachments": [
+      {
+        "id": 10347,
+        "title": "13",
+        "file": "2025/08/13-2.jpg"
+      },
+      {
+        "id": 10348,
+        "title": "14",
+        "file": "2025/08/14.jpg"
+      },
+      {
+        "id": 10349,
+        "title": "15",
+        "file": "2025/08/15-2.jpg"
+      },
+      {
+        "id": 10350,
+        "title": "21",
+        "file": "2025/08/21-1.jpg"
+      },
+      {
+        "id": 10351,
+        "title": "27",
+        "file": "2025/08/27-1.jpg"
+      },
+      {
+        "id": 10352,
+        "title": "28",
+        "file": "2025/08/28-1.jpg"
+      },
+      {
+        "id": 10353,
+        "title": "29",
+        "file": "2025/08/29-1.jpg"
+      },
+      {
+        "id": 10354,
+        "title": "30",
+        "file": "2025/08/30-1.jpg"
+      },
+      {
+        "id": 10355,
+        "title": "34",
+        "file": "2025/08/34-1.jpg"
+      },
+      {
+        "id": 10356,
+        "title": "35",
+        "file": "2025/08/35.jpg"
+      },
+      {
+        "id": 10357,
+        "title": "38",
+        "file": "2025/08/38-1.jpg"
+      },
+      {
+        "id": 10358,
+        "title": "42",
+        "file": "2025/08/42-1.jpg"
+      },
+      {
+        "id": 10359,
+        "title": "43",
+        "file": "2025/08/43.jpg"
+      },
+      {
+        "id": 10362,
+        "title": "3",
+        "file": "2025/08/3-1.jpg"
+      },
+      {
+        "id": 10363,
+        "title": "4",
+        "file": "2025/08/4-1.jpg"
+      },
+      {
+        "id": 10364,
+        "title": "2",
+        "file": "2025/08/2-5-e1754628955473.jpg"
+      },
+      {
+        "id": 10365,
+        "title": "6",
+        "file": "2025/08/6-2-e1754629056577.jpg"
+      },
+      {
+        "id": 10366,
+        "title": "49-2",
+        "file": "2025/08/49-2.jpg"
+      },
+      {
+        "id": 10367,
+        "title": "50",
+        "file": "2025/08/50-1.jpg"
+      },
+      {
+        "id": 10368,
+        "title": "11",
+        "file": "2025/08/11-1.jpg"
+      },
+      {
+        "id": 10373,
+        "title": "아산-티아라-면적내용",
+        "file": "2025/08/아산-티아라-면적내용.jpg"
+      },
+      {
+        "id": 10374,
+        "title": "아산-티아라-1층",
+        "file": "2025/08/아산-티아라-1층.jpg"
+      },
+      {
+        "id": 10375,
+        "title": "아산-티아라-2층",
+        "file": "2025/08/아산-티아라-2층.jpg"
+      }
+    ]
+  },
+  "10388": {
+    "title": "아산 아우름 근린생활시설(상가)",
+    "slug": "asan-aureum-complex",
+    "wp_post_found": true,
+    "wp_title": "아산 아우름 근린생활시설(상가)",
+    "wp_thumbnail_id": 10412,
+    "wp_thumbnail_file": "2025/08/아산상가설계51-2-scaled.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10412,
+    "wp_list_image_file": "2025/08/아산상가설계51-2-scaled.jpg",
+    "current_featuredImage": "/images/projects/asan-aureum-complex/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10431,
+        "title": "아산-아우름-면적내용",
+        "file": "2025/08/아산-아우름-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 28,
+    "wp_attachments": [
+      {
+        "id": 10389,
+        "title": "아산상가설계19",
+        "file": "2025/08/아산상가설계19-1.jpg"
+      },
+      {
+        "id": 10390,
+        "title": "아산상가설계22",
+        "file": "2025/08/아산상가설계22-1.jpg"
+      },
+      {
+        "id": 10391,
+        "title": "아산상가설계25",
+        "file": "2025/08/아산상가설계25-1.jpg"
+      },
+      {
+        "id": 10392,
+        "title": "아산상가설계26",
+        "file": "2025/08/아산상가설계26.jpg"
+      },
+      {
+        "id": 10393,
+        "title": "아산상가설계29",
+        "file": "2025/08/아산상가설계29-2.jpg"
+      },
+      {
+        "id": 10394,
+        "title": "아산상가설계30",
+        "file": "2025/08/아산상가설계30-2.jpg"
+      },
+      {
+        "id": 10395,
+        "title": "아산상가설계31",
+        "file": "2025/08/아산상가설계31-1.jpg"
+      },
+      {
+        "id": 10396,
+        "title": "아산상가설계33",
+        "file": "2025/08/아산상가설계33.jpg"
+      },
+      {
+        "id": 10397,
+        "title": "아산상가설계37",
+        "file": "2025/08/37-e1754871154706.jpg"
+      },
+      {
+        "id": 10399,
+        "title": "아산상가설계41",
+        "file": "2025/08/아산상가설계41.jpg"
+      },
+      {
+        "id": 10400,
+        "title": "아산상가설계17",
+        "file": "2025/08/아산상가설계17-1.jpg"
+      },
+      {
+        "id": 10404,
+        "title": "아산상가설계39",
+        "file": "2025/08/39-2-e1754871506157.jpg"
+      },
+      {
+        "id": 10407,
+        "title": "아산상가설계1-3",
+        "file": "2025/08/아산상가설계1-3-1-scaled.jpg"
+      },
+      {
+        "id": 10408,
+        "title": "아산상가설계2-3",
+        "file": "2025/08/2-3-1-scaled-e1754875682205.jpg"
+      },
+      {
+        "id": 10409,
+        "title": "아산상가설계9-3",
+        "file": "2025/08/9-3-scaled-e1754875305824.jpg"
+      },
+      {
+        "id": 10410,
+        "title": "아산상가설계15-3",
+        "file": "2025/08/15-3-scaled-e1754875614659.jpg"
+      },
+      {
+        "id": 10411,
+        "title": "아산상가설계50-4",
+        "file": "2025/08/50-4-scaled-e1754874530465.jpg"
+      },
+      {
+        "id": 10412,
+        "title": "아산상가설계51-2",
+        "file": "2025/08/아산상가설계51-2-scaled.jpg"
+      },
+      {
+        "id": 10413,
+        "title": "아산상가설계52-3",
+        "file": "2025/08/아산상가설계52-3-scaled.jpg"
+      },
+      {
+        "id": 10414,
+        "title": "아산상가설계27",
+        "file": "2025/08/아산상가설계27-2.jpg"
+      },
+      {
+        "id": 10415,
+        "title": "아산상가설계7",
+        "file": "2025/08/아산상가설계7-1.jpg"
+      },
+      {
+        "id": 10416,
+        "title": "아산상가설계6",
+        "file": "2025/08/아산상가설계6-3.jpg"
+      },
+      {
+        "id": 10417,
+        "title": "아산상가설계10-3",
+        "file": "2025/08/아산상가설계10-3-scaled.jpg"
+      },
+      {
+        "id": 10418,
+        "title": "아산상가설계44",
+        "file": "2025/08/아산상가설계44.jpg"
+      },
+      {
+        "id": 10420,
+        "title": "아산상가설계42",
+        "file": "2025/08/아산상가설계42-2.jpg"
+      },
+      {
+        "id": 10431,
+        "title": "아산-아우름-면적내용",
+        "file": "2025/08/아산-아우름-면적내용.jpg"
+      },
+      {
+        "id": 10432,
+        "title": "아산-아우름2층",
+        "file": "2025/08/아산-아우름2층.jpg"
+      },
+      {
+        "id": 10433,
+        "title": "아산-아우름1층",
+        "file": "2025/08/아산-아우름1층.jpg"
+      }
+    ]
+  },
+  "10434": {
+    "title": "오산 소이랜드 카페",
+    "slug": "osan-soyland-cafe",
+    "wp_post_found": true,
+    "wp_title": "오산 소이랜드 카페",
+    "wp_thumbnail_id": 10493,
+    "wp_thumbnail_file": "2025/08/19-3-scaled.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10493,
+    "wp_list_image_file": "2025/08/19-3-scaled.jpg",
+    "current_featuredImage": "/images/projects/osan-soyland-cafe/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10570,
+        "title": "오산-소이랜드-면적내용",
+        "file": "2025/08/오산-소이랜드-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 50,
+    "wp_attachments": [
+      {
+        "id": 10435,
+        "title": "16",
+        "file": "2025/08/16-e1754889685782.jpg"
+      },
+      {
+        "id": 10436,
+        "title": "38",
+        "file": "2025/08/38-2.jpg"
+      },
+      {
+        "id": 10437,
+        "title": "39",
+        "file": "2025/08/39-1.jpg"
+      },
+      {
+        "id": 10438,
+        "title": "41",
+        "file": "2025/08/41.jpg"
+      },
+      {
+        "id": 10439,
+        "title": "42",
+        "file": "2025/08/42-2.jpg"
+      },
+      {
+        "id": 10440,
+        "title": "43",
+        "file": "2025/08/43-1.jpg"
+      },
+      {
+        "id": 10441,
+        "title": "45",
+        "file": "2025/08/45-1-e1754889620434.jpg"
+      },
+      {
+        "id": 10442,
+        "title": "48",
+        "file": "2025/08/48-1.jpg"
+      },
+      {
+        "id": 10443,
+        "title": "49",
+        "file": "2025/08/49-1.jpg"
+      },
+      {
+        "id": 10444,
+        "title": "52",
+        "file": "2025/08/52-1.jpg"
+      },
+      {
+        "id": 10445,
+        "title": "55",
+        "file": "2025/08/55-1.jpg"
+      },
+      {
+        "id": 10446,
+        "title": "56",
+        "file": "2025/08/56-1-e1754888489725.jpg"
+      },
+      {
+        "id": 10447,
+        "title": "59",
+        "file": "2025/08/59-1.jpg"
+      },
+      {
+        "id": 10448,
+        "title": "61",
+        "file": "2025/08/61.jpg"
+      },
+      {
+        "id": 10449,
+        "title": "63",
+        "file": "2025/08/63.jpg"
+      },
+      {
+        "id": 10450,
+        "title": "68",
+        "file": "2025/08/68-1.jpg"
+      },
+      {
+        "id": 10451,
+        "title": "69",
+        "file": "2025/08/69-1.jpg"
+      },
+      {
+        "id": 10452,
+        "title": "70",
+        "file": "2025/08/70.jpg"
+      },
+      {
+        "id": 10453,
+        "title": "71",
+        "file": "2025/08/71-1.jpg"
+      },
+      {
+        "id": 10454,
+        "title": "73",
+        "file": "2025/08/73.jpg"
+      },
+      {
+        "id": 10455,
+        "title": "74",
+        "file": "2025/08/74-1.jpg"
+      },
+      {
+        "id": 10456,
+        "title": "75",
+        "file": "2025/08/75-1.jpg"
+      },
+      {
+        "id": 10457,
+        "title": "77",
+        "file": "2025/08/77.jpg"
+      },
+      {
+        "id": 10458,
+        "title": "78",
+        "file": "2025/08/78-1.jpg"
+      },
+      {
+        "id": 10459,
+        "title": "79",
+        "file": "2025/08/79.jpg"
+      },
+      {
+        "id": 10460,
+        "title": "80",
+        "file": "2025/08/80.jpg"
+      },
+      {
+        "id": 10461,
+        "title": "81",
+        "file": "2025/08/81.jpg"
+      },
+      {
+        "id": 10462,
+        "title": "91",
+        "file": "2025/08/91-1.jpg"
+      },
+      {
+        "id": 10463,
+        "title": "92",
+        "file": "2025/08/92-e1754888689462.jpg"
+      },
+      {
+        "id": 10464,
+        "title": "94",
+        "file": "2025/08/94.jpg"
+      },
+      {
+        "id": 10465,
+        "title": "96",
+        "file": "2025/08/96.jpg"
+      },
+      {
+        "id": 10466,
+        "title": "6",
+        "file": "2025/08/6-3.jpg"
+      },
+      {
+        "id": 10467,
+        "title": "8",
+        "file": "2025/08/8-e1754887953268.jpg"
+      },
+      {
+        "id": 10468,
+        "title": "11",
+        "file": "2025/08/11-2.jpg"
+      },
+      {
+        "id": 10469,
+        "title": "12",
+        "file": "2025/08/12-2-e1754887887144.jpg"
+      },
+      {
+        "id": 10470,
+        "title": "13",
+        "file": "2025/08/13-3.jpg"
+      },
+      {
+        "id": 10471,
+        "title": "14",
+        "file": "2025/08/14-1.jpg"
+      },
+      {
+        "id": 10472,
+        "title": "15",
+        "file": "2025/08/15-3-e1754889854458.jpg"
+      },
+      {
+        "id": 10483,
+        "title": "98",
+        "file": "2025/08/98-scaled.png"
+      },
+      {
+        "id": 10491,
+        "title": "1-3",
+        "file": "2025/08/1-3-1-scaled.jpg"
+      },
+      {
+        "id": 10492,
+        "title": "18-2",
+        "file": "2025/08/18-2-scaled.jpg"
+      },
+      {
+        "id": 10493,
+        "title": "19-3",
+        "file": "2025/08/19-3-scaled.jpg"
+      },
+      {
+        "id": 10494,
+        "title": "21-3",
+        "file": "2025/08/21-3-scaled.jpg"
+      },
+      {
+        "id": 10495,
+        "title": "32-2",
+        "file": "2025/08/32-2-scaled.jpg"
+      },
+      {
+        "id": 10496,
+        "title": "22-3",
+        "file": "2025/08/22-3-scaled.jpg"
+      },
+      {
+        "id": 10570,
+        "title": "오산-소이랜드-면적내용",
+        "file": "2025/08/오산-소이랜드-면적내용.jpg"
+      },
+      {
+        "id": 10576,
+        "title": "오산-카페1층",
+        "file": "2025/08/오산-카페1층.jpg"
+      },
+      {
+        "id": 10577,
+        "title": "오산-카페2층",
+        "file": "2025/08/오산-카페2층.jpg"
+      },
+      {
+        "id": 10578,
+        "title": "오산-카페3층",
+        "file": "2025/08/오산-카페3층.jpg"
+      },
+      {
+        "id": 10579,
+        "title": "오산-카페4층",
+        "file": "2025/08/오산-카페4층.jpg"
+      }
+    ]
+  },
+  "10499": {
+    "title": "용인 베이커리 카페",
+    "slug": "yongin-bakery-cafe",
+    "wp_post_found": true,
+    "wp_title": "용인 베이커리 카페",
+    "wp_thumbnail_id": 10521,
+    "wp_thumbnail_file": "2025/08/카페설계5-1.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10521,
+    "wp_list_image_file": "2025/08/카페설계5-1.jpg",
+    "current_featuredImage": "/images/projects/yongin-bakery-cafe/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10582,
+        "title": "용인-베이커리-면적내용",
+        "file": "2025/08/용인-베이커리-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 36,
+    "wp_attachments": [
+      {
+        "id": 10500,
+        "title": "카페설계22",
+        "file": "2025/08/카페설계22-1.jpg"
+      },
+      {
+        "id": 10501,
+        "title": "카페설계24",
+        "file": "2025/08/카페설계24.jpg"
+      },
+      {
+        "id": 10502,
+        "title": "카페설계27",
+        "file": "2025/08/카페설계27-2.jpg"
+      },
+      {
+        "id": 10503,
+        "title": "카페설계33",
+        "file": "2025/08/카페설계33.jpg"
+      },
+      {
+        "id": 10504,
+        "title": "카페설계34",
+        "file": "2025/08/카페설계34-2.jpg"
+      },
+      {
+        "id": 10505,
+        "title": "카페설계35",
+        "file": "2025/08/카페설계35-1.jpg"
+      },
+      {
+        "id": 10506,
+        "title": "카페설계42",
+        "file": "2025/08/카페설계42-3.jpg"
+      },
+      {
+        "id": 10507,
+        "title": "카페설계43",
+        "file": "2025/08/카페설계43-2.jpg"
+      },
+      {
+        "id": 10508,
+        "title": "카페설계45",
+        "file": "2025/08/카페설계45-2.jpg"
+      },
+      {
+        "id": 10509,
+        "title": "카페설계46",
+        "file": "2025/08/카페설계46.jpg"
+      },
+      {
+        "id": 10510,
+        "title": "카페설계49",
+        "file": "2025/08/카페설계49-3.jpg"
+      },
+      {
+        "id": 10511,
+        "title": "카페설계10",
+        "file": "2025/08/카페설계10-2.jpg"
+      },
+      {
+        "id": 10512,
+        "title": "카페설계11",
+        "file": "2025/08/카페설계11-3.jpg"
+      },
+      {
+        "id": 10513,
+        "title": "카페설계17",
+        "file": "2025/08/카페설계17-1.jpg"
+      },
+      {
+        "id": 10514,
+        "title": "카페설계18",
+        "file": "2025/08/카페설계18.jpg"
+      },
+      {
+        "id": 10515,
+        "title": "카페설계19",
+        "file": "2025/08/카페설계19-1.jpg"
+      },
+      {
+        "id": 10516,
+        "title": "카페설계12",
+        "file": "2025/08/카페설계12-3-scaled.jpg"
+      },
+      {
+        "id": 10517,
+        "title": "카페설계23",
+        "file": "2025/08/카페설계23-scaled.jpg"
+      },
+      {
+        "id": 10518,
+        "title": "카페설계1-2",
+        "file": "2025/08/카페설계1-2-1-scaled.jpg"
+      },
+      {
+        "id": 10519,
+        "title": "카페설계2-2",
+        "file": "2025/08/카페설계2-2-3-scaled.jpg"
+      },
+      {
+        "id": 10520,
+        "title": "카페설계4",
+        "file": "2025/08/카페설계4-3.jpg"
+      },
+      {
+        "id": 10521,
+        "title": "카페설계5",
+        "file": "2025/08/카페설계5-1.jpg"
+      },
+      {
+        "id": 10522,
+        "title": "카페설계6",
+        "file": "2025/08/카페설계6-4.jpg"
+      },
+      {
+        "id": 10523,
+        "title": "카페설계9",
+        "file": "2025/08/카페설계9-1.jpg"
+      },
+      {
+        "id": 10524,
+        "title": "카페설계50",
+        "file": "2025/08/카페설계50-2.jpg"
+      },
+      {
+        "id": 10525,
+        "title": "카페설계52-2",
+        "file": "2025/08/카페설계52-2-scaled.jpg"
+      },
+      {
+        "id": 10526,
+        "title": "카페설계53",
+        "file": "2025/08/카페설계53.jpg"
+      },
+      {
+        "id": 10527,
+        "title": "카페설계54",
+        "file": "2025/08/카페설계54.jpg"
+      },
+      {
+        "id": 10529,
+        "title": "카페설계8",
+        "file": "2025/08/카페설계8-1-scaled.jpg"
+      },
+      {
+        "id": 10530,
+        "title": "카페설계7",
+        "file": "2025/08/카페설계7-1-scaled.jpg"
+      },
+      {
+        "id": 10582,
+        "title": "용인-베이커리-면적내용",
+        "file": "2025/08/용인-베이커리-면적내용.jpg"
+      },
+      {
+        "id": 10583,
+        "title": "용인-케이커리-1층",
+        "file": "2025/08/용인-케이커리-1층.jpg"
+      },
+      {
+        "id": 10584,
+        "title": "용인-케이커리-2층-2",
+        "file": "2025/08/용인-케이커리-2층-2.jpg"
+      },
+      {
+        "id": 10585,
+        "title": "용인-케이커리-3층",
+        "file": "2025/08/용인-케이커리-3층.jpg"
+      },
+      {
+        "id": 10586,
+        "title": "용인-케이커리-4층",
+        "file": "2025/08/용인-케이커리-4층.jpg"
+      },
+      {
+        "id": 10587,
+        "title": "용인-케이커리-지하층",
+        "file": "2025/08/용인-케이커리-지하층.jpg"
+      }
+    ]
+  },
+  "10531": {
+    "title": "이천 버블리 카페",
+    "slug": "icheon-bubbly-cafe",
+    "wp_post_found": true,
+    "wp_title": "이천 버블리 카페",
+    "wp_thumbnail_id": 10553,
+    "wp_thumbnail_file": "2025/08/46-3-e1754893639294.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10553,
+    "wp_list_image_file": "2025/08/46-3-e1754893639294.jpg",
+    "current_featuredImage": "/images/projects/icheon-bubbly-cafe/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10588,
+        "title": "이천-버블리-면적내용",
+        "file": "2025/08/이천-버블리-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 31,
+    "wp_attachments": [
+      {
+        "id": 10532,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계18.jpg"
+      },
+      {
+        "id": 10533,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계19-1.jpg"
+      },
+      {
+        "id": 10534,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계22-1.jpg"
+      },
+      {
+        "id": 10535,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계23.jpg"
+      },
+      {
+        "id": 10536,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계27-2.jpg"
+      },
+      {
+        "id": 10537,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계28-2.jpg"
+      },
+      {
+        "id": 10538,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계34-2.jpg"
+      },
+      {
+        "id": 10540,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계36-1.jpg"
+      },
+      {
+        "id": 10541,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계38-3.jpg"
+      },
+      {
+        "id": 10542,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계43-2.jpg"
+      },
+      {
+        "id": 10543,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계44.jpg"
+      },
+      {
+        "id": 10544,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계45-2.jpg"
+      },
+      {
+        "id": 10546,
+        "title": "상가주택설계3-2",
+        "file": "2025/08/상가주택설계3-2.jpg"
+      },
+      {
+        "id": 10547,
+        "title": "상가주택설계4-3",
+        "file": "2025/08/상가주택설계4-3.jpg"
+      },
+      {
+        "id": 10548,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계8-1.jpg"
+      },
+      {
+        "id": 10549,
+        "title": "Screenshot",
+        "file": "2025/08/14-2-e1754893541881.jpg"
+      },
+      {
+        "id": 10550,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계15-4.jpg"
+      },
+      {
+        "id": 10551,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계16-1.jpg"
+      },
+      {
+        "id": 10552,
+        "title": "Screenshot",
+        "file": "2025/08/상가주택설계29-2.jpg"
+      },
+      {
+        "id": 10553,
+        "title": "상가주택설계46-3",
+        "file": "2025/08/46-3-e1754893639294.jpg"
+      },
+      {
+        "id": 10554,
+        "title": "상가주택설계6",
+        "file": "2025/08/상가주택설계6.png"
+      },
+      {
+        "id": 10555,
+        "title": "상가주택설계2",
+        "file": "2025/08/상가주택설계2.png"
+      },
+      {
+        "id": 10556,
+        "title": "상가주택설계1",
+        "file": "2025/08/상가주택설계1.png"
+      },
+      {
+        "id": 10557,
+        "title": "상가주택설계4",
+        "file": "2025/08/상가주택설계4.png"
+      },
+      {
+        "id": 10559,
+        "title": "상가주택설계5",
+        "file": "2025/08/5-e1754894459938.png"
+      },
+      {
+        "id": 10560,
+        "title": "상가주택설계9",
+        "file": "2025/08/상가주택설계9.png"
+      },
+      {
+        "id": 10588,
+        "title": "이천-버블리-면적내용",
+        "file": "2025/08/이천-버블리-면적내용.jpg"
+      },
+      {
+        "id": 10589,
+        "title": "이천-버블리-1층",
+        "file": "2025/08/이천-버블리-1층.jpg"
+      },
+      {
+        "id": 10590,
+        "title": "이천-버블리-2층",
+        "file": "2025/08/이천-버블리-2층.jpg"
+      },
+      {
+        "id": 10591,
+        "title": "이천-버블리-3층",
+        "file": "2025/08/이천-버블리-3층.jpg"
+      },
+      {
+        "id": 10593,
+        "title": "이천-버블리-지하층",
+        "file": "2025/08/이천-버블리-지하층.jpg"
+      }
+    ]
+  },
+  "10594": {
+    "title": "포천 담화재 카페",
+    "slug": "pocheon-damhwajae-cafe",
+    "wp_post_found": true,
+    "wp_title": "포천 담화재 카페",
+    "wp_thumbnail_id": 10619,
+    "wp_thumbnail_file": "2025/08/0P0A8334.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10619,
+    "wp_list_image_file": "2025/08/0P0A8334.jpg",
+    "current_featuredImage": "/images/projects/pocheon-damhwajae-cafe/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10620,
+        "title": "포천-담화재-면적내용",
+        "file": "2025/08/포천-담화재-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 25,
+    "wp_attachments": [
+      {
+        "id": 10595,
+        "title": "0P0A9169",
+        "file": "2025/08/0P0A9169.jpg"
+      },
+      {
+        "id": 10596,
+        "title": "0P0A9421",
+        "file": "2025/08/0P0A9421.jpg"
+      },
+      {
+        "id": 10597,
+        "title": "0P0A9422",
+        "file": "2025/08/0P0A9422.jpg"
+      },
+      {
+        "id": 10598,
+        "title": "0P0A8362",
+        "file": "2025/08/0P0A8362.jpg"
+      },
+      {
+        "id": 10599,
+        "title": "0P0A8372",
+        "file": "2025/08/0P0A8372.jpg"
+      },
+      {
+        "id": 10600,
+        "title": "0P0A8376",
+        "file": "2025/08/0P0A8376.jpg"
+      },
+      {
+        "id": 10601,
+        "title": "0P0A8474",
+        "file": "2025/08/0P0A8474.jpg"
+      },
+      {
+        "id": 10602,
+        "title": "0P0A8505",
+        "file": "2025/08/0P0A8505.jpg"
+      },
+      {
+        "id": 10603,
+        "title": "0P0A9154",
+        "file": "2025/08/0P0A9154.jpg"
+      },
+      {
+        "id": 10604,
+        "title": "0P0A9160",
+        "file": "2025/08/0P0A9160.jpg"
+      },
+      {
+        "id": 10605,
+        "title": "0P0A9165",
+        "file": "2025/08/0P0A9165.jpg"
+      },
+      {
+        "id": 10606,
+        "title": "0P0A9168",
+        "file": "2025/08/0P0A9168.jpg"
+      },
+      {
+        "id": 10610,
+        "title": "0P0A8321-3",
+        "file": "2025/08/0P0A8321-3.jpg"
+      },
+      {
+        "id": 10611,
+        "title": "0P0A8322-2",
+        "file": "2025/08/0P0A8322-2.jpg"
+      },
+      {
+        "id": 10612,
+        "title": "0P0A8599",
+        "file": "2025/08/0P0A8599.jpg"
+      },
+      {
+        "id": 10613,
+        "title": "한옥카페5-2",
+        "file": "2025/08/한옥카페5-2.jpg"
+      },
+      {
+        "id": 10614,
+        "title": "0P0A8466",
+        "file": "2025/08/0P0A8466.jpg"
+      },
+      {
+        "id": 10615,
+        "title": "0P0A8500",
+        "file": "2025/08/0P0A8500.jpg"
+      },
+      {
+        "id": 10617,
+        "title": "0P0A8326",
+        "file": "2025/08/0P0A8326-1.jpg"
+      },
+      {
+        "id": 10618,
+        "title": "0P0A8366",
+        "file": "2025/08/0P0A8366.jpg"
+      },
+      {
+        "id": 10619,
+        "title": "0P0A8334",
+        "file": "2025/08/0P0A8334.jpg"
+      },
+      {
+        "id": 10620,
+        "title": "포천-담화재-면적내용",
+        "file": "2025/08/포천-담화재-면적내용.jpg"
+      },
+      {
+        "id": 10621,
+        "title": "포천-담화재-가동",
+        "file": "2025/08/포천-담화재-가동.jpg"
+      },
+      {
+        "id": 10623,
+        "title": "포천-담화재-다동",
+        "file": "2025/08/-담화재-다동-e1755064505424.jpg"
+      },
+      {
+        "id": 10625,
+        "title": "포천-담화재-나동",
+        "file": "2025/08/포천-담화재-나동.jpg"
+      }
+    ]
+  },
+  "10626": {
+    "title": "포천 담화재 스테이",
+    "slug": "pocheon-damhwajae-stay",
+    "wp_post_found": true,
+    "wp_title": "포천 담화재 스테이",
+    "wp_thumbnail_id": 11400,
+    "wp_thumbnail_file": "2025/08/0P0A8386.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 11400,
+    "wp_list_image_file": "2025/08/0P0A8386.jpg",
+    "current_featuredImage": "/images/projects/pocheon-damhwajae-stay/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10627,
+        "title": "포천-담화재-면적내용",
+        "file": "2025/08/포천-담화재-면적내용-1.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 28,
+    "wp_attachments": [
+      {
+        "id": 10627,
+        "title": "포천-담화재-면적내용",
+        "file": "2025/08/포천-담화재-면적내용-1.jpg"
+      },
+      {
+        "id": 11397,
+        "title": "한옥스테이설계1",
+        "file": "2025/08/한옥스테이설계1-7.jpg"
+      },
+      {
+        "id": 11398,
+        "title": "0P0A8398",
+        "file": "2025/08/0P0A8398.jpg"
+      },
+      {
+        "id": 11399,
+        "title": "0P0A8387",
+        "file": "2025/08/0P0A8387.jpg"
+      },
+      {
+        "id": 11400,
+        "title": "0P0A8386",
+        "file": "2025/08/0P0A8386.jpg"
+      },
+      {
+        "id": 11401,
+        "title": "한옥스테이설계4-1",
+        "file": "2025/08/한옥스테이설계4-1-1.jpg"
+      },
+      {
+        "id": 11402,
+        "title": "DJI_0699-4",
+        "file": "2025/08/DJI_0699-4-scaled.jpg"
+      },
+      {
+        "id": 11403,
+        "title": "도담6",
+        "file": "2025/08/도담6-5.jpg"
+      },
+      {
+        "id": 11404,
+        "title": "도담7",
+        "file": "2025/08/도담7-2.jpg"
+      },
+      {
+        "id": 11405,
+        "title": "도담3",
+        "file": "2025/08/도담3-4.jpg"
+      },
+      {
+        "id": 11406,
+        "title": "0P0A9293",
+        "file": "2025/08/0P0A9293.jpg"
+      },
+      {
+        "id": 11407,
+        "title": "도담4",
+        "file": "2025/08/도담4-4.jpg"
+      },
+      {
+        "id": 11408,
+        "title": "도담8",
+        "file": "2025/08/도담8-2.jpg"
+      },
+      {
+        "id": 11409,
+        "title": "소담5",
+        "file": "2025/08/소담5-1.jpg"
+      },
+      {
+        "id": 11410,
+        "title": "소담2",
+        "file": "2025/08/소담2-8.jpg"
+      },
+      {
+        "id": 11411,
+        "title": "소담3",
+        "file": "2025/08/소담3-4.jpg"
+      },
+      {
+        "id": 11412,
+        "title": "아담4",
+        "file": "2025/08/아담4-4.jpg"
+      },
+      {
+        "id": 11413,
+        "title": "아담3",
+        "file": "2025/08/아담3-4.jpg"
+      },
+      {
+        "id": 11414,
+        "title": "아담7",
+        "file": "2025/08/아담7-2.jpg"
+      },
+      {
+        "id": 11415,
+        "title": "아담6",
+        "file": "2025/08/아담6-5.jpg"
+      },
+      {
+        "id": 11416,
+        "title": "아담2",
+        "file": "2025/08/아담2-8.jpg"
+      },
+      {
+        "id": 11417,
+        "title": "아담1",
+        "file": "2025/08/아담1-7.jpg"
+      },
+      {
+        "id": 11418,
+        "title": "화담3",
+        "file": "2025/08/화담3-4.jpg"
+      },
+      {
+        "id": 11419,
+        "title": "화담2",
+        "file": "2025/08/화담2-8.jpg"
+      },
+      {
+        "id": 11420,
+        "title": "화담7",
+        "file": "2025/08/화담7-2.jpg"
+      },
+      {
+        "id": 11421,
+        "title": "화담6",
+        "file": "2025/08/화담6-5.jpg"
+      },
+      {
+        "id": 11422,
+        "title": "화담4",
+        "file": "2025/08/화담4-4.jpg"
+      },
+      {
+        "id": 11423,
+        "title": "화담1",
+        "file": "2025/08/화담1-7.jpg"
+      }
+    ]
+  },
+  "10629": {
+    "title": "남양주 마음농장 펜션",
+    "slug": "namyangju-maeumnongjang-pension",
+    "wp_post_found": true,
+    "wp_title": "남양주 마음농장 펜션",
+    "wp_thumbnail_id": 10648,
+    "wp_thumbnail_file": "2025/08/0P0A0688-e1755143836952.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10648,
+    "wp_list_image_file": "2025/08/0P0A0688-e1755143836952.jpg",
+    "current_featuredImage": "/images/projects/namyangju-maeumnongjang-pension/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10656,
+        "title": "남양주-마음농장-면적내용",
+        "file": "2025/08/남양주-마음농장-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 24,
+    "wp_attachments": [
+      {
+        "id": 10632,
+        "title": "0P0A0561",
+        "file": "2025/08/0P0A0561.jpg"
+      },
+      {
+        "id": 10633,
+        "title": "0P0A0569",
+        "file": "2025/08/0P0A0569.jpg"
+      },
+      {
+        "id": 10634,
+        "title": "0P0A0572",
+        "file": "2025/08/0P0A0572-e1755143272569.jpg"
+      },
+      {
+        "id": 10635,
+        "title": "0P0A0573",
+        "file": "2025/08/0P0A0573.jpg"
+      },
+      {
+        "id": 10636,
+        "title": "0P0A0583",
+        "file": "2025/08/0P0A0583-e1755142895602.jpg"
+      },
+      {
+        "id": 10637,
+        "title": "0P0A0584",
+        "file": "2025/08/0P0A0584.jpg"
+      },
+      {
+        "id": 10638,
+        "title": "0P0A0593",
+        "file": "2025/08/0P0A0593-e1755142935617.jpg"
+      },
+      {
+        "id": 10639,
+        "title": "0P0A0595",
+        "file": "2025/08/0P0A0595.jpg"
+      },
+      {
+        "id": 10640,
+        "title": "0P0A0609",
+        "file": "2025/08/0P0A0609.jpg"
+      },
+      {
+        "id": 10641,
+        "title": "0P0A0642",
+        "file": "2025/08/0P0A0642-e1755143335946.jpg"
+      },
+      {
+        "id": 10642,
+        "title": "0P0A0513",
+        "file": "2025/08/0P0A0513-e1755142695948.jpg"
+      },
+      {
+        "id": 10643,
+        "title": "0P0A0527",
+        "file": "2025/08/0P0A0527.jpg"
+      },
+      {
+        "id": 10644,
+        "title": "0P0A0529",
+        "file": "2025/08/0P0A0529.jpg"
+      },
+      {
+        "id": 10645,
+        "title": "0P0A0534",
+        "file": "2025/08/0P0A0534.jpg"
+      },
+      {
+        "id": 10646,
+        "title": "0P0A0550",
+        "file": "2025/08/0P0A0550.jpg"
+      },
+      {
+        "id": 10647,
+        "title": "0P0A0682",
+        "file": "2025/08/0P0A0682-e1755143744150.jpg"
+      },
+      {
+        "id": 10648,
+        "title": "0P0A0688",
+        "file": "2025/08/0P0A0688-e1755143836952.jpg"
+      },
+      {
+        "id": 10649,
+        "title": "0P0A0723",
+        "file": "2025/08/0P0A0723-e1755144002798.jpg"
+      },
+      {
+        "id": 10650,
+        "title": "DJI_0144",
+        "file": "2025/08/DJI_0144.jpg"
+      },
+      {
+        "id": 10653,
+        "title": "DSC01134",
+        "file": "2025/08/DSC01134-e1755143658804.jpg"
+      },
+      {
+        "id": 10655,
+        "title": "DJI_0151",
+        "file": "2025/08/DJI_0151-e1755143884738.jpg"
+      },
+      {
+        "id": 10656,
+        "title": "남양주-마음농장-면적내용",
+        "file": "2025/08/남양주-마음농장-면적내용.jpg"
+      },
+      {
+        "id": 10660,
+        "title": "마음농장-1층",
+        "file": "2025/08/-1층-e1755145128230.jpg"
+      },
+      {
+        "id": 10661,
+        "title": "마음농장-2층",
+        "file": "2025/08/마음농장-2층.jpg"
+      }
+    ]
+  },
+  "10657": {
+    "title": "원주 풀스테이",
+    "slug": "wonju-poolstay",
+    "wp_post_found": true,
+    "wp_title": "원주 풀스테이",
+    "wp_thumbnail_id": 10701,
+    "wp_thumbnail_file": "2025/08/-캡처-2025-06-23-172645-2-e1755146569161.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10701,
+    "wp_list_image_file": "2025/08/-캡처-2025-06-23-172645-2-e1755146569161.jpg",
+    "current_featuredImage": "/images/projects/wonju-poolstay/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10702,
+        "title": "원주 풀빌라 면적내용",
+        "file": "2025/08/원주-풀빌라-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 42,
+    "wp_attachments": [
+      {
+        "id": 10663,
+        "title": "2층라운지2",
+        "file": "2025/08/2층라운지2.jpg"
+      },
+      {
+        "id": 10664,
+        "title": "객실1-1",
+        "file": "2025/08/1-1-1-e1755146035760.jpg"
+      },
+      {
+        "id": 10665,
+        "title": "객실1-2",
+        "file": "2025/08/객실1-2-1.jpg"
+      },
+      {
+        "id": 10666,
+        "title": "객실1-3",
+        "file": "2025/08/객실1-3-2.jpg"
+      },
+      {
+        "id": 10667,
+        "title": "객실1-4",
+        "file": "2025/08/객실1-4.jpg"
+      },
+      {
+        "id": 10668,
+        "title": "객실2-1",
+        "file": "2025/08/객실2-1-1.jpg"
+      },
+      {
+        "id": 10669,
+        "title": "객실2-2",
+        "file": "2025/08/객실2-2-3.jpg"
+      },
+      {
+        "id": 10670,
+        "title": "객실2-3",
+        "file": "2025/08/객실2-3-1.jpg"
+      },
+      {
+        "id": 10671,
+        "title": "객실2-4",
+        "file": "2025/08/2-4-1-e1755146081493.jpg"
+      },
+      {
+        "id": 10672,
+        "title": "바베큐룸1",
+        "file": "2025/08/바베큐룸1-4.jpg"
+      },
+      {
+        "id": 10673,
+        "title": "바베큐룸2",
+        "file": "2025/08/바베큐룸2-6.jpg"
+      },
+      {
+        "id": 10674,
+        "title": "바베큐룸3",
+        "file": "2025/08/바베큐룸3-2.jpg"
+      },
+      {
+        "id": 10675,
+        "title": "스파,사우나1",
+        "file": "2025/08/스파사우나1-4.jpg"
+      },
+      {
+        "id": 10676,
+        "title": "스파,사우나2",
+        "file": "2025/08/스파사우나2-6.jpg"
+      },
+      {
+        "id": 10677,
+        "title": "스파,사우나3",
+        "file": "2025/08/스파사우나3-2.jpg"
+      },
+      {
+        "id": 10678,
+        "title": "주방1",
+        "file": "2025/08/주방1-4.jpg"
+      },
+      {
+        "id": 10679,
+        "title": "주방2",
+        "file": "2025/08/주방2-6.jpg"
+      },
+      {
+        "id": 10680,
+        "title": "포켓볼1",
+        "file": "2025/08/포켓볼1-4.jpg"
+      },
+      {
+        "id": 10681,
+        "title": "포켓볼2",
+        "file": "2025/08/포켓볼2-6.jpg"
+      },
+      {
+        "id": 10682,
+        "title": "현관1",
+        "file": "2025/08/현관1-4.jpg"
+      },
+      {
+        "id": 10683,
+        "title": "현관2",
+        "file": "2025/08/현관2-6.jpg"
+      },
+      {
+        "id": 10684,
+        "title": "0P0A2336",
+        "file": "2025/08/0P0A2336.jpg"
+      },
+      {
+        "id": 10685,
+        "title": "0P0A2339",
+        "file": "2025/08/0P0A2339.jpg"
+      },
+      {
+        "id": 10686,
+        "title": "0P0A2431",
+        "file": "2025/08/0P0A2431.jpg"
+      },
+      {
+        "id": 10687,
+        "title": "0P0A2435",
+        "file": "2025/08/0P0A2435.jpg"
+      },
+      {
+        "id": 10688,
+        "title": "0P0A2736",
+        "file": "2025/08/0P0A2736.jpg"
+      },
+      {
+        "id": 10689,
+        "title": "2층 가족실1",
+        "file": "2025/08/2층-가족실1.jpg"
+      },
+      {
+        "id": 10690,
+        "title": "2층 가족실2",
+        "file": "2025/08/2층-가족실2-e1755145830896.jpg"
+      },
+      {
+        "id": 10691,
+        "title": "2층라운지1",
+        "file": "2025/08/2층라운지1.jpg"
+      },
+      {
+        "id": 10693,
+        "title": "default",
+        "file": "2025/08/DJI_0752-2-e1755146514526.jpg"
+      },
+      {
+        "id": 10694,
+        "title": "DJI_0767-3",
+        "file": "2025/08/DJI_0767-3-scaled-e1755146465576.jpg"
+      },
+      {
+        "id": 10695,
+        "title": "default",
+        "file": "2025/08/DJI_0749-2.jpg"
+      },
+      {
+        "id": 10696,
+        "title": "0P0A2379",
+        "file": "2025/08/0P0A2379-e1755146345166.jpg"
+      },
+      {
+        "id": 10697,
+        "title": "0P0A2838-2",
+        "file": "2025/08/0P0A2838-2-e1755146402148.jpg"
+      },
+      {
+        "id": 10698,
+        "title": "0P0A2846",
+        "file": "2025/08/0P0A2846.jpg"
+      },
+      {
+        "id": 10699,
+        "title": "default",
+        "file": "2025/08/DJI_0769-2.jpg"
+      },
+      {
+        "id": 10700,
+        "title": "DJI_0772-3",
+        "file": "2025/08/DJI_0772-3-scaled.jpg"
+      },
+      {
+        "id": 10701,
+        "title": "화면 캡처 2025-06-23 172645-2",
+        "file": "2025/08/-캡처-2025-06-23-172645-2-e1755146569161.jpg"
+      },
+      {
+        "id": 10702,
+        "title": "원주 풀빌라 면적내용",
+        "file": "2025/08/원주-풀빌라-면적내용.jpg"
+      },
+      {
+        "id": 10703,
+        "title": "원주-풀빌라-다락층",
+        "file": "2025/08/원주-풀빌라-다락층.jpg"
+      },
+      {
+        "id": 10704,
+        "title": "원주-풀빌라1층",
+        "file": "2025/08/원주-풀빌라1층.jpg"
+      },
+      {
+        "id": 10705,
+        "title": "원주-풀빌라2층",
+        "file": "2025/08/원주-풀빌라2층.jpg"
+      }
+    ]
+  },
+  "10706": {
+    "title": "단양 드림스위트 펜션",
+    "slug": "danyang-dreamsuite-pension",
+    "wp_post_found": true,
+    "wp_title": "단양 드림스위트 펜션",
+    "wp_thumbnail_id": 10821,
+    "wp_thumbnail_file": "2025/08/B18_7229-scaled.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10821,
+    "wp_list_image_file": "2025/08/B18_7229-scaled.jpg",
+    "current_featuredImage": "/images/projects/danyang-dreamsuite-pension/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10807,
+        "title": "단양-드림동-면적내용",
+        "file": "2025/08/-드림동-면적내용-e1755499074517.jpg",
+        "exists_in_uploads": true
+      },
+      {
+        "attachment_id": 10808,
+        "title": "단양-스위트동-면적내용",
+        "file": "2025/08/-스위트동-면적내용-e1755499130642.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 68,
+    "wp_attachments": [
+      {
+        "id": 10707,
+        "title": "B18_7285",
+        "file": "2025/08/B18_7285.jpg"
+      },
+      {
+        "id": 10709,
+        "title": "B18_7298",
+        "file": "2025/08/B18_7298.jpg"
+      },
+      {
+        "id": 10710,
+        "title": "B18_7303",
+        "file": "2025/08/B18_7303.jpg"
+      },
+      {
+        "id": 10711,
+        "title": "B18_7307",
+        "file": "2025/08/B18_7307-e1755489470333.jpg"
+      },
+      {
+        "id": 10712,
+        "title": "B18_7325",
+        "file": "2025/08/B18_7325-e1755489339542.jpg"
+      },
+      {
+        "id": 10713,
+        "title": "B18_7317",
+        "file": "2025/08/B18_7317.jpg"
+      },
+      {
+        "id": 10714,
+        "title": "B18_7343",
+        "file": "2025/08/B18_7343.jpg"
+      },
+      {
+        "id": 10715,
+        "title": "B18_7353",
+        "file": "2025/08/B18_7353.jpg"
+      },
+      {
+        "id": 10716,
+        "title": "B18_7361",
+        "file": "2025/08/B18_7361.jpg"
+      },
+      {
+        "id": 10717,
+        "title": "B18_7358",
+        "file": "2025/08/B18_7358.jpg"
+      },
+      {
+        "id": 10718,
+        "title": "B18_7337-2",
+        "file": "2025/08/B18_7337-2-e1755489859509.jpg"
+      },
+      {
+        "id": 10719,
+        "title": "B18_7345",
+        "file": "2025/08/B18_7345-e1755489997576.jpg"
+      },
+      {
+        "id": 10720,
+        "title": "B18_7405",
+        "file": "2025/08/B18_7405.jpg"
+      },
+      {
+        "id": 10721,
+        "title": "B18_7396",
+        "file": "2025/08/B18_7396.jpg"
+      },
+      {
+        "id": 10722,
+        "title": "B18_7390",
+        "file": "2025/08/B18_7390-e1755490451195.jpg"
+      },
+      {
+        "id": 10723,
+        "title": "DSC09767",
+        "file": "2025/08/DSC09767.jpg"
+      },
+      {
+        "id": 10724,
+        "title": "B18_7422",
+        "file": "2025/08/B18_7422.jpg"
+      },
+      {
+        "id": 10725,
+        "title": "B18_7424",
+        "file": "2025/08/B18_7424-e1755490634841.jpg"
+      },
+      {
+        "id": 10726,
+        "title": "B18_7430",
+        "file": "2025/08/B18_7430.jpg"
+      },
+      {
+        "id": 10727,
+        "title": "DSC09769",
+        "file": "2025/08/DSC09769.jpg"
+      },
+      {
+        "id": 10728,
+        "title": "B18_7428",
+        "file": "2025/08/B18_7428.jpg"
+      },
+      {
+        "id": 10729,
+        "title": "B18_7459",
+        "file": "2025/08/B18_7459.jpg"
+      },
+      {
+        "id": 10730,
+        "title": "B18_7487",
+        "file": "2025/08/B18_7487-e1755490763923.jpg"
+      },
+      {
+        "id": 10731,
+        "title": "B18_7471",
+        "file": "2025/08/B18_7471-e1755490964516.jpg"
+      },
+      {
+        "id": 10732,
+        "title": "B18_7468",
+        "file": "2025/08/B18_7468.jpg"
+      },
+      {
+        "id": 10733,
+        "title": "20200623_173514",
+        "file": "2025/08/20200623_173514-e1755491024222.jpg"
+      },
+      {
+        "id": 10734,
+        "title": "B18_7462",
+        "file": "2025/08/B18_7462-e1755491427197.jpg"
+      },
+      {
+        "id": 10735,
+        "title": "B18_7507",
+        "file": "2025/08/B18_7507-e1755491190867.jpg"
+      },
+      {
+        "id": 10736,
+        "title": "B18_7530",
+        "file": "2025/08/B18_7530-e1755491510193.jpg"
+      },
+      {
+        "id": 10737,
+        "title": "B18_7541",
+        "file": "2025/08/B18_7541.jpg"
+      },
+      {
+        "id": 10738,
+        "title": "B18_7532",
+        "file": "2025/08/B18_7532-e1755491690180.jpg"
+      },
+      {
+        "id": 10739,
+        "title": "DSC09674",
+        "file": "2025/08/DSC09674.jpg"
+      },
+      {
+        "id": 10740,
+        "title": "DSC09663",
+        "file": "2025/08/DSC09663-e1755491845141.jpg"
+      },
+      {
+        "id": 10741,
+        "title": "DSC09658",
+        "file": "2025/08/DSC09658-e1755492025975.jpg"
+      },
+      {
+        "id": 10742,
+        "title": "B18_7610",
+        "file": "2025/08/B18_7610.jpg"
+      },
+      {
+        "id": 10743,
+        "title": "B18_7605",
+        "file": "2025/08/B18_7605-e1755492195925.jpg"
+      },
+      {
+        "id": 10744,
+        "title": "B18_7603",
+        "file": "2025/08/B18_7603-e1755492141380.jpg"
+      },
+      {
+        "id": 10745,
+        "title": "B18_7641",
+        "file": "2025/08/B18_7641-e1755492259955.jpg"
+      },
+      {
+        "id": 10746,
+        "title": "B18_7643-2",
+        "file": "2025/08/B18_7643-2-e1755492578739.jpg"
+      },
+      {
+        "id": 10747,
+        "title": "B18_7659",
+        "file": "2025/08/B18_7659-e1755492822582.jpg"
+      },
+      {
+        "id": 10748,
+        "title": "B18_7704",
+        "file": "2025/08/B18_7704-e1755492908509.jpg"
+      },
+      {
+        "id": 10749,
+        "title": "B18_7702",
+        "file": "2025/08/B18_7702.jpg"
+      },
+      {
+        "id": 10750,
+        "title": "DSC09930",
+        "file": "2025/08/DSC09930-e1755493075679.jpg"
+      },
+      {
+        "id": 10751,
+        "title": "B18_7755",
+        "file": "2025/08/B18_7755-e1755493146188.jpg"
+      },
+      {
+        "id": 10753,
+        "title": "B18_7748",
+        "file": "2025/08/B18_7748-e1755493199824.jpg"
+      },
+      {
+        "id": 10754,
+        "title": "B18_7788",
+        "file": "2025/08/B18_7788-e1755493289702.jpg"
+      },
+      {
+        "id": 10755,
+        "title": "B18_7839",
+        "file": "2025/08/B18_7839.jpg"
+      },
+      {
+        "id": 10756,
+        "title": "B18_7833",
+        "file": "2025/08/B18_7833-e1755493444594.jpg"
+      },
+      {
+        "id": 10757,
+        "title": "B18_7841",
+        "file": "2025/08/B18_7841-e1755493607627.jpg"
+      },
+      {
+        "id": 10758,
+        "title": "B18_7906",
+        "file": "2025/08/B18_7906.jpg"
+      },
+      {
+        "id": 10759,
+        "title": "B18_7908",
+        "file": "2025/08/B18_7908.jpg"
+      },
+      {
+        "id": 10760,
+        "title": "B18_7900",
+        "file": "2025/08/B18_7900.jpg"
+      },
+      {
+        "id": 10761,
+        "title": "B18_7998",
+        "file": "2025/08/B18_7998.jpg"
+      },
+      {
+        "id": 10762,
+        "title": "DSC09863",
+        "file": "2025/08/DSC09863-e1755493652961.jpg"
+      },
+      {
+        "id": 10763,
+        "title": "DSC09839",
+        "file": "2025/08/DSC09839-e1755493796513.jpg"
+      },
+      {
+        "id": 10764,
+        "title": "DSC09835",
+        "file": "2025/08/DSC09835-e1755494140564.jpg"
+      },
+      {
+        "id": 10807,
+        "title": "단양-드림동-면적내용",
+        "file": "2025/08/-드림동-면적내용-e1755499074517.jpg"
+      },
+      {
+        "id": 10808,
+        "title": "단양-스위트동-면적내용",
+        "file": "2025/08/-스위트동-면적내용-e1755499130642.jpg"
+      },
+      {
+        "id": 10809,
+        "title": "단양-드림스위트-드림동1층",
+        "file": "2025/08/단양-드림스위트-드림동1층.jpg"
+      },
+      {
+        "id": 10810,
+        "title": "단양-드림스위트-드림동2층",
+        "file": "2025/08/단양-드림스위트-드림동2층.jpg"
+      },
+      {
+        "id": 10811,
+        "title": "단양-드림스위트-스위트동1층",
+        "file": "2025/08/단양-드림스위트-스위트동1층.jpg"
+      },
+      {
+        "id": 10812,
+        "title": "단양-드림스위트-스위트동2층",
+        "file": "2025/08/단양-드림스위트-스위트동2층.jpg"
+      },
+      {
+        "id": 10814,
+        "title": "B18_7183",
+        "file": "2025/08/B18_7183-scaled.jpg"
+      },
+      {
+        "id": 10815,
+        "title": "B18_7216",
+        "file": "2025/08/B18_7216-scaled.jpg"
+      },
+      {
+        "id": 10816,
+        "title": "B18_7222",
+        "file": "2025/08/B18_7222-scaled.jpg"
+      },
+      {
+        "id": 10819,
+        "title": "DJI_0734",
+        "file": "2025/08/DJI_0734.jpg"
+      },
+      {
+        "id": 10820,
+        "title": "DJI_0722",
+        "file": "2025/08/DJI_0722-scaled.jpg"
+      },
+      {
+        "id": 10821,
+        "title": "B18_7229",
+        "file": "2025/08/B18_7229-scaled.jpg"
+      }
+    ]
+  },
+  "10822": {
+    "title": "서산 파란산책 경형타입",
+    "slug": "seosan-bluewalk-small-type",
+    "wp_post_found": true,
+    "wp_title": "서산 파란산책  경형타입",
+    "wp_thumbnail_id": 10836,
+    "wp_thumbnail_file": "2025/08/0P0A1918-Edit-2-e1755503114486.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10836,
+    "wp_list_image_file": "2025/08/0P0A1918-Edit-2-e1755503114486.jpg",
+    "current_featuredImage": "/images/projects/seosan-bluewalk-small-type/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10845,
+        "title": "파란산책-경형타입-면적내용",
+        "file": "2025/08/파란산책-경형타입-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 15,
+    "wp_attachments": [
+      {
+        "id": 10823,
+        "title": "0P0A1945-2",
+        "file": "2025/08/0P0A1945-2-e1755502563460.jpg"
+      },
+      {
+        "id": 10824,
+        "title": "0P0A1937",
+        "file": "2025/08/0P0A1937.jpg"
+      },
+      {
+        "id": 10825,
+        "title": "0P0A1972",
+        "file": "2025/08/0P0A1972.jpg"
+      },
+      {
+        "id": 10826,
+        "title": "0P0A2003",
+        "file": "2025/08/0P0A2003.jpg"
+      },
+      {
+        "id": 10827,
+        "title": "0P0A0677",
+        "file": "2025/08/0P0A0677.jpg"
+      },
+      {
+        "id": 10828,
+        "title": "0P0A2044",
+        "file": "2025/08/0P0A2044.jpg"
+      },
+      {
+        "id": 10829,
+        "title": "0P0A2014",
+        "file": "2025/08/0P0A2014-e1755502709731.jpg"
+      },
+      {
+        "id": 10830,
+        "title": "0P0A1983",
+        "file": "2025/08/0P0A1983.jpg"
+      },
+      {
+        "id": 10831,
+        "title": "0P0A2071",
+        "file": "2025/08/0P0A2071.jpg"
+      },
+      {
+        "id": 10836,
+        "title": "0P0A1918-Edit-2",
+        "file": "2025/08/0P0A1918-Edit-2-e1755503114486.jpg"
+      },
+      {
+        "id": 10837,
+        "title": "0P0A1922-Edit-2",
+        "file": "2025/08/0P0A1922-Edit-2-e1755502871915.jpg"
+      },
+      {
+        "id": 10843,
+        "title": "KakaoTalk_20230927_090348022_01",
+        "file": "2025/08/KakaoTalk_20230927_090348022_01-1.jpg"
+      },
+      {
+        "id": 10845,
+        "title": "파란산책-경형타입-면적내용",
+        "file": "2025/08/파란산책-경형타입-면적내용.jpg"
+      },
+      {
+        "id": 10846,
+        "title": "파란산책-경형타입-1층",
+        "file": "2025/08/파란산책-경형타입-1층.jpg"
+      },
+      {
+        "id": 10847,
+        "title": "파란산책-경형타입-2층",
+        "file": "2025/08/파란산책-경형타입-2층.jpg"
+      }
+    ]
+  },
+  "10849": {
+    "title": "서산 파란산책 중형타입",
+    "slug": "seosan-bluewalk-medium-type",
+    "wp_post_found": true,
+    "wp_title": "서산 파란산책  중형타입",
+    "wp_thumbnail_id": 10883,
+    "wp_thumbnail_file": "2025/08/0P0A0325-2.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10883,
+    "wp_list_image_file": "2025/08/0P0A0325-2.jpg",
+    "current_featuredImage": "/images/projects/seosan-bluewalk-medium-type/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10905,
+        "title": "파란산책-중형타입-면적내용",
+        "file": "2025/08/파란산책-중형타입-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 31,
+    "wp_attachments": [
+      {
+        "id": 10850,
+        "title": "0P0A0344",
+        "file": "2025/08/0P0A0344.jpg"
+      },
+      {
+        "id": 10851,
+        "title": "0P0A0348",
+        "file": "2025/08/0P0A0348.jpg"
+      },
+      {
+        "id": 10852,
+        "title": "0P0A0358",
+        "file": "2025/08/0P0A0358.jpg"
+      },
+      {
+        "id": 10853,
+        "title": "0P0A0580",
+        "file": "2025/08/0P0A0580.jpg"
+      },
+      {
+        "id": 10854,
+        "title": "0P0A0588",
+        "file": "2025/08/0P0A0588.jpg"
+      },
+      {
+        "id": 10855,
+        "title": "0P0A0606",
+        "file": "2025/08/0P0A0606.jpg"
+      },
+      {
+        "id": 10856,
+        "title": "0P0A0613",
+        "file": "2025/08/0P0A0613.jpg"
+      },
+      {
+        "id": 10859,
+        "title": "0P0A0677",
+        "file": "2025/08/0P0A0677-1.jpg"
+      },
+      {
+        "id": 10860,
+        "title": "0P0A0370",
+        "file": "2025/08/0P0A0370-e1755576806527.jpg"
+      },
+      {
+        "id": 10862,
+        "title": "0P0A0382",
+        "file": "2025/08/0P0A0382.jpg"
+      },
+      {
+        "id": 10863,
+        "title": "0P0A0392",
+        "file": "2025/08/0P0A0392.jpg"
+      },
+      {
+        "id": 10864,
+        "title": "0P0A0399",
+        "file": "2025/08/0P0A0399-e1755577030246.jpg"
+      },
+      {
+        "id": 10865,
+        "title": "0P0A0403",
+        "file": "2025/08/0P0A0403.jpg"
+      },
+      {
+        "id": 10866,
+        "title": "0P0A0419",
+        "file": "2025/08/0P0A0419.jpg"
+      },
+      {
+        "id": 10867,
+        "title": "0P0A0429",
+        "file": "2025/08/0P0A0429.jpg"
+      },
+      {
+        "id": 10868,
+        "title": "0P0A0460",
+        "file": "2025/08/0P0A0460.jpg"
+      },
+      {
+        "id": 10869,
+        "title": "0P0A0481",
+        "file": "2025/08/0P0A0481.jpg"
+      },
+      {
+        "id": 10870,
+        "title": "0P0A0498",
+        "file": "2025/08/0P0A0498-e1755576364377.jpg"
+      },
+      {
+        "id": 10871,
+        "title": "0P0A0531",
+        "file": "2025/08/0P0A0531.jpg"
+      },
+      {
+        "id": 10872,
+        "title": "0P0A0538",
+        "file": "2025/08/0P0A0538.jpg"
+      },
+      {
+        "id": 10873,
+        "title": "0P0A0552",
+        "file": "2025/08/0P0A0552.jpg"
+      },
+      {
+        "id": 10882,
+        "title": "0P0A0324-2",
+        "file": "2025/08/0P0A0324-2-e1755575612842.jpg"
+      },
+      {
+        "id": 10883,
+        "title": "0P0A0325-2",
+        "file": "2025/08/0P0A0325-2.jpg"
+      },
+      {
+        "id": 10884,
+        "title": "0P0A0334-2",
+        "file": "2025/08/0P0A0334-2-e1755575783212.jpg"
+      },
+      {
+        "id": 10885,
+        "title": "0P0A0314-2",
+        "file": "2025/08/0P0A0314-2-e1755575869455.jpg"
+      },
+      {
+        "id": 10887,
+        "title": "0P0A0321-2",
+        "file": "2025/08/0P0A0321-2.jpg"
+      },
+      {
+        "id": 10889,
+        "title": "0P0A0717",
+        "file": "2025/08/0P0A0717.jpg"
+      },
+      {
+        "id": 10905,
+        "title": "파란산책-중형타입-면적내용",
+        "file": "2025/08/파란산책-중형타입-면적내용.jpg"
+      },
+      {
+        "id": 10906,
+        "title": "파란산책-중형타입-1층",
+        "file": "2025/08/파란산책-중형타입-1층.jpg"
+      },
+      {
+        "id": 10907,
+        "title": "파란산책-중형타입-2층",
+        "file": "2025/08/파란산책-중형타입-2층.jpg"
+      },
+      {
+        "id": 10908,
+        "title": "파란산책-중형타입-다락",
+        "file": "2025/08/파란산책-중형타입-다락.jpg"
+      }
+    ]
+  },
+  "10909": {
+    "title": "이천 포미에르 office type",
+    "slug": "icheon-pomier-office-type",
+    "wp_post_found": true,
+    "wp_title": "이천 포미에르 office type",
+    "wp_thumbnail_id": 10919,
+    "wp_thumbnail_file": "2025/08/1-2-1-e1755582577880.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10919,
+    "wp_list_image_file": "2025/08/1-2-1-e1755582577880.jpg",
+    "current_featuredImage": "/images/projects/icheon-pomier-office-type/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10925,
+        "title": "포미에르-면적내용",
+        "file": "2025/08/포미에르-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 18,
+    "wp_attachments": [
+      {
+        "id": 10910,
+        "title": "20250424_093927",
+        "file": "2025/08/20250424_093927.jpg"
+      },
+      {
+        "id": 10911,
+        "title": "20250424_094155",
+        "file": "2025/08/20250424_094155.jpg"
+      },
+      {
+        "id": 10912,
+        "title": "20250424_093627",
+        "file": "2025/08/20250424_093627.jpg"
+      },
+      {
+        "id": 10913,
+        "title": "20250405_145004",
+        "file": "2025/08/20250405_145004.jpg"
+      },
+      {
+        "id": 10914,
+        "title": "20250405_145236",
+        "file": "2025/08/20250405_145236.jpg"
+      },
+      {
+        "id": 10915,
+        "title": "20250405_145347",
+        "file": "2025/08/20250405_145347-e1755582988112.jpg"
+      },
+      {
+        "id": 10916,
+        "title": "20250424_093826",
+        "file": "2025/08/20250424_093826-e1755583227350.jpg"
+      },
+      {
+        "id": 10917,
+        "title": "20250405_145203",
+        "file": "2025/08/20250405_145203.jpg"
+      },
+      {
+        "id": 10918,
+        "title": "20250424_093632",
+        "file": "2025/08/20250424_093632-e1755582919623.jpg"
+      },
+      {
+        "id": 10919,
+        "title": "이천포미에르1-2",
+        "file": "2025/08/1-2-1-e1755582577880.jpg"
+      },
+      {
+        "id": 10920,
+        "title": "이천포미에르2-2",
+        "file": "2025/08/이천포미에르2-2-3.jpg"
+      },
+      {
+        "id": 10921,
+        "title": "이천포미에르4-Edit-2",
+        "file": "2025/08/4-Edit-2-e1755582654358.jpg"
+      },
+      {
+        "id": 10922,
+        "title": "이천포미에르10-Edit-2",
+        "file": "2025/08/10-Edit-2-e1755582741650.jpg"
+      },
+      {
+        "id": 10923,
+        "title": "이천포미에르38",
+        "file": "2025/08/38-3-e1755582219395.jpg"
+      },
+      {
+        "id": 10924,
+        "title": "이천포미에르12-2",
+        "file": "2025/08/이천포미에르12-2-1.jpg"
+      },
+      {
+        "id": 10925,
+        "title": "포미에르-면적내용",
+        "file": "2025/08/포미에르-면적내용.jpg"
+      },
+      {
+        "id": 10926,
+        "title": "포미에르-1층",
+        "file": "2025/08/포미에르-1층.jpg"
+      },
+      {
+        "id": 10927,
+        "title": "포미에르-다락층",
+        "file": "2025/08/포미에르-다락층.jpg"
+      }
+    ]
+  },
+  "10929": {
+    "title": "여주 반려동물 주택단지",
+    "slug": "yeoju-pet-friendly-housing-complex",
+    "wp_post_found": true,
+    "wp_title": "여주 반려동물 주택단지",
+    "wp_thumbnail_id": 10946,
+    "wp_thumbnail_file": "2025/08/0P0A7663-3-scaled-e1755588618452.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10946,
+    "wp_list_image_file": "2025/08/0P0A7663-3-scaled-e1755588618452.jpg",
+    "current_featuredImage": "/images/projects/yeoju-pet-friendly-housing-complex/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10950,
+        "title": "하거동면적내용",
+        "file": "2025/08/하거동면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 22,
+    "wp_attachments": [
+      {
+        "id": 10931,
+        "title": "0P0A7587",
+        "file": "2025/08/0P0A7587-e1755589194849.jpg"
+      },
+      {
+        "id": 10932,
+        "title": "0P0A7588",
+        "file": "2025/08/0P0A7588-e1755589506168.jpg"
+      },
+      {
+        "id": 10933,
+        "title": "0P0A7591",
+        "file": "2025/08/0P0A7591-e1755589377193.jpg"
+      },
+      {
+        "id": 10934,
+        "title": "0P0A7596",
+        "file": "2025/08/0P0A7596.jpg"
+      },
+      {
+        "id": 10935,
+        "title": "0P0A7585",
+        "file": "2025/08/0P0A7585.jpg"
+      },
+      {
+        "id": 10936,
+        "title": "0P0A7610",
+        "file": "2025/08/0P0A7610-e1755589662417.jpg"
+      },
+      {
+        "id": 10937,
+        "title": "0P0A7624",
+        "file": "2025/08/0P0A7624-e1755590073992.jpg"
+      },
+      {
+        "id": 10938,
+        "title": "0P0A7614",
+        "file": "2025/08/0P0A7614-e1755590166274.jpg"
+      },
+      {
+        "id": 10939,
+        "title": "0P0A7633",
+        "file": "2025/08/0P0A7633.jpg"
+      },
+      {
+        "id": 10940,
+        "title": "0P0A7651",
+        "file": "2025/08/0P0A7651.jpg"
+      },
+      {
+        "id": 10941,
+        "title": "0P0A7635",
+        "file": "2025/08/0P0A7635.jpg"
+      },
+      {
+        "id": 10942,
+        "title": "0P0A7630-2",
+        "file": "2025/08/0P0A7630-2-e1755590262893.jpg"
+      },
+      {
+        "id": 10943,
+        "title": "0P0A7642-2",
+        "file": "2025/08/0P0A7642-2-e1755590394306.jpg"
+      },
+      {
+        "id": 10944,
+        "title": "0P0A7643-2",
+        "file": "2025/08/0P0A7643-2-e1755590607736.jpg"
+      },
+      {
+        "id": 10945,
+        "title": "0P0A7612-2",
+        "file": "2025/08/0P0A7612-2.jpg"
+      },
+      {
+        "id": 10946,
+        "title": "0P0A7663-3",
+        "file": "2025/08/0P0A7663-3-scaled-e1755588618452.jpg"
+      },
+      {
+        "id": 10947,
+        "title": "0P0A7666-3",
+        "file": "2025/08/0P0A7666-3-scaled.jpg"
+      },
+      {
+        "id": 10948,
+        "title": "0P0A7662",
+        "file": "2025/08/0P0A7662-e1755588811204.jpg"
+      },
+      {
+        "id": 10950,
+        "title": "하거동면적내용",
+        "file": "2025/08/하거동면적내용.jpg"
+      },
+      {
+        "id": 10951,
+        "title": "하거동-주택1층",
+        "file": "2025/08/하거동-주택1층.jpg"
+      },
+      {
+        "id": 10952,
+        "title": "하거동-주택2층",
+        "file": "2025/08/하거동-주택2층.jpg"
+      },
+      {
+        "id": 10953,
+        "title": "하거동-주택다락",
+        "file": "2025/08/하거동-주택다락.jpg"
+      }
+    ]
+  },
+  "10954": {
+    "title": "여주 세컨하우스",
+    "slug": "yeoju-second-house",
+    "wp_post_found": true,
+    "wp_title": "여주 세컨하우스",
+    "wp_thumbnail_id": 10979,
+    "wp_thumbnail_file": "2025/08/DJI_0790-scaled-e1755662599629.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 10979,
+    "wp_list_image_file": "2025/08/DJI_0790-scaled-e1755662599629.jpg",
+    "current_featuredImage": "/images/projects/yeoju-second-house/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 10984,
+        "title": "여주-세컨주택-면적내용",
+        "file": "2025/08/여주-세컨주택-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 25,
+    "wp_attachments": [
+      {
+        "id": 10955,
+        "title": "0P0A9451",
+        "file": "2025/08/0P0A9451.jpg"
+      },
+      {
+        "id": 10956,
+        "title": "0P0A9452",
+        "file": "2025/08/0P0A9452.jpg"
+      },
+      {
+        "id": 10957,
+        "title": "0P0A9453",
+        "file": "2025/08/0P0A9453.jpg"
+      },
+      {
+        "id": 10958,
+        "title": "0P0A9457",
+        "file": "2025/08/0P0A9457.jpg"
+      },
+      {
+        "id": 10959,
+        "title": "0P0A9484",
+        "file": "2025/08/0P0A9484.jpg"
+      },
+      {
+        "id": 10960,
+        "title": "0P0A9489",
+        "file": "2025/08/0P0A9489.jpg"
+      },
+      {
+        "id": 10961,
+        "title": "0P0A9494",
+        "file": "2025/08/0P0A9494.jpg"
+      },
+      {
+        "id": 10962,
+        "title": "0P0A9502",
+        "file": "2025/08/0P0A9502.jpg"
+      },
+      {
+        "id": 10963,
+        "title": "0P0A9509",
+        "file": "2025/08/0P0A9509.jpg"
+      },
+      {
+        "id": 10964,
+        "title": "0P0A9515",
+        "file": "2025/08/0P0A9515.jpg"
+      },
+      {
+        "id": 10965,
+        "title": "0P0A9527",
+        "file": "2025/08/0P0A9527.jpg"
+      },
+      {
+        "id": 10966,
+        "title": "0P0A9528",
+        "file": "2025/08/0P0A9528.jpg"
+      },
+      {
+        "id": 10967,
+        "title": "0P0A9497",
+        "file": "2025/08/0P0A9497-e1755663132479.jpg"
+      },
+      {
+        "id": 10968,
+        "title": "0P0A9474",
+        "file": "2025/08/0P0A9474.jpg"
+      },
+      {
+        "id": 10969,
+        "title": "0P0A9501",
+        "file": "2025/08/0P0A9501.jpg"
+      },
+      {
+        "id": 10975,
+        "title": "DJI_0812",
+        "file": "2025/08/DJI_0812-scaled.jpg"
+      },
+      {
+        "id": 10976,
+        "title": "DSC08915",
+        "file": "2025/08/DSC08915-scaled-e1755662810170.jpg"
+      },
+      {
+        "id": 10977,
+        "title": "-(1)",
+        "file": "2025/08/1-5-e1755662096915.jpg"
+      },
+      {
+        "id": 10979,
+        "title": "DJI_0790",
+        "file": "2025/08/DJI_0790-scaled-e1755662599629.jpg"
+      },
+      {
+        "id": 10980,
+        "title": "DJI_0795",
+        "file": "2025/08/DJI_0795.jpg"
+      },
+      {
+        "id": 10983,
+        "title": "0P0A9466",
+        "file": "2025/08/0P0A9466-e1755662043219.jpg"
+      },
+      {
+        "id": 10984,
+        "title": "여주-세컨주택-면적내용",
+        "file": "2025/08/여주-세컨주택-면적내용.jpg"
+      },
+      {
+        "id": 10985,
+        "title": "여주-세컨-1층",
+        "file": "2025/08/여주-세컨-1층.jpg"
+      },
+      {
+        "id": 10986,
+        "title": "여주-세컨-2층",
+        "file": "2025/08/여주-세컨-2층.jpg"
+      },
+      {
+        "id": 10987,
+        "title": "여주-세컨-다락",
+        "file": "2025/08/여주-세컨-다락.jpg"
+      }
+    ]
+  },
+  "10988": {
+    "title": "이천 포미에르 전원주택단지 설계",
+    "slug": "icheon-pomier-country-housing-complex-design",
+    "wp_post_found": true,
+    "wp_title": "이천 포미에르 전원주택단지 설계",
+    "wp_thumbnail_id": 11155,
+    "wp_thumbnail_file": "2025/08/11-3.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 11155,
+    "wp_list_image_file": "2025/08/11-3.jpg",
+    "current_featuredImage": "/images/projects/icheon-pomier-country-housing-complex-design/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 11238,
+        "title": "포미에르-오피스33평B타입-면적내용",
+        "file": "2025/08/포미에르-오피스33평B타입-면적내용.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 97,
+    "wp_attachments": [
+      {
+        "id": 11155,
+        "title": "11",
+        "file": "2025/08/11-3.jpg"
+      },
+      {
+        "id": 11156,
+        "title": "1",
+        "file": "2025/08/1-4-e1756101181844.jpg"
+      },
+      {
+        "id": 11157,
+        "title": "2",
+        "file": "2025/08/2-6.jpg"
+      },
+      {
+        "id": 11158,
+        "title": "7",
+        "file": "2025/08/7-1-e1756101272555.jpg"
+      },
+      {
+        "id": 11159,
+        "title": "8",
+        "file": "2025/08/8-1-e1756101398466.jpg"
+      },
+      {
+        "id": 11160,
+        "title": "118",
+        "file": "2025/08/118-1-e1756101533193.jpg"
+      },
+      {
+        "id": 11163,
+        "title": "12",
+        "file": "2025/08/12-3-e1756101960828.jpg"
+      },
+      {
+        "id": 11166,
+        "title": "17",
+        "file": "2025/08/17-1-e1756102015123.jpg"
+      },
+      {
+        "id": 11167,
+        "title": "20",
+        "file": "2025/08/20.jpg"
+      },
+      {
+        "id": 11168,
+        "title": "21",
+        "file": "2025/08/21-2-e1756102081581.jpg"
+      },
+      {
+        "id": 11169,
+        "title": "22",
+        "file": "2025/08/22-1.jpg"
+      },
+      {
+        "id": 11170,
+        "title": "23",
+        "file": "2025/08/23.jpg"
+      },
+      {
+        "id": 11171,
+        "title": "25",
+        "file": "2025/08/25-1.jpg"
+      },
+      {
+        "id": 11172,
+        "title": "26",
+        "file": "2025/08/26.jpg"
+      },
+      {
+        "id": 11173,
+        "title": "27",
+        "file": "2025/08/27-2.jpg"
+      },
+      {
+        "id": 11174,
+        "title": "28",
+        "file": "2025/08/28-2.jpg"
+      },
+      {
+        "id": 11175,
+        "title": "32",
+        "file": "2025/08/32-1.jpg"
+      },
+      {
+        "id": 11176,
+        "title": "33",
+        "file": "2025/08/33.jpg"
+      },
+      {
+        "id": 11177,
+        "title": "36",
+        "file": "2025/08/36-1.jpg"
+      },
+      {
+        "id": 11178,
+        "title": "38",
+        "file": "2025/08/38-3.jpg"
+      },
+      {
+        "id": 11179,
+        "title": "30",
+        "file": "2025/08/30-2.jpg"
+      },
+      {
+        "id": 11180,
+        "title": "37",
+        "file": "2025/08/37.jpg"
+      },
+      {
+        "id": 11185,
+        "title": "14",
+        "file": "2025/08/14-2-e1756101702228.jpg"
+      },
+      {
+        "id": 11186,
+        "title": "13",
+        "file": "2025/08/13-4.jpg"
+      },
+      {
+        "id": 11188,
+        "title": "43",
+        "file": "2025/08/43-2-e1756102160970.jpg"
+      },
+      {
+        "id": 11189,
+        "title": "46",
+        "file": "2025/08/46.jpg"
+      },
+      {
+        "id": 11190,
+        "title": "45",
+        "file": "2025/08/45-2-e1756102264276.jpg"
+      },
+      {
+        "id": 11191,
+        "title": "48",
+        "file": "2025/08/48-2-e1756102333257.jpg"
+      },
+      {
+        "id": 11192,
+        "title": "50",
+        "file": "2025/08/50-2.jpg"
+      },
+      {
+        "id": 11193,
+        "title": "52",
+        "file": "2025/08/52-2.jpg"
+      },
+      {
+        "id": 11194,
+        "title": "53",
+        "file": "2025/08/53-e1756102399662.jpg"
+      },
+      {
+        "id": 11195,
+        "title": "55",
+        "file": "2025/08/55-2-e1756102714894.jpg"
+      },
+      {
+        "id": 11196,
+        "title": "56",
+        "file": "2025/08/56-2.jpg"
+      },
+      {
+        "id": 11197,
+        "title": "58",
+        "file": "2025/08/58-1-e1756102462170.jpg"
+      },
+      {
+        "id": 11198,
+        "title": "60",
+        "file": "2025/08/60-1-e1756102577533.jpg"
+      },
+      {
+        "id": 11199,
+        "title": "61",
+        "file": "2025/08/61-1.jpg"
+      },
+      {
+        "id": 11200,
+        "title": "62",
+        "file": "2025/08/62-1-e1756102648497.jpg"
+      },
+      {
+        "id": 11201,
+        "title": "63",
+        "file": "2025/08/63-1.jpg"
+      },
+      {
+        "id": 11202,
+        "title": "54",
+        "file": "2025/08/54-e1756102518419.jpg"
+      },
+      {
+        "id": 11203,
+        "title": "64",
+        "file": "2025/08/64-1-e1756103181607.jpg"
+      },
+      {
+        "id": 11204,
+        "title": "65",
+        "file": "2025/08/65-1-e1756102935976.jpg"
+      },
+      {
+        "id": 11205,
+        "title": "67",
+        "file": "2025/08/67-e1756103135889.jpg"
+      },
+      {
+        "id": 11206,
+        "title": "69",
+        "file": "2025/08/69-2.jpg"
+      },
+      {
+        "id": 11207,
+        "title": "72",
+        "file": "2025/08/72-1.jpg"
+      },
+      {
+        "id": 11208,
+        "title": "73",
+        "file": "2025/08/73-1-e1756103236294.jpg"
+      },
+      {
+        "id": 11209,
+        "title": "74",
+        "file": "2025/08/74-2-e1756103399127.jpg"
+      },
+      {
+        "id": 11210,
+        "title": "76",
+        "file": "2025/08/76.jpg"
+      },
+      {
+        "id": 11211,
+        "title": "77",
+        "file": "2025/08/77-1-e1756103445243.jpg"
+      },
+      {
+        "id": 11212,
+        "title": "78",
+        "file": "2025/08/78-2.jpg"
+      },
+      {
+        "id": 11213,
+        "title": "80",
+        "file": "2025/08/80-1.jpg"
+      },
+      {
+        "id": 11214,
+        "title": "81",
+        "file": "2025/08/81-1.jpg"
+      },
+      {
+        "id": 11216,
+        "title": "87",
+        "file": "2025/08/87.jpg"
+      },
+      {
+        "id": 11217,
+        "title": "86",
+        "file": "2025/08/86.jpg"
+      },
+      {
+        "id": 11218,
+        "title": "90",
+        "file": "2025/08/90.jpg"
+      },
+      {
+        "id": 11219,
+        "title": "92",
+        "file": "2025/08/92-1.jpg"
+      },
+      {
+        "id": 11220,
+        "title": "93",
+        "file": "2025/08/93.jpg"
+      },
+      {
+        "id": 11221,
+        "title": "94",
+        "file": "2025/08/94-1-e1756103577824.jpg"
+      },
+      {
+        "id": 11222,
+        "title": "95",
+        "file": "2025/08/95-1-e1756103636915.jpg"
+      },
+      {
+        "id": 11223,
+        "title": "97",
+        "file": "2025/08/97-1.jpg"
+      },
+      {
+        "id": 11224,
+        "title": "98",
+        "file": "2025/08/98.jpg"
+      },
+      {
+        "id": 11225,
+        "title": "99",
+        "file": "2025/08/99.jpg"
+      },
+      {
+        "id": 11226,
+        "title": "100",
+        "file": "2025/08/100-1.jpg"
+      },
+      {
+        "id": 11227,
+        "title": "101",
+        "file": "2025/08/101-e1756103705621.jpg"
+      },
+      {
+        "id": 11228,
+        "title": "103",
+        "file": "2025/08/103.jpg"
+      },
+      {
+        "id": 11229,
+        "title": "104",
+        "file": "2025/08/104.jpg"
+      },
+      {
+        "id": 11230,
+        "title": "106",
+        "file": "2025/08/106-1.jpg"
+      },
+      {
+        "id": 11232,
+        "title": "108",
+        "file": "2025/08/108.jpg"
+      },
+      {
+        "id": 11233,
+        "title": "109",
+        "file": "2025/08/109-e1756103837454.jpg"
+      },
+      {
+        "id": 11234,
+        "title": "110",
+        "file": "2025/08/110-1.jpg"
+      },
+      {
+        "id": 11235,
+        "title": "111",
+        "file": "2025/08/111-1.jpg"
+      },
+      {
+        "id": 11236,
+        "title": "112",
+        "file": "2025/08/112-1.jpg"
+      },
+      {
+        "id": 11237,
+        "title": "114",
+        "file": "2025/08/114-1.jpg"
+      },
+      {
+        "id": 11238,
+        "title": "포미에르-오피스33평B타입-면적내용",
+        "file": "2025/08/포미에르-오피스33평B타입-면적내용.jpg"
+      },
+      {
+        "id": 11239,
+        "title": "포미오피스_23평1층",
+        "file": "2025/08/포미오피스_23평1층.jpg"
+      },
+      {
+        "id": 11240,
+        "title": "포미오피스_23평다락",
+        "file": "2025/08/포미오피스_23평다락.jpg"
+      },
+      {
+        "id": 11241,
+        "title": "포미오피스_33평_A타입1층",
+        "file": "2025/08/포미오피스_33평_A타입1층.jpg"
+      },
+      {
+        "id": 11242,
+        "title": "포미오피스_33평_A타입다락",
+        "file": "2025/08/포미오피스_33평_A타입다락.jpg"
+      },
+      {
+        "id": 11243,
+        "title": "포미오피스_33평_B타입1층",
+        "file": "2025/08/포미오피스_33평_B타입1층.jpg"
+      },
+      {
+        "id": 11244,
+        "title": "포미오피스_33평_B타입다락",
+        "file": "2025/08/포미오피스_33평_B타입다락.jpg"
+      },
+      {
+        "id": 11245,
+        "title": "포미레지던스_43평1층",
+        "file": "2025/08/포미레지던스_43평1층.jpg"
+      },
+      {
+        "id": 11246,
+        "title": "포미레지던스_43평2층",
+        "file": "2025/08/포미레지던스_43평2층.jpg"
+      },
+      {
+        "id": 11247,
+        "title": "포미레지던스_43평다락",
+        "file": "2025/08/포미레지던스_43평다락.jpg"
+      },
+      {
+        "id": 11248,
+        "title": "포미레지던스_55평1층",
+        "file": "2025/08/포미레지던스_55평1층.jpg"
+      },
+      {
+        "id": 11249,
+        "title": "포미레지던스_55평2층",
+        "file": "2025/08/포미레지던스_55평2층.jpg"
+      },
+      {
+        "id": 11250,
+        "title": "포미레지던스_55평다락",
+        "file": "2025/08/포미레지던스_55평다락.jpg"
+      },
+      {
+        "id": 11251,
+        "title": "이천포미에르1-3",
+        "file": "2025/08/1-3-2-e1756104757827.jpg"
+      },
+      {
+        "id": 11252,
+        "title": "이천포미에르4-Edit",
+        "file": "2025/08/이천포미에르4-Edit.jpg"
+      },
+      {
+        "id": 11253,
+        "title": "이천포미에르10-Edit-2",
+        "file": "2025/08/10-Edit-2-1-e1756104895600.jpg"
+      },
+      {
+        "id": 11388,
+        "title": "로고카키_블랙선-removebg-preview",
+        "file": "2025/08/로고카키_블랙선-removebg-preview.png"
+      },
+      {
+        "id": 11389,
+        "title": "사과나무캐릭터로고_누끼_001",
+        "file": "2025/08/사과나무캐릭터로고_누끼_001.png"
+      },
+      {
+        "id": 11390,
+        "title": "애플캐릭터로고_누끼_001",
+        "file": "2025/08/애플캐릭터로고_누끼_001.png"
+      },
+      {
+        "id": 11391,
+        "title": "작은타입캐릭터로고_누끼_001",
+        "file": "2025/08/작은타입캐릭터로고_누끼_001.png"
+      },
+      {
+        "id": 11392,
+        "title": "큰타입캐릭터로고_누끼_001",
+        "file": "2025/08/큰타입캐릭터로고_누끼_001.png"
+      },
+      {
+        "id": 11393,
+        "title": "강아지캐릭터로고2_누끼_001",
+        "file": "2025/08/강아지캐릭터로고2_누끼_001.png"
+      },
+      {
+        "id": 11394,
+        "title": "큰타입_1_스티커1번PNG",
+        "file": "2025/08/큰타입_1_스티커1번PNG-scaled.png"
+      },
+      {
+        "id": 11395,
+        "title": "큰타입_1_스티커2번PNG",
+        "file": "2025/08/큰타입_1_스티커2번PNG-scaled.png"
+      },
+      {
+        "id": 11396,
+        "title": "큰타입_1_스티커4번PNG",
+        "file": "2025/08/큰타입_1_스티커4번PNG-scaled.png"
+      }
+    ]
+  },
+  "11254": {
+    "title": "서산 파란산책 전원주택단지 설계",
+    "slug": "seosan-bluewalk-country-housing-complex-design",
+    "wp_post_found": true,
+    "wp_title": "서산 파란산책 전원주택단지 설계",
+    "wp_thumbnail_id": 11316,
+    "wp_thumbnail_file": "2025/08/6-4-e1756182747258.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 11316,
+    "wp_list_image_file": "2025/08/6-4-e1756182747258.jpg",
+    "current_featuredImage": "/images/projects/seosan-bluewalk-country-housing-complex-design/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [
+      {
+        "attachment_id": 11255,
+        "title": "파란산책-경형타입-면적내용",
+        "file": "2025/08/파란산책-경형타입-면적내용-1.jpg",
+        "exists_in_uploads": true
+      },
+      {
+        "attachment_id": 11256,
+        "title": "파란산책-중형타입-면적내용",
+        "file": "2025/08/파란산책-중형타입-면적내용-1.jpg",
+        "exists_in_uploads": true
+      }
+    ],
+    "wp_attachment_count": 67,
+    "wp_attachments": [
+      {
+        "id": 11255,
+        "title": "파란산책-경형타입-면적내용",
+        "file": "2025/08/파란산책-경형타입-면적내용-1.jpg"
+      },
+      {
+        "id": 11256,
+        "title": "파란산책-중형타입-면적내용",
+        "file": "2025/08/파란산책-중형타입-면적내용-1.jpg"
+      },
+      {
+        "id": 11257,
+        "title": "파란산책-경형타입-1층",
+        "file": "2025/08/파란산책-경형타입-1층-1.jpg"
+      },
+      {
+        "id": 11258,
+        "title": "파란산책-경형타입-2층(단지)",
+        "file": "2025/08/파란산책-경형타입-2층단지.jpg"
+      },
+      {
+        "id": 11259,
+        "title": "파란산책-중형타입-1층(단지)",
+        "file": "2025/08/파란산책-중형타입-1층단지.jpg"
+      },
+      {
+        "id": 11260,
+        "title": "파란산책-중형타입-2층(단지)",
+        "file": "2025/08/파란산책-중형타입-2층단지.jpg"
+      },
+      {
+        "id": 11261,
+        "title": "파란산책-중형타입-다락(단지)",
+        "file": "2025/08/파란산책-중형타입-다락단지.jpg"
+      },
+      {
+        "id": 11263,
+        "title": "30",
+        "file": "2025/08/30-3.jpg"
+      },
+      {
+        "id": 11264,
+        "title": "33",
+        "file": "2025/08/33-1-e1756183211779.jpg"
+      },
+      {
+        "id": 11265,
+        "title": "35",
+        "file": "2025/08/35-1.jpg"
+      },
+      {
+        "id": 11266,
+        "title": "36",
+        "file": "2025/08/36-2-e1756184161688.jpg"
+      },
+      {
+        "id": 11267,
+        "title": "42",
+        "file": "2025/08/42-3.jpg"
+      },
+      {
+        "id": 11269,
+        "title": "39",
+        "file": "2025/08/39-2.jpg"
+      },
+      {
+        "id": 11270,
+        "title": "38",
+        "file": "2025/08/38-4.jpg"
+      },
+      {
+        "id": 11271,
+        "title": "47",
+        "file": "2025/08/47-1.jpg"
+      },
+      {
+        "id": 11272,
+        "title": "52",
+        "file": "2025/08/52-3.jpg"
+      },
+      {
+        "id": 11273,
+        "title": "49",
+        "file": "2025/08/49-3.jpg"
+      },
+      {
+        "id": 11274,
+        "title": "44",
+        "file": "2025/08/44.jpg"
+      },
+      {
+        "id": 11275,
+        "title": "45",
+        "file": "2025/08/45-3.jpg"
+      },
+      {
+        "id": 11277,
+        "title": "54",
+        "file": "2025/08/54-1-e1756184377186.jpg"
+      },
+      {
+        "id": 11278,
+        "title": "56",
+        "file": "2025/08/56-3.jpg"
+      },
+      {
+        "id": 11279,
+        "title": "57",
+        "file": "2025/08/57-e1756184416130.jpg"
+      },
+      {
+        "id": 11280,
+        "title": "58",
+        "file": "2025/08/58-2.jpg"
+      },
+      {
+        "id": 11281,
+        "title": "59",
+        "file": "2025/08/59-2.jpg"
+      },
+      {
+        "id": 11282,
+        "title": "61",
+        "file": "2025/08/61-2-e1756184625431.jpg"
+      },
+      {
+        "id": 11283,
+        "title": "63",
+        "file": "2025/08/63-2.jpg"
+      },
+      {
+        "id": 11284,
+        "title": "64",
+        "file": "2025/08/64-2.jpg"
+      },
+      {
+        "id": 11285,
+        "title": "65",
+        "file": "2025/08/65-2.jpg"
+      },
+      {
+        "id": 11286,
+        "title": "66",
+        "file": "2025/08/66.jpg"
+      },
+      {
+        "id": 11287,
+        "title": "67",
+        "file": "2025/08/67-1.jpg"
+      },
+      {
+        "id": 11288,
+        "title": "68",
+        "file": "2025/08/68-2-e1756184804787.jpg"
+      },
+      {
+        "id": 11290,
+        "title": "71",
+        "file": "2025/08/71-2.jpg"
+      },
+      {
+        "id": 11291,
+        "title": "73",
+        "file": "2025/08/73-2-e1756184976729.jpg"
+      },
+      {
+        "id": 11292,
+        "title": "74",
+        "file": "2025/08/74-3-e1756185120870.jpg"
+      },
+      {
+        "id": 11293,
+        "title": "75",
+        "file": "2025/08/75-2.jpg"
+      },
+      {
+        "id": 11294,
+        "title": "76",
+        "file": "2025/08/76-1.jpg"
+      },
+      {
+        "id": 11295,
+        "title": "78",
+        "file": "2025/08/78-3.jpg"
+      },
+      {
+        "id": 11296,
+        "title": "79",
+        "file": "2025/08/79-1.jpg"
+      },
+      {
+        "id": 11297,
+        "title": "82",
+        "file": "2025/08/82-1.jpg"
+      },
+      {
+        "id": 11298,
+        "title": "83",
+        "file": "2025/08/83.jpg"
+      },
+      {
+        "id": 11299,
+        "title": "85",
+        "file": "2025/08/85.jpg"
+      },
+      {
+        "id": 11300,
+        "title": "87",
+        "file": "2025/08/87-1.jpg"
+      },
+      {
+        "id": 11301,
+        "title": "88",
+        "file": "2025/08/88-1.jpg"
+      },
+      {
+        "id": 11302,
+        "title": "91",
+        "file": "2025/08/91-2-e1756185168783.jpg"
+      },
+      {
+        "id": 11303,
+        "title": "92",
+        "file": "2025/08/92-2-e1756185224694.jpg"
+      },
+      {
+        "id": 11304,
+        "title": "95",
+        "file": "2025/08/95-2-e1756185268372.jpg"
+      },
+      {
+        "id": 11305,
+        "title": "99",
+        "file": "2025/08/99-1.jpg"
+      },
+      {
+        "id": 11306,
+        "title": "98",
+        "file": "2025/08/98-1.jpg"
+      },
+      {
+        "id": 11307,
+        "title": "101",
+        "file": "2025/08/101-1-e1756185832396.jpg"
+      },
+      {
+        "id": 11308,
+        "title": "97",
+        "file": "2025/08/97-2-e1756186014234.jpg"
+      },
+      {
+        "id": 11309,
+        "title": "96",
+        "file": "2025/08/96-1.jpg"
+      },
+      {
+        "id": 11310,
+        "title": "100",
+        "file": "2025/08/100-2.jpg"
+      },
+      {
+        "id": 11312,
+        "title": "107",
+        "file": "2025/08/107-e1756182558348.jpg"
+      },
+      {
+        "id": 11316,
+        "title": "6",
+        "file": "2025/08/6-4-e1756182747258.jpg"
+      },
+      {
+        "id": 11317,
+        "title": "0P0A1922-Edit",
+        "file": "2025/08/0P0A1922-Edit.jpg"
+      },
+      {
+        "id": 11318,
+        "title": "0P0A1918-Edit",
+        "file": "2025/08/0P0A1918-Edit-e1756182914921.jpg"
+      },
+      {
+        "id": 11319,
+        "title": "0P0A0325",
+        "file": "2025/08/0P0A0325.jpg"
+      },
+      {
+        "id": 11320,
+        "title": "0P0A0314-2",
+        "file": "2025/08/0P0A0314-2-1-e1756183074303.jpg"
+      },
+      {
+        "id": 11375,
+        "title": "경형-1층(3D)",
+        "file": "2025/08/경형-1층3D-scaled.jpg"
+      },
+      {
+        "id": 11376,
+        "title": "경형-1층(3D)",
+        "file": "2025/08/경형-1층3D-1-scaled.jpg"
+      },
+      {
+        "id": 11377,
+        "title": "중형-1층(3D)",
+        "file": "2025/08/중형-1층3D-scaled.jpg"
+      },
+      {
+        "id": 11379,
+        "title": "중형-2층(3D)",
+        "file": "2025/08/중형-2층3D-scaled.jpg"
+      },
+      {
+        "id": 11380,
+        "title": "중형-다락층(3D)",
+        "file": "2025/08/중형-다락층3D-scaled.jpg"
+      },
+      {
+        "id": 11382,
+        "title": "4",
+        "file": "2025/08/4-3.jpg"
+      },
+      {
+        "id": 11383,
+        "title": "2",
+        "file": "2025/08/2-7.jpg"
+      },
+      {
+        "id": 11384,
+        "title": "3",
+        "file": "2025/08/3-2.jpg"
+      },
+      {
+        "id": 11385,
+        "title": "1",
+        "file": "2025/08/1-6.jpg"
+      }
+    ]
+  },
+  "11449": {
+    "title": "여주 세컨하우스 주택단지 설계",
+    "slug": "yeoju-second-house-housing-complex-design",
+    "wp_post_found": true,
+    "wp_title": "여주 세컨하우스 주택단지 설계",
+    "wp_thumbnail_id": 11462,
+    "wp_thumbnail_file": "2025/08/_엘리멘텀4_리버듀_조감_5-이미지-e1756436281975.jpg",
+    "wp_thumbnail_exists_in_uploads": true,
+    "wp_list_image_id": 11462,
+    "wp_list_image_file": "2025/08/_엘리멘텀4_리버듀_조감_5-이미지-e1756436281975.jpg",
+    "current_featuredImage": "/images/projects/yeoju-second-house-housing-complex-design/main.jpg",
+    "thumbnail_matches": false,
+    "drawing_files": [],
+    "wp_attachment_count": 52,
+    "wp_attachments": [
+      {
+        "id": 11454,
+        "title": "DSC08915",
+        "file": "2025/08/DSC08915-1-scaled.jpg"
+      },
+      {
+        "id": 11455,
+        "title": "-(1)",
+        "file": "2025/08/1-7-e1756436476553.jpg"
+      },
+      {
+        "id": 11456,
+        "title": "DJI_0790",
+        "file": "2025/08/DJI_0790-1-scaled-e1756436631620.jpg"
+      },
+      {
+        "id": 11457,
+        "title": "1",
+        "file": "2025/08/1-8.jpg"
+      },
+      {
+        "id": 11458,
+        "title": "3",
+        "file": "2025/08/3-4.jpg"
+      },
+      {
+        "id": 11459,
+        "title": "4",
+        "file": "2025/08/4-4.jpg"
+      },
+      {
+        "id": 11460,
+        "title": "5",
+        "file": "2025/08/5-1.jpg"
+      },
+      {
+        "id": 11462,
+        "title": "강천_엘리멘텀4_리버듀_조감_5 - 이미지",
+        "file": "2025/08/_엘리멘텀4_리버듀_조감_5-이미지-e1756436281975.jpg"
+      },
+      {
+        "id": 11463,
+        "title": "76",
+        "file": "2025/08/76-2.jpg"
+      },
+      {
+        "id": 11464,
+        "title": "74",
+        "file": "2025/08/74-4.jpg"
+      },
+      {
+        "id": 11465,
+        "title": "6",
+        "file": "2025/08/6-5.jpg"
+      },
+      {
+        "id": 11466,
+        "title": "9-2",
+        "file": "2025/08/9-2.jpg"
+      },
+      {
+        "id": 11467,
+        "title": "13",
+        "file": "2025/08/13-5.jpg"
+      },
+      {
+        "id": 11468,
+        "title": "14",
+        "file": "2025/08/14-3.jpg"
+      },
+      {
+        "id": 11469,
+        "title": "12",
+        "file": "2025/08/12-4.jpg"
+      },
+      {
+        "id": 11470,
+        "title": "15",
+        "file": "2025/08/15-4.jpg"
+      },
+      {
+        "id": 11471,
+        "title": "17",
+        "file": "2025/08/17-2.jpg"
+      },
+      {
+        "id": 11472,
+        "title": "18-2",
+        "file": "2025/08/18-2-1.jpg"
+      },
+      {
+        "id": 11473,
+        "title": "19",
+        "file": "2025/08/19-1.jpg"
+      },
+      {
+        "id": 11474,
+        "title": "21",
+        "file": "2025/08/21-4.jpg"
+      },
+      {
+        "id": 11475,
+        "title": "23",
+        "file": "2025/08/23-1.jpg"
+      },
+      {
+        "id": 11476,
+        "title": "26",
+        "file": "2025/08/26-1.jpg"
+      },
+      {
+        "id": 11477,
+        "title": "27",
+        "file": "2025/08/27-3.jpg"
+      },
+      {
+        "id": 11478,
+        "title": "29",
+        "file": "2025/08/29-2.jpg"
+      },
+      {
+        "id": 11479,
+        "title": "31",
+        "file": "2025/08/31-1.jpg"
+      },
+      {
+        "id": 11480,
+        "title": "33",
+        "file": "2025/08/33-2.jpg"
+      },
+      {
+        "id": 11481,
+        "title": "34",
+        "file": "2025/08/34-2.jpg"
+      },
+      {
+        "id": 11482,
+        "title": "39",
+        "file": "2025/08/39-3.jpg"
+      },
+      {
+        "id": 11483,
+        "title": "42",
+        "file": "2025/08/42-4.jpg"
+      },
+      {
+        "id": 11484,
+        "title": "43",
+        "file": "2025/08/43-3.jpg"
+      },
+      {
+        "id": 11485,
+        "title": "44",
+        "file": "2025/08/44-1.jpg"
+      },
+      {
+        "id": 11486,
+        "title": "46",
+        "file": "2025/08/46-1.jpg"
+      },
+      {
+        "id": 11487,
+        "title": "47",
+        "file": "2025/08/47-2.jpg"
+      },
+      {
+        "id": 11488,
+        "title": "49",
+        "file": "2025/08/49-4.jpg"
+      },
+      {
+        "id": 11489,
+        "title": "51",
+        "file": "2025/08/51-1.jpg"
+      },
+      {
+        "id": 11490,
+        "title": "52",
+        "file": "2025/08/52-4.jpg"
+      },
+      {
+        "id": 11491,
+        "title": "53",
+        "file": "2025/08/53-1.jpg"
+      },
+      {
+        "id": 11492,
+        "title": "55",
+        "file": "2025/08/55-3.jpg"
+      },
+      {
+        "id": 11493,
+        "title": "56",
+        "file": "2025/08/56-4.jpg"
+      },
+      {
+        "id": 11494,
+        "title": "57",
+        "file": "2025/08/57-1.jpg"
+      },
+      {
+        "id": 11495,
+        "title": "58",
+        "file": "2025/08/58-3.jpg"
+      },
+      {
+        "id": 11496,
+        "title": "64",
+        "file": "2025/08/64-3.jpg"
+      },
+      {
+        "id": 11497,
+        "title": "65",
+        "file": "2025/08/65-3.jpg"
+      },
+      {
+        "id": 11498,
+        "title": "67",
+        "file": "2025/08/67-2.jpg"
+      },
+      {
+        "id": 11499,
+        "title": "68",
+        "file": "2025/08/68-3.jpg"
+      },
+      {
+        "id": 11500,
+        "title": "70",
+        "file": "2025/08/70-1.jpg"
+      },
+      {
+        "id": 11501,
+        "title": "71",
+        "file": "2025/08/71-3.jpg"
+      },
+      {
+        "id": 11502,
+        "title": "72",
+        "file": "2025/08/72-2.jpg"
+      },
+      {
+        "id": 11503,
+        "title": "16",
+        "file": "2025/08/16-1.jpg"
+      },
+      {
+        "id": 11506,
+        "title": "A형-1층",
+        "file": "2025/08/A형-1층.jpg"
+      },
+      {
+        "id": 11507,
+        "title": "A형-2층",
+        "file": "2025/08/A형-2층.jpg"
+      },
+      {
+        "id": 11508,
+        "title": "A형-다락층",
+        "file": "2025/08/A형-다락층.jpg"
+      }
+    ]
+  }
+}

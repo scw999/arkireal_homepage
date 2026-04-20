@@ -1,7 +1,9 @@
+import { CompareSlider } from './CompareSlider';
+
 /**
  * "3D 디자인 → 실제 시공" — Arkireal's strongest differentiator.
- * Full-width video comparing 3D design with actual build, plus the
- * tech pipeline grid showing every tool used before construction.
+ * Drag-to-compare slider between the 3D rendering and the built
+ * result, followed by the tech pipeline grid.
  */
 
 const techStack = [
@@ -49,15 +51,18 @@ export function DesignToReality() {
           그대로 이어지도록 디자인 감리까지 직접 합니다.
         </p>
 
-        {/* 3D design vs actual build comparison — full width */}
-        <div className="mt-12 aspect-video w-full overflow-hidden bg-black">
-          <iframe
-            src="https://www.youtube.com/embed/pZ-Q6uQaud4?rel=0&modestbranding=1"
-            title="3D 디자인 vs 실제 시공 비교"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="h-full w-full"
+        {/* 3D design vs actual build comparison — drag slider */}
+        <div className="mt-12">
+          <CompareSlider
+            bim="/images/3D_real/3d.png"
+            photo="/images/3D_real/real.png"
+            labelA="3D 시뮬레이션"
+            labelB="실제 완성"
           />
+          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 font-mono text-[11px] tracking-[0.14em] text-white/50">
+            <span>← DRAG TO COMPARE</span>
+            <span>3D 렌더링 → 실제 시공 완성</span>
+          </div>
         </div>
 
         {/* Tech pipeline grid */}

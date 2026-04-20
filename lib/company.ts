@@ -9,5 +9,4 @@ export const company = {
   representative: '손창완',
   address: '경기도 고양시 꽃내음1길 77, 1층',
   phone: '1599-7092',
-  email: 'contact@arkireal.co.kr',
 };

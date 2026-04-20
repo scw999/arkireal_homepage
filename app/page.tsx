@@ -286,15 +286,19 @@ export default function HomePage() {
       .map(bySlug)
       .filter((p): p is NonNullable<ReturnType<typeof bySlug>> => Boolean(p));
 
-  // Featured 6 — drawn from the director-curated pool of 8 (mojeonri, yeongjongdo,
-  // hyangdong, pocheon-pumit, yeoju-jeombongdong, beondong, wonju-banggok, yangpyeong).
+  // Featured 10 — director-curated core plus client-requested hero projects
+  // (양평 아솔린채, 오산 소이랜드, 담화재 스테이, 원주 풀스테이, 아산 아우름).
   const featured = pick([
-    'mojeonri-siot-house',
-    'yeongjongdo-skycity-second-house',
     'hyangdong-archireal-mixed-use',
     'pocheon-pumit-mixed-use',
-    'yeoju-jeombongdong-pum-house',
+    'yangpyeong-asolrinchae-house',
     'beondong-mixed-use',
+    'yeoju-jeombongdong-pum-house',
+    'osan-soyland-cafe',
+    'yeongjongdo-skycity-second-house',
+    'pocheon-damhwajae-stay',
+    'asan-aureum-complex',
+    'wonju-poolstay',
   ]);
 
   // Video poster — shown before the YouTube iframe is ready.

@@ -169,7 +169,6 @@ export default function AboutPage() {
               ['대표자', company.representative],
               ['본사 주소', company.address],
               ['대표 연락처', `T. ${company.phone}`],
-              ['이메일', company.email],
               ['상담 시간', '평일 09:00 – 18:00'],
             ].map(([k, v]) => (
               <div key={k} className="bg-white p-6 md:p-7">

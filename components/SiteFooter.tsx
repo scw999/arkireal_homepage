@@ -39,7 +39,6 @@ export function SiteFooter() {
           </p>
           <ul className="mt-4 space-y-2 text-[13px] text-ink-muted">
             <li>T. {company.phone}</li>
-            <li>E. {company.email}</li>
             <li>상담 가능 시간: 평일 09:00 – 18:00</li>
           </ul>
           <Link
