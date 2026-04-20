@@ -53,6 +53,8 @@ export const processMedia: {
   masonry?: boolean;
   /** Per-image aspect ratio (e.g. "16/9"). Used only in masonry mode. */
   aspects?: Record<string, string>;
+  /** Named layouts for steps that need a hand-tuned arrangement. */
+  layout?: 'step3' | 'step4';
 }[] = [
   // 01 자금 — plan/blueprint alone keeps the step text-led
   { main: '/images/process/7.plan.png' },
@@ -61,7 +63,8 @@ export const processMedia: {
     main: '/images/process/1.drone.png',
     gallery: ['/images/process/2.view_check.png'],
   },
-  // 03 완성 모습 — 렌더링 2장(가로) + VR 2장(가로, 세로). Masonry로 각자 비율 보존
+  // 03 완성 모습 — 렌더링 2장(큰 16:9 2-col) + VR 2장(4:3 페어, 같은 높이)
+  // `layout: 'step3'` 로 전용 2행 레이아웃 사용
   {
     main: '/images/process/8.3d_rendering.png',
     gallery: [
@@ -69,15 +72,9 @@ export const processMedia: {
       '/images/process/10.VR.png',
       '/images/process/VR2.jpg',
     ],
-    masonry: true,
-    aspects: {
-      '/images/process/8.3d_rendering.png': '16 / 9',
-      '/images/process/9.3d_rendering.png': '16 / 9',
-      '/images/process/10.VR.png': '4 / 3',
-      '/images/process/VR2.jpg': '3 / 4',
-    },
+    layout: 'step3',
   },
-  // 04 자재 시뮬 — 가로 2장 + 세로 4장. Masonry로 각자 비율 보존
+  // 04 자재 시뮬 — uniform 3:4 그리드 3x2, 잘려도 깔끔하게 맞춤
   {
     main: '/images/process/step4_1.jpg',
     gallery: [
@@ -87,15 +84,7 @@ export const processMedia: {
       '/images/process/step4_5.png',
       '/images/process/step4_6.png',
     ],
-    masonry: true,
-    aspects: {
-      '/images/process/step4_1.jpg': '5 / 3',
-      '/images/process/step4_2.jpg': '5 / 3',
-      '/images/process/step4_3.png': '6 / 7',
-      '/images/process/step4_4.png': '3 / 4',
-      '/images/process/step4_5.png': '3 / 5',
-      '/images/process/step4_6.png': '3 / 5',
-    },
+    layout: 'step4',
   },
   // 05 시공·감리 — 현장 전 과정. uniform 그리드로 모두 동등한 위계
   {

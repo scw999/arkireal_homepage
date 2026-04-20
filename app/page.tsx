@@ -547,6 +547,76 @@ export default function HomePage() {
                           </div>
                         );
                       })()
+                    ) : media?.layout === 'step3' ? (
+                      <div className="space-y-3">
+                        {/* Row 1: two large 3D renderings side-by-side at 16:9 */}
+                        <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                          {[media.main, media.gallery?.[0]].filter(Boolean).map((src) => (
+                            <div
+                              key={src}
+                              className="relative overflow-hidden rounded-[5px] bg-bg-alt"
+                              style={{ aspectRatio: '16 / 9' }}
+                            >
+                              <Image
+                                src={src as string}
+                                alt=""
+                                fill
+                                sizes="(min-width: 768px) 50vw, 100vw"
+                                aria-hidden
+                                className="object-cover"
+                              />
+                            </div>
+                          ))}
+                        </div>
+                        {/* Row 2: VR pair at same 4:3 box — VR2 uses contain to avoid distortion */}
+                        <div className="grid grid-cols-2 gap-3">
+                          {[media.gallery?.[1], media.gallery?.[2]].filter(Boolean).map((src, j) => {
+                            const isSmall = (src as string).includes('VR2');
+                            return (
+                              <div
+                                key={src}
+                                className="relative overflow-hidden rounded-[4px] bg-bg-alt"
+                                style={{ aspectRatio: '4 / 3' }}
+                              >
+                                <Image
+                                  src={src as string}
+                                  alt=""
+                                  fill
+                                  sizes="(min-width: 768px) 33vw, 50vw"
+                                  aria-hidden
+                                  className={isSmall ? 'object-contain' : 'object-cover'}
+                                />
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    ) : media?.layout === 'step4' ? (
+                      (() => {
+                        const all = media.main
+                          ? [media.main, ...(media.gallery ?? [])]
+                          : media.gallery ?? [];
+                        return (
+                          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                            {all.map((src) => (
+                              <div
+                                key={src}
+                                className="relative overflow-hidden rounded-[4px] bg-bg-alt"
+                                style={{ aspectRatio: '3 / 4' }}
+                              >
+                                <Image
+                                  src={src}
+                                  alt=""
+                                  fill
+                                  sizes="(min-width: 640px) 28vw, 50vw"
+                                  aria-hidden
+                                  className="object-cover"
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        );
+                      })()
                     ) : media?.masonry ? (
                       (() => {
                         const all = media.main

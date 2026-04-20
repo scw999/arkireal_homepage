@@ -130,9 +130,10 @@ export default async function ContactPage({ searchParams }: Props) {
               placeholder="선택해주세요"
             />
 
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2.5">
               <label
-                className="font-mono text-[11px] tracking-mono text-fg-mute"
+                className="font-mono font-medium uppercase text-fg-mute"
+                style={{ fontSize: 14, letterSpacing: '0.14em' }}
                 htmlFor="message"
               >
                 문의 내용
@@ -141,7 +142,7 @@ export default async function ContactPage({ searchParams }: Props) {
                 id="message"
                 name="message"
                 rows={6}
-                className="border border-line bg-bg p-4 text-[14.5px] text-fg outline-none transition focus:border-fg"
+                className="border border-line bg-bg p-4 text-[15.5px] text-fg outline-none transition focus:border-fg"
                 placeholder="편하게 작성해주세요. 아직 구체적이지 않아도 괜찮습니다."
               />
             </div>
@@ -149,16 +150,17 @@ export default async function ContactPage({ searchParams }: Props) {
             <div className="flex flex-col items-start gap-3 border-t border-line pt-6 md:flex-row md:items-center">
               <button
                 type="submit"
-                className="inline-flex items-center gap-2 text-[14px] font-semibold text-white transition hover:opacity-90"
+                className="inline-flex items-center gap-2 font-semibold text-white transition hover:opacity-90"
                 style={{
-                  padding: '14px 26px',
+                  padding: '16px 30px',
                   background: '#2F4A38',
                   borderRadius: 2,
+                  fontSize: 16,
                 }}
               >
                 문의 보내기 →
               </button>
-              <p className="text-[12.5px] leading-[1.7] text-fg-mute">
+              <p className="text-[14px] leading-[1.7] text-fg-mute">
                 작성해주신 내용은 담당자가 검토 후 1~2영업일 안에 회신드립니다.
                 <br />
                 급하신 경우 전화로 직접 문의해주세요.
@@ -168,25 +170,50 @@ export default async function ContactPage({ searchParams }: Props) {
 
           <aside className="flex flex-col gap-10">
             <div>
-              <div className="eyebrow mb-4">— Direct Contact</div>
-              <ul className="space-y-5 text-[14.5px]">
+              <div
+                className="mb-5 font-mono font-medium uppercase text-accent"
+                style={{ fontSize: 15, letterSpacing: '0.2em' }}
+              >
+                — Direct Contact
+              </div>
+              <ul className="space-y-7">
                 <li>
-                  <div className="font-mono text-[11px] tracking-mono text-fg-mute">
+                  <div
+                    className="font-mono font-medium uppercase text-fg-mute"
+                    style={{ fontSize: 14, letterSpacing: '0.16em' }}
+                  >
                     전화
                   </div>
-                  <div className="mt-1 text-fg">T. {company.phone}</div>
+                  <div
+                    className="mt-2 font-semibold text-fg"
+                    style={{
+                      fontFamily: "'IBM Plex Mono', monospace",
+                      fontSize: 'clamp(22px, 2vw, 28px)',
+                      letterSpacing: '-0.01em',
+                    }}
+                  >
+                    T. {company.phone}
+                  </div>
                 </li>
                 <li>
-                  <div className="font-mono text-[11px] tracking-mono text-fg-mute">
+                  <div
+                    className="font-mono font-medium uppercase text-fg-mute"
+                    style={{ fontSize: 14, letterSpacing: '0.16em' }}
+                  >
                     본사
                   </div>
-                  <div className="mt-1 text-fg">{company.address}</div>
+                  <div className="mt-2 text-[17px] leading-[1.5] text-fg">
+                    {company.address}
+                  </div>
                 </li>
                 <li>
-                  <div className="font-mono text-[11px] tracking-mono text-fg-mute">
+                  <div
+                    className="font-mono font-medium uppercase text-fg-mute"
+                    style={{ fontSize: 14, letterSpacing: '0.16em' }}
+                  >
                     상담 시간
                   </div>
-                  <div className="mt-1 text-fg">평일 09:00 – 18:00</div>
+                  <div className="mt-2 text-[17px] text-fg">평일 09:00 – 18:00</div>
                 </li>
               </ul>
             </div>
@@ -222,9 +249,10 @@ function Field({
   placeholder?: string;
 }) {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2.5">
       <label
-        className="font-mono text-[11px] tracking-mono text-fg-mute"
+        className="font-mono font-medium uppercase text-fg-mute"
+        style={{ fontSize: 14, letterSpacing: '0.14em' }}
         htmlFor={name}
       >
         {label}
@@ -236,7 +264,7 @@ function Field({
         type={type}
         required={required}
         placeholder={placeholder}
-        className="h-12 border border-line bg-bg px-4 text-[14.5px] text-fg outline-none transition focus:border-fg"
+        className="h-14 border border-line bg-bg px-4 text-[16px] text-fg outline-none transition focus:border-fg"
       />
     </div>
   );
@@ -254,9 +282,10 @@ function SelectField({
   placeholder?: string;
 }) {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2.5">
       <label
-        className="font-mono text-[11px] tracking-mono text-fg-mute"
+        className="font-mono font-medium uppercase text-fg-mute"
+        style={{ fontSize: 14, letterSpacing: '0.14em' }}
         htmlFor={name}
       >
         {label}
@@ -265,7 +294,7 @@ function SelectField({
         id={name}
         name={name}
         defaultValue=""
-        className="h-12 border border-line bg-bg px-4 text-[14.5px] text-fg outline-none transition focus:border-fg"
+        className="h-14 border border-line bg-bg px-4 text-[16px] text-fg outline-none transition focus:border-fg"
       >
         <option value="" disabled>
           {placeholder ?? '선택해주세요'}
