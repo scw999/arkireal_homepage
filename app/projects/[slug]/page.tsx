@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { ProjectGallery } from '@/components/ProjectGallery';
 import { ProjectPlans } from '@/components/ProjectPlans';
 import { getAllProjects, getProjectBySlug } from '@/lib/projects';
+import { projectSketches } from '@/lib/sketches';
 
 type Params = { slug: string };
 
@@ -98,17 +99,32 @@ export default async function ProjectDetailPage({
         </div>
       </section>
 
-      {/* Hero image — full bleed */}
+      {/* Hero image — full bleed. Sketch fades in on hover if available */}
       <section style={{ padding: '0 clamp(20px, 5vw, 60px) clamp(48px, 7vw, 100px)' }}>
-        <div className="relative mx-auto w-full max-w-[1600px] overflow-hidden rounded-[6px] bg-bg-alt" style={{ aspectRatio: project.featuredImageOrientation === 'portrait' ? '3 / 4' : '16 / 9' }}>
+        <div
+          className="group relative mx-auto w-full max-w-[1600px] overflow-hidden rounded-[6px] bg-bg-alt"
+          style={{ aspectRatio: project.featuredImageOrientation === 'portrait' ? '3 / 4' : '16 / 9' }}
+        >
           <Image
             src={project.featuredImage}
             alt={project.title}
             fill
             priority
             sizes="100vw"
-            className="object-cover"
+            className={`object-cover transition-opacity duration-500 ${
+              projectSketches[project.slug] ? 'group-hover:opacity-0' : ''
+            }`}
           />
+          {projectSketches[project.slug] ? (
+            <Image
+              src={projectSketches[project.slug]}
+              alt=""
+              fill
+              sizes="100vw"
+              aria-hidden
+              className="pointer-events-none absolute inset-0 object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+            />
+          ) : null}
         </div>
       </section>
 
@@ -320,23 +336,38 @@ export default async function ProjectDetailPage({
               </Link>
             </div>
             <div className="grid gap-8 md:grid-cols-3">
-              {others.map((p) => (
-                <Link key={p.id} href={`/projects/${p.slug}`} className="group block">
-                  <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[6px] bg-bg">
-                    <Image
-                      src={p.featuredImage}
-                      alt={p.title}
-                      fill
-                      sizes="(min-width: 900px) 33vw, 100vw"
-                      className="object-cover transition duration-[1300ms] group-hover:scale-[1.05]"
-                    />
-                  </div>
-                  <div className="mt-4 font-mono text-[11px] tracking-mono text-fg-mute">
-                    {p.region} · {p.type}
-                  </div>
-                  <h3 className="h3-serif mt-1.5">{p.title}</h3>
-                </Link>
-              ))}
+              {others.map((p) => {
+                const sketch = projectSketches[p.slug];
+                return (
+                  <Link key={p.id} href={`/projects/${p.slug}`} className="group block">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[6px] bg-bg">
+                      <Image
+                        src={p.featuredImage}
+                        alt={p.title}
+                        fill
+                        sizes="(min-width: 900px) 33vw, 100vw"
+                        className={`object-cover transition duration-[1300ms] group-hover:scale-[1.05] ${
+                          sketch ? 'group-hover:opacity-0' : ''
+                        }`}
+                      />
+                      {sketch ? (
+                        <Image
+                          src={sketch}
+                          alt=""
+                          fill
+                          sizes="(min-width: 900px) 33vw, 100vw"
+                          aria-hidden
+                          className="pointer-events-none absolute inset-0 object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                        />
+                      ) : null}
+                    </div>
+                    <div className="mt-4 font-mono text-[11px] tracking-mono text-fg-mute">
+                      {p.region} · {p.type}
+                    </div>
+                    <h3 className="h3-serif mt-1.5">{p.title}</h3>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>

@@ -513,7 +513,7 @@ export default function HomePage() {
                     <p className="body-copy text-fg-mute md:max-w-[680px]">{p.body}</p>
                   </div>
 
-                  {/* Media row: uniform grid (step 5) vs main + strip (others) */}
+                  {/* Media row: uniform grid (step 5), masonry (steps 3-4), or main + strip */}
                   <div className="mt-5">
                     {media?.uniform ? (
                       (() => {
@@ -544,6 +544,35 @@ export default function HomePage() {
                                 </span>
                               </div>
                             ))}
+                          </div>
+                        );
+                      })()
+                    ) : media?.masonry ? (
+                      (() => {
+                        const all = media.main
+                          ? [media.main, ...(media.gallery ?? [])]
+                          : media.gallery ?? [];
+                        return (
+                          <div className="columns-2 gap-3 md:columns-3 [&>*]:mb-3">
+                            {all.map((src) => {
+                              const aspect = media.aspects?.[src] ?? '3 / 2';
+                              return (
+                                <div
+                                  key={src}
+                                  className="relative block break-inside-avoid overflow-hidden rounded-[4px] bg-bg-alt"
+                                  style={{ aspectRatio: aspect }}
+                                >
+                                  <Image
+                                    src={src}
+                                    alt=""
+                                    fill
+                                    sizes="(min-width: 768px) 33vw, 50vw"
+                                    aria-hidden
+                                    className="object-cover"
+                                  />
+                                </div>
+                              );
+                            })}
                           </div>
                         );
                       })()
