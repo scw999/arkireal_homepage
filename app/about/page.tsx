@@ -24,13 +24,13 @@ const ceoBroadcast: [string, string][] = [
   ['2020', 'JTBC <하우스> 고정 출연 · SBS <홈데렐라> 자문'],
   ['2021', 'MBC <구해줘 홈즈> 출연 및 자문'],
   ['2022', 'SBS <하우스 대역전> 출연'],
+  ['2023', 'MBC <구해줘 홈즈> 아치리얼 건물 소개'],
+  ['2023', '「전원속의 내 집」 1월·3월호 표지 — 아치리얼 상가주택 · 파란산책 주택단지'],
 ];
 
-const ceoImages = [
-  '/images/CEO/KakaoTalk_20260420_190729.jpg',
-  '/images/CEO/KakaoTalk_20260420_190754.jpg',
-  '/images/CEO/그림1.jpg',
-];
+const ceoProfile = '/images/CEO/KakaoTalk_20260420_190729.jpg';
+const ceoBookCover = '/images/CEO/건축주만이알려줄수있는집짓기진실.png';
+const ceoMagazineCover = '/images/CEO/전원속의내집표지선정.png';
 
 export const metadata: Metadata = {
   title: '회사소개 | 아키리얼 종합건설',
@@ -142,44 +142,61 @@ export default function AboutPage() {
               </p>
             </div>
 
-            {/* Collage of CEO images — book / magazine / broadcasts */}
-            <div className="grid gap-3" style={{ gridTemplateColumns: '1.2fr 1fr', gridTemplateRows: 'auto auto' }}>
-              <div
-                className="relative col-span-1 row-span-2 overflow-hidden rounded-[6px] bg-bg-alt"
-                style={{ aspectRatio: '3 / 4' }}
-              >
-                <Image
-                  src={ceoImages[0]}
-                  alt="손창완 대표 프로필 사진"
-                  fill
-                  sizes="(min-width: 768px) 32vw, 100vw"
-                  className="object-cover"
-                />
+            {/* Collage: profile + book cover + magazine cover */}
+            <div className="space-y-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                <figure className="m-0">
+                  <div
+                    className="relative overflow-hidden rounded-[6px] bg-bg-alt"
+                    style={{ aspectRatio: '3 / 4' }}
+                  >
+                    <Image
+                      src={ceoProfile}
+                      alt="손창완 대표 프로필 사진"
+                      fill
+                      sizes="(min-width: 768px) 28vw, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <figcaption className="mt-2 font-mono text-[11px] tracking-mono text-fg-mute">
+                    — 대표 건축가 손창완
+                  </figcaption>
+                </figure>
+                <figure className="m-0">
+                  <div
+                    className="relative overflow-hidden rounded-[6px] bg-bg-alt"
+                    style={{ aspectRatio: '3 / 4' }}
+                  >
+                    <Image
+                      src={ceoBookCover}
+                      alt="저서 『건축주만이 알려줄 수 있는 집짓기 진실』 표지"
+                      fill
+                      sizes="(min-width: 768px) 28vw, 100vw"
+                      className="object-contain p-4"
+                    />
+                  </div>
+                  <figcaption className="mt-2 font-mono text-[11px] tracking-mono text-fg-mute">
+                    — 2017 저서 · 「건축주만이 알려줄 수 있는 집짓기 진실」
+                  </figcaption>
+                </figure>
               </div>
-              <div
-                className="relative overflow-hidden rounded-[6px] bg-bg-alt"
-                style={{ aspectRatio: '4 / 3' }}
-              >
-                <Image
-                  src={ceoImages[1]}
-                  alt="저서 및 매체 소개"
-                  fill
-                  sizes="(min-width: 768px) 26vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
-              <div
-                className="relative overflow-hidden rounded-[6px] bg-bg-alt"
-                style={{ aspectRatio: '4 / 3' }}
-              >
-                <Image
-                  src={ceoImages[2]}
-                  alt="방송 출연 장면"
-                  fill
-                  sizes="(min-width: 768px) 26vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
+              <figure className="m-0">
+                <div
+                  className="relative overflow-hidden rounded-[6px] bg-bg-alt"
+                  style={{ aspectRatio: '5 / 3' }}
+                >
+                  <Image
+                    src={ceoMagazineCover}
+                    alt="「전원속의 내 집」 1월·3월호 커버 선정"
+                    fill
+                    sizes="(min-width: 768px) 56vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+                <figcaption className="mt-2 font-mono text-[11px] tracking-mono text-fg-mute">
+                  — 2023 「전원속의 내 집」 1월·3월호 커버 · 아치리얼 상가주택 / 파란산책 주택단지
+                </figcaption>
+              </figure>
             </div>
           </div>
 
