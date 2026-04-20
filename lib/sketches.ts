@@ -24,12 +24,16 @@ export const projectSketches: Record<string, string> = {
   'seosan-bluewalk-small-type': '/images/sketch/파란산책_경형_스케치2.png',
 };
 
+// One image per PROCESS step, drawn from the 12-stage technical pipeline
+// in /public/images/process/ so the section mirrors the real work order:
+// 01 도면/계획 → 02 드론 토지 분석 → 03 3D 렌더링(완성 미리보기)
+// → 04 3D 자재 시뮬레이션 → 05 시공 현장.
 export const processSketches: string[] = [
-  '/images/sketch/양평_스케치3.png',
-  '/images/sketch/파란산책_중형_스케치1-1.png',
-  '/images/sketch/담화재_스케치3.png',
-  '/images/sketch/나래재_스케치2.png',
-  '/images/sketch/원주_스케치2.png',
+  '/images/process/7.plan.png',
+  '/images/process/1.drone.png',
+  '/images/process/8.3d_rendering.png',
+  '/images/process/4.3d_designm.png',
+  '/images/process/11.construction.png',
 ];
 
 export const bandSketches = {
