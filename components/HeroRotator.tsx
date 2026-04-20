@@ -18,17 +18,21 @@ type Props = {
   body: string;
   badges?: string[];
   phone?: string;
+  /** When set, a muted looping YouTube iframe replaces the image rotator as
+   *  the hero backdrop. Slide counter/label/pagination are hidden. */
+  videoBackdropId?: string;
 };
 
-export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, phone }: Props) {
+export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, phone, videoBackdropId }: Props) {
   const [idx, setIdx] = useState(0);
   const [paused, setPaused] = useState(false);
+  const hasVideo = Boolean(videoBackdropId);
 
   useEffect(() => {
-    if (slides.length < 2 || paused) return;
+    if (hasVideo || slides.length < 2 || paused) return;
     const t = setInterval(() => setIdx((i) => (i + 1) % slides.length), 6000);
     return () => clearInterval(t);
-  }, [slides.length, paused]);
+  }, [hasVideo, slides.length, paused]);
 
   return (
     <section
@@ -45,22 +49,37 @@ export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, pho
         className="relative w-full overflow-hidden"
         style={{ height: 'calc(100vh - 72px)', minHeight: 560 }}
       >
-      {slides.map((s, i) => (
-        <Image
-          key={s.img}
-          src={s.img}
-          alt={s.label}
-          fill
-          priority={i === 0}
-          sizes="100vw"
-          className="object-cover"
+      {hasVideo ? (
+        <iframe
+          title="hero backdrop"
+          src={`https://www.youtube.com/embed/${videoBackdropId}?autoplay=1&mute=1&loop=1&playlist=${videoBackdropId}&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&iv_load_policy=3&disablekb=1`}
+          allow="autoplay; encrypted-media"
+          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
           style={{
-            opacity: i === idx ? 1 : 0,
-            transform: i === idx ? 'scale(1.04)' : 'scale(1)',
-            transition: 'opacity 1.4s ease, transform 7s ease',
+            width: 'max(100vw, calc(100vh * 16 / 9))',
+            height: 'max(100vh, calc(100vw * 9 / 16))',
+            border: 0,
           }}
+          aria-hidden
         />
-      ))}
+      ) : (
+        slides.map((s, i) => (
+          <Image
+            key={s.img}
+            src={s.img}
+            alt={s.label}
+            fill
+            priority={i === 0}
+            sizes="100vw"
+            className="object-cover"
+            style={{
+              opacity: i === idx ? 1 : 0,
+              transform: i === idx ? 'scale(1.04)' : 'scale(1)',
+              transition: 'opacity 1.4s ease, transform 7s ease',
+            }}
+          />
+        ))
+      )}
       <div
         className="absolute inset-0"
         style={{
@@ -82,13 +101,21 @@ export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, pho
             — {eyebrow}
           </div>
           <div className="flex flex-col items-end gap-2">
-            <div className="font-mono text-[11px] tracking-mono text-white/90">
-              {String(idx + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
-            </div>
-            <div className="font-mono text-[11px] tracking-mono text-white/75">
-              {slides[idx].label}
-            </div>
-            {slides.length > 1 ? (
+            {!hasVideo ? (
+              <>
+                <div className="font-mono text-[11px] tracking-mono text-white/90">
+                  {String(idx + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
+                </div>
+                <div className="font-mono text-[11px] tracking-mono text-white/75">
+                  {slides[idx].label}
+                </div>
+              </>
+            ) : (
+              <div className="font-mono text-[11px] tracking-mono text-white/75">
+                CINEMATIC · 양평 아솔린채
+              </div>
+            )}
+            {!hasVideo && slides.length > 1 ? (
               <div
                 role="tablist"
                 aria-label="히어로 슬라이드"

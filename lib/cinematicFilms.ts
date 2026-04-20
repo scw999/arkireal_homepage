@@ -18,8 +18,8 @@ export const cinematicFilms: CinematicFilm[] = [
   { id: 'NuV3rzFoIDM', title: '여주 나래재',       subtitle: '단독주택',         slug: 'yeoju-gangcheon-naraejae-house' },
   { id: 'tOWqv5sZgA8', title: '이천 시옷하우스',   subtitle: '단독주택',         slug: 'mojeonri-siot-house' },
   { id: 'gxDPzb8pYSs', title: '파란산책 중형',     subtitle: '전원주택 타입',    slug: 'seosan-bluewalk-medium-type' },
-  // Upcoming / unlisted — not tied to a project page yet
-  { id: 'mh5nhumZS4E', title: '인천 운남동',       subtitle: '단독주택' },
+  { id: 'mh5nhumZS4E', title: '영종도 스카이시티', subtitle: '세컨하우스',       slug: 'yeongjongdo-skycity-second-house' },
+  // Upcoming / not yet registered as projects
   { id: 'NpNYwozuc54', title: '장호원',           subtitle: '단독주택' },
   { id: '6wnLH6K_yRw', title: '파주 문산',         subtitle: '단독주택' },
   { id: '0_dkfYmcTB4', title: '용인 대대리',       subtitle: '세컨하우스' },

@@ -285,6 +285,7 @@ export default function HomePage() {
         body={HERO_BODY}
         badges={BADGES}
         phone={company.phone}
+        videoBackdropId="6VyuYGZ7h7w"
       />
 
       {/* PROJECTS */}
