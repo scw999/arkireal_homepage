@@ -90,7 +90,7 @@ export const processMedia: {
     ],
     layout: 'step4',
   },
-  // 05 시공·감리 — 현장 전 과정. uniform 그리드로 모두 동등한 위계 + 순번 칩
+  // 05 시공·감리 — 현장 전 과정 01~16, 마지막은 완공 직전 컷. 4-col 4×4 정방형
   {
     main: '/images/process/11.construction.png',
     gallery: [
@@ -108,14 +108,14 @@ export const processMedia: {
       '/images/process/11.construction13.png',
       '/images/process/11.construction14.png',
       '/images/process/11.construction15.png',
+      '/images/process/12.complete.png',
     ],
     uniform: true,
     numbered: true,
   },
-  // 06 완공·관리 — 완공 사진 갤러리 (번호 없이, 완공된 공간을 즐기는 톤)
-  // 6장을 3-col 그리드로 2×3 배치
+  // 06 완공·관리 — 첫 사진은 여주 나래재 외관 (대표 외관 샷), 이어서 완공 내부 5장
   {
-    main: '/images/process/12.complete.png',
+    main: '/images/projects/yeoju-gangcheon-naraejae-house/photo-04.jpg',
     gallery: [
       '/images/process/12.complete1.png',
       '/images/process/12.complete2.png',
