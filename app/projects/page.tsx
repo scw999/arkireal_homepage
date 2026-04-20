@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ProjectCard } from '@/components/ProjectCard';
 import { getAllProjects, getProjectTypes } from '@/lib/projects';
+import { projectSketches } from '@/lib/sketches';
 
 export const metadata: Metadata = {
   title: '프로젝트 | 아키리얼 종합건설',
@@ -85,7 +86,12 @@ export default async function ProjectsPage({ searchParams }: Props) {
                   className="col-span-6 sm:col-span-3 md:col-span-2"
                   style={isWide ? { gridColumn: 'span 4' } : undefined}
                 >
-                  <ProjectCard project={p} wide={isWide} index={i + 1} />
+                  <ProjectCard
+                    project={p}
+                    wide={isWide}
+                    index={i + 1}
+                    sketchSrc={projectSketches[p.slug]}
+                  />
                 </div>
               );
             })}

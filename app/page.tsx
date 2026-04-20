@@ -521,7 +521,7 @@ export default function HomePage() {
                           ? [media.main, ...(media.gallery ?? [])]
                           : media.gallery ?? [];
                         return (
-                          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+                          <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
                             {all.map((src, gIdx) => (
                               <div
                                 key={src}
@@ -532,7 +532,7 @@ export default function HomePage() {
                                   src={src}
                                   alt=""
                                   fill
-                                  sizes="(min-width: 768px) 24vw, 50vw"
+                                  sizes="(min-width: 640px) 24vw, 50vw"
                                   aria-hidden
                                   className="object-cover"
                                 />
@@ -592,31 +592,46 @@ export default function HomePage() {
                         </div>
                       </div>
                     ) : media?.layout === 'step4' ? (
-                      (() => {
-                        const all = media.main
-                          ? [media.main, ...(media.gallery ?? [])]
-                          : media.gallery ?? [];
-                        return (
-                          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-                            {all.map((src) => (
-                              <div
-                                key={src}
-                                className="relative overflow-hidden rounded-[4px] bg-bg-alt"
-                                style={{ aspectRatio: '3 / 4' }}
-                              >
-                                <Image
-                                  src={src}
-                                  alt=""
-                                  fill
-                                  sizes="(min-width: 640px) 28vw, 50vw"
-                                  aria-hidden
-                                  className="object-cover"
-                                />
-                              </div>
-                            ))}
-                          </div>
-                        );
-                      })()
+                      <div className="space-y-3">
+                        {/* Row 1 — step4_1 + step4_2: 3D 렌더링 2장 크게 16:9 */}
+                        <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                          {[media.main, media.gallery?.[0]].filter(Boolean).map((src) => (
+                            <div
+                              key={src as string}
+                              className="relative overflow-hidden rounded-[5px] bg-bg-alt"
+                              style={{ aspectRatio: '16 / 9' }}
+                            >
+                              <Image
+                                src={src as string}
+                                alt=""
+                                fill
+                                sizes="(min-width: 768px) 50vw, 100vw"
+                                aria-hidden
+                                className="object-cover"
+                              />
+                            </div>
+                          ))}
+                        </div>
+                        {/* Row 2 — step4_3~6: 자재 샷 4장 3:4 포트레이트 스트립 */}
+                        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                          {(media.gallery ?? []).slice(1).map((src) => (
+                            <div
+                              key={src}
+                              className="relative overflow-hidden rounded-[4px] bg-bg-alt"
+                              style={{ aspectRatio: '3 / 4' }}
+                            >
+                              <Image
+                                src={src}
+                                alt=""
+                                fill
+                                sizes="(min-width: 640px) 22vw, 50vw"
+                                aria-hidden
+                                className="object-cover"
+                              />
+                            </div>
+                          ))}
+                        </div>
+                      </div>
                     ) : media?.masonry ? (
                       (() => {
                         const all = media.main
