@@ -62,24 +62,21 @@ export function CompareSlider({
         if (e.touches[0]) setFromClientX(e.touches[0].clientX);
       }}
     >
-      {/* Right side — completed photo (full frame, revealed as slider moves left) */}
+      {/* Right side — completed photo */}
       <img
         src={photo}
         alt="completed"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      {/* Left side — 3D rendering, clipped to slider width.
-          The inner image keeps a full-frame size so it doesn't warp as the clip changes. */}
+      {/* Left side — 3D render, clipped to slider width.
+          Inner image keeps a full-frame size so it doesn't warp as the clip changes. */}
       <div
         className="absolute inset-0 overflow-hidden"
         style={{ width: `${x}%` }}
       >
         <div
           className="absolute left-0 top-0 h-full"
-          style={{
-            width: `${(100 / (x / 100 || 1))}%`,
-            maxWidth: 'none',
-          }}
+          style={{ width: `${100 / (x / 100 || 1)}%`, maxWidth: 'none' }}
         >
           <img
             src={bim}

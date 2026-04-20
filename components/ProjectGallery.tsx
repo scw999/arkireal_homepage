@@ -36,7 +36,7 @@ export function ProjectGallery({ photos, title }: Props) {
               type="button"
               onClick={() => setOpenIndex(i)}
               aria-label={`${title} ${i + 1} 확대 보기`}
-              className="group block w-full cursor-zoom-in overflow-hidden bg-paper-card"
+              className="group block w-full cursor-zoom-in overflow-hidden rounded-[4px] bg-bg-alt"
             >
               <Image
                 src={p.src}

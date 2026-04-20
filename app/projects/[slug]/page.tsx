@@ -49,7 +49,6 @@ export default async function ProjectDetailPage({
   const hasPlans = project.plans.length > 0;
   const hasPhotos = project.photos.length > 0;
 
-  // Find other projects for "related" — prefer same type
   const allOthers = getAllProjects().filter((p) => p.slug !== project.slug);
   const sameType = allOthers.filter((p) => p.type === project.type);
   const diffType = allOthers.filter((p) => p.type !== project.type);
@@ -57,9 +56,51 @@ export default async function ProjectDetailPage({
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative border-b border-paper-line bg-ink text-white">
-        <div className="relative min-h-[72vh] w-full overflow-hidden md:min-h-[82vh]">
+      {/* Back link + eyebrow / title */}
+      <section style={{ padding: '120px clamp(20px, 5vw, 60px) 40px' }}>
+        <div className="mx-auto max-w-page">
+          <Link
+            href="/projects"
+            className="font-mono text-[12px] tracking-mono text-fg-mute transition hover:text-fg"
+          >
+            ← 전체 프로젝트
+          </Link>
+
+          <div className="mt-8 flex flex-wrap items-center gap-3 font-mono text-[11px] tracking-mono text-accent">
+            <span>— {project.type.toUpperCase()}</span>
+            {project.year ? (
+              <>
+                <span className="h-3 w-px bg-line" aria-hidden />
+                <span>{project.year}</span>
+              </>
+            ) : null}
+          </div>
+
+          <h1
+            className="mt-5 max-w-[1000px]"
+            style={{
+              fontFamily: "'Noto Serif KR', serif",
+              fontWeight: 500,
+              letterSpacing: '-0.03em',
+              lineHeight: 1.04,
+              fontSize: 'clamp(36px, 6vw, 80px)',
+              textWrap: 'balance',
+            }}
+          >
+            {project.title}
+          </h1>
+
+          <div className="mt-6 flex flex-wrap gap-6 font-mono text-[12px] tracking-mono text-fg-mute">
+            <span>LOCATION · {project.region}</span>
+            {project.scope ? <span>SCOPE · {project.scope}</span> : null}
+            {project.status ? <span>STATUS · {project.status}</span> : null}
+          </div>
+        </div>
+      </section>
+
+      {/* Hero image — full bleed */}
+      <section style={{ padding: '0 clamp(20px, 5vw, 60px) clamp(48px, 7vw, 100px)' }}>
+        <div className="relative mx-auto w-full max-w-[1600px] overflow-hidden rounded-[6px] bg-bg-alt" style={{ aspectRatio: project.featuredImageOrientation === 'portrait' ? '3 / 4' : '16 / 9' }}>
           <Image
             src={project.featuredImage}
             alt={project.title}
@@ -68,51 +109,27 @@ export default async function ProjectDetailPage({
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-black/35" aria-hidden />
-
-          <div className="relative flex h-full min-h-[72vh] flex-col justify-end md:min-h-[82vh]">
-            <div className="container-page pb-14 pt-14 md:pb-20 md:pt-20">
-              <Link
-                href="/projects"
-                className="text-[12px] font-medium tracking-[0.04em] text-white/70 hover:text-white"
-              >
-                ← 전체 프로젝트
-              </Link>
-              <div className="mt-8 flex flex-wrap items-center gap-2 text-[11px] font-medium tracking-[0.04em] text-white/70">
-                <span>{project.region}</span>
-                <span className="h-3 w-px bg-white/40" aria-hidden />
-                <span>{project.type}</span>
-                {project.year ? (
-                  <>
-                    <span className="h-3 w-px bg-white/40" aria-hidden />
-                    <span>{project.year}</span>
-                  </>
-                ) : null}
-              </div>
-              <h1 className="mt-4 max-w-4xl text-[2.1rem] font-semibold leading-[1.18] tracking-tightish md:text-[3.4rem]">
-                {project.title}
-              </h1>
-              <p className="mt-6 max-w-xl text-[15px] leading-[1.9] text-white/85 md:text-[1.0625rem]">
-                {project.summary}
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* Overview + description */}
-      <section className="border-b border-paper-line">
-        <div className="container-page grid gap-10 py-16 md:grid-cols-[1.3fr_1fr] md:py-20">
-          <div className="space-y-5 text-[15px] leading-[1.95] text-ink-soft md:text-[1.0625rem]">
-            <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-              프로젝트 설명
-            </h2>
-            <p>{project.description}</p>
+      {/* Description + spec sidebar */}
+      <section className="pad-tight border-t border-line">
+        <div className="mx-auto grid max-w-page gap-12 md:grid-cols-[2fr_1fr]">
+          <div>
+            <div className="eyebrow mb-4">— 프로젝트 설명</div>
+            <div className="body-copy space-y-5 text-fg">
+              <p>{project.summary}</p>
+              {project.description ? <p>{project.description}</p> : null}
+            </div>
+
             {project.keyPoints.length > 0 ? (
-              <ul className="mt-6 space-y-3 border-t border-paper-line pt-6 text-[14px] text-ink-muted">
+              <ul className="mt-8 space-y-3 border-t border-line pt-8 text-[14.5px] text-fg-mute">
                 {project.keyPoints.map((kp) => (
                   <li key={kp} className="flex gap-3">
-                    <span className="mt-[0.6rem] h-px w-4 shrink-0 bg-ink-subtle" aria-hidden />
+                    <span
+                      className="mt-[0.65rem] h-px w-4 shrink-0 bg-accent"
+                      aria-hidden
+                    />
                     <span>{kp}</span>
                   </li>
                 ))}
@@ -120,87 +137,87 @@ export default async function ProjectDetailPage({
             ) : null}
           </div>
 
-          <dl className="grid h-fit gap-px bg-paper-line text-[13.5px]">
-            {overview
-              .filter(([, v]) => v)
-              .map(([k, v]) => (
-                <div key={k} className="flex items-center justify-between bg-white p-5">
-                  <dt className="text-[11px] font-medium tracking-[0.04em] text-ink-subtle">
-                    {k}
-                  </dt>
-                  <dd className="text-ink">{v}</dd>
-                </div>
-              ))}
-          </dl>
+          <aside className="md:sticky md:top-24 md:self-start">
+            <div className="eyebrow mb-4">— Specs</div>
+            <dl className="grid gap-px bg-line text-[13.5px]">
+              {overview
+                .filter(([, v]) => v)
+                .map(([k, v]) => (
+                  <div
+                    key={k}
+                    className="flex items-start justify-between gap-4 bg-bg p-5"
+                  >
+                    <dt className="font-mono text-[11px] tracking-mono text-fg-mute">
+                      {k}
+                    </dt>
+                    <dd className="text-right text-fg">{v}</dd>
+                  </div>
+                ))}
+            </dl>
+          </aside>
         </div>
       </section>
 
-      {/* Floor plans — moved up so drawings read as part of the project body,
-          not a footnote. Especially important for drawing-heavy projects like
-          양평 아솔린채 (4 photos, 10 plans) and 밀양 그린델발트 (3 photos). */}
+      {/* Plans */}
       {hasPlans ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-24">
+        <section className="pad-tight border-t border-line bg-bg-alt">
+          <div className="mx-auto max-w-page">
             <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
               <div>
-                <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                  평면과 도면
-                </h2>
-                <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
-                  설계 단계에서 함께 검토한 평면과 면적 구성입니다. 이미지를 누르면 크게
-                  볼 수 있습니다.
+                <div className="eyebrow mb-3">— Plans &amp; Drawings</div>
+                <h2 className="h2-serif">평면과 도면</h2>
+                <p className="body-copy mt-4 max-w-[640px]">
+                  설계 단계에서 함께 검토한 평면과 면적 구성입니다. 이미지를 누르면 크게 볼
+                  수 있습니다.
                 </p>
               </div>
-              <p className="text-[13px] text-ink-subtle">총 {project.plans.length}장</p>
+              <p className="font-mono text-[11px] tracking-mono text-fg-mute">
+                총 {project.plans.length}장
+              </p>
             </div>
             <ProjectPlans plans={project.plans} title={project.title} />
           </div>
         </section>
       ) : null}
 
-      {/* Photo gallery — masonry columns, natural aspect ratios */}
+      {/* Photos */}
       {hasPhotos ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-24">
+        <section className="pad-tight border-t border-line">
+          <div className="mx-auto max-w-page">
             <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
               <div>
-                <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                  프로젝트 사진
-                </h2>
-                <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
+                <div className="eyebrow mb-3">— Gallery</div>
+                <h2 className="h2-serif">프로젝트 사진</h2>
+                <p className="body-copy mt-4 max-w-[640px]">
                   사진을 누르면 크게 볼 수 있습니다.
                 </p>
               </div>
-              <p className="text-[13px] text-ink-subtle">총 {project.photos.length}장</p>
+              <p className="font-mono text-[11px] tracking-mono text-fg-mute">
+                총 {project.photos.length}장
+              </p>
             </div>
             <ProjectGallery photos={project.photos} title={project.title} />
           </div>
         </section>
       ) : null}
 
-      {/* Matterport 3D tour */}
+      {/* Matterport */}
       {hasMatterport ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-24">
-            <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
-              <div>
-                <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                  완공 후 공간을 직접 걸어볼 수 있습니다
-                </h2>
-                <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
-                  Matterport로 찍은 3D 가상 투어입니다. 마우스나 터치로 움직여 보시면,
-                  실제 공간감과 마감, 동선까지 직접 확인하실 수 있습니다.
-                </p>
-              </div>
-              <p className="text-[13px] text-ink-subtle">
-                투어 {project.matterportIds.length}개
+        <section className="pad-tight border-t border-line">
+          <div className="mx-auto max-w-page">
+            <div className="mb-10">
+              <div className="eyebrow mb-3">— 3D Tour</div>
+              <h2 className="h2-serif">완공 후 공간을 직접 걸어볼 수 있습니다</h2>
+              <p className="body-copy mt-4 max-w-[640px]">
+                Matterport로 찍은 3D 가상 투어입니다. 마우스나 터치로 움직여 보시면 실제
+                공간감과 마감, 동선까지 직접 확인하실 수 있습니다.
               </p>
             </div>
 
             <div className="space-y-6">
               {project.matterportIds.map((id, i) => (
                 <figure key={id} className="space-y-2">
-                  <div className="relative aspect-video w-full overflow-hidden border border-paper-line bg-paper-card">
+                  <div className="relative aspect-video w-full overflow-hidden border border-line bg-bg-alt">
                     <iframe
                       title={`${project.title} 3D 투어 ${i + 1}`}
                       src={`https://my.matterport.com/show/?m=${id}&play=0`}
@@ -210,7 +227,7 @@ export default async function ProjectDetailPage({
                       className="absolute inset-0 h-full w-full"
                     />
                   </div>
-                  <figcaption className="text-[11px] font-medium tracking-[0.04em] text-ink-subtle">
+                  <figcaption className="font-mono text-[11px] tracking-mono text-fg-mute">
                     3D 투어 {i + 1}
                   </figcaption>
                 </figure>
@@ -220,66 +237,66 @@ export default async function ProjectDetailPage({
         </section>
       ) : null}
 
-      {/* 3D 설계 영상 */}
+      {/* Design videos */}
       {hasDesignVideo ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-24">
+        <section className="pad-tight border-t border-line">
+          <div className="mx-auto max-w-page">
             <div className="mb-10">
-              <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                3D 설계 영상
-              </h2>
-              <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
+              <div className="eyebrow mb-3">— Design Video</div>
+              <h2 className="h2-serif">3D 설계 영상</h2>
+              <p className="body-copy mt-4 max-w-[640px]">
                 시공 전 3D 모델링으로 완성될 건물의 모습을 미리 확인한 영상입니다.
               </p>
             </div>
 
             <div className="space-y-6">
               {project.designVideoIds.map((id, i) => (
-                <figure key={id} className="space-y-2">
-                  <div className="relative aspect-video w-full overflow-hidden bg-black">
-                    <iframe
-                      title={`${project.title} 설계 영상 ${i + 1}`}
-                      src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      loading="lazy"
-                      className="absolute inset-0 h-full w-full"
-                    />
-                  </div>
-                </figure>
+                <div
+                  key={id}
+                  className="relative aspect-video w-full overflow-hidden rounded-[8px] bg-black"
+                >
+                  <iframe
+                    title={`${project.title} 설계 영상 ${i + 1}`}
+                    src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full"
+                  />
+                </div>
               ))}
             </div>
           </div>
         </section>
       ) : null}
 
-      {/* 완공 영상 */}
+      {/* Completion videos */}
       {hasCompletionVideo ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-24">
+        <section className="pad-tight border-t border-line">
+          <div className="mx-auto max-w-page">
             <div className="mb-10">
-              <h2 className="text-[1.5rem] font-semibold leading-snug text-ink md:text-[1.85rem]">
-                완공 영상
-              </h2>
-              <p className="mt-4 max-w-2xl text-[14.5px] leading-[1.9] text-ink-muted">
+              <div className="eyebrow mb-3">— Completion Video</div>
+              <h2 className="h2-serif">완공 영상</h2>
+              <p className="body-copy mt-4 max-w-[640px]">
                 완공 후 실제 건물의 외관과 내부를 촬영한 영상입니다.
               </p>
             </div>
 
             <div className="space-y-6">
               {project.completionVideoIds.map((id, i) => (
-                <figure key={id} className="space-y-2">
-                  <div className="relative aspect-video w-full overflow-hidden bg-black">
-                    <iframe
-                      title={`${project.title} 완공 영상 ${i + 1}`}
-                      src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      loading="lazy"
-                      className="absolute inset-0 h-full w-full"
-                    />
-                  </div>
-                </figure>
+                <div
+                  key={id}
+                  className="relative aspect-video w-full overflow-hidden rounded-[8px] bg-black"
+                >
+                  <iframe
+                    title={`${project.title} 완공 영상 ${i + 1}`}
+                    src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full"
+                  />
+                </div>
               ))}
             </div>
           </div>
@@ -288,41 +305,36 @@ export default async function ProjectDetailPage({
 
       {/* Related */}
       {others.length > 0 ? (
-        <section className="border-b border-paper-line">
-          <div className="container-page py-16 md:py-20">
+        <section className="pad-tight border-t border-line bg-bg-alt">
+          <div className="mx-auto max-w-page">
             <div className="mb-10 flex items-end justify-between">
-              <h2 className="text-[1.4rem] font-semibold leading-snug text-ink md:text-[1.7rem]">
-                다른 프로젝트
-              </h2>
+              <div>
+                <div className="eyebrow mb-3">— More Projects</div>
+                <h2 className="h2-serif">다른 프로젝트</h2>
+              </div>
               <Link
                 href="/projects"
-                className="text-[13px] font-medium text-ink underline underline-offset-4"
+                className="hidden font-mono text-[12px] tracking-mono text-fg underline underline-offset-4 md:inline-flex"
               >
                 전체 프로젝트 →
               </Link>
             </div>
-            <div className="grid gap-6 md:grid-cols-3">
+            <div className="grid gap-8 md:grid-cols-3">
               {others.map((p) => (
-                <Link
-                  key={p.id}
-                  href={`/projects/${p.slug}`}
-                  className="group flex flex-col gap-3"
-                >
-                  <div className="relative aspect-[4/3] overflow-hidden border border-paper-line bg-paper-card">
+                <Link key={p.id} href={`/projects/${p.slug}`} className="group block">
+                  <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[6px] bg-bg">
                     <Image
                       src={p.featuredImage}
                       alt={p.title}
                       fill
-                      sizes="(min-width: 768px) 33vw, 100vw"
-                      className="object-cover transition duration-[500ms] motion-safe:group-hover:scale-[1.03]"
+                      sizes="(min-width: 900px) 33vw, 100vw"
+                      className="object-cover transition duration-[1300ms] group-hover:scale-[1.05]"
                     />
                   </div>
-                  <div>
-                    <p className="text-[11px] font-medium tracking-[0.04em] text-ink-subtle">
-                      {p.region} · {p.type}
-                    </p>
-                    <p className="mt-1 text-[14.5px] font-semibold text-ink">{p.title}</p>
+                  <div className="mt-4 font-mono text-[11px] tracking-mono text-fg-mute">
+                    {p.region} · {p.type}
                   </div>
+                  <h3 className="h3-serif mt-1.5">{p.title}</h3>
                 </Link>
               ))}
             </div>
@@ -331,26 +343,38 @@ export default async function ProjectDetailPage({
       ) : null}
 
       {/* CTA */}
-      <section className="bg-ink text-white">
-        <div className="container-page flex flex-col gap-6 py-16 md:flex-row md:items-center md:justify-between md:py-20">
-          <div className="max-w-xl">
-            <h2 className="text-[1.5rem] font-semibold leading-[1.35] tracking-tightish md:text-[2rem]">
-              이 프로젝트가 마음에 드셨다면, 편하게 연락 주세요.
+      <section className="dark-surface bg-bg-deep pad-section text-bg">
+        <div className="mx-auto flex max-w-page flex-col gap-8 md:flex-row md:items-end md:justify-between">
+          <div className="max-w-[640px]">
+            <div
+              className="eyebrow mb-3"
+              style={{ color: '#5A7A63' }}
+            >
+              — Get in touch
+            </div>
+            <h2
+              className="h2-serif"
+              style={{ color: '#F5F2EC' }}
+            >
+              이 프로젝트가 마음에 드셨다면, <span className="em-serif" style={{ color: '#5A7A63' }}>편하게</span> 연락 주세요.
             </h2>
-            <p className="mt-4 text-[15px] leading-[1.9] text-white/75">
+            <p
+              className="body-copy mt-5"
+              style={{ color: 'rgba(238,234,226,0.75)' }}
+            >
               아직 구체적이지 않으셔도 괜찮습니다. 먼저 검토부터 같이 해드립니다.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/contact"
-              className="inline-flex h-12 items-center justify-center rounded-sm bg-white px-7 text-sm font-medium text-ink transition hover:bg-paper-warm"
+              className="inline-flex items-center gap-2 rounded-full bg-bg px-6 py-3 text-[14px] font-semibold text-fg transition hover:opacity-90"
             >
-              상담 문의하기
+              상담 문의하기 →
             </Link>
             <Link
               href="/projects"
-              className="inline-flex h-12 items-center justify-center rounded-sm border border-white/70 px-7 text-sm font-medium text-white transition hover:bg-white hover:text-ink"
+              className="inline-flex items-center gap-2 rounded-full border border-white/40 px-6 py-3 text-[14px] font-medium text-bg transition hover:bg-white/10"
             >
               다른 프로젝트 보기
             </Link>

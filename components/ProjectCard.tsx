@@ -4,48 +4,62 @@ import type { Project } from '@/lib/types';
 
 type Props = {
   project: Project;
-  /** When true, always use landscape aspect ratio — useful for grids where
-   * uniform card height matters more than preserving portrait crops. */
-  forceLandscape?: boolean;
+  /** Landscape aspect (cafes, commercial, stays). 5:3 pairs with 4:5 narrow at equal heights in 4+2 column grid. */
+  wide?: boolean;
+  /** Optional overriding index shown in the mono bottom-right. */
+  index?: number;
 };
 
-export function ProjectCard({ project, forceLandscape = false }: Props) {
-  const isPortrait = !forceLandscape && project.featuredImageOrientation === 'portrait';
+export function ProjectCard({ project, wide = false, index }: Props) {
+  const aspectClass = wide ? 'aspect-[5/3]' : 'aspect-[4/5]';
+
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className="group flex flex-col overflow-hidden bg-white transition"
+      className="group block"
     >
-      <div className={`relative w-full overflow-hidden bg-paper-card ${
-        isPortrait ? 'aspect-[3/4]' : 'aspect-[3/2]'
-      }`}>
+      <div
+        className={`relative w-full overflow-hidden rounded-[6px] bg-bg-alt ${aspectClass}`}
+      >
         <Image
           src={project.featuredImage}
           alt={project.title}
           fill
-          sizes="(min-width: 768px) 50vw, 100vw"
-          className="object-cover transition duration-[600ms] motion-safe:group-hover:scale-[1.03]"
+          sizes={wide ? '(min-width: 900px) 66vw, 100vw' : '(min-width: 900px) 33vw, 100vw'}
+          className="object-cover transition duration-[1300ms] group-hover:scale-[1.05]"
+          style={{ transitionTimingFunction: 'cubic-bezier(0.2,0.7,0.2,1)' }}
         />
-      </div>
-      <div className="flex flex-1 flex-col gap-3 pt-6">
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] text-ink-subtle">
-          <span>{project.region}</span>
-          <span className="h-3 w-px bg-paper-line" aria-hidden />
-          <span>{project.type}</span>
-          {project.year ? (
-            <>
-              <span className="h-3 w-px bg-paper-line" aria-hidden />
-              <span>{project.year}</span>
-            </>
-          ) : null}
+        <div
+          className="absolute left-3.5 top-3.5 whitespace-nowrap rounded-full px-3 py-1.5 text-[11px] font-semibold tracking-[0.1em]"
+          style={{ background: 'rgba(255,255,255,0.94)', color: '#14130e' }}
+        >
+          {project.type}
         </div>
-        <h3 className="text-[1.15rem] font-semibold leading-snug text-ink md:text-[1.25rem]">
-          {project.title}
-        </h3>
-        <p className="line-clamp-2 text-[13.5px] leading-relaxed text-ink-muted">
-          {project.summary}
-        </p>
+        <div
+          className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          style={{
+            background: 'linear-gradient(180deg, transparent 55%, rgba(20,18,14,.55) 100%)',
+          }}
+        />
+        <div
+          className="pointer-events-none absolute inset-x-4 bottom-3.5 flex items-center justify-between font-mono text-[11px] tracking-mono text-white opacity-0 transition-[opacity,transform] duration-500 group-hover:translate-y-0 group-hover:opacity-100"
+          style={{ transform: 'translateY(6px)' }}
+        >
+          <span>{project.region.toUpperCase()}</span>
+          <span>{project.year}</span>
+        </div>
       </div>
+      <div className="mt-4 flex items-baseline justify-between gap-3">
+        <h3 className="h3-serif">{project.title}</h3>
+        {index || project.year ? (
+          <span className="whitespace-nowrap font-mono text-[12px] text-fg-mute">
+            {index ? String(index).padStart(2, '0') : ''}
+            {index && project.year ? ' · ' : ''}
+            {project.year}
+          </span>
+        ) : null}
+      </div>
+      <div className="mt-1 text-[13px] text-fg-mute">{project.region}</div>
     </Link>
   );
 }

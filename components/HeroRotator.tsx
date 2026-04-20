@@ -1,0 +1,181 @@
+'use client';
+
+import Link from 'next/link';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+
+export type HeroSlide = {
+  img: string;
+  label: string;
+  type: string;
+};
+
+type Props = {
+  slides: HeroSlide[];
+  eyebrow: string;
+  title1: string;
+  title2: string;
+  body: string;
+  badges?: string[];
+  phone?: string;
+};
+
+export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, phone }: Props) {
+  const [idx, setIdx] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  useEffect(() => {
+    if (slides.length < 2 || paused) return;
+    const t = setInterval(() => setIdx((i) => (i + 1) % slides.length), 6000);
+    return () => clearInterval(t);
+  }, [slides.length, paused]);
+
+  return (
+    <section
+      className="dark-surface relative w-full"
+      style={{ minHeight: '100vh', paddingTop: 72 }}
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocusCapture={() => setPaused(true)}
+      onBlurCapture={(e) => {
+        if (!e.currentTarget.contains(e.relatedTarget)) setPaused(false);
+      }}
+    >
+      <div
+        className="relative w-full overflow-hidden"
+        style={{ height: 'calc(100vh - 72px)', minHeight: 560 }}
+      >
+      {slides.map((s, i) => (
+        <Image
+          key={s.img}
+          src={s.img}
+          alt={s.label}
+          fill
+          priority={i === 0}
+          sizes="100vw"
+          className="object-cover"
+          style={{
+            opacity: i === idx ? 1 : 0,
+            transform: i === idx ? 'scale(1.04)' : 'scale(1)',
+            transition: 'opacity 1.4s ease, transform 7s ease',
+          }}
+        />
+      ))}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            'linear-gradient(180deg, rgba(20,18,14,.55) 0%, rgba(20,18,14,.25) 35%, rgba(20,18,14,.65) 70%, rgba(20,18,14,.85) 100%)',
+        }}
+      />
+
+      <div
+        className="absolute inset-0 grid text-white"
+        style={{
+          padding: 'clamp(28px, 5vw, 72px) clamp(20px, 5vw, 60px)',
+          gridTemplateRows: 'auto 1fr auto',
+          rowGap: 20,
+        }}
+      >
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div className="eyebrow text-white/90">
+            — {eyebrow}
+          </div>
+          <div className="flex flex-col items-end gap-2">
+            <div className="font-mono text-[11px] tracking-mono text-white/90">
+              {String(idx + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
+            </div>
+            <div className="font-mono text-[11px] tracking-mono text-white/75">
+              {slides[idx].label}
+            </div>
+            {slides.length > 1 ? (
+              <div
+                role="tablist"
+                aria-label="히어로 슬라이드"
+                className="mt-1 flex items-center gap-2"
+              >
+                {slides.map((s, i) => (
+                  <button
+                    key={s.img}
+                    type="button"
+                    role="tab"
+                    aria-selected={i === idx}
+                    aria-label={`${i + 1}번 슬라이드: ${s.label}`}
+                    onClick={() => setIdx(i)}
+                    className="inline-flex h-11 w-11 items-center justify-center"
+                  >
+                    <span
+                      aria-hidden
+                      className="block h-[6px] rounded-full transition-all"
+                      style={{
+                        width: i === idx ? 22 : 6,
+                        background: i === idx ? '#fff' : 'rgba(255,255,255,0.45)',
+                      }}
+                    />
+                  </button>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        </div>
+
+        <div className="max-w-[860px] self-end">
+          <h1 className="h1-hero text-white">
+            {title1}
+            <br />
+            {title2}
+          </h1>
+          <p
+            className="mt-6 max-w-[620px] text-white/90 sm:mt-7"
+            style={{
+              fontSize: 'clamp(15px, 1.3vw, 19px)',
+              lineHeight: 1.7,
+            }}
+          >
+            {body}
+          </p>
+          <div className="mt-9 flex flex-wrap gap-2.5">
+            <Link href="/contact" className="btn-sharp-light">
+              상담 문의하기
+            </Link>
+            <Link href="/projects" className="btn-sharp-ghost">
+              프로젝트 보기
+            </Link>
+          </div>
+        </div>
+
+        {badges && badges.length > 0 ? (
+          <div
+            className="flex flex-col gap-3 font-mono text-white sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-5"
+            style={{
+              fontSize: 'clamp(12px, 1vw, 13.5px)',
+              letterSpacing: '0.14em',
+            }}
+          >
+            <div className="flex flex-wrap gap-x-6 gap-y-2 sm:gap-x-8 sm:gap-y-3">
+              {badges.map((b) => (
+                <span key={b} className="flex items-center gap-2.5">
+                  <span
+                    aria-hidden
+                    className="inline-block h-[5px] w-[5px] bg-white"
+                  />
+                  {b}
+                </span>
+              ))}
+            </div>
+            {phone ? (
+              <a
+                href={`tel:${phone.replace(/[^0-9]/g, '')}`}
+                className="flex items-center gap-3 text-white"
+              >
+                <span className="opacity-70">상담 전화</span>
+                <span className="font-semibold">T. {phone}</span>
+              </a>
+            ) : null}
+          </div>
+        ) : null}
+      </div>
+      </div>
+    </section>
+  );
+}

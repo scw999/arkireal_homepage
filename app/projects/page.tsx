@@ -6,8 +6,10 @@ import { getAllProjects, getProjectTypes } from '@/lib/projects';
 export const metadata: Metadata = {
   title: '프로젝트 | 아키리얼 종합건설',
   description:
-    '전원주택, 주택단지, 숙박시설, 상업공간. 아키리얼이 준비하고 진행한 프로젝트를 확인하세요.',
+    '상가주택·단독주택·카페·숙박시설까지, 아키리얼이 설계와 시공을 함께 맡은 작업들을 확인하세요.',
 };
+
+const WIDE_TYPES = new Set(['상업공간', '숙박시설']);
 
 type Props = {
   searchParams?: Promise<{ type?: string }>;
@@ -24,32 +26,41 @@ export default async function ProjectsPage({ searchParams }: Props) {
 
   return (
     <>
-      <section className="border-b border-paper-line">
-        <div className="container-page py-20 md:py-24">
-          <h1 className="max-w-3xl text-[2rem] font-semibold leading-[1.3] tracking-tightish text-ink md:text-[2.6rem]">
-            진행한 프로젝트
+      {/* Hero — small, left-aligned */}
+      <section
+        className="border-b border-line"
+        style={{ padding: '120px clamp(20px, 5vw, 60px) 56px' }}
+      >
+        <div className="mx-auto max-w-page">
+          <div className="eyebrow mb-4">— Portfolio</div>
+          <h1 className="h2-serif">
+            {all.length}개의 <span className="em-serif">완성된</span> 공간
           </h1>
-          <p className="mt-5 max-w-2xl text-[15px] leading-[1.9] text-ink-muted md:text-[1.0625rem]">
-            상가주택과 단독주택, 상업공간, 숙박시설, 세컨하우스, 전원주택 단지까지 —
-            아키리얼이 설계와 시공을 함께 맡아 진행한 프로젝트들입니다.
+          <p className="body-copy mt-5 max-w-[640px]">
+            상가주택·단독주택·카페·숙박시설·세컨하우스까지 — 아키리얼이 설계와 시공을 함께
+            맡아 진행한 프로젝트들입니다.
           </p>
         </div>
       </section>
 
-      <section>
-        <div className="container-page py-14 md:py-20">
-          <nav className="flex items-center gap-2 overflow-x-auto border-b border-paper-line pb-6 scrollbar-none">
+      {/* Filters + grid */}
+      <section className="pad-section">
+        <div className="mx-auto max-w-page">
+          <nav className="scrollbar-none flex items-center gap-2 overflow-x-auto pb-6">
             {['전체', ...types].map((t) => {
               const active = t === selected;
-              const href = t === '전체' ? '/projects' : `/projects?type=${encodeURIComponent(t)}`;
+              const href =
+                t === '전체'
+                  ? '/projects'
+                  : `/projects?type=${encodeURIComponent(t)}`;
               return (
                 <Link
                   key={t}
                   href={href}
-                  className={`inline-flex h-9 shrink-0 items-center rounded-full border px-4 text-[12.5px] transition ${
+                  className={`inline-flex h-9 shrink-0 items-center rounded-full px-4 text-[12.5px] transition ${
                     active
-                      ? 'border-ink bg-ink text-white'
-                      : 'border-paper-line text-ink-muted hover:border-ink hover:text-ink'
+                      ? 'bg-fg text-bg'
+                      : 'border border-line text-fg-mute hover:border-fg hover:text-fg'
                   }`}
                 >
                   {t}
@@ -58,23 +69,38 @@ export default async function ProjectsPage({ searchParams }: Props) {
             })}
           </nav>
 
-          <p className="mt-6 text-[13px] text-ink-subtle">총 {filtered.length}개 프로젝트</p>
+          <p className="mt-5 font-mono text-[11px] tracking-mono text-fg-mute">
+            총 {filtered.length}개 프로젝트
+          </p>
 
-          <div className="mt-10 grid gap-10 md:grid-cols-2 md:gap-x-8 md:gap-y-14">
-            {filtered.map((p) => (
-              <ProjectCard key={p.id} project={p} />
-            ))}
+          <div
+            className="mt-10 grid gap-y-10 gap-x-6"
+            style={{ gridTemplateColumns: 'repeat(6, minmax(0, 1fr))' }}
+          >
+            {filtered.map((p, i) => {
+              const isWide = WIDE_TYPES.has(p.type);
+              return (
+                <div
+                  key={p.id}
+                  className="col-span-6 sm:col-span-3 md:col-span-2"
+                  style={isWide ? { gridColumn: 'span 4' } : undefined}
+                >
+                  <ProjectCard project={p} wide={isWide} index={i + 1} />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      <section className="border-t border-paper-line">
-        <div className="container-page flex flex-col items-start gap-5 py-16 md:flex-row md:items-center md:justify-between">
-          <p className="max-w-xl text-[15px] leading-[1.9] text-ink-muted">
+      {/* Close CTA */}
+      <section className="border-t border-line pad-tight">
+        <div className="mx-auto flex max-w-page flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+          <p className="body-copy max-w-[600px]">
             상담은 검토에서 시작합니다. 프로젝트를 둘러보신 뒤 편하게 연락 주세요.
           </p>
           <Link href="/contact" className="btn-primary">
-            상담 문의하기
+            상담 문의하기 →
           </Link>
         </div>
       </section>

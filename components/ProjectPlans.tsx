@@ -47,7 +47,7 @@ export function ProjectPlans({ plans, title }: Props) {
             {tables.map((p, i) => (
               <figure
                 key={p.src + i}
-                className="w-full overflow-hidden border border-paper-line bg-white p-3 md:p-5"
+                className="w-full overflow-hidden border border-line bg-bg p-3 md:p-5"
               >
                 <button
                   type="button"
@@ -74,7 +74,7 @@ export function ProjectPlans({ plans, title }: Props) {
             {floors.map((p, i) => (
               <figure
                 key={p.src + i}
-                className="flex flex-col gap-3 border border-paper-line bg-white p-5"
+                className="flex flex-col gap-3 border border-line bg-bg p-5"
               >
                 <button
                   type="button"
@@ -91,7 +91,7 @@ export function ProjectPlans({ plans, title }: Props) {
                     className="max-h-full w-auto max-w-full object-contain"
                   />
                 </button>
-                <figcaption className="text-[11px] font-medium tracking-[0.14em] text-ink-subtle">
+                <figcaption className="font-mono text-[11px] tracking-mono text-fg-mute">
                   평면도 {String(i + 1).padStart(2, '0')}
                 </figcaption>
               </figure>

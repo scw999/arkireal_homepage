@@ -5,38 +5,44 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: {
-          DEFAULT: '#171717',
-          soft: '#2a2a2a',
-          muted: '#5a5a5a',
-          subtle: '#8a8a8a',
+        bg: {
+          DEFAULT: '#F5F2EC',
+          alt: '#EBE6DB',
+          deep: '#17170F',
         },
-        paper: {
-          DEFAULT: '#ffffff',
-          warm: '#faf9f6',
-          line: '#e6e4df',
-          card: '#f3f1ec',
+        fg: {
+          DEFAULT: '#14130E',
+          mute: '#5A544A',
         },
+        line: 'rgba(20,19,14,.16)',
         accent: {
-          DEFAULT: '#1f3a2b',
+          DEFAULT: '#2F4A38',
+          soft: '#5A7A63',
         },
+        'hero-accent': '#E8D9B8',
       },
       fontFamily: {
         sans: [
           'Pretendard',
+          'IBM Plex Sans KR',
           '-apple-system',
           'BlinkMacSystemFont',
-          '"Apple SD Gothic Neo"',
-          '"Noto Sans KR"',
+          'Apple SD Gothic Neo',
+          'Noto Sans KR',
           'system-ui',
           'sans-serif',
         ],
+        serif: ['Noto Serif KR', 'serif'],
+        'serif-it': ['Cormorant Garamond', 'Noto Serif KR', 'serif'],
+        mono: ['IBM Plex Mono', 'monospace'],
       },
       maxWidth: {
         page: '1240px',
       },
       letterSpacing: {
         tightish: '-0.015em',
+        eyebrow: '0.22em',
+        mono: '0.14em',
       },
     },
   },

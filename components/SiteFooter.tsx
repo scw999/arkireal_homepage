@@ -1,80 +1,37 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { company } from '@/lib/company';
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-paper-line bg-paper-warm">
-      <div className="container-page grid gap-10 py-16 md:grid-cols-[1.3fr_1fr_1fr]">
+    <footer className="border-t border-line bg-bg px-5 pb-9 pt-12 md:px-8 lg:px-14">
+      <div className="mx-auto grid w-full max-w-page grid-cols-2 gap-8 text-[13px] leading-[1.8] text-fg-mute md:grid-cols-[2fr_1fr_1fr_1fr]">
         <div>
           <Image
             src="/images/brand/logo-color.png"
             alt={company.name}
             width={640}
             height={120}
-            className="mb-5 h-10 w-auto"
+            className="mb-3 h-7 w-auto"
           />
-          <p className="text-sm font-semibold tracking-tightish text-ink">{company.legalName}</p>
-          <p className="mt-2 text-[13px] leading-relaxed text-ink-muted">{company.descriptor}</p>
-
-          <dl className="mt-6 space-y-1.5 text-[13px] text-ink-muted">
-            <div className="flex gap-2">
-              <dt className="w-28 shrink-0 text-ink-subtle">{company.licenseLabel}</dt>
-              <dd>{company.licenseNumber}</dd>
-            </div>
-            <div className="flex gap-2">
-              <dt className="w-28 shrink-0 text-ink-subtle">대표자</dt>
-              <dd>{company.representative}</dd>
-            </div>
-            <div className="flex gap-2">
-              <dt className="w-28 shrink-0 text-ink-subtle">본사 주소</dt>
-              <dd>{company.address}</dd>
-            </div>
-          </dl>
+          <p>{company.descriptor}</p>
         </div>
-
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-subtle">
-            Contact
-          </p>
-          <ul className="mt-4 space-y-2 text-[13px] text-ink-muted">
-            <li>T. {company.phone}</li>
-            <li>상담 가능 시간: 평일 09:00 – 18:00</li>
-          </ul>
-          <Link
-            href="/contact"
-            className="mt-6 inline-flex text-[13px] font-medium text-ink underline underline-offset-4"
-          >
-            상담 문의 바로가기 →
-          </Link>
+          <strong className="mb-1 block font-semibold text-fg">대표</strong>
+          {company.representative}
+          <br />
+          면허 {company.licenseNumber}
         </div>
-
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-subtle">
-            Sitemap
-          </p>
-          <ul className="mt-4 space-y-2 text-[13px] text-ink-muted">
-            <li>
-              <Link href="/">홈</Link>
-            </li>
-            <li>
-              <Link href="/projects">프로젝트</Link>
-            </li>
-            <li>
-              <Link href="/about">회사소개</Link>
-            </li>
-            <li>
-              <Link href="/contact">상담문의</Link>
-            </li>
-          </ul>
+          <strong className="mb-1 block font-semibold text-fg">Contact</strong>
+          T. {company.phone}
+        </div>
+        <div>
+          <strong className="mb-1 block font-semibold text-fg">본사</strong>
+          {company.address}
         </div>
       </div>
-
-      <div className="border-t border-paper-line">
-        <div className="container-page flex flex-col items-start justify-between gap-2 py-6 text-[12px] text-ink-subtle md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} {company.legalName}. All rights reserved.</p>
-          <p>설계와 시공을 함께 책임지는 종합건설사</p>
-        </div>
+      <div className="mx-auto mt-8 w-full max-w-page border-t border-line pt-5 font-mono text-[12px] tracking-mono text-fg-mute">
+        © {new Date().getFullYear()} {company.legalName}. ALL RIGHTS RESERVED.
       </div>
     </footer>
   );
