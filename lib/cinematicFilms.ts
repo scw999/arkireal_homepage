@@ -20,7 +20,7 @@ export const cinematicFilms: CinematicFilm[] = [
   { id: 'gxDPzb8pYSs', title: '파란산책 중형',     subtitle: '전원주택 타입',    slug: 'seosan-bluewalk-medium-type' },
   { id: 'mh5nhumZS4E', title: '영종도 스카이시티', subtitle: '세컨하우스',       slug: 'yeongjongdo-skycity-second-house' },
   // Upcoming / not yet registered as projects
-  { id: 'NpNYwozuc54', title: '장호원',           subtitle: '단독주택' },
-  { id: '6wnLH6K_yRw', title: '파주 문산',         subtitle: '단독주택' },
-  { id: '0_dkfYmcTB4', title: '용인 대대리',       subtitle: '세컨하우스' },
+  { id: 'NpNYwozuc54', title: '이천 합쳐진 나무',   subtitle: '단독주택' },
+  { id: '6wnLH6K_yRw', title: '파주 롱브릭 하우스', subtitle: '단독주택' },
+  { id: '0_dkfYmcTB4', title: '용인 럭셔리 세컨하우스', subtitle: '세컨하우스' },
 ];

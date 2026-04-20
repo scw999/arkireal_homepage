@@ -97,21 +97,36 @@ export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, pho
         }}
       >
         <div className="flex flex-wrap items-start justify-between gap-3">
-          <div className="eyebrow text-white/90">
+          <div
+            className="font-mono font-medium uppercase text-white/90"
+            style={{
+              fontSize: 'clamp(13px, 1.1vw, 15.5px)',
+              letterSpacing: '0.22em',
+            }}
+          >
             — {eyebrow}
           </div>
-          <div className="flex flex-col items-end gap-2">
+          <div className="flex flex-col items-end gap-2.5">
             {!hasVideo ? (
               <>
-                <div className="font-mono text-[11px] tracking-mono text-white/90">
+                <div
+                  className="font-mono tracking-mono text-white/95"
+                  style={{ fontSize: 'clamp(13px, 1.1vw, 15px)' }}
+                >
                   {String(idx + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
                 </div>
-                <div className="font-mono text-[11px] tracking-mono text-white/75">
+                <div
+                  className="font-mono tracking-mono text-white/85"
+                  style={{ fontSize: 'clamp(13px, 1.1vw, 15px)' }}
+                >
                   {slides[idx].label}
                 </div>
               </>
             ) : (
-              <div className="font-mono text-[11px] tracking-mono text-white/75">
+              <div
+                className="font-mono tracking-mono text-white/85"
+                style={{ fontSize: 'clamp(13px, 1.1vw, 15px)', letterSpacing: '0.18em' }}
+              >
                 CINEMATIC · 양평 아솔린채
               </div>
             )}
@@ -173,18 +188,18 @@ export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, pho
 
         {badges && badges.length > 0 ? (
           <div
-            className="flex flex-col gap-3 font-mono text-white sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-5"
+            className="flex flex-col gap-3.5 font-mono text-white sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-6"
             style={{
-              fontSize: 'clamp(12px, 1vw, 13.5px)',
-              letterSpacing: '0.14em',
+              fontSize: 'clamp(14px, 1.15vw, 17px)',
+              letterSpacing: '0.12em',
             }}
           >
-            <div className="flex flex-wrap gap-x-6 gap-y-2 sm:gap-x-8 sm:gap-y-3">
+            <div className="flex flex-wrap gap-x-7 gap-y-2.5 sm:gap-x-9 sm:gap-y-3">
               {badges.map((b) => (
-                <span key={b} className="flex items-center gap-2.5">
+                <span key={b} className="flex items-center gap-3">
                   <span
                     aria-hidden
-                    className="inline-block h-[5px] w-[5px] bg-white"
+                    className="inline-block h-[6px] w-[6px] bg-white"
                   />
                   {b}
                 </span>
@@ -193,9 +208,10 @@ export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, pho
             {phone ? (
               <a
                 href={`tel:${phone.replace(/[^0-9]/g, '')}`}
-                className="flex items-center gap-3 text-white"
+                className="flex items-center gap-3.5 text-white"
+                style={{ fontSize: 'clamp(15px, 1.2vw, 18px)' }}
               >
-                <span className="opacity-70">상담 전화</span>
+                <span className="opacity-75">상담 전화</span>
                 <span className="font-semibold">T. {phone}</span>
               </a>
             ) : null}

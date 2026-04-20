@@ -481,7 +481,7 @@ export default function HomePage() {
           </div>
 
           {/* Steps 03-05 — 설계 · 자재 · 감리 (expanded: large main + thumbnail strip) */}
-          <div className="mt-12 space-y-10 md:mt-16 md:space-y-14">
+          <div className="mt-8 space-y-6 md:mt-10 md:space-y-7">
             {PROCESS.slice(2).map((p, idx) => {
               const i = idx + 2;
               const media = processMedia[i];
@@ -489,7 +489,7 @@ export default function HomePage() {
               return (
                 <article
                   key={p.n}
-                  className={`grid gap-8 border-t-2 border-fg pt-[24px] md:grid-cols-[1.35fr_1fr] md:gap-12 ${
+                  className={`grid gap-5 border-t-2 border-fg pt-[16px] md:grid-cols-[1.35fr_1fr] md:gap-8 ${
                     flip ? 'md:[&>*:first-child]:order-last' : ''
                   }`}
                 >
@@ -510,8 +510,13 @@ export default function HomePage() {
                       </div>
                     ) : null}
                     {media?.gallery && media.gallery.length > 0 ? (
-                      <div className="mt-3 grid gap-2" style={{ gridTemplateColumns: `repeat(${Math.min(media.gallery.length, 4)}, minmax(0, 1fr))` }}>
-                        {media.gallery.map((src) => (
+                      <div
+                        className="mt-2 grid gap-2"
+                        style={{
+                          gridTemplateColumns: `repeat(auto-fit, minmax(110px, 1fr))`,
+                        }}
+                      >
+                        {media.gallery.map((src, gIdx) => (
                           <div
                             key={src}
                             className="relative overflow-hidden rounded-[3px] bg-bg-alt"
@@ -521,34 +526,43 @@ export default function HomePage() {
                               src={src}
                               alt=""
                               fill
-                              sizes="20vw"
+                              sizes="16vw"
                               aria-hidden
                               className="object-cover"
                             />
+                            {/* sequential step number overlay — makes "시공 순서대로" readable */}
+                            {i === 4 ? (
+                              <span
+                                className="pointer-events-none absolute left-1.5 top-1.5 rounded-sm px-1.5 py-0.5 font-mono text-[10px] tracking-mono"
+                                style={{ background: 'rgba(20,18,14,.72)', color: '#F5F2EC' }}
+                              >
+                                {String(gIdx + 2).padStart(2, '0')}
+                              </span>
+                            ) : null}
                           </div>
                         ))}
                       </div>
                     ) : null}
                   </div>
                   {/* Text column */}
-                  <div className="md:pt-2">
+                  <div className="md:pt-1">
                     <div
                       className="text-accent"
                       style={{
                         fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
                         fontStyle: 'italic',
                         fontWeight: 500,
-                        fontSize: 'clamp(48px, 5.5vw, 72px)',
+                        fontSize: 'clamp(44px, 5vw, 64px)',
                         letterSpacing: '-0.02em',
                         lineHeight: 1,
                       }}
                     >
                       {p.n}
                     </div>
-                    <h3 className="h2-serif mt-4" style={{ fontSize: 'clamp(22px, 2.3vw, 30px)' }}>
+                    <h3 className="h2-serif mt-3" style={{ fontSize: 'clamp(22px, 2.3vw, 30px)' }}>
                       {p.title}
                     </h3>
-                    <p className="body-copy mt-4 text-fg-mute">{p.body}</p>
+                    <p className="body-copy mt-3 text-fg-mute">{p.body}</p>
                   </div>
                 </article>
               );

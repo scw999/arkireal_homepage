@@ -30,7 +30,7 @@ export function SiteHeader() {
   return (
     <>
       <header
-        className="fixed inset-x-0 top-0 z-50 flex items-center justify-between border-b border-line px-5 py-4 backdrop-blur-md md:px-8 lg:px-14"
+        className="fixed inset-x-0 top-0 z-50 flex items-center justify-between border-b border-line px-5 py-3.5 backdrop-blur-md md:px-8 md:py-4 lg:px-14"
         style={{ background: 'rgba(245,242,236,0.85)' }}
       >
         <Link href="/" className="flex items-center gap-2.5" aria-label={company.name}>
@@ -40,7 +40,7 @@ export function SiteHeader() {
             width={640}
             height={120}
             priority
-            className="h-7 w-auto"
+            className="h-10 w-auto md:h-11"
           />
         </Link>
 

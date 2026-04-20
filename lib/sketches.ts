@@ -67,12 +67,14 @@ export const processMedia: { main: string; gallery?: string[] }[] = [
       '/images/process/6.3d_designm.png',
     ],
   },
-  // 05 시공·감리 — 현장 사진 4장 + 완공
+  // 05 시공·감리 — 기초 → 골조 → 외장 → 마감 → 완공 순으로 진행 과정 6장
   {
     main: '/images/process/11.construction.png',
     gallery: [
-      '/images/process/11.construction5.png',
-      '/images/process/11.construction10.png',
+      '/images/process/11.construction3.png',
+      '/images/process/11.construction6.png',
+      '/images/process/11.construction9.png',
+      '/images/process/11.construction12.png',
       '/images/process/11.construction15.png',
       '/images/process/12.complete.png',
     ],
