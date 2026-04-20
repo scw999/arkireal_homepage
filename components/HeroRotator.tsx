@@ -208,11 +208,25 @@ export function HeroRotator({ slides, eyebrow, title1, title2, body, badges, pho
             {phone ? (
               <a
                 href={`tel:${phone.replace(/[^0-9]/g, '')}`}
-                className="flex items-center gap-3.5 text-white"
-                style={{ fontSize: 'clamp(15px, 1.2vw, 18px)' }}
+                className="flex items-baseline gap-3 text-white sm:items-center sm:gap-4"
               >
-                <span className="opacity-75">상담 전화</span>
-                <span className="font-semibold">T. {phone}</span>
+                <span
+                  className="opacity-75"
+                  style={{ fontSize: 'clamp(13px, 1vw, 15px)', letterSpacing: '0.14em' }}
+                >
+                  상담 전화
+                </span>
+                <span
+                  className="font-semibold tracking-tight"
+                  style={{
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    fontSize: 'clamp(28px, 2.6vw, 38px)',
+                    letterSpacing: '-0.01em',
+                    lineHeight: 1,
+                  }}
+                >
+                  T. {phone}
+                </span>
               </a>
             ) : null}
           </div>

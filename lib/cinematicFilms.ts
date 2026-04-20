@@ -12,12 +12,12 @@ export type CinematicFilm = {
 export const cinematicFilms: CinematicFilm[] = [
   { id: '6VyuYGZ7h7w', title: '양평 아솔린채',     subtitle: '단독주택',         slug: 'yangpyeong-asolrinchae-house' },
   { id: 'MIlOJE6KUVc', title: '향동 아치리얼',     subtitle: '상가주택',         slug: 'hyangdong-archireal-mixed-use' },
-  { id: 'D5uNxF6FZTw', title: '원주 반곡동',       subtitle: '단독주택',         slug: 'wonju-banggok-aurora-house' },
-  { id: 'UXiPlPV5ygk', title: '원주 행구동 풀빌라', subtitle: '숙박시설',         slug: 'wonju-poolstay' },
-  { id: 'HBZixIJ6AD4', title: '여주 점봉동',       subtitle: '세컨하우스',       slug: 'yeoju-jeombongdong-pum-house' },
+  { id: 'D5uNxF6FZTw', title: '원주 브리즈코브 하우스', subtitle: '단독주택',         slug: 'wonju-banggok-aurora-house' },
+  { id: 'UXiPlPV5ygk', title: '원주 풀빌라 또바기', subtitle: '숙박시설',         slug: 'wonju-poolstay' },
+  { id: 'HBZixIJ6AD4', title: '여주 품하우스',     subtitle: '세컨하우스',       slug: 'yeoju-jeombongdong-pum-house' },
   { id: 'NuV3rzFoIDM', title: '여주 나래재',       subtitle: '단독주택',         slug: 'yeoju-gangcheon-naraejae-house' },
   { id: 'tOWqv5sZgA8', title: '이천 시옷하우스',   subtitle: '단독주택',         slug: 'mojeonri-siot-house' },
-  { id: 'gxDPzb8pYSs', title: '파란산책 중형',     subtitle: '전원주택 타입',    slug: 'seosan-bluewalk-medium-type' },
+  { id: 'gxDPzb8pYSs', title: '서산 파란산책 단지 중형 타입', subtitle: '전원주택 타입',    slug: 'seosan-bluewalk-medium-type' },
   { id: 'mh5nhumZS4E', title: '영종도 스카이시티', subtitle: '세컨하우스',       slug: 'yeongjongdo-skycity-second-house' },
   // Upcoming / not yet registered as projects
   { id: 'NpNYwozuc54', title: '이천 합쳐진 나무',   subtitle: '단독주택' },

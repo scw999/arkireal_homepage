@@ -56,7 +56,30 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4 md:gap-6">
+          <a
+            href={`tel:${company.phone.replace(/[^0-9]/g, '')}`}
+            className="hidden items-baseline gap-2 text-fg transition hover:text-accent min-[900px]:flex"
+            aria-label={`상담 전화 ${company.phone}`}
+          >
+            <span
+              className="font-mono uppercase text-fg-mute"
+              style={{ fontSize: 11, letterSpacing: '0.18em' }}
+            >
+              상담
+            </span>
+            <span
+              className="font-semibold"
+              style={{
+                fontFamily: "'IBM Plex Mono', monospace",
+                fontSize: 'clamp(18px, 1.5vw, 22px)',
+                letterSpacing: '-0.01em',
+                lineHeight: 1,
+              }}
+            >
+              {company.phone}
+            </span>
+          </a>
           <Link
             href="/contact"
             className="inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2.5 text-[13px] font-semibold text-bg transition hover:opacity-90"

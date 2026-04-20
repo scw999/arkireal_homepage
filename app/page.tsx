@@ -480,31 +480,51 @@ export default function HomePage() {
             })}
           </div>
 
-          {/* Steps 03-05 — 설계 · 자재 · 감리 (expanded: large main + thumbnail strip) */}
-          <div className="mt-8 space-y-6 md:mt-10 md:space-y-7">
+          {/* Steps 03-05 — 설계 · 자재 · 감리 (magazine stack: text row on top, big media below) */}
+          <div className="mt-8 space-y-8 md:mt-10 md:space-y-10">
             {PROCESS.slice(2).map((p, idx) => {
               const i = idx + 2;
               const media = processMedia[i];
-              const flip = idx % 2 === 1;
               return (
-                <article
-                  key={p.n}
-                  className={`grid gap-5 border-t-2 border-fg pt-[16px] md:grid-cols-[1.35fr_1fr] md:gap-8 ${
-                    flip ? 'md:[&>*:first-child]:order-last' : ''
-                  }`}
-                >
-                  {/* Media column: main image + thumbnail strip */}
-                  <div>
+                <article key={p.n} className="border-t-2 border-fg pt-5">
+                  {/* Text row: number + title on the left, body on the right */}
+                  <div className="grid gap-3 md:grid-cols-[auto_1fr] md:items-baseline md:gap-10">
+                    <div className="flex items-baseline gap-4">
+                      <span
+                        className="text-accent"
+                        style={{
+                          fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
+                          fontStyle: 'italic',
+                          fontWeight: 500,
+                          fontSize: 'clamp(44px, 5vw, 64px)',
+                          letterSpacing: '-0.02em',
+                          lineHeight: 1,
+                        }}
+                      >
+                        {p.n}
+                      </span>
+                      <h3
+                        className="h2-serif whitespace-nowrap"
+                        style={{ fontSize: 'clamp(22px, 2.3vw, 30px)' }}
+                      >
+                        {p.title}
+                      </h3>
+                    </div>
+                    <p className="body-copy text-fg-mute md:max-w-[680px]">{p.body}</p>
+                  </div>
+
+                  {/* Media row: main image, then thumbnail strip */}
+                  <div className="mt-5">
                     {media?.main ? (
                       <div
                         className="relative w-full overflow-hidden rounded-[6px] bg-bg-alt"
-                        style={{ aspectRatio: '16 / 10' }}
+                        style={{ aspectRatio: '3 / 2' }}
                       >
                         <Image
                           src={media.main}
                           alt={p.title}
                           fill
-                          sizes="(min-width: 768px) 58vw, 100vw"
+                          sizes="(min-width: 768px) 80vw, 100vw"
                           className="object-cover"
                         />
                       </div>
@@ -520,13 +540,13 @@ export default function HomePage() {
                           <div
                             key={src}
                             className="relative overflow-hidden rounded-[3px] bg-bg-alt"
-                            style={{ aspectRatio: '4 / 3' }}
+                            style={{ aspectRatio: '3 / 2' }}
                           >
                             <Image
                               src={src}
                               alt=""
                               fill
-                              sizes="16vw"
+                              sizes="14vw"
                               aria-hidden
                               className="object-cover"
                             />
@@ -534,7 +554,7 @@ export default function HomePage() {
                             {i === 4 ? (
                               <span
                                 className="pointer-events-none absolute left-1.5 top-1.5 rounded-sm px-1.5 py-0.5 font-mono text-[10px] tracking-mono"
-                                style={{ background: 'rgba(20,18,14,.72)', color: '#F5F2EC' }}
+                                style={{ background: 'rgba(20,18,14,.78)', color: '#F5F2EC' }}
                               >
                                 {String(gIdx + 2).padStart(2, '0')}
                               </span>
@@ -543,26 +563,6 @@ export default function HomePage() {
                         ))}
                       </div>
                     ) : null}
-                  </div>
-                  {/* Text column */}
-                  <div className="md:pt-1">
-                    <div
-                      className="text-accent"
-                      style={{
-                        fontFamily: "'Cormorant Garamond', 'Noto Serif KR', serif",
-                        fontStyle: 'italic',
-                        fontWeight: 500,
-                        fontSize: 'clamp(44px, 5vw, 64px)',
-                        letterSpacing: '-0.02em',
-                        lineHeight: 1,
-                      }}
-                    >
-                      {p.n}
-                    </div>
-                    <h3 className="h2-serif mt-3" style={{ fontSize: 'clamp(22px, 2.3vw, 30px)' }}>
-                      {p.title}
-                    </h3>
-                    <p className="body-copy mt-3 text-fg-mute">{p.body}</p>
                   </div>
                 </article>
               );
