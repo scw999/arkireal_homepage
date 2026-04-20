@@ -74,12 +74,12 @@ export const processMedia: {
     ],
     layout: 'step3',
   },
-  // 04 자재 시뮬 — uniform 3:4 그리드 3x2, 잘려도 깔끔하게 맞춤
+  // 04 자재 시뮬 — step4_1/2/3: 3D 렌더링 3장(가로), step4_4/5/6: 자재 샷 3장(세로)
   {
     main: '/images/process/step4_1.jpg',
     gallery: [
       '/images/process/step4_2.jpg',
-      '/images/process/step4_3.png',
+      '/images/process/step4_3.jpg',
       '/images/process/step4_4.png',
       '/images/process/step4_5.png',
       '/images/process/step4_6.png',

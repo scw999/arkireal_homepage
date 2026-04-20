@@ -593,28 +593,30 @@ export default function HomePage() {
                       </div>
                     ) : media?.layout === 'step4' ? (
                       <div className="space-y-3">
-                        {/* Row 1 — step4_1 + step4_2: 3D 렌더링 2장 크게 16:9 */}
-                        <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-                          {[media.main, media.gallery?.[0]].filter(Boolean).map((src) => (
-                            <div
-                              key={src as string}
-                              className="relative overflow-hidden rounded-[5px] bg-bg-alt"
-                              style={{ aspectRatio: '16 / 9' }}
-                            >
-                              <Image
-                                src={src as string}
-                                alt=""
-                                fill
-                                sizes="(min-width: 768px) 50vw, 100vw"
-                                aria-hidden
-                                className="object-cover"
-                              />
-                            </div>
-                          ))}
+                        {/* Row 1 — 3D 렌더링 3장 (step4_1/2/3) 크게 16:9 */}
+                        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+                          {[media.main, media.gallery?.[0], media.gallery?.[1]]
+                            .filter(Boolean)
+                            .map((src) => (
+                              <div
+                                key={src as string}
+                                className="relative overflow-hidden rounded-[5px] bg-bg-alt"
+                                style={{ aspectRatio: '16 / 9' }}
+                              >
+                                <Image
+                                  src={src as string}
+                                  alt=""
+                                  fill
+                                  sizes="(min-width: 768px) 33vw, 100vw"
+                                  aria-hidden
+                                  className="object-cover"
+                                />
+                              </div>
+                            ))}
                         </div>
-                        {/* Row 2 — step4_3~6: 자재 샷 4장 3:4 포트레이트 스트립 */}
-                        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-                          {(media.gallery ?? []).slice(1).map((src) => (
+                        {/* Row 2 — 자재 샷 3장 (step4_4/5/6) 3:4 포트레이트 */}
+                        <div className="grid grid-cols-3 gap-2">
+                          {(media.gallery ?? []).slice(2).map((src) => (
                             <div
                               key={src}
                               className="relative overflow-hidden rounded-[4px] bg-bg-alt"
@@ -624,7 +626,7 @@ export default function HomePage() {
                                 src={src}
                                 alt=""
                                 fill
-                                sizes="(min-width: 640px) 22vw, 50vw"
+                                sizes="(min-width: 640px) 30vw, 33vw"
                                 aria-hidden
                                 className="object-cover"
                               />
