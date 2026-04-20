@@ -1,6 +1,36 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { company } from '@/lib/company';
+
+const ceoRoles = [
+  '현) 건축·인테리어 설계 회사 밈스페이스 대표',
+  '현) (주)아키리얼 종합건설 대표',
+  '현) 빌드트리 강남 공인중개사무소 대표',
+];
+
+const ceoActivities: [string, string][] = [
+  ['2014', '경기도 이천 200세대 전원주택단지 입주자협의회 대표'],
+  ['2015', '독일·스위스·이탈리아·스페인·프랑스 명작 주택 순례'],
+  ['2016', "판교 운중동 단독주택 개발 · 이천 고급주택단지 '파티앤타운' 타운 디렉터 (마스터플랜+CM)"],
+  ['2017', '출판진흥원 우수출판콘텐츠 선정 및 베스트셀러 『건축주만이 알려줄 수 있는 집짓기 진실』 저자'],
+  ['2022', '공주대학교 건축 강의'],
+];
+
+const ceoBroadcast: [string, string][] = [
+  ['2017', 'tvN <이집사람들> 출연 · <서울경제> 인터뷰'],
+  ['2018', '<조선일보 땅집고> 인터뷰'],
+  ['2019', 'KBS2 <그녀들의 여유만만> 고정출연 · MBC <기분 좋은 날> 출연'],
+  ['2020', 'JTBC <하우스> 고정 출연 · SBS <홈데렐라> 자문'],
+  ['2021', 'MBC <구해줘 홈즈> 출연 및 자문'],
+  ['2022', 'SBS <하우스 대역전> 출연'],
+];
+
+const ceoImages = [
+  '/images/CEO/KakaoTalk_20260420_190729.jpg',
+  '/images/CEO/KakaoTalk_20260420_190754.jpg',
+  '/images/CEO/그림1.jpg',
+];
 
 export const metadata: Metadata = {
   title: '회사소개 | 아키리얼 종합건설',
@@ -81,6 +111,110 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* CEO — representative introduction */}
+      <section className="pad-tight border-t border-line">
+        <div className="mx-auto max-w-page">
+          <div className="grid gap-12 md:grid-cols-[1fr_1.15fr] md:gap-16 md:items-start">
+            <div>
+              <div className="eyebrow mb-4">— Representative</div>
+              <h2 className="h2-serif">
+                대표 건축가 <span className="em-serif">손창완</span>
+              </h2>
+              <p className="mt-5 font-mono text-[13px] tracking-mono text-fg-mute">
+                성균관대학교 공학 학사 · 공학 석사
+              </p>
+
+              <ul className="mt-8 space-y-2 border-t border-line pt-7 text-[14.5px] leading-[1.8] text-fg">
+                {ceoRoles.map((r) => (
+                  <li key={r} className="flex gap-3">
+                    <span className="mt-[0.75rem] h-px w-3 shrink-0 bg-accent" aria-hidden />
+                    <span>{r}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <p className="body-copy mt-8 max-w-[520px] text-fg-mute">
+                2017년 <strong className="font-semibold text-fg">『건축주만이 알려줄 수
+                있는 집짓기 진실』</strong>의 저자이자 출판진흥원 우수출판콘텐츠 선정·베스트셀러
+                작가입니다. MBC·KBS·JTBC·SBS·tvN 등 주요 방송의 건축 전문가로{' '}
+                <span className="em-hl">고정 출연·자문</span>하며, 현재는 밈스페이스 설계와
+                아키리얼 종합건설 시공, 빌드트리 공인중개를 한 흐름으로 운영합니다.
+              </p>
+            </div>
+
+            {/* Collage of CEO images — book / magazine / broadcasts */}
+            <div className="grid gap-3" style={{ gridTemplateColumns: '1.2fr 1fr', gridTemplateRows: 'auto auto' }}>
+              <div
+                className="relative col-span-1 row-span-2 overflow-hidden rounded-[6px] bg-bg-alt"
+                style={{ aspectRatio: '3 / 4' }}
+              >
+                <Image
+                  src={ceoImages[0]}
+                  alt="손창완 대표 프로필 사진"
+                  fill
+                  sizes="(min-width: 768px) 32vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div
+                className="relative overflow-hidden rounded-[6px] bg-bg-alt"
+                style={{ aspectRatio: '4 / 3' }}
+              >
+                <Image
+                  src={ceoImages[1]}
+                  alt="저서 및 매체 소개"
+                  fill
+                  sizes="(min-width: 768px) 26vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div
+                className="relative overflow-hidden rounded-[6px] bg-bg-alt"
+                style={{ aspectRatio: '4 / 3' }}
+              >
+                <Image
+                  src={ceoImages[2]}
+                  alt="방송 출연 장면"
+                  fill
+                  sizes="(min-width: 768px) 26vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Activity + broadcast timelines */}
+          <div className="mt-14 grid gap-12 border-t border-line pt-12 md:grid-cols-2 md:gap-16">
+            <div>
+              <div className="eyebrow mb-5">— 활동 · 저서</div>
+              <ol className="space-y-4 text-[14px] leading-[1.75] text-fg-mute">
+                {ceoActivities.map(([year, label]) => (
+                  <li key={year + label} className="flex gap-5">
+                    <span className="w-12 shrink-0 font-mono text-[12.5px] tracking-mono text-accent">
+                      {year}
+                    </span>
+                    <span className="flex-1 text-fg">{label}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+            <div>
+              <div className="eyebrow mb-5">— 방송 출연</div>
+              <ol className="space-y-4 text-[14px] leading-[1.75] text-fg-mute">
+                {ceoBroadcast.map(([year, label]) => (
+                  <li key={year + label} className="flex gap-5">
+                    <span className="w-12 shrink-0 font-mono text-[12.5px] tracking-mono text-accent">
+                      {year}
+                    </span>
+                    <span className="flex-1 text-fg">{label}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="pad-tight border-t border-line bg-bg-alt">
         <div className="mx-auto max-w-page">
           <div className="eyebrow mb-4">— Company Info</div>
@@ -93,7 +227,6 @@ export default function AboutPage() {
             {[
               ['회사명', company.legalName],
               [company.licenseLabel, company.licenseNumber],
-              [company.businessRegLabel, company.businessRegNumber],
               ['대표자', company.representative],
               ['본사 주소', company.address],
               ['대표 연락처', `T. ${company.phone}`],

@@ -41,8 +41,11 @@ export const processSketches: string[] = [
  * each) because 자금 / 부지 don't need visual proof; 03-05 go heavy so
  * 설계 · 시공 · 감리 get the real weight the user asked for.
  * `main` drives the hero frame; `gallery` becomes a thumbnail strip.
+ * `uniform: true` drops the main/strip split and renders every image in
+ * one equal-size grid instead — used for 시공 현장 진행 과정 where
+ * every frame deserves the same weight.
  */
-export const processMedia: { main: string; gallery?: string[] }[] = [
+export const processMedia: { main: string; gallery?: string[]; uniform?: boolean }[] = [
   // 01 자금 — plan/blueprint alone keeps the step text-led
   { main: '/images/process/7.plan.png' },
   // 02 부지 — drone + 조망 체크
@@ -50,24 +53,27 @@ export const processMedia: { main: string; gallery?: string[] }[] = [
     main: '/images/process/1.drone.png',
     gallery: ['/images/process/2.view_check.png'],
   },
-  // 03 완성 모습 — 렌더링 2장 + VR 1장
+  // 03 완성 모습 — 렌더링 2장 + VR 2장
   {
     main: '/images/process/8.3d_rendering.png',
     gallery: [
       '/images/process/9.3d_rendering.png',
       '/images/process/10.VR.png',
+      '/images/process/VR2.jpg',
     ],
   },
-  // 04 자재 시뮬 — 3D 디자인 4장(자재 배치별)
+  // 04 자재 시뮬 — step4 시리즈 전용 사진 6장
   {
-    main: '/images/process/4.3d_designm.png',
+    main: '/images/process/step4_1.jpg',
     gallery: [
-      '/images/process/3.3d_designm.png',
-      '/images/process/5.3d_designm.png',
-      '/images/process/6.3d_designm.png',
+      '/images/process/step4_2.jpg',
+      '/images/process/step4_3.png',
+      '/images/process/step4_4.png',
+      '/images/process/step4_5.png',
+      '/images/process/step4_6.png',
     ],
   },
-  // 05 시공·감리 — 현장 전 과정 (기초 → 골조 → 외장 → 마감 → 완공). 있는 거 전부.
+  // 05 시공·감리 — 현장 전 과정. uniform 그리드로 모두 동등한 위계
   {
     main: '/images/process/11.construction.png',
     gallery: [
@@ -87,6 +93,7 @@ export const processMedia: { main: string; gallery?: string[] }[] = [
       '/images/process/11.construction15.png',
       '/images/process/12.complete.png',
     ],
+    uniform: true,
   },
 ];
 

@@ -513,56 +513,83 @@ export default function HomePage() {
                     <p className="body-copy text-fg-mute md:max-w-[680px]">{p.body}</p>
                   </div>
 
-                  {/* Media row: main image, then thumbnail strip */}
+                  {/* Media row: uniform grid (step 5) vs main + strip (others) */}
                   <div className="mt-5">
-                    {media?.main ? (
-                      <div
-                        className="relative w-full overflow-hidden rounded-[6px] bg-bg-alt"
-                        style={{ aspectRatio: '3 / 2' }}
-                      >
-                        <Image
-                          src={media.main}
-                          alt={p.title}
-                          fill
-                          sizes="(min-width: 768px) 80vw, 100vw"
-                          className="object-cover"
-                        />
-                      </div>
-                    ) : null}
-                    {media?.gallery && media.gallery.length > 0 ? (
-                      <div
-                        className="mt-2 grid gap-2"
-                        style={{
-                          gridTemplateColumns: `repeat(auto-fit, minmax(110px, 1fr))`,
-                        }}
-                      >
-                        {media.gallery.map((src, gIdx) => (
+                    {media?.uniform ? (
+                      (() => {
+                        const all = media.main
+                          ? [media.main, ...(media.gallery ?? [])]
+                          : media.gallery ?? [];
+                        return (
+                          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+                            {all.map((src, gIdx) => (
+                              <div
+                                key={src}
+                                className="relative overflow-hidden rounded-[4px] bg-bg-alt"
+                                style={{ aspectRatio: '3 / 2' }}
+                              >
+                                <Image
+                                  src={src}
+                                  alt=""
+                                  fill
+                                  sizes="(min-width: 768px) 24vw, 50vw"
+                                  aria-hidden
+                                  className="object-cover"
+                                />
+                                <span
+                                  className="pointer-events-none absolute left-2 top-2 rounded-sm px-1.5 py-0.5 font-mono text-[11px] tracking-mono"
+                                  style={{ background: 'rgba(20,18,14,.78)', color: '#F5F2EC' }}
+                                >
+                                  {String(gIdx + 1).padStart(2, '0')}
+                                </span>
+                              </div>
+                            ))}
+                          </div>
+                        );
+                      })()
+                    ) : (
+                      <>
+                        {media?.main ? (
                           <div
-                            key={src}
-                            className="relative overflow-hidden rounded-[3px] bg-bg-alt"
+                            className="relative w-full overflow-hidden rounded-[6px] bg-bg-alt"
                             style={{ aspectRatio: '3 / 2' }}
                           >
                             <Image
-                              src={src}
-                              alt=""
+                              src={media.main}
+                              alt={p.title}
                               fill
-                              sizes="14vw"
-                              aria-hidden
+                              sizes="(min-width: 768px) 80vw, 100vw"
                               className="object-cover"
                             />
-                            {/* sequential step number overlay — makes "시공 순서대로" readable */}
-                            {i === 4 ? (
-                              <span
-                                className="pointer-events-none absolute left-1.5 top-1.5 rounded-sm px-1.5 py-0.5 font-mono text-[10px] tracking-mono"
-                                style={{ background: 'rgba(20,18,14,.78)', color: '#F5F2EC' }}
-                              >
-                                {String(gIdx + 2).padStart(2, '0')}
-                              </span>
-                            ) : null}
                           </div>
-                        ))}
-                      </div>
-                    ) : null}
+                        ) : null}
+                        {media?.gallery && media.gallery.length > 0 ? (
+                          <div
+                            className="mt-2 grid gap-2"
+                            style={{
+                              gridTemplateColumns: `repeat(auto-fit, minmax(110px, 1fr))`,
+                            }}
+                          >
+                            {media.gallery.map((src) => (
+                              <div
+                                key={src}
+                                className="relative overflow-hidden rounded-[3px] bg-bg-alt"
+                                style={{ aspectRatio: '3 / 2' }}
+                              >
+                                <Image
+                                  src={src}
+                                  alt=""
+                                  fill
+                                  sizes="14vw"
+                                  aria-hidden
+                                  className="object-cover"
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        ) : null}
+                      </>
+                    )}
                   </div>
                 </article>
               );
