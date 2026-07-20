@@ -50,6 +50,19 @@ export async function POST(req: NextRequest) {
     f.message || '-',
   ].join('\n');
 
+  // Link-spam bots submit through this form. Three cheap signals, any one is enough:
+  // the honeypot field (invisible to humans), Cyrillic text, or a payload stuffed
+  // with links. Real inquiries here are Korean and rarely carry even one URL.
+  const spam =
+    !!form.get('company_site') ||
+    /[Ѐ-ӿ]/.test(plain) ||
+    (plain.match(/https?:\/\//g) ?? []).length >= 2;
+
+  if (spam) {
+    console.warn('[contact] blocked as spam:\n' + plain);
+    return NextResponse.redirect(new URL('/contact?error=send', origin), 303);
+  }
+
   if (!apiKey) {
     // Key missing — the mail can't be sent, so don't tell the visitor it was
     // received. Log it and show the error state with the phone fallback.

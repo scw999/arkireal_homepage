@@ -98,6 +98,16 @@ export default async function ContactPage({ searchParams }: Props) {
                 </span>
               </div>
             ) : null}
+            {/* Honeypot — off-screen and skipped by tab order, so only bots fill it. */}
+            <input
+              type="text"
+              name="company_site"
+              tabIndex={-1}
+              autoComplete="off"
+              aria-hidden
+              className="absolute left-[-9999px] h-0 w-0 opacity-0"
+            />
+
             <div className="grid gap-6 md:grid-cols-2">
               <Field label="성함" required name="name" />
               <Field label="연락처" required name="phone" type="tel" />
