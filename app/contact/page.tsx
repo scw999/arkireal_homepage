@@ -29,6 +29,9 @@ const BUDGET_RANGES = [
 
 const STAGES = ['부지만 있는 단계', '도면을 받은 단계', '시공사를 찾는 단계', '아직 결정 전'];
 
+// Public by design — Cloudflare shows this key in the page source.
+const TURNSTILE_SITE_KEY = '0x4AAAAAAD5p2K4DxbM2A0dL';
+
 type Props = {
   searchParams?: Promise<{ sent?: string; error?: string }>;
 };
@@ -156,6 +159,19 @@ export default async function ContactPage({ searchParams }: Props) {
                 placeholder="편하게 작성해주세요. 아직 구체적이지 않아도 괜찮습니다."
               />
             </div>
+
+            {/* Turnstile drops a cf-turnstile-response input into the form; the
+                route verifies it server-side before sending any mail. */}
+            <script
+              src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+              async
+              defer
+            />
+            <div
+              className="cf-turnstile"
+              data-sitekey={TURNSTILE_SITE_KEY}
+              data-action="turnstile-spin-v1"
+            />
 
             <div className="flex flex-col items-start gap-3 border-t border-line pt-6 md:flex-row md:items-center">
               <button

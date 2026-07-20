@@ -63,6 +63,36 @@ export async function POST(req: NextRequest) {
     return NextResponse.redirect(new URL('/contact?error=send', origin), 303);
   }
 
+  // Turnstile runs after the free checks above, since it costs a network call.
+  // It fails open: a Cloudflare outage or a missing secret must not swallow a
+  // real inquiry, and the honeypot still covers the simple bots.
+  const turnstileSecret = process.env.TURNSTILE_SECRET_KEY;
+
+  if (turnstileSecret) {
+    try {
+      const verify = await fetch(
+        'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+        {
+          method: 'POST',
+          body: new URLSearchParams({
+            secret: turnstileSecret,
+            response: String(form.get('cf-turnstile-response') ?? ''),
+          }),
+        },
+      );
+      const outcome = await verify.json();
+
+      if (!outcome.success) {
+        console.warn('[contact] Turnstile rejected:', outcome['error-codes'], '\n' + plain);
+        return NextResponse.redirect(new URL('/contact?error=send', origin), 303);
+      }
+    } catch (err) {
+      console.error('[contact] Turnstile check failed, allowing through:', err);
+    }
+  } else {
+    console.error('[contact] TURNSTILE_SECRET_KEY not set — honeypot only');
+  }
+
   if (!apiKey) {
     // Key missing — the mail can't be sent, so don't tell the visitor it was
     // received. Log it and show the error state with the phone fallback.
