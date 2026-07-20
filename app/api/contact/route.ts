@@ -51,9 +51,10 @@ export async function POST(req: NextRequest) {
   ].join('\n');
 
   if (!apiKey) {
-    // Key missing — log the submission so it's not silently dropped.
-    console.warn('[contact] RESEND_API_KEY not set — submission logged only:\n' + plain);
-    return NextResponse.redirect(new URL('/contact?sent=1', origin), 303);
+    // Key missing — the mail can't be sent, so don't tell the visitor it was
+    // received. Log it and show the error state with the phone fallback.
+    console.error('[contact] RESEND_API_KEY not set — submission NOT delivered:\n' + plain);
+    return NextResponse.redirect(new URL('/contact?error=send', origin), 303);
   }
 
   const html = `
